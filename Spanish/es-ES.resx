@@ -648,7 +648,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>{ACTOR} punches the {TARGET}!</comment>
 </data>
 <data name="Chat.ZombieSlash" xml:space="preserve">
-  <value>¡{ACTOR} le da un zarpazo a {TARGET}!</value>
+  <value>¡{ACTOR} lanza un zarpazo contra {TARGET}!</value>
   <comment>The {ACTOR} slashes the {TARGET}!</comment>
 </data>
 <data name="Chat.ZombieSlashWall" xml:space="preserve">
