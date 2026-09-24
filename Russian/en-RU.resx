@@ -125,7 +125,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <value></value>
 </data>
 <data name="Language" xml:space="preserve">
-  <value>русский художественный (Россия)</value>
+  <value>Русский художественный</value>
 </data>
 <data name="MainMenu.FooterNet" xml:space="preserve">
   <value>ЛОКАЛЬНЫЙ КАНАЛ СВЯЗИ W-Y</value>
@@ -632,7 +632,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>{ACTOR} removes a splint from the {TARGET}.</comment>
 </data>
 <data name="Chat.Fracture" xml:space="preserve">
-  <value>{TARGET} слышит резкий треск чего-то!</value>
+  <value>{TARGET} ощущает хруст чего-то!</value>
   <comment>{TARGET} feels a sickening crack!</comment>
 </data>
 <data name="Chat.Scream" xml:space="preserve">
@@ -920,11 +920,11 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>The {TARGET} finishes its undertaking and empties out the ashes.</comment>
 </data>
 <data name="Chat.FloodlightNoPower" xml:space="preserve">
-  <value>Прожектор дохлый.</value>
+  <value>Ничего не происходит.</value>
   <comment>Nothing happens.</comment>
 </data>
 <data name="Chat.SentryNoPower" xml:space="preserve">
-  <value>Турель дохлая.</value>
+  <value>Ничего не происходит.</value>
   <comment>Nothing happens.</comment>
 </data>
 <data name="Chat.EmitterOn" xml:space="preserve">
@@ -984,7 +984,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>{ACTOR} screams as the {USED} latches onto their face!</comment>
 </data>
 <data name="Chat.ChestBurstRefused" xml:space="preserve">
-  <value>Грудная клетка {TARGET} уничтожена; тут нечего перезапускать.</value>
+  <value>Грудная полость {TARGET} полностью опустошена; тут нечего перезапускать.</value>
   <comment>The {TARGET}'s chest cavity is destroyed; there is nothing left to restart.</comment>
 </data>
 <data name="Chat.WallRepairStart" xml:space="preserve">
@@ -2116,15 +2116,15 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>PAIN</comment>
 </data>
 <data name="Moodlet.Title.Thirst.Thirsty" xml:space="preserve">
-  <value>ЗНОЙ</value>
+  <value>ЖАЖДА</value>
   <comment>THIRSTY</comment>
 </data>
 <data name="Moodlet.Title.Thirst.Parched" xml:space="preserve">
-  <value>СУХОСТЬ</value>
+  <value>СУШНЯК</value>
   <comment>PARCHED</comment>
 </data>
 <data name="Moodlet.Title.Thirst.Dehydrated" xml:space="preserve">
-  <value>ЖАЖДА</value>
+  <value>ОБЕЗВОЖИВАНИЕ</value>
   <comment>DEHYDRATED</comment>
 </data>
 <data name="Moodlet.Title.Stuffed" xml:space="preserve">
@@ -2136,15 +2136,15 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>QUENCHED</comment>
 </data>
 <data name="Moodlet.Title.Damp.Damp" xml:space="preserve">
-  <value>DAMP</value>
+  <value>СЛЕГКА НАМОКШИЙ</value>
   <comment>DAMP</comment>
 </data>
 <data name="Moodlet.Title.Damp.Wet" xml:space="preserve">
-  <value>ВЛАЖНЫЙ</value>
+  <value>МОКРЫЙ</value>
   <comment>WET</comment>
 </data>
 <data name="Moodlet.Title.Damp.Soaked" xml:space="preserve">
-  <value>ПРОМОКШИЙ</value>
+  <value>ПРОМОКШИЙ ДО НИТКИ</value>
   <comment>SOAKED</comment>
 </data>
 <data name="Moodlet.Title.Damp.Immersed" xml:space="preserve">
@@ -2164,7 +2164,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>FRACTURE</comment>
 </data>
 <data name="Moodlet.Title.Splinted" xml:space="preserve">
-  <value>ЗАФИКСИРОВАН</value>
+  <value>НАДЕТА ШИНА</value>
   <comment>SPLINTED</comment>
 </data>
 <data name="Moodlet.Title.Shrapnel" xml:space="preserve">
@@ -2176,7 +2176,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>BUCKLED</comment>
 </data>
 <data name="Moodlet.Title.Burning" xml:space="preserve">
-  <value>BURNING</value>
+  <value>ГОРЕНИЕ</value>
   <comment>BURNING</comment>
 </data>
 <data name="Moodlet.Title.Pulling" xml:space="preserve">
@@ -2192,11 +2192,11 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>CROWDED</comment>
 </data>
 <data name="Moodlet.Title.Concussed" xml:space="preserve">
-  <value>CONCUSSED</value>
+  <value>КОНТУЗИЯ</value>
   <comment>CONCUSSED</comment>
 </data>
 <data name="Moodlet.Title.Coughing" xml:space="preserve">
-  <value>COUGHING</value>
+  <value>КАШЕЛЬ</value>
   <comment>COUGHING</comment>
 </data>
 <data name="Moodlet.Title.Gasping.Gasping" xml:space="preserve">
@@ -2208,11 +2208,11 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>SUFFOCATING</comment>
 </data>
 <data name="Moodlet.Title.Headache" xml:space="preserve">
-  <value>МИГРЕНЬ</value>
+  <value>ГОЛОВНАЯ БОЛЬ</value>
   <comment>HEADACHE</comment>
 </data>
 <data name="Moodlet.Title.Unconscious.Critical" xml:space="preserve">
-  <value>CRITICAL</value>
+  <value>КРИТИЧЕСКОЕ СОСТОЯНИЕ</value>
   <comment>CRITICAL</comment>
 </data>
 <data name="Moodlet.Title.Unconscious.Unconscious" xml:space="preserve">
@@ -2220,15 +2220,15 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>UNCONSCIOUS</comment>
 </data>
 <data name="Moodlet.Title.Hunger.Peckish" xml:space="preserve">
-  <value>PECKISH</value>
+  <value>СЛЕГКА ПРОГОЛОДАЛСЯ</value>
   <comment>PECKISH</comment>
 </data>
 <data name="Moodlet.Title.Hunger.Hungry" xml:space="preserve">
-  <value>HUNGRY</value>
+  <value>ГОЛОДЕН</value>
   <comment>HUNGRY</comment>
 </data>
 <data name="Moodlet.Title.Hunger.Starving" xml:space="preserve">
-  <value>STARVING</value>
+  <value>УМИРАЕТ С ГОЛОДУ</value>
   <comment>STARVING</comment>
 </data>
 <data name="Moodlet.Title.Medicated" xml:space="preserve">
@@ -2312,7 +2312,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>IRRADIATED</comment>
 </data>
 <data name="Moodlet.Title.ShortSighted" xml:space="preserve">
-  <value>SHORT SIGHTED</value>
+  <value>ПЛОХО ВИДИТ</value>
   <comment>SHORT SIGHTED</comment>
 </data>
 <data name="Moodlet.Title.Connection.Bad" xml:space="preserve">
@@ -4020,7 +4020,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment> cover stops a scoped shot</comment>
 </data>
 <data name="TraitChips.Marker.ShortSightedToken" xml:space="preserve">
-  <value>SHORT SIGHTED</value>
+  <value>ПЛОХО ВИДИТ</value>
   <comment>SHORT SIGHTED</comment>
 </data>
 <data name="TraitChips.Marker.ShortSightedUnit" xml:space="preserve">
@@ -72624,7 +72624,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Veteran</comment>
 </data>
 <data name="Trait.Veteran.Flavor" xml:space="preserve">
-  <value>Побывал в каком-то конфликте, бывший или действующий военный. Более стабильное прицеливание и быстрый контроль отдачи.</value>
+  <value>Опытный военный. Более стабильное прицеливание и быстрый контроль отдачи.</value>
   <comment>Military fire discipline. Steadier aim and a faster follow-up shot.</comment>
 </data>
 <data name="Trait.Soldier.Name" xml:space="preserve">
@@ -72632,15 +72632,15 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Soldier</comment>
 </data>
 <data name="Trait.Soldier.Flavor" xml:space="preserve">
-  <value>Прошёл базовую военную подготовку, может определить из какого конца винтовки вылетают пули.</value>
+  <value>Боец с базовой военной подготовкой, может определить из какого конца винтовки вылетают пули.</value>
   <comment>Has completed bootcamp, so knows which end of the gun a bullet comes out of.</comment>
 </data>
 <data name="Trait.Marksman.Name" xml:space="preserve">
-  <value>Стрелок</value>
+  <value>Кукушка</value>
   <comment>Marksman</comment>
 </data>
 <data name="Trait.Marksman.Flavor" xml:space="preserve">
-  <value>Обучен стрелять точно в цель и не промахиваться.</value>
+  <value>Стреляет точно в цель и никогда не промахивается.</value>
   <comment>Trained to carefully take a shot, and not miss.</comment>
 </data>
 <data name="Trait.NonCombatant.Name" xml:space="preserve">
@@ -72648,7 +72648,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Non-Combatant</comment>
 </data>
 <data name="Trait.NonCombatant.Flavor" xml:space="preserve">
-  <value>Жизнь к такому меня не готовила... Да поможет мне Господь.</value>
+  <value>Жизнь к такому его не готовила...</value>
   <comment>I was not prepared for this... I am not ready.</comment>
 </data>
 <data name="Trait.Grunt.Name" xml:space="preserve">
@@ -72672,15 +72672,15 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Medic</comment>
 </data>
 <data name="Trait.Medic.Flavor" xml:space="preserve">
-  <value>Лицензии хирурга у меня может и не быть, но и швея способна вытащить из раны пулю и заштопать разорванную руку.</value>
+  <value>Он, может, и не хирург, но людей латать умеет.</value>
   <comment>I may not be a surgeon, but I still know how to fix things.</comment>
 </data>
 <data name="Trait.Surgeon.Name" xml:space="preserve">
-  <value>Хирург</value>
+  <value>Я - Хирург!</value>
   <comment>I am a Surgeon</comment>
 </data>
 <data name="Trait.Surgeon.Flavor" xml:space="preserve">
-  <value>Натренированные руки, что оперируют людей на профессиональном уровне. Способен оперировать даже самого себя.</value>
+  <value>Способен оперировать людей, и делает это чётко и быстро. Навыков хватит даже чтобы прооперировать себя.</value>
   <comment>Trained hands. Faster, more reliable surgery, even on yourself.</comment>
 </data>
 <data name="Trait.MedicalStaff.Name" xml:space="preserve">
@@ -72720,7 +72720,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Runner</comment>
 </data>
 <data name="Trait.Runner.Flavor" xml:space="preserve">
-  <value>Никогда не двигается медленнее чем десять километров в час. Гораздо меньше подвержен замедлению от толпы или снаряжения.</value>
+  <value>Никогда не двигается медленнее десяти километров в час. Гораздо меньше подвержен замедлению от толпы или снаряжения.</value>
   <comment>Never stopped running. Faster on foot, less bothered by a crowd or a load in tow.</comment>
 </data>
 <data name="Trait.Strong.Name" xml:space="preserve">
@@ -72728,7 +72728,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Strong</comment>
 </data>
 <data name="Trait.Strong.Flavor" xml:space="preserve">
-  <value>Я привык таскать тяжёлые штуки, а мои руки сломают челюсть любому.</value>
+  <value>Привык таскать тяжёлые штуки, а его руки сломают челюсть любому.</value>
   <comment>I carry heavy equipment all day, I can fight.</comment>
 </data>
 <data name="Trait.Janitor.Name" xml:space="preserve">
@@ -72744,7 +72744,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Connected</comment>
 </data>
 <data name="Trait.Connected.Flavor" xml:space="preserve">
-  <value>Криминальный или нет - пусть решают власти. Мне важны лишь их деньги.</value>
+  <value>Криминальный или нет - пусть решают власти. Ему важны лишь их деньги. Получает больше за убийства.</value>
   <comment>Knows the right people. Kills pay a bigger bounty.</comment>
 </data>
 <data name="Trait.BlastHardened.Name" xml:space="preserve">
@@ -72768,11 +72768,11 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Agile</comment>
 </data>
 <data name="Trait.Agile.Flavor" xml:space="preserve">
-  <value>Привык к толпе народу в час пик и просто следует за течением.</value>
+  <value>Привык к толпе в час пик и просто следует за течением.</value>
   <comment>Used to crowds and having to move fast.</comment>
 </data>
 <data name="Trait.Fit.Name" xml:space="preserve">
-  <value>Хорошо слаженный</value>
+  <value>Хорошо Слаженный</value>
   <comment>Fit</comment>
 </data>
 <data name="Trait.Fit.Flavor" xml:space="preserve">
@@ -72784,7 +72784,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Negotiator</comment>
 </data>
 <data name="Trait.Negotiator.Flavor" xml:space="preserve">
-  <value>Знает, как угодить продавцу и покупателю. Более дешёвые цены в банкоматах W-Y.</value>
+  <value>Знает, как угодить продавцу и покупателю. Более низкие цены в банкоматах W-Y.</value>
   <comment>Knows how to work a deal. Cheaper prices at the W-Y ATM.</comment>
 </data>
 <data name="Trait.PizzaChef.Name" xml:space="preserve">
@@ -72812,7 +72812,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Lives behind the machine gun. Keeps the fire steady and the belt moving.</comment>
 </data>
 <data name="Trait.OldSchool.Name" xml:space="preserve">
-  <value>Старая школа</value>
+  <value>Старая Школа</value>
   <comment>Old School</comment>
 </data>
 <data name="Trait.OldSchool.Flavor" xml:space="preserve">
@@ -72828,7 +72828,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Trained to walk into a burning building, not away from it.</comment>
 </data>
 <data name="Trait.SteadyHands.Name" xml:space="preserve">
-  <value>Твёрдая хватка</value>
+  <value>Твёрдая Хватка</value>
   <comment>Steady Hands</comment>
 </data>
 <data name="Trait.SteadyHands.Flavor" xml:space="preserve">
@@ -72836,11 +72836,11 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Behind a mounted gun, the shake stops. Tighter groups, faster follow-up, no wasted rounds.</comment>
 </data>
 <data name="Trait.ShortSighted.Name" xml:space="preserve">
-  <value>Слабое зрение</value>
+  <value>Плохо Видит</value>
   <comment>Short Sighted</comment>
 </data>
 <data name="Trait.ShortSighted.Flavor" xml:space="preserve">
-  <value>Не видит дальше вытянутой руки без специальных очков для слабовидящих. Потеряй их и жизнь превратится в Ад.</value>
+  <value>Не видит дальше вытянутой руки без очков с диоптриями. Потеряй их и мир вокруг превратится в мыльное пятно.</value>
   <comment>Cannot see past arm's reach without the prescription glasses. Lose them and the world goes to a smear.</comment>
 </data>
 <data name="Trait.Scientist.Name" xml:space="preserve">
@@ -72848,7 +72848,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Scientist</comment>
 </data>
 <data name="Trait.Scientist.Flavor" xml:space="preserve">
-  <value>Обучался каким-либо наукам на высшем уровне. Вероятно биологии в том числе, иначе как объяснить весь накопленный хирургический опыт?</value>
+  <value>Обучался высшим наукам. Способен оперировать людей, и делает это чётко и быстро. Навыков хватит даже чтобы прооперировать себя.</value>
   <comment>Trained in the sciences. Faster, more reliable surgery, even on yourself.</comment>
 </data>
 <data name="Emote.Warcry.GetSome" xml:space="preserve">
@@ -72856,7 +72856,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>GET SOME!</comment>
 </data>
 <data name="Emote.Warcry.LetsGo" xml:space="preserve">
-  <value>ПОГНАЛИ!</value>
+  <value>ВПЕРЁД!</value>
   <comment>LET'S GO!</comment>
 </data>
 <data name="Emote.Warcry.Hoorah" xml:space="preserve">
@@ -73020,11 +73020,11 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>claps, clearly unimpressed.</comment>
 </data>
 <data name="Emote.Whimpers" xml:space="preserve">
-  <value>whimpers.</value>
+  <value>хнычет.</value>
   <comment>whimpers.</comment>
 </data>
 <data name="Emote.OverHere" xml:space="preserve">
-  <value>ЗДЕСЬ!</value>
+  <value>СЮДА!</value>
   <comment>OVER HERE!</comment>
 </data>
 <data name="Emote.Frag.FragOut" xml:space="preserve">
@@ -73056,11 +73056,11 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Are you serious?</comment>
 </data>
 <data name="Emote.Groan.CantBeSerious" xml:space="preserve">
-  <value>Ты не можешь быть серьёзен...</value>
+  <value>Ты же несерьёзно?...</value>
   <comment>You can't be serious...</comment>
 </data>
 <data name="Emote.Groan.JoinMarines" xml:space="preserve">
-  <value>Вступай в пехоту говорили они...</value>
+  <value>Вступай в колониальную пехоту говорили они...</value>
   <comment>Join the marines they said...</comment>
 </data>
 <data name="SurgeryOp.InciseSkin.Display" xml:space="preserve">
@@ -75052,11 +75052,11 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>XENO NEST</comment>
 </data>
 <data name="Modifier.XenoNest.Tooltip" xml:space="preserve">
-  <value>ГДЕ-ТО НА КОЛОНИИ ОБРАЗОВАЛОСЬ ГНЕЗДО // ДРОНЫ-РАБОЧИЕ ВЫХОДЯТ НА ОХОТУ НОЧЬЮ И УХОДЯТ К УТРУ</value>
+  <value>ГДЕ-ТО НА КОЛОНИИ ОБРАЗОВАЛОСЬ ГНЕЗДО // ДРОНЫ ВЫХОДЯТ НА ОХОТУ НОЧЬЮ И УХОДЯТ К УТРУ</value>
   <comment>A XENO NEST FESTERS IN THE COLONY // DRONES HUNT AT NIGHT AND RETURN AT DAWN</comment>
 </data>
 <data name="Modifier.UnnaturalNight.Label" xml:space="preserve">
-  <value>СТРАННАЯ НОЧЬ</value>
+  <value>АНОМАЛЬНАЯ НОЧЬ</value>
   <comment>UNNATURAL NIGHT</comment>
 </data>
 <data name="Modifier.UnnaturalNight.Tooltip" xml:space="preserve">

@@ -3,7 +3,8 @@
 The contents of the braces themselves needs to be preserved, but they may freely be moved around within the string.
 The comment field includes the default english string at the time of file generation so is useful for determining when a string has changed.
 The filename is used for the locale Code according to ISO 639-1. By default the language name is taken from this. To override this, enter an entry for 'Language'.
-The 'Font' value is a special entry that will be used to select which game font is to be used to allow for special characters.--><root>
+The 'FontMain' and 'FontSecondary' values are special entries naming a font file (.ttf) that replaces the game's pixel font (FontMain) or its text font (FontSecondary) while this language is active, for scripts the defaults do not cover.
+The file is looked up beside this language file first, then under the game's Content/Fonts. Leave both empty to keep the game's fonts.--><root>
   <!-- 
   Microsoft ResX Schema 
 
@@ -121,134 +122,137 @@ The 'Font' value is a special entry that will be used to select which game font 
   <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 </resheader>
 
-<data name="Font" xml:space="preserve">
+<data name="FontMain" xml:space="preserve">
+  <value></value>
+</data>
+<data name="FontSecondary" xml:space="preserve">
   <value></value>
 </data>
 <data name="Language" xml:space="preserve">
-  <value>русский художественный (Россия)</value>
+  <value>Русский</value>
 </data>
 <data name="MainMenu.FooterNet" xml:space="preserve">
-  <value>ЛОКАЛЬНЫЙ КАНАЛ СВЯЗИ W-Y</value>
+  <value>W-Y COLONY NET</value>
   <comment>W-Y COLONY NET</comment>
 </data>
 <data name="MainMenu.StatusIdle" xml:space="preserve">
-  <value>ОЖИДАНИЕ ОТВЕТА</value>
+  <value>LINK IDLE</value>
   <comment>LINK IDLE</comment>
 </data>
 <data name="MainMenu.JoinTitle" xml:space="preserve">
-  <value>ВОЙТИ В ИГРУ</value>
+  <value>JOIN GAME</value>
   <comment>JOIN GAME</comment>
 </data>
 <data name="MainMenu.AddressLabel" xml:space="preserve">
-  <value>АЙПИ СЕРВЕРА</value>
+  <value>ADDRESS</value>
   <comment>ADDRESS</comment>
 </data>
 <data name="MainMenu.OperativeLabel" xml:space="preserve">
-  <value>ОПЕРАТИВНИК</value>
+  <value>OPERATIVE</value>
   <comment>OPERATIVE</comment>
 </data>
 <data name="MainMenu.CancelLabel" xml:space="preserve">
-  <value>НАЗАД</value>
+  <value>CANCEL</value>
   <comment>CANCEL</comment>
 </data>
 <data name="MainMenu.ConnectLabel" xml:space="preserve">
-  <value>ВОЙТИ</value>
+  <value>CONNECT</value>
   <comment>CONNECT</comment>
 </data>
 <data name="MainMenu.JoinRefusalLine" xml:space="preserve">
-  <value>НЕВЕРНЫЕ ДАННЫЕ // ПРОВЕРЬТЕ АДРЕС</value>
+  <value>LINK REFUSED // CHECK ADDRESS</value>
   <comment>LINK REFUSED // CHECK ADDRESS</comment>
 </data>
 <data name="MainMenu.SurveyRefusalLine" xml:space="preserve">
-  <value>ПРОСМОТР НЕДОСТУПЕН // ОТСУТСТВУЮТ ДАННЫЕ КАРТЫ</value>
+  <value>SURVEY OFFLINE // NO MAP DATA</value>
   <comment>SURVEY OFFLINE // NO MAP DATA</comment>
 </data>
 <data name="MainMenu.PickerTitle" xml:space="preserve">
-  <value>ПРОСМОТР КАРТЫ</value>
+  <value>PREVIEW MAP</value>
   <comment>PREVIEW MAP</comment>
 </data>
 <data name="MainMenu.PickerSubLine" xml:space="preserve">
-  <value>// ВЫБЕРИТЕ КОЛОНИЮ ДЛЯ ОСМОТРА //</value>
+  <value>// SELECT A COLONY TO SURVEY //</value>
   <comment>// SELECT A COLONY TO SURVEY //</comment>
 </data>
 <data name="MainMenu.PickerLoadedTag" xml:space="preserve">
-  <value>ЗАГРУЖЕНА</value>
+  <value>LOADED</value>
   <comment>LOADED</comment>
 </data>
 <data name="MainMenu.PickerNoRecord" xml:space="preserve">
-  <value>~ОТСУТСТВУЮТ ДАННЫЕ ДЛЯ ОСМОТРА</value>
+  <value>~NO SURVEY RECORD</value>
   <comment>~NO SURVEY RECORD</comment>
 </data>
 <data name="MainMenu.MainSubtitle" xml:space="preserve">
-  <value>ГЛАВНОЕ МЕНЮ</value>
+  <value>MAIN MENU</value>
   <comment>MAIN MENU</comment>
 </data>
 <data name="MainMenu.SystemSubtitle" xml:space="preserve">
-  <value>СИСТЕМНОЕ МЕНЮ</value>
+  <value>SYSTEM MENU</value>
   <comment>SYSTEM MENU</comment>
 </data>
 <data name="MainMenu.SystemStatusIdle" xml:space="preserve">
-  <value>ОТВЕТ ПОЛУЧЕН // ОПЕРАТИВНИК НА ПОЗИЦИИ</value>
+  <value>LINK ESTABLISHED // OPERATIVE IN FIELD</value>
   <comment>LINK ESTABLISHED // OPERATIVE IN FIELD</comment>
 </data>
 <data name="MainMenu.DisconnectTitle" xml:space="preserve">
-  <value>ВЫХОД</value>
+  <value>DISCONNECT</value>
   <comment>DISCONNECT</comment>
 </data>
 <data name="MainMenu.DisconnectLine" xml:space="preserve">
-  <value>ВЫЙТИ С СЕРВЕРА И ВЕРНУТЬСЯ К ГЛАВНОМУ МЕНЮ?</value>
+  <value>LEAVE THE SERVER AND RETURN TO THE MENU?</value>
   <comment>LEAVE THE SERVER AND RETURN TO THE MENU?</comment>
 </data>
 <data name="MainMenu.DisconnectConfirmLabel" xml:space="preserve">
-  <value>ВЫЙТИ</value>
+  <value>DISCONNECT</value>
   <comment>DISCONNECT</comment>
 </data>
 <data name="MainMenu.QuitTitle" xml:space="preserve">
-  <value>ВЫЙТИ ИЗ ИГРЫ</value>
+  <value>QUIT GAME</value>
   <comment>QUIT GAME</comment>
 </data>
 <data name="MainMenu.QuitLine" xml:space="preserve">
-  <value>ОТКЛЮЧИТЬСЯ И ВЕРНУТЬСЯ НА РАБОЧИЙ СТОЛ?</value>
+  <value>POWER DOWN AND EXIT TO DESKTOP?</value>
   <comment>POWER DOWN AND EXIT TO DESKTOP?</comment>
 </data>
 <data name="MainMenu.QuitConfirmLabel" xml:space="preserve">
-  <value>ВЫЙТИ</value>
+  <value>QUIT</value>
   <comment>QUIT</comment>
 </data>
 <data name="MainMenu.MismatchTitle" xml:space="preserve">
-  <value>НЕСОВПАДЕНИЕ ВЕРСИЙ</value>
+  <value>VERSION MISMATCH</value>
   <comment>VERSION MISMATCH</comment>
 </data>
 <data name="MainMenu.MismatchLine" xml:space="preserve">
-  <value>ВЕРСИЯ СЕРВЕРА НЕ СОВПАДАЕТ С ВЕРСИЕЙ КЛИЕНТА, ОБНОВИТЕСЬ ДО АКТУАЛЬНОЙ РЕВИЗИИ ИЛИ УСТАНОВИТЕ ПОДХОДЯЩУЮ.</value>
+  <value>THIS GAME VERSION IS OUT OF DATE. EITHER THE SERVER OR THE CLIENT NEEDS TO UPDATE TO A MATCHING VERSION.</value>
   <comment>THIS GAME VERSION IS OUT OF DATE. EITHER THE SERVER OR THE CLIENT NEEDS TO UPDATE TO A MATCHING VERSION.</comment>
 </data>
 <data name="MainMenu.MismatchLocalBuild" xml:space="preserve">
-  <value>ЛОКАЛЬНАЯ ВЕРСИЯ // {BUILD}</value>
+  <value>LOCAL BUILD // {BUILD}</value>
   <comment>LOCAL BUILD // {BUILD}</comment>
 </data>
 <data name="MainMenu.MismatchServerBuild" xml:space="preserve">
-  <value>ВЕРСИЯ СЕРВЕРА // v{BUILD}</value>
+  <value>SERVER BUILD // v{BUILD}</value>
   <comment>SERVER BUILD // v{BUILD}</comment>
 </data>
 <data name="MainMenu.ContentMismatchTitle" xml:space="preserve">
-  <value>НЕСОВПАДЕНИЕ КОНТЕНТА</value>
+  <value>CONTENT MISMATCH</value>
   <comment>CONTENT MISMATCH</comment>
 </data>
 <data name="MainMenu.ContentMismatchLine" xml:space="preserve">
-  <value>СОДЕРЖИМОЕ ВАШЕЙ ВЕРСИИ ИГРЫ НЕ СОВПАДАЕТ С ПРЕДСТАВЛЕННЫМ НА СЕРВЕРЕ. ПРОВЕРЬТЕ НАЛИЧИЕ ОБНОВЛЕНИЙ ИЛИ УБЕРИТЕ ПОСТОРОННИЕ ФАЙЛЫ.</value>
+  <value>YOUR GAME CONTENT DIFFERS FROM THE SERVER. CHECK FOR AN UPDATE OR REMOVE MODIFIED CONTENT.</value>
   <comment>YOUR GAME CONTENT DIFFERS FROM THE SERVER. CHECK FOR AN UPDATE OR REMOVE MODIFIED CONTENT.</comment>
 </data>
 <data name="MainMenu.BehindLine" xml:space="preserve">
-  <value>ВАША ВЕРСИЯ ИГРЫ ОТСТАЁТ ОТ ВЕРСИИ УСТАНОВЛЕННОЙ НА СЕРВЕРЕ. ОБНОВИТЕ КЛИЕНТ И ПОДКЛЮЧИТЕСЬ ПОВТОРНО.</value>
+  <value>YOUR GAME IS BEHIND THE SERVER. UPDATE THE GAME, THEN JOIN AGAIN.</value>
   <comment>YOUR GAME IS BEHIND THE SERVER. UPDATE THE GAME, THEN JOIN AGAIN.</comment>
 </data>
 <data name="MainMenu.AheadLine" xml:space="preserve">
-  <value>ВАША ВЕРСИЯ ИГРЫ ОБГОНЯЕТ ВЕРСИЮ УСТАНОВЛЕННУЮ НА СЕРВЕРЕ. ПОДОЖДИТЕ, ПОКА СЕРВЕР ПЕРЕЗАПУСТИТСЯ С ОБНОВЛЕНИЕМ И ПОДКЛЮЧИТЕСЬ ПОВТОРНО.</value>
+  <value>YOUR GAME IS AHEAD OF THE SERVER. WAIT FOR THE SERVER TO RESTART WITH THE UPDATE, THEN JOIN AGAIN.</value>
   <comment>YOUR GAME IS AHEAD OF THE SERVER. WAIT FOR THE SERVER TO RESTART WITH THE UPDATE, THEN JOIN AGAIN.</comment>
 </data>
 <data name="MainMenu.CloseLabel" xml:space="preserve">
-  <value>ЗАКРЫТЬ</value>
+  <value>CLOSE</value>
   <comment>CLOSE</comment>
 </data>
 <data name="MainMenu.DiscordLabel" xml:space="preserve">
@@ -268,19 +272,19 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>FORUMS // OPENING AHWOO FORUMS</comment>
 </data>
 <data name="MainMenu.AhwooPrefix" xml:space="preserve">
-  <value>СОЕДИНЕНИЕ С AHWOO // </value>
+  <value>AHWOO LINK // </value>
   <comment>AHWOO LINK // </comment>
 </data>
 <data name="MainMenu.AhwooActive" xml:space="preserve">
-  <value>ЗАФИКСИРОВАННО</value>
+  <value>ACTIVE</value>
   <comment>ACTIVE</comment>
 </data>
 <data name="MainMenu.AhwooNotDetected" xml:space="preserve">
-  <value>НЕ ОБНАРУЖЕНО</value>
+  <value>NOT DETECTED</value>
   <comment>NOT DETECTED</comment>
 </data>
 <data name="MainMenu.AhwooOfflineMode" xml:space="preserve">
-  <value>В ОФФЛАЙН РЕЖИМЕ</value>
+  <value>OFFLINE MODE</value>
   <comment>OFFLINE MODE</comment>
 </data>
 <data name="MainMenu.AhwooSignedOut" xml:space="preserve">
@@ -288,99 +292,99 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>SIGNED OUT</comment>
 </data>
 <data name="MainMenu.AhwooNoResponse" xml:space="preserve">
-  <value>НЕТ ОТВЕТА</value>
+  <value>NO RESPONSE</value>
   <comment>NO RESPONSE</comment>
 </data>
 <data name="MainMenu.Row.CharacterSetup.Label" xml:space="preserve">
-  <value>СОЗДАНИЕ ОПЕРАТИВНИКА</value>
+  <value>CHARACTER SETUP</value>
   <comment>CHARACTER SETUP</comment>
 </data>
 <data name="MainMenu.Row.PreviewMap.Label" xml:space="preserve">
-  <value>ПРОСМОТР КАРТЫ</value>
+  <value>PREVIEW MAP</value>
   <comment>PREVIEW MAP</comment>
 </data>
 <data name="MainMenu.Row.Settings.Label" xml:space="preserve">
-  <value>НАСТРОЙКИ</value>
+  <value>SETTINGS</value>
   <comment>SETTINGS</comment>
 </data>
 <data name="MainMenu.Row.JoinGame.Label" xml:space="preserve">
-  <value>ВОЙТИ В ИГРУ</value>
+  <value>JOIN GAME</value>
   <comment>JOIN GAME</comment>
 </data>
 <data name="MainMenu.Row.QuitGame.Label" xml:space="preserve">
-  <value>ВЫЙТИ ИЗ ИГРЫ</value>
+  <value>QUIT GAME</value>
   <comment>QUIT GAME</comment>
 </data>
 <data name="MainMenu.Row.CharacterSetup.Caption" xml:space="preserve">
-  <value>ЛИЧНОСТЬ // ВНЕШНОСТЬ</value>
+  <value>IDENTITY // APPEARANCE</value>
   <comment>IDENTITY // APPEARANCE</comment>
 </data>
 <data name="MainMenu.Row.PreviewMap.Caption" xml:space="preserve">
-  <value>ОСМОТР КАРТЫ КОЛОНИИ</value>
+  <value>COLONY SURVEY MAP</value>
   <comment>COLONY SURVEY MAP</comment>
 </data>
 <data name="MainMenu.Row.Settings.Caption" xml:space="preserve">
-  <value>КАРТИНКА // ЗВУК // УПРАВЛЕНИЕ</value>
+  <value>DISPLAY // AUDIO // CONTROLS</value>
   <comment>DISPLAY // AUDIO // CONTROLS</comment>
 </data>
 <data name="MainMenu.Row.JoinGame.Caption" xml:space="preserve">
-  <value>ПОДКЛЮЧИТЬСЯ К СЕРВЕРУ</value>
+  <value>CONNECT TO SERVER</value>
   <comment>CONNECT TO SERVER</comment>
 </data>
 <data name="MainMenu.Row.QuitGame.Caption" xml:space="preserve">
-  <value>ВЫЙТИ НА РАБОЧИЙ СТОЛ</value>
+  <value>EXIT TO DESKTOP</value>
   <comment>EXIT TO DESKTOP</comment>
 </data>
 <data name="MainMenu.Row.CharacterSetup.Status" xml:space="preserve">
-  <value>СОЗДАНИЕ ОПЕРАТИВНИКА // БАЗА ДАННЫХ</value>
+  <value>CHARACTER SETUP // OPENING RECORD</value>
   <comment>CHARACTER SETUP // OPENING RECORD</comment>
 </data>
 <data name="MainMenu.Row.PreviewMap.Status" xml:space="preserve">
-  <value>ПРОСМОТР КАРТЫ // ОСМОТР КАРТЫ КОЛОНИИ</value>
+  <value>PREVIEW MAP // COLONY SURVEY</value>
   <comment>PREVIEW MAP // COLONY SURVEY</comment>
 </data>
 <data name="MainMenu.Row.Settings.Status" xml:space="preserve">
-  <value>НАСТРОЙКИ // КАРТИНКА / ЗВУК / УПРАВЛЕНИЕ</value>
+  <value>SETTINGS // DISPLAY / AUDIO / CONTROLS</value>
   <comment>SETTINGS // DISPLAY / AUDIO / CONTROLS</comment>
 </data>
 <data name="MainMenu.Row.JoinGame.Status" xml:space="preserve">
-  <value>ВОЙТИ В ИГРУ // ОЖИДАНИЕ АЙПИ-АДРЕСА</value>
+  <value>JOIN GAME // AWAITING ADDRESS</value>
   <comment>JOIN GAME // AWAITING ADDRESS</comment>
 </data>
 <data name="MainMenu.Row.QuitGame.Status" xml:space="preserve">
-  <value>ВЫЙТИ ИЗ ИГРЫ // ОТКЛЮЧЕНИЕ</value>
+  <value>QUIT GAME // POWERING DOWN</value>
   <comment>QUIT GAME // POWERING DOWN</comment>
 </data>
 <data name="MainMenu.SystemRow.Resume.Label" xml:space="preserve">
-  <value>ПРОДОЛЖИТЬ</value>
+  <value>RESUME</value>
   <comment>RESUME</comment>
 </data>
 <data name="MainMenu.SystemRow.Settings.Label" xml:space="preserve">
-  <value>НАСТРОЙКИ</value>
+  <value>SETTINGS</value>
   <comment>SETTINGS</comment>
 </data>
 <data name="MainMenu.SystemRow.Disconnect.Label" xml:space="preserve">
-  <value>ВЫЙТИ ИЗ ИГРЫ</value>
+  <value>DISCONNECT</value>
   <comment>DISCONNECT</comment>
 </data>
 <data name="MainMenu.SystemRow.Resume.Caption" xml:space="preserve">
-  <value>ВЕРНУТЬСЯ К ИГРЕ</value>
+  <value>RETURN TO THE FIELD</value>
   <comment>RETURN TO THE FIELD</comment>
 </data>
 <data name="MainMenu.SystemRow.Settings.Caption" xml:space="preserve">
-  <value>КАРТИНКА // ЗВУК // УПРАВЛЕНИЕ</value>
+  <value>DISPLAY // AUDIO // CONTROLS</value>
   <comment>DISPLAY // AUDIO // CONTROLS</comment>
 </data>
 <data name="MainMenu.SystemRow.Disconnect.Caption" xml:space="preserve">
-  <value>ПОКИНУТЬ СЕРВЕР</value>
+  <value>LEAVE THE SERVER</value>
   <comment>LEAVE THE SERVER</comment>
 </data>
 <data name="MainMenu.SystemRow.Resume.Status" xml:space="preserve">
-  <value>ВЕРНУТЬСЯ</value>
+  <value>RESUMING</value>
   <comment>RESUMING</comment>
 </data>
 <data name="MainMenu.SystemRow.Settings.Status" xml:space="preserve">
-  <value>НАСТРОЙКИ // КАРТИНКА / ЗВУК / УПРАВЛЕНИЕ</value>
+  <value>SETTINGS // DISPLAY / AUDIO / CONTROLS</value>
   <comment>SETTINGS // DISPLAY / AUDIO / CONTROLS</comment>
 </data>
 <data name="MainMenu.SystemRow.Disconnect.Status" xml:space="preserve">
@@ -500,31 +504,31 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Low</comment>
 </data>
 <data name="Chat.Ignite" xml:space="preserve">
-  <value>{ACTOR} поджёг {TARGET} при помощи {USED}.</value>
+  <value>{ACTOR} lights the {TARGET} with the {USED}.</value>
   <comment>{ACTOR} lights the {TARGET} with the {USED}.</comment>
 </data>
 <data name="Chat.Weld" xml:space="preserve">
-  <value>{ACTOR} заварил {TARGET}.</value>
+  <value>{ACTOR} welds the {TARGET} shut.</value>
   <comment>{ACTOR} welds the {TARGET} shut.</comment>
 </data>
 <data name="Chat.Unweld" xml:space="preserve">
-  <value>{ACTOR} разварил {TARGET}.</value>
+  <value>{ACTOR} cuts the {TARGET} open.</value>
   <comment>{ACTOR} cuts the {TARGET} open.</comment>
 </data>
 <data name="Chat.Anchor" xml:space="preserve">
-  <value>{ACTOR} прибивает {TARGET} к полу.</value>
+  <value>{ACTOR} anchors the {TARGET} into place.</value>
   <comment>{ACTOR} anchors the {TARGET} into place.</comment>
 </data>
 <data name="Chat.TankRefill" xml:space="preserve">
-  <value>{ACTOR} наполняет {USED} содержимым {TARGET}.</value>
+  <value>{ACTOR} refills the {USED} from the {TARGET}.</value>
   <comment>{ACTOR} refills the {USED} from the {TARGET}.</comment>
 </data>
 <data name="Chat.TankRefillDeny" xml:space="preserve">
-  <value>Ты не можешь смешать два разных вида топлива!</value>
+  <value>You can't mix fuel mixtures!</value>
   <comment>You can't mix fuel mixtures!</comment>
 </data>
 <data name="Chat.Unanchor" xml:space="preserve">
-  <value>{ACTOR} откручивает {TARGET} от пола.</value>
+  <value>{ACTOR} unanchors the {TARGET}.</value>
   <comment>{ACTOR} unanchors the {TARGET}.</comment>
 </data>
 <data name="Chat.CableSlack" xml:space="preserve">
@@ -540,35 +544,35 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>That APC has all the generators it can take.</comment>
 </data>
 <data name="Chat.LadderUp" xml:space="preserve">
-  <value>{ACTOR} поднимается по {TARGET}.</value>
+  <value>{ACTOR} climbs up the {TARGET}.</value>
   <comment>{ACTOR} climbs up the {TARGET}.</comment>
 </data>
 <data name="Chat.LadderDown" xml:space="preserve">
-  <value>{ACTOR} спускается по {TARGET}.</value>
+  <value>{ACTOR} climbs down the {TARGET}.</value>
   <comment>{ACTOR} climbs down the {TARGET}.</comment>
 </data>
 <data name="Chat.WallClimbUp" xml:space="preserve">
-  <value>{ACTOR} заползает по стене наверх.</value>
+  <value>{ACTOR} scrambles up the wall.</value>
   <comment>{ACTOR} scrambles up the wall.</comment>
 </data>
 <data name="Chat.RoofScrabble" xml:space="preserve">
-  <value>Когти скребутся о потолок.</value>
+  <value>Claws scrabble across the roof.</value>
   <comment>Claws scrabble across the roof.</comment>
 </data>
 <data name="Chat.WallClimbDown" xml:space="preserve">
-  <value>{ACTOR} спрыгивает со стены.</value>
+  <value>{ACTOR} drops down the wall.</value>
   <comment>{ACTOR} drops down the wall.</comment>
 </data>
 <data name="Chat.WallSlip" xml:space="preserve">
-  <value>{ACTOR} падает со стены.</value>
+  <value>{ACTOR} slips off the wall top.</value>
   <comment>{ACTOR} slips off the wall top.</comment>
 </data>
 <data name="Chat.LabelApply" xml:space="preserve">
-  <value>{ACTOR} подписывает {TARGET}.</value>
+  <value>{ACTOR} labels the {TARGET}.</value>
   <comment>{ACTOR} labels the {TARGET}.</comment>
 </data>
 <data name="Chat.LabelRemove" xml:space="preserve">
-  <value>{ACTOR} убирает подпись с {TARGET}.</value>
+  <value>{ACTOR} removes the label from the {TARGET}.</value>
   <comment>{ACTOR} removes the label from the {TARGET}.</comment>
 </data>
 <data name="Chat.LinkPrime" xml:space="preserve">
@@ -580,35 +584,35 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>{ACTOR} removes the linking on the {TARGET}.</comment>
 </data>
 <data name="Chat.Scan" xml:space="preserve">
-  <value>{ACTOR} анализирует состояние {TARGET}.</value>
+  <value>{ACTOR} analyzes the {TARGET}'s vitals.</value>
   <comment>{ACTOR} analyzes the {TARGET}'s vitals.</comment>
 </data>
 <data name="Chat.Inject" xml:space="preserve">
-  <value>{ACTOR} вводит {TARGET} содержимое {USED}.</value>
+  <value>{ACTOR} injects the {TARGET} with the {USED}.</value>
   <comment>{ACTOR} injects the {TARGET} with the {USED}.</comment>
 </data>
 <data name="Chat.EatSelf" xml:space="preserve">
-  <value>Ты откусываешь немного от {USED}.</value>
+  <value>You take a bite of the {USED}.</value>
   <comment>You take a bite of the {USED}.</comment>
 </data>
 <data name="Chat.EatOther" xml:space="preserve">
-  <value>{ACTOR} откусывает немного от {USED}.</value>
+  <value>{ACTOR} takes a bite of the {USED}.</value>
   <comment>{ACTOR} takes a bite of the {USED}.</comment>
 </data>
 <data name="Chat.DrinkSelf" xml:space="preserve">
-  <value>Ты делаешь глоток {USED}.</value>
+  <value>You drink from the {USED}.</value>
   <comment>You drink from the {USED}.</comment>
 </data>
 <data name="Chat.DrinkOther" xml:space="preserve">
-  <value>{ACTOR} делает глоток {USED}.</value>
+  <value>{ACTOR} drinks from the {USED}.</value>
   <comment>{ACTOR} drinks from the {USED}.</comment>
 </data>
 <data name="Chat.Swallow" xml:space="preserve">
-  <value>{ACTOR} скармливает {TARGET} {USED}.</value>
+  <value>{ACTOR} feeds the {TARGET} a {USED}.</value>
   <comment>{ACTOR} feeds the {TARGET} a {USED}.</comment>
 </data>
 <data name="Chat.EatRefused" xml:space="preserve">
-  <value>В тебя уже ничего не лезет.</value>
+  <value>You can't manage another bite.</value>
   <comment>You can't manage another bite.</comment>
 </data>
 <data name="Chat.ScanConsole" xml:space="preserve">
@@ -624,111 +628,111 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>No lifeform detected.</comment>
 </data>
 <data name="Chat.SplintRemoveSelf" xml:space="preserve">
-  <value>Ты снимаешь шину с {TARGET}.</value>
+  <value>You remove the splint from the {TARGET}.</value>
   <comment>You remove the splint from the {TARGET}.</comment>
 </data>
 <data name="Chat.SplintRemoveOther" xml:space="preserve">
-  <value>{ACTOR} снимает шину с {TARGET}.</value>
+  <value>{ACTOR} removes a splint from the {TARGET}.</value>
   <comment>{ACTOR} removes a splint from the {TARGET}.</comment>
 </data>
 <data name="Chat.Fracture" xml:space="preserve">
-  <value>{TARGET} слышит резкий треск чего-то!</value>
+  <value>{TARGET} feels a sickening crack!</value>
   <comment>{TARGET} feels a sickening crack!</comment>
 </data>
 <data name="Chat.Scream" xml:space="preserve">
-  <value>{TARGET} кричит в агонии!</value>
+  <value>{TARGET} screams in pain!</value>
   <comment>{TARGET} screams in pain!</comment>
 </data>
 <data name="Chat.Punch" xml:space="preserve">
-  <value>{ACTOR} бьёт {TARGET}!</value>
+  <value>{ACTOR} punches the {TARGET}!</value>
   <comment>{ACTOR} punches the {TARGET}!</comment>
 </data>
 <data name="Chat.ZombieSlash" xml:space="preserve">
-  <value>{ACTOR} царапает {TARGET}!</value>
+  <value>The {ACTOR} slashes the {TARGET}!</value>
   <comment>The {ACTOR} slashes the {TARGET}!</comment>
 </data>
 <data name="Chat.ZombieSlashWall" xml:space="preserve">
-  <value>{ACTOR} рвёт стену на части!</value>
+  <value>The {ACTOR} tears at the wall!</value>
   <comment>The {ACTOR} tears at the wall!</comment>
 </data>
 <data name="Chat.EarsRinging" xml:space="preserve">
-  <value>{ACTOR} закрывает уши!</value>
+  <value>{ACTOR} clutches their ears!</value>
   <comment>{ACTOR} clutches their ears!</comment>
 </data>
 <data name="Chat.MeleeHit" xml:space="preserve">
-  <value>{ACTOR} бьёт {TARGET} используя {USED}!</value>
+  <value>{ACTOR} strikes the {TARGET} with the {USED}!</value>
   <comment>{ACTOR} strikes the {TARGET} with the {USED}!</comment>
 </data>
 <data name="Chat.Shake" xml:space="preserve">
-  <value>{ACTOR} трясёт {TARGET}, пытаясь привести в чувства!</value>
+  <value>{ACTOR} shakes the {TARGET}, trying to wake them up!</value>
   <comment>{ACTOR} shakes the {TARGET}, trying to wake them up!</comment>
 </data>
 <data name="Chat.DisarmShove" xml:space="preserve">
-  <value>{ACTOR} опрокидывает {TARGET} на пол!</value>
+  <value>{ACTOR} shoves the {TARGET} to the ground!</value>
   <comment>{ACTOR} shoves the {TARGET} to the ground!</comment>
 </data>
 <data name="Chat.DisarmDrop" xml:space="preserve">
-  <value>{ACTOR} обезвредил {TARGET}!</value>
+  <value>{ACTOR} has disarmed the {TARGET}!</value>
   <comment>{ACTOR} has disarmed the {TARGET}!</comment>
 </data>
 <data name="Chat.DisarmMiss" xml:space="preserve">
-  <value>{ACTOR} пытается обезвредить {TARGET}!</value>
+  <value>{ACTOR} attempted to disarm the {TARGET}!</value>
   <comment>{ACTOR} attempted to disarm the {TARGET}!</comment>
 </data>
 <data name="Chat.TreatGauze" xml:space="preserve">
-  <value>{ACTOR} перевязывает {TARGET}.</value>
+  <value>{ACTOR} bandages the {TARGET}.</value>
   <comment>{ACTOR} bandages the {TARGET}.</comment>
 </data>
 <data name="Chat.TreatSalve" xml:space="preserve">
-  <value>{ACTOR} замазывает {TARGET}.</value>
+  <value>{ACTOR} salves the {TARGET}.</value>
   <comment>{ACTOR} salves the {TARGET}.</comment>
 </data>
 <data name="Chat.TreatSplint" xml:space="preserve">
-  <value>{ACTOR} устанавливает шину на {TARGET}.</value>
+  <value>{ACTOR} splints the {TARGET}.</value>
   <comment>{ACTOR} splints the {TARGET}.</comment>
 </data>
 <data name="Chat.TreatGeneric" xml:space="preserve">
-  <value>{ACTOR} обрабатывает {TARGET}.</value>
+  <value>{ACTOR} treats the {TARGET}.</value>
   <comment>{ACTOR} treats the {TARGET}.</comment>
 </data>
 <data name="Chat.Roll" xml:space="preserve">
-  <value>{ACTOR} закидывает {TARGET} себе на спину.</value>
+  <value>{ACTOR} rolls the {TARGET} onto their back.</value>
   <comment>{ACTOR} rolls the {TARGET} onto their back.</comment>
 </data>
 <data name="Chat.DefibCharge" xml:space="preserve">
-  <value>{ACTOR} натирает подушки дефибриллятора.</value>
+  <value>{ACTOR} charges the defibrillator paddles.</value>
   <comment>{ACTOR} charges the defibrillator paddles.</comment>
 </data>
 <data name="Chat.DefibSuccess" xml:space="preserve">
-  <value>{TARGET} бьётся в конвульсиях, подавая признаки жизни!</value>
+  <value>The {TARGET} convulses, vital signs return!</value>
   <comment>The {TARGET} convulses, vital signs return!</comment>
 </data>
 <data name="Chat.DefibFail" xml:space="preserve">
-  <value>Дефибрилляция не удалась. Показатели слишком плачевны: понизьте общий урон и попробуйте снова.</value>
+  <value>Defibrillation failed. Vital signs are too weak: repair the damage and try again.</value>
   <comment>Defibrillation failed. Vital signs are too weak: repair the damage and try again.</comment>
 </data>
 <data name="Chat.Cpr" xml:space="preserve">
-  <value>{ACTOR} делает {TARGET} искусственное дыхание.</value>
+  <value>{ACTOR} performs CPR on the {TARGET}.</value>
   <comment>{ACTOR} performs CPR on the {TARGET}.</comment>
 </data>
 <data name="Chat.SuturePass" xml:space="preserve">
-  <value>{ACTOR} зашивает раны.</value>
+  <value>{ACTOR} sutures some of the wounds.</value>
   <comment>{ACTOR} sutures some of the wounds.</comment>
 </data>
 <data name="Chat.SutureFinish" xml:space="preserve">
-  <value>{ACTOR} зашил раны.</value>
+  <value>{ACTOR} finishes suturing the wounds.</value>
   <comment>{ACTOR} finishes suturing the wounds.</comment>
 </data>
 <data name="Chat.DefibHeartFail" xml:space="preserve">
-  <value>Дефибрилляция не удалась. Сердце пациента слишком повреждено, требуется немедленная операция.</value>
+  <value>Defibrillation failed. Patient's heart is too damaged. Immediate surgery is advised.</value>
   <comment>Defibrillation failed. Patient's heart is too damaged. Immediate surgery is advised.</comment>
 </data>
 <data name="Chat.OrganCough" xml:space="preserve">
-  <value>{TARGET} кашляет кровью!</value>
+  <value>{TARGET} coughs up blood!</value>
   <comment>{TARGET} coughs up blood!</comment>
 </data>
 <data name="Chat.OrganGasp" xml:space="preserve">
-  <value>{TARGET} жадно хватает воздух!</value>
+  <value>{TARGET} gasps for air!</value>
   <comment>{TARGET} gasps for air!</comment>
 </data>
 <data name="Chat.OrganSeize" xml:space="preserve">
@@ -736,15 +740,15 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>{TARGET}'s body seizes up!</comment>
 </data>
 <data name="Chat.OrganMindWander" xml:space="preserve">
-  <value>{TARGET} слегка бредит.</value>
+  <value>{TARGET}'s mind wanders for a moment.</value>
   <comment>{TARGET}'s mind wanders for a moment.</comment>
 </data>
 <data name="Chat.PainWince" xml:space="preserve">
-  <value>{TARGET} морщится от боли.</value>
+  <value>{TARGET} winces in pain.</value>
   <comment>{TARGET} winces in pain.</comment>
 </data>
 <data name="Chat.PainScream" xml:space="preserve">
-  <value>{TARGET} корчится в агонии!</value>
+  <value>{TARGET} writhes in agony!</value>
   <comment>{TARGET} writhes in agony!</comment>
 </data>
 <data name="Chat.BuckleNest" xml:space="preserve">
@@ -752,7 +756,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>{ACTOR} secretes a thick, vile resin, securing the {TARGET} into the {USED}!</comment>
 </data>
 <data name="Chat.BuckleNormal" xml:space="preserve">
-  <value>{ACTOR} усаживает {TARGET} на {USED}.</value>
+  <value>{ACTOR} straps the {TARGET} onto the {USED}.</value>
   <comment>{ACTOR} straps the {TARGET} onto the {USED}.</comment>
 </data>
 <data name="Chat.UnbuckleNest" xml:space="preserve">
@@ -760,7 +764,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>{ACTOR} pulls the {TARGET} free from the {USED}!</comment>
 </data>
 <data name="Chat.UnbuckleNormal" xml:space="preserve">
-  <value>{ACTOR} поднимает {TARGET} с {USED}.</value>
+  <value>{ACTOR} unbuckles the {TARGET} from the {USED}.</value>
   <comment>{ACTOR} unbuckles the {TARGET} from the {USED}.</comment>
 </data>
 <data name="Chat.StasisReject" xml:space="preserve">
@@ -848,11 +852,11 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>{ACTOR} finishes repairing the {TARGET}.</comment>
 </data>
 <data name="Chat.DeconstructStart" xml:space="preserve">
-  <value>{ACTOR} принялся разбирать {TARGET} на части.</value>
+  <value>{ACTOR} starts taking the {TARGET} apart.</value>
   <comment>{ACTOR} starts taking the {TARGET} apart.</comment>
 </data>
 <data name="Chat.DeconstructDone" xml:space="preserve">
-  <value>{ACTOR} разобрал {TARGET}.</value>
+  <value>{ACTOR} takes the {TARGET} apart.</value>
   <comment>{ACTOR} takes the {TARGET} apart.</comment>
 </data>
 <data name="Chat.RepairFail" xml:space="preserve">
@@ -860,15 +864,15 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>The repair goes wrong.</comment>
 </data>
 <data name="Chat.RepairWrongTool" xml:space="preserve">
-  <value>Для работы с {TARGET} нужен другой инструмент.</value>
+  <value>That won't work on the {TARGET}.</value>
   <comment>That won't work on the {TARGET}.</comment>
 </data>
 <data name="Chat.GeneratorRefused" xml:space="preserve">
-  <value>{TARGET} отказывается запускаться.</value>
+  <value>The {TARGET} refuses to start.</value>
   <comment>The {TARGET} refuses to start.</comment>
 </data>
 <data name="Chat.EyeBurn" xml:space="preserve">
-  <value>Твои глаза горят!</value>
+  <value>Your eyes burn!</value>
   <comment>Your eyes burn!</comment>
 </data>
 <data name="Chat.CookDeny" xml:space="preserve">
@@ -884,23 +888,23 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>You need a table or a tray to slice this.</comment>
 </data>
 <data name="Chat.MopWet" xml:space="preserve">
-  <value>Ты мочишь швабру.</value>
+  <value>You wet the mop.</value>
   <comment>You wet the mop.</comment>
 </data>
 <data name="Chat.StepShard" xml:space="preserve">
-  <value>Ты ранишь ногу наступая на {TARGET}!</value>
+  <value>You step on the {TARGET} and cut your foot!</value>
   <comment>You step on the {TARGET} and cut your foot!</comment>
 </data>
 <data name="Chat.WireCross" xml:space="preserve">
-  <value>Ты прорываешься через {TARGET}, и проволока цепляется за твою кожу!</value>
+  <value>You push through the {TARGET} and the wire tears at you!</value>
   <comment>You push through the {TARGET} and the wire tears at you!</comment>
 </data>
 <data name="Chat.StripTake" xml:space="preserve">
-  <value>{ACTOR} стягивает {USED} с {TARGET}!</value>
+  <value>{ACTOR} starts pulling {USED} off the {TARGET}!</value>
   <comment>{ACTOR} starts pulling {USED} off the {TARGET}!</comment>
 </data>
 <data name="Chat.StripPlace" xml:space="preserve">
-  <value>{ACTOR} пихает {USED} в/на {TARGET}.</value>
+  <value>{ACTOR} tries to put {USED} on the {TARGET}.</value>
   <comment>{ACTOR} tries to put {USED} on the {TARGET}.</comment>
 </data>
 <data name="Chat.CrematoriumRoar" xml:space="preserve">
@@ -920,23 +924,23 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>The {TARGET} finishes its undertaking and empties out the ashes.</comment>
 </data>
 <data name="Chat.FloodlightNoPower" xml:space="preserve">
-  <value>Прожектор дохлый.</value>
+  <value>Nothing happens.</value>
   <comment>Nothing happens.</comment>
 </data>
 <data name="Chat.SentryNoPower" xml:space="preserve">
-  <value>Турель дохлая.</value>
+  <value>Nothing happens.</value>
   <comment>Nothing happens.</comment>
 </data>
 <data name="Chat.EmitterOn" xml:space="preserve">
-  <value>{ACTOR} включает {TARGET}.</value>
+  <value>{ACTOR} powers up the {TARGET}.</value>
   <comment>{ACTOR} powers up the {TARGET}.</comment>
 </data>
 <data name="Chat.EmitterOff" xml:space="preserve">
-  <value>{ACTOR} выключает {TARGET}.</value>
+  <value>{ACTOR} powers down the {TARGET}.</value>
   <comment>{ACTOR} powers down the {TARGET}.</comment>
 </data>
 <data name="Chat.EmitterEmpty" xml:space="preserve">
-  <value>Батарейка дохлая.</value>
+  <value>The cell is dead.</value>
   <comment>The cell is dead.</comment>
 </data>
 <data name="Chat.EmitterCapReached" xml:space="preserve">
@@ -960,47 +964,47 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Nothing happens.</comment>
 </data>
 <data name="Chat.GestationCough" xml:space="preserve">
-  <value>{ACTOR} кашляет.</value>
+  <value>{ACTOR} coughs.</value>
   <comment>{ACTOR} coughs.</comment>
 </data>
 <data name="Chat.GestationCoughWet" xml:space="preserve">
-  <value>{ACTOR} отхаркивается.</value>
+  <value>{ACTOR} coughs wetly.</value>
   <comment>{ACTOR} coughs wetly.</comment>
 </data>
 <data name="Chat.GestationWince" xml:space="preserve">
-  <value>{ACTOR} морщится и раздирает грудь.</value>
+  <value>{ACTOR} winces and rubs their chest.</value>
   <comment>{ACTOR} winces and rubs their chest.</comment>
 </data>
 <data name="Chat.GestationDouble" xml:space="preserve">
-  <value>{ACTOR} сгибается на двое, сплёвывая.</value>
+  <value>{ACTOR} doubles over, retching.</value>
   <comment>{ACTOR} doubles over, retching.</comment>
 </data>
 <data name="Chat.GestationConvulse" xml:space="preserve">
-  <value>{ACTOR} бьётся в конвульсиях, что-то шевелится под его кожей!</value>
+  <value>{ACTOR} convulses, something shifting under the skin!</value>
   <comment>{ACTOR} convulses, something shifting under the skin!</comment>
 </data>
 <data name="Chat.XenoHugScream" xml:space="preserve">
-  <value>{ACTOR} вскрикивает за секунду до того как {USED} оказывается на лице!</value>
+  <value>{ACTOR} screams as the {USED} latches onto their face!</value>
   <comment>{ACTOR} screams as the {USED} latches onto their face!</comment>
 </data>
 <data name="Chat.ChestBurstRefused" xml:space="preserve">
-  <value>Грудная клетка {TARGET} уничтожена; тут нечего перезапускать.</value>
+  <value>The {TARGET}'s chest cavity is destroyed; there is nothing left to restart.</value>
   <comment>The {TARGET}'s chest cavity is destroyed; there is nothing left to restart.</comment>
 </data>
 <data name="Chat.WallRepairStart" xml:space="preserve">
-  <value>{ACTOR} начинает спаивать повреждённые фрагменты стены.</value>
+  <value>{ACTOR} begins welding the wall.</value>
   <comment>{ACTOR} begins welding the wall.</comment>
 </data>
 <data name="Chat.WallRepairDone" xml:space="preserve">
-  <value>{ACTOR} заканчивает спайку стены.</value>
+  <value>{ACTOR} finishes welding the wall.</value>
   <comment>{ACTOR} finishes welding the wall.</comment>
 </data>
 <data name="Chat.HoleRepairStart" xml:space="preserve">
-  <value>{ACTOR} начинает заделывать дыру заплаткой.</value>
+  <value>{ACTOR} begins welding plating over the hole.</value>
   <comment>{ACTOR} begins welding plating over the hole.</comment>
 </data>
 <data name="Chat.HoleRepairDone" xml:space="preserve">
-  <value>{ACTOR} закрывает дыру заплаткой.</value>
+  <value>{ACTOR} welds new plating over the hole.</value>
   <comment>{ACTOR} welds new plating over the hole.</comment>
 </data>
 <data name="Chat.SurgeryBegin" xml:space="preserve">
@@ -1044,11 +1048,11 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Someone</comment>
 </data>
 <data name="Chat.LocalTab" xml:space="preserve">
-  <value>РЯДОМ</value>
+  <value>LOCAL</value>
   <comment>LOCAL</comment>
 </data>
 <data name="Chat.GlobalTab" xml:space="preserve">
-  <value>ВСЕМ</value>
+  <value>GLOBAL</value>
   <comment>GLOBAL</comment>
 </data>
 <data name="Chat.GlobalPrefix" xml:space="preserve">
@@ -1056,55 +1060,55 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>[G] {NAME}: {TEXT}</comment>
 </data>
 <data name="Chat.SaysOpen" xml:space="preserve">
-  <value>{NAME} говорит "{TEXT}"</value>
+  <value>{NAME} says "{TEXT}"</value>
   <comment>{NAME} says "{TEXT}"</comment>
 </data>
 <data name="Chat.ShoutsOpen" xml:space="preserve">
-  <value>{NAME} орёт "{TEXT}"</value>
+  <value>{NAME} shouts "{TEXT}"</value>
   <comment>{NAME} shouts "{TEXT}"</comment>
 </data>
 <data name="Chat.WhispersOpen" xml:space="preserve">
-  <value>{NAME} шепчет "{TEXT}"</value>
+  <value>{NAME} whispers "{TEXT}"</value>
   <comment>{NAME} whispers "{TEXT}"</comment>
 </data>
 <data name="Chat.UnheardSuffix" xml:space="preserve">
-  <value> говорит о чём-то что сложно услышать.</value>
+  <value> talks but you cannot hear them.</value>
   <comment> talks but you cannot hear them.</comment>
 </data>
 <data name="Chat.EmoteHelpPrefix" xml:space="preserve">
-  <value>Доступные эмоции, напиши *эмоция чтобы применить одну из них:</value>
+  <value>Available emotes, say *emote to use one:</value>
   <comment>Available emotes, say *emote to use one:</comment>
 </data>
 <data name="Chat.EmoteUnknownSuffix" xml:space="preserve">
-  <value>'{KEY}' не существует в списке эмоций. Напиши *help чтобы увидеть полную перечень.</value>
+  <value>'{KEY}' emote does not exist. Say *help for a list.</value>
   <comment>'{KEY}' emote does not exist. Say *help for a list.</comment>
 </data>
 <data name="HoverVerbLabels.Ignite" xml:space="preserve">
-  <value>свет</value>
+  <value>light</value>
   <comment>light</comment>
 </data>
 <data name="HoverVerbLabels.Weld" xml:space="preserve">
-  <value>заварить</value>
+  <value>weld</value>
   <comment>weld</comment>
 </data>
 <data name="HoverVerbLabels.StorageOpenCloseClose" xml:space="preserve">
-  <value>закрыть содержимое</value>
+  <value>close storage</value>
   <comment>close storage</comment>
 </data>
 <data name="HoverVerbLabels.StorageOpenCloseOpen" xml:space="preserve">
-  <value>открыть содержимое</value>
+  <value>open storage</value>
   <comment>open storage</comment>
 </data>
 <data name="HoverVerbLabels.PickUp" xml:space="preserve">
-  <value>взять</value>
+  <value>pick up</value>
   <comment>pick up</comment>
 </data>
 <data name="HoverVerbLabels.LightBulbRemove" xml:space="preserve">
-  <value>выкрутить лампочку</value>
+  <value>remove bulb</value>
   <comment>remove bulb</comment>
 </data>
 <data name="HoverVerbLabels.LightBulbInsert" xml:space="preserve">
-  <value>закрутить лампочку</value>
+  <value>insert bulb</value>
   <comment>insert bulb</comment>
 </data>
 <data name="HoverVerbLabels.LinkPrimeRemove" xml:space="preserve">
@@ -2108,27 +2112,27 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>None</comment>
 </data>
 <data name="Moodlet.Title.Blood" xml:space="preserve">
-  <value>КРОВОПОТЕРЯ</value>
+  <value>BLOOD</value>
   <comment>BLOOD</comment>
 </data>
 <data name="Moodlet.Title.Pain" xml:space="preserve">
-  <value>БОЛЬ</value>
+  <value>PAIN</value>
   <comment>PAIN</comment>
 </data>
 <data name="Moodlet.Title.Thirst.Thirsty" xml:space="preserve">
-  <value>ЗНОЙ</value>
+  <value>THIRSTY</value>
   <comment>THIRSTY</comment>
 </data>
 <data name="Moodlet.Title.Thirst.Parched" xml:space="preserve">
-  <value>СУХОСТЬ</value>
+  <value>PARCHED</value>
   <comment>PARCHED</comment>
 </data>
 <data name="Moodlet.Title.Thirst.Dehydrated" xml:space="preserve">
-  <value>ЖАЖДА</value>
+  <value>DEHYDRATED</value>
   <comment>DEHYDRATED</comment>
 </data>
 <data name="Moodlet.Title.Stuffed" xml:space="preserve">
-  <value>НАЕДЕННЫЙ</value>
+  <value>STUFFED</value>
   <comment>STUFFED</comment>
 </data>
 <data name="Moodlet.Title.Quenched" xml:space="preserve">
@@ -2140,11 +2144,11 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>DAMP</comment>
 </data>
 <data name="Moodlet.Title.Damp.Wet" xml:space="preserve">
-  <value>ВЛАЖНЫЙ</value>
+  <value>WET</value>
   <comment>WET</comment>
 </data>
 <data name="Moodlet.Title.Damp.Soaked" xml:space="preserve">
-  <value>ПРОМОКШИЙ</value>
+  <value>SOAKED</value>
   <comment>SOAKED</comment>
 </data>
 <data name="Moodlet.Title.Damp.Immersed" xml:space="preserve">
@@ -2152,7 +2156,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>IMMERSED</comment>
 </data>
 <data name="Moodlet.Title.Bleeding" xml:space="preserve">
-  <value>КРОВОТЕЧЕНИЕ</value>
+  <value>BLEEDING</value>
   <comment>BLEEDING</comment>
 </data>
 <data name="Moodlet.Title.Severed" xml:space="preserve">
@@ -2160,15 +2164,15 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>SEVERED</comment>
 </data>
 <data name="Moodlet.Title.Fracture" xml:space="preserve">
-  <value>ПЕРЕЛОМ</value>
+  <value>FRACTURE</value>
   <comment>FRACTURE</comment>
 </data>
 <data name="Moodlet.Title.Splinted" xml:space="preserve">
-  <value>ЗАФИКСИРОВАН</value>
+  <value>SPLINTED</value>
   <comment>SPLINTED</comment>
 </data>
 <data name="Moodlet.Title.Shrapnel" xml:space="preserve">
-  <value>ОСКОЛОК</value>
+  <value>SHRAPNEL</value>
   <comment>SHRAPNEL</comment>
 </data>
 <data name="Moodlet.Title.Buckled" xml:space="preserve">
@@ -2208,7 +2212,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>SUFFOCATING</comment>
 </data>
 <data name="Moodlet.Title.Headache" xml:space="preserve">
-  <value>МИГРЕНЬ</value>
+  <value>HEADACHE</value>
   <comment>HEADACHE</comment>
 </data>
 <data name="Moodlet.Title.Unconscious.Critical" xml:space="preserve">
@@ -2216,7 +2220,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>CRITICAL</comment>
 </data>
 <data name="Moodlet.Title.Unconscious.Unconscious" xml:space="preserve">
-  <value>ОТКЛЮЧКА</value>
+  <value>UNCONSCIOUS</value>
   <comment>UNCONSCIOUS</comment>
 </data>
 <data name="Moodlet.Title.Hunger.Peckish" xml:space="preserve">
@@ -2260,7 +2264,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>SEARCHED</comment>
 </data>
 <data name="Moodlet.Title.Dead" xml:space="preserve">
-  <value>МЁРТВ</value>
+  <value>DEAD</value>
   <comment>DEAD</comment>
 </data>
 <data name="Moodlet.Title.Prone" xml:space="preserve">
@@ -6992,7 +6996,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>WARDROBE</comment>
 </data>
 <data name="LoadoutSelect.HeaderText" xml:space="preserve">
-  <value>ВЫБЕРИТЕ ПОДХОДЯЩУЮ ЭКИПИРОВКУ</value>
+  <value>SELECT YOUR LOADOUT</value>
   <comment>SELECT YOUR LOADOUT</comment>
 </data>
 <data name="LoadoutSelect.HintText" xml:space="preserve">
@@ -7004,7 +7008,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>A/D, ARROWS OR 1-9 TO BROWSE // ENTER OR DEPLOY TO SPAWN // {KEY} FOR SURVEY MAP</comment>
 </data>
 <data name="LoadoutSelect.FooterSelectedLine" xml:space="preserve">
-  <value>ЛОКАЛЬНЫЙ КАНАЛ СВЯЗИ W-Y // ТЕРМИНАЛ ОТПРАВКИ // ВЫБРАН {NAME}</value>
+  <value>W-Y COLONY NET // DEPLOYMENT TERMINAL // {NAME} SELECTED</value>
   <comment>W-Y COLONY NET // DEPLOYMENT TERMINAL // {NAME} SELECTED</comment>
 </data>
 <data name="LoadoutSelect.FooterInFlight" xml:space="preserve">
@@ -7012,27 +7016,27 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>DEPLOY REQUEST SENT // STAND BY</comment>
 </data>
 <data name="LoadoutSelect.DeployLabel" xml:space="preserve">
-  <value>ОТПРАВИТЬСЯ</value>
+  <value>DEPLOY</value>
   <comment>DEPLOY</comment>
 </data>
 <data name="LoadoutSelect.DeployingLabel" xml:space="preserve">
-  <value>ОТПРАВКА</value>
+  <value>DEPLOYING</value>
   <comment>DEPLOYING</comment>
 </data>
 <data name="LoadoutSelect.DeploysAtLabel" xml:space="preserve">
-  <value>ПОЯВИТСЯ В</value>
+  <value>DEPLOYS AT</value>
   <comment>DEPLOYS AT</comment>
 </data>
 <data name="LoadoutSelect.SelectLabel" xml:space="preserve">
-  <value>ВЫБРАТЬ</value>
+  <value>SELECT</value>
   <comment>SELECT</comment>
 </data>
 <data name="LoadoutSelect.UnselectLabel" xml:space="preserve">
-  <value>НЕ ВЫБИРАТЬ</value>
+  <value>UNSELECT</value>
   <comment>UNSELECT</comment>
 </data>
 <data name="LoadoutSelect.DeployNowText" xml:space="preserve">
-  <value>ОТПРАВЛЯЕМСЯ</value>
+  <value>DEPLOY NOW</value>
   <comment>DEPLOY NOW</comment>
 </data>
 <data name="LoadoutSelect.LobbyFooterAwaiting" xml:space="preserve">
@@ -7980,7 +7984,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>VOTE CAST // CLOSES IN {SECONDS}S</comment>
 </data>
 <data name="EorScreen.FooterArchiveLine" xml:space="preserve">
-  <value>РАУНД ОТПРАВЛЕН В АРХИВ // ЛОКАЛЬНЫЙ КАНАЛ СВЯЗИ W-Y // ПРИГОТОВЬТЕСЬ К СЛЕДУЮЩЕЙ ОПЕРАЦИИ</value>
+  <value>ROUND ARCHIVED // W-Y COLONY NET // NEXT OPERATION PENDING</value>
   <comment>ROUND ARCHIVED // W-Y COLONY NET // NEXT OPERATION PENDING</comment>
 </data>
 <data name="EorScreen.DeathDetailLine" xml:space="preserve">
@@ -8072,12 +8076,12 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>DISTANCE CRAWLED LEGLESS</comment>
 </data>
 <data name="EorScreen.StatDraggedDownedTiles" xml:space="preserve">
-  <value>DISTANCE DRAGGING THE DOWNED</value>
-  <comment>DISTANCE DRAGGING THE DOWNED</comment>
+  <value>DISTANCE DRAGGING</value>
+  <comment>DISTANCE DRAGGING</comment>
 </data>
 <data name="EorScreen.StatLightningStruck" xml:space="preserve">
-  <value>TIMES STRUCK BY LIGHTNING</value>
-  <comment>TIMES STRUCK BY LIGHTNING</comment>
+  <value>STRUCK BY LIGHTNING</value>
+  <comment>STRUCK BY LIGHTNING</comment>
 </data>
 <data name="EorScreen.StatUnknown" xml:space="preserve">
   <value>~UNKNOWN STAT</value>
@@ -72372,139 +72376,139 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>pick up</comment>
 </data>
 <data name="Honor.ApexPredator.Name" xml:space="preserve">
-  <value>СОВЕРШЕННЫЙ ОРГАНИЗМ</value>
+  <value>APEX PREDATOR</value>
   <comment>APEX PREDATOR</comment>
 </data>
 <data name="Honor.ApexPredator.Flavor" xml:space="preserve">
-  <value>больше всего убитых зомби, с минимальным значением двести</value>
+  <value>most zombies killed, two hundred at the least</value>
   <comment>most zombies killed, two hundred at the least</comment>
 </data>
 <data name="Honor.TriggerHappy.Name" xml:space="preserve">
-  <value>ОРУЖЕЙНАЯ ДИСЦИПЛИНА</value>
+  <value>TRIGGER HAPPY</value>
   <comment>TRIGGER HAPPY</comment>
 </data>
 <data name="Honor.TriggerHappy.Flavor" xml:space="preserve">
-  <value>больше всего патрон потрачено</value>
+  <value>most rounds fired</value>
   <comment>most rounds fired</comment>
 </data>
 <data name="Honor.SurgeonGeneral.Name" xml:space="preserve">
-  <value>ГЕНЕРАЛ-ХИРУРГ</value>
+  <value>SURGEON GENERAL</value>
   <comment>SURGEON GENERAL</comment>
 </data>
 <data name="Honor.SurgeonGeneral.Flavor" xml:space="preserve">
-  <value>более сотни проведённых операций</value>
+  <value>most surgeries completed, over a hundred</value>
   <comment>most surgeries completed, over a hundred</comment>
 </data>
 <data name="Honor.Lifesaver.Name" xml:space="preserve">
-  <value>НЕОТЛОЖКА</value>
+  <value>LIFESAVER</value>
   <comment>LIFESAVER</comment>
 </data>
 <data name="Honor.Lifesaver.Flavor" xml:space="preserve">
-  <value>вернул с того света больше всего людей</value>
+  <value>most revives performed</value>
   <comment>most revives performed</comment>
 </data>
 <data name="Honor.RoadRunner.Name" xml:space="preserve">
-  <value>ПОСЫЛЬНЫЙ</value>
+  <value>ROAD RUNNER</value>
   <comment>ROAD RUNNER</comment>
 </data>
 <data name="Honor.RoadRunner.Flavor" xml:space="preserve">
-  <value>преодолел наибольшую дистанцию</value>
+  <value>greatest distance travelled</value>
   <comment>greatest distance travelled</comment>
 </data>
 <data name="Honor.Bagman.Name" xml:space="preserve">
-  <value>БИЗНЕСМЕН</value>
+  <value>BAGMAN</value>
   <comment>BAGMAN</comment>
 </data>
 <data name="Honor.Bagman.Flavor" xml:space="preserve">
-  <value>заработал больше всего денег</value>
+  <value>most money raised</value>
   <comment>most money raised</comment>
 </data>
 <data name="Honor.Butterfingers.Name" xml:space="preserve">
-  <value>ВОРОШИЛОВСКИЙ СТРЕЛОК</value>
+  <value>BUTTERFINGERS</value>
   <comment>BUTTERFINGERS</comment>
 </data>
 <data name="Honor.Butterfingers.Flavor" xml:space="preserve">
-  <value>нанёс больше всего урона своим</value>
+  <value>most friendly fire dealt</value>
   <comment>most friendly fire dealt</comment>
 </data>
 <data name="Honor.IronJaw.Name" xml:space="preserve">
-  <value>СТАЛЬНАЯ ЧЕЛЮСТЬ</value>
+  <value>IRON JAW</value>
   <comment>IRON JAW</comment>
 </data>
 <data name="Honor.IronJaw.Flavor" xml:space="preserve">
-  <value>получил больше всего урона в ближнем бою</value>
+  <value>most melee damage taken</value>
   <comment>most melee damage taken</comment>
 </data>
 <data name="Honor.Pacifist.Name" xml:space="preserve">
-  <value>ПАЦИФИСТ</value>
+  <value>PACIFIST</value>
   <comment>PACIFIST</comment>
 </data>
 <data name="Honor.Pacifist.Flavor" xml:space="preserve">
-  <value>убил меньше всего зомби</value>
+  <value>fewest zombies killed</value>
   <comment>fewest zombies killed</comment>
 </data>
 <data name="Honor.Brawler.Name" xml:space="preserve">
-  <value>БОКСЁР</value>
+  <value>BRAWLER</value>
   <comment>BRAWLER</comment>
 </data>
 <data name="Honor.Brawler.Flavor" xml:space="preserve">
-  <value>нанёс больше всего урона в ближнем бою</value>
+  <value>most melee damage dealt</value>
   <comment>most melee damage dealt</comment>
 </data>
 <data name="Honor.FirstBlood.Name" xml:space="preserve">
-  <value>КРАСНАЯ РУБАШКА</value>
+  <value>FIRST BLOOD</value>
   <comment>FIRST BLOOD</comment>
 </data>
 <data name="Honor.FirstBlood.Flavor" xml:space="preserve">
-  <value>умер самым первым</value>
+  <value>first to die for good</value>
   <comment>first to die for good</comment>
 </data>
 <data name="Honor.SoleSurvivor.Name" xml:space="preserve">
-  <value>ЕДИНСТВЕННЫЙ ВЫЖИВШИЙ</value>
+  <value>SOLE SURVIVOR</value>
   <comment>SOLE SURVIVOR</comment>
 </data>
 <data name="Honor.SoleSurvivor.Flavor" xml:space="preserve">
-  <value>единственный кто выбрался из этого Ада живым</value>
+  <value>the only one to make it out alive</value>
   <comment>the only one to make it out alive</comment>
 </data>
 <data name="Honor.MasterChef.Name" xml:space="preserve">
-  <value>ШЕФ-ПОВАР</value>
+  <value>MASTER CHEF</value>
   <comment>MASTER CHEF</comment>
 </data>
 <data name="Honor.MasterChef.Flavor" xml:space="preserve">
-  <value>больше всего еды приготовлено</value>
+  <value>most food cooked</value>
   <comment>most food cooked</comment>
 </data>
 <data name="Honor.Pharmacist.Name" xml:space="preserve">
-  <value>УЧИТЕЛЬ ХИМИИ</value>
+  <value>PHARMACIST</value>
   <comment>PHARMACIST</comment>
 </data>
 <data name="Honor.Pharmacist.Flavor" xml:space="preserve">
-  <value>больше всего приготовленных препаратов</value>
+  <value>most medicine prepared</value>
   <comment>most medicine prepared</comment>
 </data>
 <data name="Honor.Cleaner.Name" xml:space="preserve">
-  <value>ЧИСТЮЛЯ</value>
+  <value>CLEANER</value>
   <comment>CLEANER</comment>
 </data>
 <data name="Honor.Cleaner.Flavor" xml:space="preserve">
-  <value>больше всего убранных тайлов</value>
+  <value>most tiles cleaned</value>
   <comment>most tiles cleaned</comment>
 </data>
 <data name="Honor.LastStand.Name" xml:space="preserve">
-  <value>ЖЕРТВА</value>
+  <value>LAST STAND</value>
   <comment>LAST STAND</comment>
 </data>
 <data name="Honor.LastStand.Flavor" xml:space="preserve">
-  <value>умер последним, защищая отступающих союзников</value>
+  <value>died last holding the line</value>
   <comment>died last holding the line</comment>
 </data>
 <data name="Honor.GlassBones.Name" xml:space="preserve">
-  <value>ХРУПКИЕ КОСТИ</value>
+  <value>GLASS BONES</value>
   <comment>GLASS BONES</comment>
 </data>
 <data name="Honor.GlassBones.Flavor" xml:space="preserve">
-  <value>получил перелом каждой кости хотя бы один раз</value>
+  <value>fractured every single bone</value>
   <comment>fractured every single bone</comment>
 </data>
 <data name="Honor.Undertaker.Name" xml:space="preserve">
@@ -72516,59 +72520,59 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>most bodies cremated</comment>
 </data>
 <data name="Honor.JustInTime.Name" xml:space="preserve">
-  <value>В ПОСЛЕДНИЙ МОМЕНТ</value>
+  <value>JUST IN TIME</value>
   <comment>JUST IN TIME</comment>
 </data>
 <data name="Honor.JustInTime.Flavor" xml:space="preserve">
-  <value>эвакуировался за несколько секунд до конца</value>
+  <value>reached extraction with seconds to spare</value>
   <comment>reached extraction with seconds to spare</comment>
 </data>
 <data name="Honor.PestControl.Name" xml:space="preserve">
-  <value>ДЕЗИНФЕКТОР</value>
+  <value>PEST CONTROL</value>
   <comment>PEST CONTROL</comment>
 </data>
 <data name="Honor.PestControl.Flavor" xml:space="preserve">
-  <value>ликвидировал наибольшее число ксеносов</value>
+  <value>most xenomorphs destroyed</value>
   <comment>most xenomorphs destroyed</comment>
 </data>
 <data name="Honor.CodeBlue.Name" xml:space="preserve">
-  <value>СИНИЙ КОД</value>
+  <value>CODE BLUE</value>
   <comment>CODE BLUE</comment>
 </data>
 <data name="Honor.CodeBlue.Flavor" xml:space="preserve">
-  <value>вернул к жизни того, чья жизнь вот-вот должна была оборваться окончательно</value>
+  <value>revived someone with seconds left before they went for good</value>
   <comment>revived someone with seconds left before they went for good</comment>
 </data>
 <data name="Honor.MostHugged.Name" xml:space="preserve">
-  <value>ЛИЦЕВОЙ МАГНИТ</value>
+  <value>FACE MAGNET</value>
   <comment>FACE MAGNET</comment>
 </data>
 <data name="Honor.MostHugged.Flavor" xml:space="preserve">
-  <value>поймал лицом наибольшее количество лицехватов</value>
+  <value>took the most facehuggers to the face</value>
   <comment>took the most facehuggers to the face</comment>
 </data>
 <data name="Honor.CombatEngineer.Name" xml:space="preserve">
-  <value>ПОЛЕВОЙ ИНЖЕНЕР</value>
+  <value>COMBAT ENGINEER</value>
   <comment>COMBAT ENGINEER</comment>
 </data>
 <data name="Honor.CombatEngineer.Flavor" xml:space="preserve">
-  <value>построил больше всего баррикад</value>
+  <value>most barricades built</value>
   <comment>most barricades built</comment>
 </data>
 <data name="Honor.HighRoller.Name" xml:space="preserve">
-  <value>КРУПНЫЙ ИГРОК</value>
+  <value>HIGH ROLLER</value>
   <comment>HIGH ROLLER</comment>
 </data>
 <data name="Honor.HighRoller.Flavor" xml:space="preserve">
-  <value>получил больше всего джекпотов в казино, два как минимум</value>
+  <value>most jackpots won, two at the least</value>
   <comment>most jackpots won, two at the least</comment>
 </data>
 <data name="Honor.Marked.Name" xml:space="preserve">
-  <value>ПОМЕЧЕННЫЙ</value>
+  <value>MARKED</value>
   <comment>MARKED</comment>
 </data>
 <data name="Honor.Marked.Flavor" xml:space="preserve">
-  <value>был атакован Старым Другом и всё равно успешно эвакуировался</value>
+  <value>struck by the Old One and still made it out</value>
   <comment>struck by the Old One and still made it out</comment>
 </data>
 <data name="Honor.LastCall.Name" xml:space="preserve">
@@ -72580,443 +72584,443 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>caught the last ride out of a burning colony</comment>
 </data>
 <data name="Honor.Reaper.Name" xml:space="preserve">
-  <value>ЖНЕЦ</value>
+  <value>REAPER</value>
   <comment>REAPER</comment>
 </data>
 <data name="Honor.Reaper.Flavor" xml:space="preserve">
-  <value>убил больше всего зомби, тысячу как минимум</value>
+  <value>most zombies killed, a thousand at the least</value>
   <comment>most zombies killed, a thousand at the least</comment>
 </data>
 <data name="Honor.LockerLurker.Name" xml:space="preserve">
-  <value>ОБИТАТЕЛЬ ШКАФА</value>
+  <value>LOCKER LURKER</value>
   <comment>LOCKER LURKER</comment>
 </data>
 <data name="Honor.LockerLurker.Flavor" xml:space="preserve">
-  <value>провёл наибольшее количество времени внутри какого-либо контейнера</value>
+  <value>longest spent hiding inside a closet</value>
   <comment>longest spent hiding inside a closet</comment>
 </data>
 <data name="Honor.SlugRace.Name" xml:space="preserve">
-  <value>СЛИЗНЯКОВЫМ ХОДОМ</value>
+  <value>SLUG RACE</value>
   <comment>SLUG RACE</comment>
 </data>
 <data name="Honor.SlugRace.Flavor" xml:space="preserve">
-  <value>преодолел наибольшую дистанцию ползком без одной ноги, как минимум пятьдесят тайлов</value>
+  <value>greatest distance crawled with a leg left behind, fifty tiles at the least</value>
   <comment>greatest distance crawled with a leg left behind, fifty tiles at the least</comment>
 </data>
 <data name="Honor.StretcherBearer.Name" xml:space="preserve">
-  <value>САНИТАР</value>
+  <value>STRETCHER BEARER</value>
   <comment>STRETCHER BEARER</comment>
 </data>
 <data name="Honor.StretcherBearer.Flavor" xml:space="preserve">
-  <value>преодолел наибольшую дистанцию тащя за собой другого игрока, пятьсот тайлов минимум</value>
+  <value>furthest hauling the downed, five hundred tiles at the least</value>
   <comment>furthest hauling the downed, five hundred tiles at the least</comment>
 </data>
 <data name="Honor.LightningRod.Name" xml:space="preserve">
-  <value>ГРОМООТВОД</value>
+  <value>LIGHTNING ROD</value>
   <comment>LIGHTNING ROD</comment>
 </data>
 <data name="Honor.LightningRod.Flavor" xml:space="preserve">
-  <value>получил наибольшее количество ударов молнии</value>
+  <value>struck by lightning the most times</value>
   <comment>struck by lightning the most times</comment>
 </data>
 <data name="Trait.Veteran.Name" xml:space="preserve">
-  <value>Ветеран</value>
+  <value>Veteran</value>
   <comment>Veteran</comment>
 </data>
 <data name="Trait.Veteran.Flavor" xml:space="preserve">
-  <value>Побывал в каком-то конфликте, бывший или действующий военный. Более стабильное прицеливание и быстрый контроль отдачи.</value>
+  <value>Military fire discipline. Steadier aim and a faster follow-up shot.</value>
   <comment>Military fire discipline. Steadier aim and a faster follow-up shot.</comment>
 </data>
 <data name="Trait.Soldier.Name" xml:space="preserve">
-  <value>Солдат</value>
+  <value>Soldier</value>
   <comment>Soldier</comment>
 </data>
 <data name="Trait.Soldier.Flavor" xml:space="preserve">
-  <value>Прошёл базовую военную подготовку, может определить из какого конца винтовки вылетают пули.</value>
+  <value>Has completed bootcamp, so knows which end of the gun a bullet comes out of.</value>
   <comment>Has completed bootcamp, so knows which end of the gun a bullet comes out of.</comment>
 </data>
 <data name="Trait.Marksman.Name" xml:space="preserve">
-  <value>Стрелок</value>
+  <value>Marksman</value>
   <comment>Marksman</comment>
 </data>
 <data name="Trait.Marksman.Flavor" xml:space="preserve">
-  <value>Обучен стрелять точно в цель и не промахиваться.</value>
+  <value>Trained to carefully take a shot, and not miss.</value>
   <comment>Trained to carefully take a shot, and not miss.</comment>
 </data>
 <data name="Trait.NonCombatant.Name" xml:space="preserve">
-  <value>Некомбатант</value>
+  <value>Non-Combatant</value>
   <comment>Non-Combatant</comment>
 </data>
 <data name="Trait.NonCombatant.Flavor" xml:space="preserve">
-  <value>Жизнь к такому меня не готовила... Да поможет мне Господь.</value>
+  <value>I was not prepared for this... I am not ready.</value>
   <comment>I was not prepared for this... I am not ready.</comment>
 </data>
 <data name="Trait.Grunt.Name" xml:space="preserve">
-  <value>Дуболом</value>
+  <value>Grunt</value>
   <comment>Grunt</comment>
 </data>
 <data name="Trait.Grunt.Flavor" xml:space="preserve">
-  <value>Не особо разбирающийся в науках человек.</value>
+  <value>Not really smart enough for this kind of thing.</value>
   <comment>Not really smart enough for this kind of thing.</comment>
 </data>
 <data name="Trait.Delicate.Name" xml:space="preserve">
-  <value>Тепличный</value>
+  <value>Delicate</value>
   <comment>Delicate</comment>
 </data>
 <data name="Trait.Delicate.Flavor" xml:space="preserve">
-  <value>Никогда не планировал участвовать в драке, терпеть не может дождь и грязь.</value>
+  <value>Never built for a fight, and hates getting caught in the rain.</value>
   <comment>Never built for a fight, and hates getting caught in the rain.</comment>
 </data>
 <data name="Trait.Medic.Name" xml:space="preserve">
-  <value>Медик</value>
+  <value>Medic</value>
   <comment>Medic</comment>
 </data>
 <data name="Trait.Medic.Flavor" xml:space="preserve">
-  <value>Лицензии хирурга у меня может и не быть, но и швея способна вытащить из раны пулю и заштопать разорванную руку.</value>
+  <value>I may not be a surgeon, but I still know how to fix things.</value>
   <comment>I may not be a surgeon, but I still know how to fix things.</comment>
 </data>
 <data name="Trait.Surgeon.Name" xml:space="preserve">
-  <value>Хирург</value>
+  <value>I am a Surgeon</value>
   <comment>I am a Surgeon</comment>
 </data>
 <data name="Trait.Surgeon.Flavor" xml:space="preserve">
-  <value>Натренированные руки, что оперируют людей на профессиональном уровне. Способен оперировать даже самого себя.</value>
+  <value>Trained hands. Faster, more reliable surgery, even on yourself.</value>
   <comment>Trained hands. Faster, more reliable surgery, even on yourself.</comment>
 </data>
 <data name="Trait.MedicalStaff.Name" xml:space="preserve">
-  <value>Врач</value>
+  <value>Medical Staff</value>
   <comment>Medical Staff</comment>
 </data>
 <data name="Trait.MedicalStaff.Flavor" xml:space="preserve">
-  <value>Получает деньги за конкретные действия лечения.</value>
+  <value>Paid for every repair that counts.</value>
   <comment>Paid for every repair that counts.</comment>
 </data>
 <data name="Trait.Contractor.Name" xml:space="preserve">
-  <value>Контрактник</value>
+  <value>Contractor</value>
   <comment>Contractor</comment>
 </data>
 <data name="Trait.Contractor.Flavor" xml:space="preserve">
-  <value>Оплата по количеству работы, а не по часам. Получает деньги за каждую ступень починки генераторов.</value>
+  <value>Bills by the job, not the hour. Paid for every generator repair step, even the last one.</value>
   <comment>Bills by the job, not the hour. Paid for every generator repair step, even the last one.</comment>
 </data>
 <data name="Trait.Mechanical.Name" xml:space="preserve">
-  <value>Рукастый</value>
+  <value>Handy</value>
   <comment>Handy</comment>
 </data>
 <data name="Trait.Mechanical.Flavor" xml:space="preserve">
-  <value>Знает какие болты в какую сторону вращать. Более быстрая и дешёвая починка.</value>
+  <value>Knows which bolt turns. Faster, more reliable repairs.</value>
   <comment>Knows which bolt turns. Faster, more reliable repairs.</comment>
 </data>
 <data name="Trait.Sapper.Name" xml:space="preserve">
-  <value>Сапёр</value>
+  <value>Sapper</value>
   <comment>Sapper</comment>
 </data>
 <data name="Trait.Sapper.Flavor" xml:space="preserve">
-  <value>Знает какой провод надо резать, а какой не надо. Более быстрая и дешёвая починка.</value>
+  <value>Knows which bolt turns. Faster, more reliable repairs.</value>
   <comment>Knows which bolt turns. Faster, more reliable repairs.</comment>
 </data>
 <data name="Trait.Runner.Name" xml:space="preserve">
-  <value>Бегун</value>
+  <value>Runner</value>
   <comment>Runner</comment>
 </data>
 <data name="Trait.Runner.Flavor" xml:space="preserve">
-  <value>Никогда не двигается медленнее чем десять километров в час. Гораздо меньше подвержен замедлению от толпы или снаряжения.</value>
+  <value>Never stopped running. Faster on foot, less bothered by a crowd or a load in tow.</value>
   <comment>Never stopped running. Faster on foot, less bothered by a crowd or a load in tow.</comment>
 </data>
 <data name="Trait.Strong.Name" xml:space="preserve">
-  <value>Сильный</value>
+  <value>Strong</value>
   <comment>Strong</comment>
 </data>
 <data name="Trait.Strong.Flavor" xml:space="preserve">
-  <value>Я привык таскать тяжёлые штуки, а мои руки сломают челюсть любому.</value>
+  <value>I carry heavy equipment all day, I can fight.</value>
   <comment>I carry heavy equipment all day, I can fight.</comment>
 </data>
 <data name="Trait.Janitor.Name" xml:space="preserve">
-  <value>Уборщик</value>
+  <value>Janitor</value>
   <comment>Janitor</comment>
 </data>
 <data name="Trait.Janitor.Flavor" xml:space="preserve">
-  <value>Знает грязь, в которой погряз этот город. Быстрее работает шваброй и получает деньги за это.</value>
+  <value>Knows every stain. Mops faster than anyone, and gets paid for the mess.</value>
   <comment>Knows every stain. Mops faster than anyone, and gets paid for the mess.</comment>
 </data>
 <data name="Trait.Connected.Name" xml:space="preserve">
-  <value>Элемент</value>
+  <value>Connected</value>
   <comment>Connected</comment>
 </data>
 <data name="Trait.Connected.Flavor" xml:space="preserve">
-  <value>Криминальный или нет - пусть решают власти. Мне важны лишь их деньги.</value>
+  <value>Knows the right people. Kills pay a bigger bounty.</value>
   <comment>Knows the right people. Kills pay a bigger bounty.</comment>
 </data>
 <data name="Trait.BlastHardened.Name" xml:space="preserve">
-  <value>Взрывоустойчивый</value>
+  <value>Blast Hardened</value>
   <comment>Blast Hardened</comment>
 </data>
 <data name="Trait.BlastHardened.Flavor" xml:space="preserve">
-  <value>Жил около военного полигона достаточно долго для того чтобы перестать дёргаться. Взрывы не так страшны.</value>
+  <value>Lived next to the ordnance long enough to stop flinching. Explosions hit softer.</value>
   <comment>Lived next to the ordnance long enough to stop flinching. Explosions hit softer.</comment>
 </data>
 <data name="Trait.Tough.Name" xml:space="preserve">
-  <value>Крепкий</value>
+  <value>Tough</value>
   <comment>Tough</comment>
 </data>
 <data name="Trait.Tough.Flavor" xml:space="preserve">
-  <value>Одного удара будет мало чтобы положить этого бугая. Урон получаемый в ближнем бою снижен.</value>
+  <value>Takes a hit and keeps standing. Melee lands softer.</value>
   <comment>Takes a hit and keeps standing. Melee lands softer.</comment>
 </data>
 <data name="Trait.Agile.Name" xml:space="preserve">
-  <value>Ловкий</value>
+  <value>Agile</value>
   <comment>Agile</comment>
 </data>
 <data name="Trait.Agile.Flavor" xml:space="preserve">
-  <value>Привык к толпе народу в час пик и просто следует за течением.</value>
+  <value>Used to crowds and having to move fast.</value>
   <comment>Used to crowds and having to move fast.</comment>
 </data>
 <data name="Trait.Fit.Name" xml:space="preserve">
-  <value>Хорошо слаженный</value>
+  <value>Fit</value>
   <comment>Fit</comment>
 </data>
 <data name="Trait.Fit.Flavor" xml:space="preserve">
-  <value>Регулярно поддерживает свою физическую форму, так что точно не будет в отстающих при побеге.</value>
+  <value>Has kept their fitness in excellent shape so they can move fast.</value>
   <comment>Has kept their fitness in excellent shape so they can move fast.</comment>
 </data>
 <data name="Trait.Negotiator.Name" xml:space="preserve">
-  <value>Переговорщик</value>
+  <value>Negotiator</value>
   <comment>Negotiator</comment>
 </data>
 <data name="Trait.Negotiator.Flavor" xml:space="preserve">
-  <value>Знает, как угодить продавцу и покупателю. Более дешёвые цены в банкоматах W-Y.</value>
+  <value>Knows how to work a deal. Cheaper prices at the W-Y ATM.</value>
   <comment>Knows how to work a deal. Cheaper prices at the W-Y ATM.</comment>
 </data>
 <data name="Trait.PizzaChef.Name" xml:space="preserve">
-  <value>Папа Джонс</value>
+  <value>Pizza Chef</value>
   <comment>Pizza Chef</comment>
 </data>
 <data name="Trait.PizzaChef.Flavor" xml:space="preserve">
-  <value>Вырос в итальянской семье колонистов. Получает деньги за каждую приготовленную пиццу.</value>
+  <value>Grew up behind a pizza counter. Gets paid for every pizza made.</value>
   <comment>Grew up behind a pizza counter. Gets paid for every pizza made.</comment>
 </data>
 <data name="Trait.HardOfHearing.Name" xml:space="preserve">
-  <value>Тугоухий</value>
+  <value>Hard of Hearing</value>
   <comment>Hard of Hearing</comment>
 </data>
 <data name="Trait.HardOfHearing.Flavor" xml:space="preserve">
-  <value>Провёл слишком много времени за стрельбой из тяжёлых калибров. Плохо слышит и орёт когда говорит.</value>
+  <value>Spent too many years beside the gun. Cannot hear a word, and says everything at a shout.</value>
   <comment>Spent too many years beside the gun. Cannot hear a word, and says everything at a shout.</comment>
 </data>
 <data name="Trait.Gunner.Name" xml:space="preserve">
-  <value>Пулемётчик</value>
+  <value>Gunner</value>
   <comment>Gunner</comment>
 </data>
 <data name="Trait.Gunner.Flavor" xml:space="preserve">
-  <value>Живёт за рукояткой пулемёта. Гораздо лучше контролирует отдачу тяжёлого оружия.</value>
+  <value>Lives behind the machine gun. Keeps the fire steady and the belt moving.</value>
   <comment>Lives behind the machine gun. Keeps the fire steady and the belt moving.</comment>
 </data>
 <data name="Trait.OldSchool.Name" xml:space="preserve">
-  <value>Старая школа</value>
+  <value>Old School</value>
   <comment>Old School</comment>
 </data>
 <data name="Trait.OldSchool.Flavor" xml:space="preserve">
-  <value>С детства ему прививали любовь к дробовикам и ружьям, и эта любовь пылает в нём до сих пор. Дробь наносит больше урона.</value>
+  <value>Grew up on a scattergun and never saw a reason to change. Shells hit harder.</value>
   <comment>Grew up on a scattergun and never saw a reason to change. Shells hit harder.</comment>
 </data>
 <data name="Trait.Rescuer.Name" xml:space="preserve">
-  <value>Спасатель</value>
+  <value>Rescuer</value>
   <comment>Rescuer</comment>
 </data>
 <data name="Trait.Rescuer.Flavor" xml:space="preserve">
-  <value>Обучен влетать в горящие здания с ноги, а не бежать из них.</value>
+  <value>Trained to walk into a burning building, not away from it.</value>
   <comment>Trained to walk into a burning building, not away from it.</comment>
 </data>
 <data name="Trait.SteadyHands.Name" xml:space="preserve">
-  <value>Твёрдая хватка</value>
+  <value>Steady Hands</value>
   <comment>Steady Hands</comment>
 </data>
 <data name="Trait.SteadyHands.Flavor" xml:space="preserve">
-  <value>Стоит схватиться за винтовку, как руки перестают дрожать. Выстрелы летят более плотным фронтом, с меньшей отдачей. Ни один патрон не пролетит мимо.</value>
+  <value>Behind a mounted gun, the shake stops. Tighter groups, faster follow-up, no wasted rounds.</value>
   <comment>Behind a mounted gun, the shake stops. Tighter groups, faster follow-up, no wasted rounds.</comment>
 </data>
 <data name="Trait.ShortSighted.Name" xml:space="preserve">
-  <value>Слабое зрение</value>
+  <value>Short Sighted</value>
   <comment>Short Sighted</comment>
 </data>
 <data name="Trait.ShortSighted.Flavor" xml:space="preserve">
-  <value>Не видит дальше вытянутой руки без специальных очков для слабовидящих. Потеряй их и жизнь превратится в Ад.</value>
+  <value>Cannot see past arm's reach without the prescription glasses. Lose them and the world goes to a smear.</value>
   <comment>Cannot see past arm's reach without the prescription glasses. Lose them and the world goes to a smear.</comment>
 </data>
 <data name="Trait.Scientist.Name" xml:space="preserve">
-  <value>Учёный</value>
+  <value>Scientist</value>
   <comment>Scientist</comment>
 </data>
 <data name="Trait.Scientist.Flavor" xml:space="preserve">
-  <value>Обучался каким-либо наукам на высшем уровне. Вероятно биологии в том числе, иначе как объяснить весь накопленный хирургический опыт?</value>
+  <value>Trained in the sciences. Faster, more reliable surgery, even on yourself.</value>
   <comment>Trained in the sciences. Faster, more reliable surgery, even on yourself.</comment>
 </data>
 <data name="Emote.Warcry.GetSome" xml:space="preserve">
-  <value>ПОЛУЧАЙ!</value>
+  <value>GET SOME!</value>
   <comment>GET SOME!</comment>
 </data>
 <data name="Emote.Warcry.LetsGo" xml:space="preserve">
-  <value>ПОГНАЛИ!</value>
+  <value>LET'S GO!</value>
   <comment>LET'S GO!</comment>
 </data>
 <data name="Emote.Warcry.Hoorah" xml:space="preserve">
-  <value>У-РААААА!</value>
+  <value>HOOO RAAAHH!</value>
   <comment>HOOO RAAAHH!</comment>
 </data>
 <data name="Emote.Warcry.ComeOn" xml:space="preserve">
-  <value>НУ ДАВАЙ!</value>
+  <value>COME ON!</value>
   <comment>COME ON!</comment>
 </data>
 <data name="Emote.Warcry.Yeah" xml:space="preserve">
-  <value>О ДА!</value>
+  <value>YEAHHHH!</value>
   <comment>YEAHHHH!</comment>
 </data>
 <data name="Emote.Medic" xml:space="preserve">
-  <value>МЕДИК!</value>
+  <value>MEDIC!</value>
   <comment>MEDIC!</comment>
 </data>
 <data name="Emote.Blinks" xml:space="preserve">
-  <value>моргает.</value>
+  <value>blinks.</value>
   <comment>blinks.</comment>
 </data>
 <data name="Emote.Blinks.Rapid" xml:space="preserve">
-  <value>быстро моргает.</value>
+  <value>blinks rapidly.</value>
   <comment>blinks rapidly.</comment>
 </data>
 <data name="Emote.Bows" xml:space="preserve">
-  <value>кланяется.</value>
+  <value>bows.</value>
   <comment>bows.</comment>
 </data>
 <data name="Emote.Chuckles" xml:space="preserve">
-  <value>посмеивается.</value>
+  <value>chuckles.</value>
   <comment>chuckles.</comment>
 </data>
 <data name="Emote.Coughs" xml:space="preserve">
-  <value>кашляет!</value>
+  <value>coughs!</value>
   <comment>coughs!</comment>
 </data>
 <data name="Emote.Cries" xml:space="preserve">
-  <value>плачет.</value>
+  <value>cries.</value>
   <comment>cries.</comment>
 </data>
 <data name="Emote.RaisesEyebrow" xml:space="preserve">
-  <value>приподнимает бровь.</value>
+  <value>raises an eyebrow.</value>
   <comment>raises an eyebrow.</comment>
 </data>
 <data name="Emote.Facepalms" xml:space="preserve">
-  <value>закрывает лицо ладонью.</value>
+  <value>facepalms.</value>
   <comment>facepalms.</comment>
 </data>
 <data name="Emote.Frowns" xml:space="preserve">
-  <value>хмурится.</value>
+  <value>frowns.</value>
   <comment>frowns.</comment>
 </data>
 <data name="Emote.Gasps" xml:space="preserve">
-  <value>задыхается!</value>
+  <value>gasps!</value>
   <comment>gasps!</comment>
 </data>
 <data name="Emote.Giggles" xml:space="preserve">
-  <value>хохочет.</value>
+  <value>giggles.</value>
   <comment>giggles.</comment>
 </data>
 <data name="Emote.Glares" xml:space="preserve">
-  <value>сверлит взглядом.</value>
+  <value>glares.</value>
   <comment>glares.</comment>
 </data>
 <data name="Emote.Grins" xml:space="preserve">
-  <value>скалится.</value>
+  <value>grins.</value>
   <comment>grins.</comment>
 </data>
 <data name="Emote.Grumbles" xml:space="preserve">
-  <value>ворчит.</value>
+  <value>grumbles.</value>
   <comment>grumbles.</comment>
 </data>
 <data name="Emote.Laughs" xml:space="preserve">
-  <value>смеётся!</value>
+  <value>laughs!</value>
   <comment>laughs!</comment>
 </data>
 <data name="Emote.Looks" xml:space="preserve">
-  <value>наблюдает.</value>
+  <value>looks.</value>
   <comment>looks.</comment>
 </data>
 <data name="Emote.Moans" xml:space="preserve">
-  <value>стонет.</value>
+  <value>moans.</value>
   <comment>moans.</comment>
 </data>
 <data name="Emote.Mumbles" xml:space="preserve">
-  <value>бубнит.</value>
+  <value>mumbles.</value>
   <comment>mumbles.</comment>
 </data>
 <data name="Emote.Nods" xml:space="preserve">
-  <value>кивает.</value>
+  <value>nods.</value>
   <comment>nods.</comment>
 </data>
 <data name="Emote.ShakesHead" xml:space="preserve">
-  <value>отрицательно ворочит головой.</value>
+  <value>shakes their head.</value>
   <comment>shakes their head.</comment>
 </data>
 <data name="Emote.Shivers" xml:space="preserve">
-  <value>дрожит.</value>
+  <value>shivers.</value>
   <comment>shivers.</comment>
 </data>
 <data name="Emote.Shrugs" xml:space="preserve">
-  <value>пожимает плечами.</value>
+  <value>shrugs.</value>
   <comment>shrugs.</comment>
 </data>
 <data name="Emote.Sighs" xml:space="preserve">
-  <value>вздыхает.</value>
+  <value>sighs.</value>
   <comment>sighs.</comment>
 </data>
 <data name="Emote.Smiles" xml:space="preserve">
-  <value>улыбается.</value>
+  <value>smiles.</value>
   <comment>smiles.</comment>
 </data>
 <data name="Emote.Sneezes" xml:space="preserve">
-  <value>чихает!</value>
+  <value>sneezes!</value>
   <comment>sneezes!</comment>
 </data>
 <data name="Emote.Snores" xml:space="preserve">
-  <value>храпит.</value>
+  <value>snores.</value>
   <comment>snores.</comment>
 </data>
 <data name="Emote.Stares" xml:space="preserve">
-  <value>пялится.</value>
+  <value>stares.</value>
   <comment>stares.</comment>
 </data>
 <data name="Emote.GesturesStop" xml:space="preserve">
-  <value>поднимает руку, прося остановиться.</value>
+  <value>holds out an open palm, gesturing to stop.</value>
   <comment>holds out an open palm, gesturing to stop.</comment>
 </data>
 <data name="Emote.ThumbsUp" xml:space="preserve">
-  <value>показывает большой палец вверх.</value>
+  <value>gives a thumbs up.</value>
   <comment>gives a thumbs up.</comment>
 </data>
 <data name="Emote.ThumbsDown" xml:space="preserve">
-  <value>показывает большой палец вниз.</value>
+  <value>gives a thumbs down.</value>
   <comment>gives a thumbs down.</comment>
 </data>
 <data name="Emote.Twitches" xml:space="preserve">
-  <value>дёргается.</value>
+  <value>twitches.</value>
   <comment>twitches.</comment>
 </data>
 <data name="Emote.Waves" xml:space="preserve">
-  <value>машет.</value>
+  <value>waves.</value>
   <comment>waves.</comment>
 </data>
 <data name="Emote.Yawns" xml:space="preserve">
-  <value>зевает.</value>
+  <value>yawns.</value>
   <comment>yawns.</comment>
 </data>
 <data name="Emote.Salutes" xml:space="preserve">
-  <value>выполняет воинское приветствие.</value>
+  <value>salutes.</value>
   <comment>salutes.</comment>
 </data>
 <data name="Emote.Claps" xml:space="preserve">
-  <value>хлопает.</value>
+  <value>claps.</value>
   <comment>claps.</comment>
 </data>
 <data name="Emote.Claps.Unimpressed" xml:space="preserve">
-  <value>хлопает, неудивлённо.</value>
+  <value>claps, clearly unimpressed.</value>
   <comment>claps, clearly unimpressed.</comment>
 </data>
 <data name="Emote.Whimpers" xml:space="preserve">
@@ -73024,43 +73028,43 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>whimpers.</comment>
 </data>
 <data name="Emote.OverHere" xml:space="preserve">
-  <value>ЗДЕСЬ!</value>
+  <value>OVER HERE!</value>
   <comment>OVER HERE!</comment>
 </data>
 <data name="Emote.Frag.FragOut" xml:space="preserve">
-  <value>КИДАЮ ГРАНАТУ!</value>
+  <value>FRAG OUT!</value>
   <comment>FRAG OUT!</comment>
 </data>
 <data name="Emote.Frag.Grenade" xml:space="preserve">
-  <value>ГРАНАТА!</value>
+  <value>GRENADE!</value>
   <comment>GRENADE!</comment>
 </data>
 <data name="Emote.GetDown" xml:space="preserve">
-  <value>ЛОЖИСЬ!</value>
+  <value>GET DOWN!</value>
   <comment>GET DOWN!</comment>
 </data>
 <data name="Emote.Cover.CoveringFire" xml:space="preserve">
-  <value>ПРИКРЫВАЮ!</value>
+  <value>COVERING FIRE!</value>
   <comment>COVERING FIRE!</comment>
 </data>
 <data name="Emote.Cover.SuppressingFire" xml:space="preserve">
-  <value>ОГОНЬ НА ПОДАВЛЕНИЕ!</value>
+  <value>SUPPRESSING FIRE!</value>
   <comment>SUPPRESSING FIRE!</comment>
 </data>
 <data name="Emote.Cover.CoverMe" xml:space="preserve">
-  <value>ПРИКРОЙ МЕНЯ!</value>
+  <value>COVER ME!</value>
   <comment>COVER ME!</comment>
 </data>
 <data name="Emote.Groan.Serious" xml:space="preserve">
-  <value>Серьёзно?</value>
+  <value>Are you serious?</value>
   <comment>Are you serious?</comment>
 </data>
 <data name="Emote.Groan.CantBeSerious" xml:space="preserve">
-  <value>Ты не можешь быть серьёзен...</value>
+  <value>You can't be serious...</value>
   <comment>You can't be serious...</comment>
 </data>
 <data name="Emote.Groan.JoinMarines" xml:space="preserve">
-  <value>Вступай в пехоту говорили они...</value>
+  <value>Join the marines they said...</value>
   <comment>Join the marines they said...</comment>
 </data>
 <data name="SurgeryOp.InciseSkin.Display" xml:space="preserve">
@@ -74816,23 +74820,23 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>Executive</comment>
 </data>
 <data name="Loadout.Pizza.Delivery.Name" xml:space="preserve">
-  <value>Доставщик Пиццы</value>
+  <value>Pizza Delivery</value>
   <comment>Pizza Delivery</comment>
 </data>
 <data name="Loadout.PoliceOfficer.Name" xml:space="preserve">
-  <value>Офицер Полиции</value>
+  <value>Police Officer</value>
   <comment>Police Officer</comment>
 </data>
 <data name="Loadout.Engineer.Name" xml:space="preserve">
-  <value>Инженер</value>
+  <value>Engineer</value>
   <comment>Engineer</comment>
 </data>
 <data name="Loadout.Marine.MachineGunner.Name" xml:space="preserve">
-  <value>Пулемётчик</value>
+  <value>Machine-gunner</value>
   <comment>Machine-gunner</comment>
 </data>
 <data name="Loadout.Marine.Medic.Name" xml:space="preserve">
-  <value>Медик</value>
+  <value>Medic</value>
   <comment>Medic</comment>
 </data>
 <data name="Loadout.Marine.Guard.Medic.Name" xml:space="preserve">
@@ -74840,115 +74844,115 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>~corpsman guard</comment>
 </data>
 <data name="Loadout.Marine.Rifleman.Name" xml:space="preserve">
-  <value>Стрелок</value>
+  <value>Rifleman</value>
   <comment>Rifleman</comment>
 </data>
 <data name="Loadout.Marine.Sapper.Name" xml:space="preserve">
-  <value>Сапёр</value>
+  <value>Sapper</value>
   <comment>Sapper</comment>
 </data>
 <data name="Loadout.Marine.Marksman.Name" xml:space="preserve">
-  <value>Снайпер</value>
+  <value>Sniper</value>
   <comment>Sniper</comment>
 </data>
 <data name="Loadout.Marine.Grenadier.Name" xml:space="preserve">
-  <value>Подрывник</value>
+  <value>Grenadier</value>
   <comment>Grenadier</comment>
 </data>
 <data name="Loadout.Surgeon.Name" xml:space="preserve">
-  <value>Хирург</value>
+  <value>Surgeon</value>
   <comment>Surgeon</comment>
 </data>
 <data name="Loadout.Mercenary.Name" xml:space="preserve">
-  <value>Наёмник</value>
+  <value>Mercenary</value>
   <comment>Mercenary</comment>
 </data>
 <data name="Loadout.Ert.PmcOperative.Name" xml:space="preserve">
-  <value>Оперативник отряда ЧВК</value>
+  <value>PMC Operative</value>
   <comment>PMC Operative</comment>
 </data>
 <data name="Loadout.Ert.PmcMedic.Name" xml:space="preserve">
-  <value>Медик отряда ЧВК</value>
+  <value>PMC Medic</value>
   <comment>PMC Medic</comment>
 </data>
 <data name="Loadout.Ert.CbrnLeader.Name" xml:space="preserve">
-  <value>Лидер отряда CBRN</value>
+  <value>CBRN Leader</value>
   <comment>CBRN Leader</comment>
 </data>
 <data name="Loadout.Ert.CbrnMedic.Name" xml:space="preserve">
-  <value>Медик отряда CBRN</value>
+  <value>CBRN Medic</value>
   <comment>CBRN Medic</comment>
 </data>
 <data name="Loadout.Ert.CbrnOperator.Name" xml:space="preserve">
-  <value>Оператор отряда CBRN</value>
+  <value>CBRN Operator</value>
   <comment>CBRN Operator</comment>
 </data>
 <data name="Loadout.Janitor.Name" xml:space="preserve">
-  <value>Уборщик</value>
+  <value>Janitor</value>
   <comment>Janitor</comment>
 </data>
 <data name="Loadout.Bartender.Name" xml:space="preserve">
-  <value>Бармен</value>
+  <value>Bartender</value>
   <comment>Bartender</comment>
 </data>
 <data name="Loadout.FireFighter.Name" xml:space="preserve">
-  <value>Пожарник</value>
+  <value>Firefighter</value>
   <comment>Firefighter</comment>
 </data>
 <data name="Loadout.Sorokyne.Pilot.Name" xml:space="preserve">
-  <value>Пилот</value>
+  <value>Pilot</value>
   <comment>Pilot</comment>
 </data>
 <data name="Loadout.Sorokyne.Chef.Name" xml:space="preserve">
-  <value>Шеф</value>
+  <value>Chef</value>
   <comment>Chef</comment>
 </data>
 <data name="Loadout.Anomaly.Mercenary.Name" xml:space="preserve">
-  <value>Наёмник</value>
+  <value>Mercenary</value>
   <comment>Mercenary</comment>
 </data>
 <data name="Loadout.Anomaly.Executive.Name" xml:space="preserve">
-  <value>Представитель Корпорации</value>
+  <value>Executive</value>
   <comment>Executive</comment>
 </data>
 <data name="Loadout.Anomaly.Scientist.Name" xml:space="preserve">
-  <value>Учёный</value>
+  <value>Scientist</value>
   <comment>Scientist</comment>
 </data>
 <data name="Loadout.Anomaly.Engineer.Name" xml:space="preserve">
-  <value>Инженер</value>
+  <value>Engineer</value>
   <comment>Engineer</comment>
 </data>
 <data name="Loadout.Anomaly.FireFighter.Name" xml:space="preserve">
-  <value>Пожарник</value>
+  <value>Firefighter</value>
   <comment>Firefighter</comment>
 </data>
 <data name="Loadout.Anomaly.Marine.Medic.Name" xml:space="preserve">
-  <value>Медик</value>
+  <value>Medic</value>
   <comment>Medic</comment>
 </data>
 <data name="Loadout.Anomaly.Marine.Rifleman.Name" xml:space="preserve">
-  <value>Стрелок</value>
+  <value>Rifleman</value>
   <comment>Rifleman</comment>
 </data>
 <data name="Loadout.Anomaly.Marine.Sapper.Name" xml:space="preserve">
-  <value>Сапёр</value>
+  <value>Sapper</value>
   <comment>Sapper</comment>
 </data>
 <data name="Loadout.Anomaly.Marine.MachineGunner.Name" xml:space="preserve">
-  <value>Пулемётчик</value>
+  <value>Machine-gunner</value>
   <comment>Machine-gunner</comment>
 </data>
 <data name="Loadout.Anomaly.Marine.Sniper.Name" xml:space="preserve">
-  <value>Снайпер</value>
+  <value>Sniper</value>
   <comment>Sniper</comment>
 </data>
 <data name="Loadout.Anomaly.Marine.Grenadier.Name" xml:space="preserve">
-  <value>Подрывник</value>
+  <value>Grenadier</value>
   <comment>Grenadier</comment>
 </data>
 <data name="Loadout.Anomaly.Marine.Pyro.Name" xml:space="preserve">
-  <value>Огнемётчик</value>
+  <value>Flamer</value>
   <comment>Flamer</comment>
 </data>
 <data name="Intro.CAPE.Title" xml:space="preserve">
@@ -75032,75 +75036,75 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>HAZARD ADVISORY: ACTIVE LAVA / ASH STORMS</comment>
 </data>
 <data name="Modifier.NoRespawns.Label" xml:space="preserve">
-  <value>БЕЗ РЕСПАВНОВ</value>
+  <value>NO RESPAWNS</value>
   <comment>NO RESPAWNS</comment>
 </data>
 <data name="Modifier.NoRespawns.Tooltip" xml:space="preserve">
-  <value>РЕСПАВНЫ ВЫКЛЮЧЕНЫ // У ВАС ЕСТЬ ВСЕГО ОДНА ЖИЗНЬ НА РАУНД</value>
+  <value>RESPAWNS ARE DISABLED // ONE LIFE PER ROUND</value>
   <comment>RESPAWNS ARE DISABLED // ONE LIFE PER ROUND</comment>
 </data>
 <data name="Modifier.ZombieWaves.Label" xml:space="preserve">
-  <value>ВОЛНЫ МЕРТВЕЦОВ</value>
+  <value>ZOMBIE WAVES</value>
   <comment>ZOMBIE WAVES</comment>
 </data>
 <data name="Modifier.ZombieWaves.Tooltip" xml:space="preserve">
-  <value>ЗОМБИ ВОЛНАМИ АТАКУЮТ КОЛОНИЮ // ВОЛНА СТАРТУЕТ НА {WaveAssaultMinutes} МИНУТЕ</value>
+  <value>TIMED ZOMBIE WAVES ASSAULT THE COLONY // THE WAVE ASSAULT PHASE LASTS {WaveAssaultMinutes} MINUTES</value>
   <comment>TIMED ZOMBIE WAVES ASSAULT THE COLONY // THE WAVE ASSAULT PHASE LASTS {WaveAssaultMinutes} MINUTES</comment>
 </data>
 <data name="Modifier.XenoNest.Label" xml:space="preserve">
-  <value>УЛЕЙ КСЕНОМОРФОВ</value>
+  <value>XENO NEST</value>
   <comment>XENO NEST</comment>
 </data>
 <data name="Modifier.XenoNest.Tooltip" xml:space="preserve">
-  <value>ГДЕ-ТО НА КОЛОНИИ ОБРАЗОВАЛОСЬ ГНЕЗДО // ДРОНЫ-РАБОЧИЕ ВЫХОДЯТ НА ОХОТУ НОЧЬЮ И УХОДЯТ К УТРУ</value>
+  <value>A XENO NEST FESTERS IN THE COLONY // DRONES HUNT AT NIGHT AND RETURN AT DAWN</value>
   <comment>A XENO NEST FESTERS IN THE COLONY // DRONES HUNT AT NIGHT AND RETURN AT DAWN</comment>
 </data>
 <data name="Modifier.UnnaturalNight.Label" xml:space="preserve">
-  <value>СТРАННАЯ НОЧЬ</value>
+  <value>UNNATURAL NIGHT</value>
   <comment>UNNATURAL NIGHT</comment>
 </data>
 <data name="Modifier.UnnaturalNight.Tooltip" xml:space="preserve">
-  <value>НОЧЬ НЕ ЗАКОНЧИТСЯ // НЕБЕСА БУДУТ ОСТАВАТЬСЯ ЧЁРНЫМИ ДО КОНЦА РАУНДА // ОПАСНЫЕ МОНСТРЫ БРОДЯТ ПО КОЛОНИИ</value>
+  <value>THE NIGHT DOES NOT END // THE SKY STAYS DARK FOR THE WHOLE ROUND // MONSTERS ROAM THE COLONY</value>
   <comment>THE NIGHT DOES NOT END // THE SKY STAYS DARK FOR THE WHOLE ROUND // MONSTERS ROAM THE COLONY</comment>
 </data>
 <data name="Modifier.Anomaly.Label" xml:space="preserve">
-  <value>АНОМАЛИЯ</value>
+  <value>ANOMALY</value>
   <comment>ANOMALY</comment>
 </data>
 <data name="Modifier.Anomaly.Tooltip" xml:space="preserve">
-  <value>НЕИЗВЕСТНАЯ СУЩНОСТЬ ПРЕСЛЕДУЕТ ЖИТЕЛЕЙ КОЛОНИИ // ЕЁ НЕЛЬЗЯ УБИТЬ // ОНА СЛЫШИТ ВАШИ ГОЛОСА</value>
+  <value>AN UNNATURAL ENTITY HAUNTS THE COLONY // IT CANNOT BE KILLED // IT HEARS YOUR VOICE</value>
   <comment>AN UNNATURAL ENTITY HAUNTS THE COLONY // IT CANNOT BE KILLED // IT HEARS YOUR VOICE</comment>
 </data>
 <data name="Modifier.Containment.Label" xml:space="preserve">
-  <value>ПРОТОКОЛ СОДЕРЖАНИЯ</value>
+  <value>CONTAINMENT</value>
   <comment>CONTAINMENT</comment>
 </data>
 <data name="Modifier.Containment.Tooltip" xml:space="preserve">
-  <value>ЧТОБЫ УНИЧТОЖИТЬ СУЩНОСТЬ - НЕОБХОДИМО ЗАПЕРЕТЬ ЕЁ В СПЕЦИАЛЬНОМ ПОЛЕ // ОКРУЖИТЕ ЕЁ СПЕЦИАЛЬНЫМИ УСТРОЙСТВАМИ И УДЕРЖИВАЙТЕ ЦЕЛОСТНОСТЬ ПОЛЯ</value>
+  <value>THE ENTITY MUST BE CONTAINED IN A FIELD TO BE DESTROYED // RING IT WITH CONTAINMENT EMITTERS AND HOLD THE FIELD</value>
   <comment>THE ENTITY MUST BE CONTAINED IN A FIELD TO BE DESTROYED // RING IT WITH CONTAINMENT EMITTERS AND HOLD THE FIELD</comment>
 </data>
 <data name="Modifier.Extraction.Label" xml:space="preserve">
-  <value>ЭВАКУАЦИЯ</value>
+  <value>EXTRACTION</value>
   <comment>EXTRACTION</comment>
 </data>
 <data name="Modifier.Extraction.Tooltip" xml:space="preserve">
-  <value>ВЫЖИВШИЕ ДОЛЖНЫ ДОБРАТЬСЯ ДО ЗОНЫ ЭВАКУАЦИИ ДЛЯ ПОБЕДЫ // ФАЗА ЭВАКУАЦИИ ДЛИТСЯ {ExtractionMinutes} МИНУТ</value>
+  <value>SURVIVORS MUST REACH THE EXTRACTION SITE // THE EXTRACTION PHASE LASTS {ExtractionMinutes} MINUTES</value>
   <comment>SURVIVORS MUST REACH THE EXTRACTION SITE // THE EXTRACTION PHASE LASTS {ExtractionMinutes} MINUTES</comment>
 </data>
 <data name="Mode.Extended.DisplayName" xml:space="preserve">
-  <value>Песочница</value>
+  <value>Extended</value>
   <comment>Extended</comment>
 </data>
 <data name="Mode.ZombieSurvival.DisplayName" xml:space="preserve">
-  <value>ВолныЗомби</value>
+  <value>ZombieSurvival</value>
   <comment>ZombieSurvival</comment>
 </data>
 <data name="Mode.XenoSurvival.DisplayName" xml:space="preserve">
-  <value>ВолныКсеносов</value>
+  <value>XenoSurvival</value>
   <comment>XenoSurvival</comment>
 </data>
 <data name="Mode.Anomaly.DisplayName" xml:space="preserve">
-  <value>Аномалия</value>
+  <value>Anomaly</value>
   <comment>Anomaly</comment>
 </data>
 <data name="Mode.Anomaly.Phase.WaveAssault.Label" xml:space="preserve">
