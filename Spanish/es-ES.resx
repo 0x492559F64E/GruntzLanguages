@@ -6916,7 +6916,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>FEMALE</comment>
 </data>
 <data name="CharacterSetup.SizeLabel" xml:space="preserve">
-  <value>TALLA</value>
+  <value>TAMAÑO</value>
   <comment>SIZE</comment>
 </data>
 <data name="CharacterSetup.BuildLabel" xml:space="preserve">
