@@ -3592,7 +3592,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>PUMP</comment>
 </data>
 <data name="GunHud.UniqueAction.Rack" xml:space="preserve">
-  <value>CORREDERA</value>
+  <value>MONTAR</value>
   <comment>RACK</comment>
 </data>
 <data name="GunHud.Cylinder.Open" xml:space="preserve">
