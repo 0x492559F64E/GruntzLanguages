@@ -3768,7 +3768,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Name</comment>
 </data>
 <data name="SleeperUi.Row.Brute" xml:space="preserve">
-  <value>Contusión</value>
+  <value>Físico</value>
   <comment>Brute</comment>
 </data>
 <data name="SleeperUi.Row.Burn" xml:space="preserve">
@@ -4148,7 +4148,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Health Scan - </comment>
 </data>
 <data name="HealthScan.LimbTrackBrute" xml:space="preserve">
-  <value>CO</value>
+  <value>FI</value>
   <comment>BR</comment>
 </data>
 <data name="HealthScan.LimbTrackBurn" xml:space="preserve">
@@ -4316,7 +4316,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>SHELLSHOCKED</comment>
 </data>
 <data name="HealthScan.TrackBrute" xml:space="preserve">
-  <value>CONTUSIÓN</value>
+  <value>FÍSICO</value>
   <comment>BRUTE</comment>
 </data>
 <data name="HealthScan.TrackBurn" xml:space="preserve">
@@ -4376,7 +4376,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>OPEN WOUND LOSING BLOOD // GAUZE OR A TRAUMA KIT STOPS IT</comment>
 </data>
 <data name="HealthScan.BandagedTip" xml:space="preserve">
-  <value>HERIDA VENDADA // LAS CONTUSIONES CURAN {WHOLE},{FRAC} PV/S MIENTRAS ESTÉ VENDADA // EL DAÑO NUEVO QUITA EL VENDAJE</value>
+  <value>HERIDA VENDADA // EL DAÑO FÍSICO CURA {WHOLE},{FRAC} PV/S MIENTRAS ESTÉ VENDADA // EL DAÑO NUEVO QUITA EL VENDAJE</value>
   <comment>WOUND DRESSED // BRUTE HEALS {WHOLE}.{FRAC} HP/S WHILE DRESSED // NEW DAMAGE SHEDS THE DRESSING</comment>
 </data>
 <data name="HealthScan.SalvedTip" xml:space="preserve">
@@ -12684,7 +12684,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>reinforced upgrade</comment>
 </data>
 <data name="Def.Obj.Structure.Barricade.Metal.Upgrade.1.Summary" xml:space="preserve">
-  <value>+Contusión</value>
+  <value>+Físico</value>
   <comment>+Brute</comment>
 </data>
 <data name="Def.Obj.Structure.Barricade.Metal.Upgrade.2.Label" xml:space="preserve">
