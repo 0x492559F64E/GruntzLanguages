@@ -23496,7 +23496,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>turn on</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.Mill.DisplayName" xml:space="preserve">
-  <value>Molino</value>
+  <value>Molino industrial</value>
   <comment>Mill</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.Mineral.ProcessingUnit.DisplayName" xml:space="preserve">
