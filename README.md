@@ -30,7 +30,7 @@ A file is a standard .NET resx. Each string is one `data` element:
 
 Two entries are reserved and are not strings:
 
-- `Language` is the name shown in the language picker. When it is empty the game uses the .NET culture name for the file's locale code, for example `German (Germany)`.
+- `Language` is the name shown in the language picker. The standard for this repository is the language's own name for itself, in its own script, with no country: `Deutsch`, `Français`, `Русский`, `Español`. When the entry is empty the game falls back to the .NET culture name for the locale code, such as `German (Germany)`, which is not what we want shipped, so always set it.
 - `Font` is parsed and stored but nothing reads it yet. It is reserved for selecting a game font for scripts the default font does not cover. Leave it empty.
 
 Any text editor works. A resx editor works too, as long as it writes plain resx and keeps the `name` values.
@@ -84,7 +84,7 @@ All of these write only into `Documents\My Games\Gruntz\Languages`. The game nev
 
 1. Start the game and open the console.
 2. Run `languages generate <locale>`, for example `languages generate it-IT`. The file lands in `Documents\My Games\Gruntz\Languages\it-IT.resx`.
-3. Translate the `value` of each string. Leave `name` alone. Set `Language` if you want a different display name.
+3. Translate the `value` of each string. Leave `name` alone. Set `Language` to the language's own name for itself, with no country, for example `Italiano`.
 4. Back in the game, run `languages reload`, then pick the language in Settings or run `languages set it-IT`. Run `languages mark` to see what is still untranslated while you play.
 5. In this repository, create a folder named after the language, for example `Italian/`, put `it-IT.resx` in it, and open a pull request.
 
@@ -101,6 +101,6 @@ The file has about 18,700 strings. A partial file is fine: anything untranslated
 ## Contributing
 
 - One pull request per language.
-- Keep the file name as the locale code and keep the folder name as the language name in English.
+- Keep the file name as the locale code and keep the folder name as the language name in English. The `Language` entry inside the file is the language's own name for itself, no country.
 - Do not reformat the file. Keep the `name` values and the placeholders exactly as generated.
 - Describe in the pull request which game build you generated or merged against.

@@ -125,7 +125,7 @@ The 'Font' value is a special entry that will be used to select which game font 
   <value></value>
 </data>
 <data name="Language" xml:space="preserve">
-  <value>Spanish (Spain)</value>
+  <value>Español</value>
 </data>
 <data name="MainMenu.FooterNet" xml:space="preserve">
   <value>W-Y COLONY NET</value>
