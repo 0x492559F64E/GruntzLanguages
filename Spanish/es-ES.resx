@@ -732,7 +732,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>{TARGET} coughs up blood!</comment>
 </data>
 <data name="Chat.OrganGasp" xml:space="preserve">
-  <value>¡{TARGET} boquea buscando aire!</value>
+  <value>¡{TARGET} lucha por respirar!</value>
   <comment>{TARGET} gasps for air!</comment>
 </data>
 <data name="Chat.OrganSeize" xml:space="preserve">
@@ -2460,7 +2460,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Breath coming short</comment>
 </data>
 <data name="Moodlet.Flavor.Gasping.Moderate" xml:space="preserve">
-  <value>Boqueando buscando aire</value>
+  <value>Luchando por respirar</value>
   <comment>Gasping for air</comment>
 </data>
 <data name="Moodlet.Flavor.Gasping.Severe" xml:space="preserve">
