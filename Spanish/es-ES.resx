@@ -72584,7 +72584,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>caught the last ride out of a burning colony</comment>
 </data>
 <data name="Honor.Reaper.Name" xml:space="preserve">
-  <value>SEGADOR</value>
+  <value>LA PARCA</value>
   <comment>REAPER</comment>
 </data>
 <data name="Honor.Reaper.Flavor" xml:space="preserve">
