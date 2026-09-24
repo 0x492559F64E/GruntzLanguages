@@ -3772,15 +3772,15 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Brute</comment>
 </data>
 <data name="SleeperUi.Row.Burn" xml:space="preserve">
-  <value>Quemadura</value>
+  <value>Quemaduras</value>
   <comment>Burn</comment>
 </data>
 <data name="SleeperUi.Row.Toxin" xml:space="preserve">
-  <value>Toxina</value>
+  <value>Tóxico</value>
   <comment>Toxin</comment>
 </data>
 <data name="SleeperUi.Row.Oxygen" xml:space="preserve">
-  <value>Oxígeno</value>
+  <value>Asfixia</value>
   <comment>Oxygen</comment>
 </data>
 <data name="SleeperUi.Row.Blood" xml:space="preserve">
@@ -4320,15 +4320,15 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>BRUTE</comment>
 </data>
 <data name="HealthScan.TrackBurn" xml:space="preserve">
-  <value>QUEMADURA</value>
+  <value>QUEMADURAS</value>
   <comment>BURN</comment>
 </data>
 <data name="HealthScan.TrackTox" xml:space="preserve">
-  <value>TOXINA</value>
+  <value>TÓXICO</value>
   <comment>TOXIN</comment>
 </data>
 <data name="HealthScan.TrackOxygen" xml:space="preserve">
-  <value>OXÍGENO</value>
+  <value>ASFIXIA</value>
   <comment>OXYGEN</comment>
 </data>
 <data name="HealthScan.BpmLine" xml:space="preserve">
