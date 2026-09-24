@@ -121,7 +121,10 @@ The 'Font' value is a special entry that will be used to select which game font 
   <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 </resheader>
 
-<data name="Font" xml:space="preserve">
+<data name="FontMain" xml:space="preserve">
+  <value></value>
+</data>
+<data name="FontSecondary" xml:space="preserve">
   <value></value>
 </data>
 <data name="Language" xml:space="preserve">

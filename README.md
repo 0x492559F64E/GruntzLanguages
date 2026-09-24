@@ -31,9 +31,31 @@ A file is a standard .NET resx. Each string is one `data` element:
 Two entries are reserved and are not strings:
 
 - `Language` is the name shown in the language picker. The standard for this repository is the language's own name for itself, in its own script, with no country: `Deutsch`, `Français`, `Русский`, `Español`. When the entry is empty the game falls back to the .NET culture name for the locale code, such as `German (Germany)`, which is not what we want shipped, so always set it.
-- `Font` is parsed and stored but nothing reads it yet. It is reserved for selecting a game font for scripts the default font does not cover. Leave it empty.
+- `FontMain` and `FontSecondary` name font files. Leave both empty to keep the game's own fonts. See the next section.
 
 Any text editor works. A resx editor works too, as long as it writes plain resx and keeps the `name` values.
+
+## Fonts
+
+The game draws with two typefaces. `FontMain` is the pixel face used across the HUD, the CRT screens and the menus (PressStart2P, an 8 pixel grid font). `FontSecondary` is the text face used for tooltips, settings and prose (JetBrains Mono, with an italic variant). Both cover Latin including the extended ranges, Greek and Cyrillic, so German, French, Spanish and Russian need no font entries. Neither covers Arabic, Hebrew, Thai, Chinese, Japanese or Korean.
+
+A language whose script the shipped faces do not cover names its own font files in these two entries:
+
+```xml
+<data name="FontMain" xml:space="preserve">
+  <value>MyPixelFont.ttf</value>
+</data>
+<data name="FontSecondary" xml:space="preserve">
+  <value>MyTextFont.ttf</value>
+</data>
+```
+
+- The value is a file name. The game looks for it next to the language file first, then in its own `Content/Fonts` folder. A name found in neither place is logged once and the default face stays.
+- An empty value keeps the default face for that slot. Set only the slot you need. A Japanese translation, for example, needs both, since neither shipped face has kana or kanji.
+- `FontSecondary` replaces both the regular and the italic text face. There is no separate italic entry.
+- The swap happens when the language is selected, live, no restart.
+- A font file committed here goes in the language's folder beside its resx and must be under a licence that allows redistribution with the game. State the licence in the pull request. The shipped faces are under the SIL Open Font License.
+- A pixel face for `FontMain` should sit on the same 8 pixel grid as PressStart2P, or the HUD text will not align to the pixel grid the game snaps sizes to.
 
 ## How the game finds language files
 
