@@ -58456,7 +58456,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Energy.Taser.DisplayName" xml:space="preserve">
-  <value>pistola inhabilitadora</value>
+  <value>táser</value>
   <comment>disabler gun</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Energy.Taser.Verb.PickUp" xml:space="preserve">
@@ -58464,7 +58464,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Energy.Taser.Empty.DisplayName" xml:space="preserve">
-  <value>pistola inhabilitadora</value>
+  <value>táser</value>
   <comment>disabler gun</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Energy.Taser.Empty.Verb.PickUp" xml:space="preserve">
