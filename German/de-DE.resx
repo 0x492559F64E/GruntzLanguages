@@ -3,7 +3,8 @@
 The contents of the braces themselves needs to be preserved, but they may freely be moved around within the string.
 The comment field includes the default english string at the time of file generation so is useful for determining when a string has changed.
 The filename is used for the locale Code according to ISO 639-1. By default the language name is taken from this. To override this, enter an entry for 'Language'.
-The 'Font' value is a special entry that will be used to select which game font is to be used to allow for special characters.--><root>
+The 'FontMain' and 'FontSecondary' values are special entries naming a font file (.ttf) that replaces the game's pixel font (FontMain) or its text font (FontSecondary) while this language is active, for scripts the defaults do not cover.
+The file is looked up beside this language file first, then under the game's Content/Fonts. Leave both empty to keep the game's fonts.--><root>
   <!-- 
   Microsoft ResX Schema 
 
@@ -8075,12 +8076,12 @@ The 'Font' value is a special entry that will be used to select which game font 
   <comment>DISTANCE CRAWLED LEGLESS</comment>
 </data>
 <data name="EorScreen.StatDraggedDownedTiles" xml:space="preserve">
-  <value>DISTANCE DRAGGING THE DOWNED</value>
-  <comment>DISTANCE DRAGGING THE DOWNED</comment>
+  <value>DISTANCE DRAGGING</value>
+  <comment>DISTANCE DRAGGING</comment>
 </data>
 <data name="EorScreen.StatLightningStruck" xml:space="preserve">
-  <value>TIMES STRUCK BY LIGHTNING</value>
-  <comment>TIMES STRUCK BY LIGHTNING</comment>
+  <value>STRUCK BY LIGHTNING</value>
+  <comment>STRUCK BY LIGHTNING</comment>
 </data>
 <data name="EorScreen.StatUnknown" xml:space="preserve">
   <value>~UNKNOWN STAT</value>
