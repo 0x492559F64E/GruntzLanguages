@@ -2760,7 +2760,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Move away to stop them</comment>
 </data>
 <data name="Moodlet.Hint.Prone" xml:space="preserve">
-  <value>Alterna tumbado para levantarte</value>
+  <value>Pulsa TUMBARSE otra vez para levantarte</value>
   <comment>Toggle Prone to stand</comment>
 </data>
 <data name="Moodlet.Hint.Hidden.Dark" xml:space="preserve">
@@ -3616,7 +3616,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>THROW</comment>
 </data>
 <data name="ToggleUi.Chip.Prone" xml:space="preserve">
-  <value>TUMBADO</value>
+  <value>TUMBARSE</value>
   <comment>PRONE</comment>
 </data>
 <data name="ToggleUi.Chip.Walk" xml:space="preserve">
