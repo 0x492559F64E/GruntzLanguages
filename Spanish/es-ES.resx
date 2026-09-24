@@ -72592,7 +72592,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>most zombies killed, a thousand at the least</comment>
 </data>
 <data name="Honor.LockerLurker.Name" xml:space="preserve">
-  <value>ACECHADOR DE ARMARIO</value>
+  <value>SALIENDO DEL ARMARIO</value>
   <comment>LOCKER LURKER</comment>
 </data>
 <data name="Honor.LockerLurker.Flavor" xml:space="preserve">
