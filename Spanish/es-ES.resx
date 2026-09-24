@@ -1824,83 +1824,83 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>actions</comment>
 </data>
 <data name="HoverName.UseHintDeconstruct" xml:space="preserve">
-  <value>use {TOOL} to deconstruct</value>
+  <value>usa {TOOL} para desmontar</value>
   <comment>use {TOOL} to deconstruct</comment>
 </data>
 <data name="HoverName.UseHintDeconstructTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to deconstruct</value>
+  <value>usa {TOOL} + {TOOL2} para desmontar</value>
   <comment>use {TOOL} + {TOOL2} to deconstruct</comment>
 </data>
 <data name="HoverName.UseHintRepair" xml:space="preserve">
-  <value>use {TOOL} to repair</value>
+  <value>usa {TOOL} para reparar</value>
   <comment>use {TOOL} to repair</comment>
 </data>
 <data name="HoverName.UseHintRepairTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to repair</value>
+  <value>usa {TOOL} + {TOOL2} para reparar</value>
   <comment>use {TOOL} + {TOOL2} to repair</comment>
 </data>
 <data name="HoverName.UseHintBuild" xml:space="preserve">
-  <value>use {TOOL} to build</value>
+  <value>usa {TOOL} para construir</value>
   <comment>use {TOOL} to build</comment>
 </data>
 <data name="HoverName.UseHintBuildTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to build</value>
+  <value>usa {TOOL} + {TOOL2} para construir</value>
   <comment>use {TOOL} + {TOOL2} to build</comment>
 </data>
 <data name="HoverName.UseHintPack" xml:space="preserve">
-  <value>use {TOOL} to pack up</value>
+  <value>usa {TOOL} para recoger</value>
   <comment>use {TOOL} to pack up</comment>
 </data>
 <data name="HoverName.UseHintPackTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to pack up</value>
+  <value>usa {TOOL} + {TOOL2} para recoger</value>
   <comment>use {TOOL} + {TOOL2} to pack up</comment>
 </data>
 <data name="HoverName.UseHintOpen" xml:space="preserve">
-  <value>use {TOOL} to pry open</value>
+  <value>usa {TOOL} para abrir con palanca</value>
   <comment>use {TOOL} to pry open</comment>
 </data>
 <data name="HoverName.UseHintOpenTwo" xml:space="preserve">
-  <value>use {TOOL} or {TOOL2} to pry open</value>
+  <value>usa {TOOL} o {TOOL2} para abrir con palanca</value>
   <comment>use {TOOL} or {TOOL2} to pry open</comment>
 </data>
 <data name="HoverName.UseHintPryShut" xml:space="preserve">
-  <value>use {TOOL} to pry shut</value>
+  <value>usa {TOOL} para cerrar con palanca</value>
   <comment>use {TOOL} to pry shut</comment>
 </data>
 <data name="HoverName.UseHintPryShutTwo" xml:space="preserve">
-  <value>use {TOOL} or {TOOL2} to pry shut</value>
+  <value>usa {TOOL} o {TOOL2} para cerrar con palanca</value>
   <comment>use {TOOL} or {TOOL2} to pry shut</comment>
 </data>
 <data name="HoverName.UseHintSecure" xml:space="preserve">
-  <value>use {TOOL} to secure</value>
+  <value>usa {TOOL} para asegurar</value>
   <comment>use {TOOL} to secure</comment>
 </data>
 <data name="HoverName.UseHintSecureTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to secure</value>
+  <value>usa {TOOL} + {TOOL2} para asegurar</value>
   <comment>use {TOOL} + {TOOL2} to secure</comment>
 </data>
 <data name="HoverName.UseHintConnect" xml:space="preserve">
-  <value>use {TOOL} to connect</value>
+  <value>usa {TOOL} para conectar</value>
   <comment>use {TOOL} to connect</comment>
 </data>
 <data name="HoverName.UseHintConnectTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to connect</value>
+  <value>usa {TOOL} + {TOOL2} para conectar</value>
   <comment>use {TOOL} + {TOOL2} to connect</comment>
 </data>
 <data name="HoverName.UseHintDisconnect" xml:space="preserve">
-  <value>use {TOOL} to disconnect</value>
+  <value>usa {TOOL} para desconectar</value>
   <comment>use {TOOL} to disconnect</comment>
 </data>
 <data name="HoverName.UseHintDisconnectTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to disconnect</value>
+  <value>usa {TOOL} + {TOOL2} para desconectar</value>
   <comment>use {TOOL} + {TOOL2} to disconnect</comment>
 </data>
 <data name="HoverName.UseHintRotate" xml:space="preserve">
-  <value>use {TOOL} to rotate</value>
+  <value>usa {TOOL} para girar</value>
   <comment>use {TOOL} to rotate</comment>
 </data>
 <data name="HoverName.UseHintRotateTwo" xml:space="preserve">
-  <value>use {TOOL} + {TOOL2} to rotate</value>
+  <value>usa {TOOL} + {TOOL2} para girar</value>
   <comment>use {TOOL} + {TOOL2} to rotate</comment>
 </data>
 <data name="HoverName.PryOpenFallback" xml:space="preserve">
@@ -1956,7 +1956,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>the mop is dry</comment>
 </data>
 <data name="InteractClick.NeedsMaterial" xml:space="preserve">
-  <value>needs {COUNT} {ITEM}</value>
+  <value>necesita {COUNT} {ITEM}</value>
   <comment>needs {COUNT} {ITEM}</comment>
 </data>
 <data name="InteractClick.NeedsLitWelder" xml:space="preserve">
@@ -1976,19 +1976,19 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>out of reach</comment>
 </data>
 <data name="DenyText.DoesNotFit" xml:space="preserve">
-  <value>the {ITEM} doesn't fit</value>
+  <value>«{ITEM}» no cabe</value>
   <comment>the {ITEM} doesn't fit</comment>
 </data>
 <data name="DoorPryHint.NoPowerOpen" xml:space="preserve">
-  <value>no power use {ITEM} to pry open</value>
+  <value>sin energía, usa {ITEM} para abrir con palanca</value>
   <comment>no power use {ITEM} to pry open</comment>
 </data>
 <data name="DoorPryHint.NoPowerShut" xml:space="preserve">
-  <value>no power use {ITEM} to pry shut</value>
+  <value>sin energía, usa {ITEM} para cerrar con palanca</value>
   <comment>no power use {ITEM} to pry shut</comment>
 </data>
 <data name="LadderSealHint.ExitBlocked" xml:space="preserve">
-  <value>exit blocked use {ITEM} to open</value>
+  <value>salida bloqueada, usa {ITEM} para abrir</value>
   <comment>exit blocked use {ITEM} to open</comment>
 </data>
 <data name="LadderStanceHint.Standing" xml:space="preserve">
@@ -3008,43 +3008,43 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Steadier aim</comment>
 </data>
 <data name="Moodlet.WordToken.MovingOppositeFacing" xml:space="preserve">
-  <value>Moving opposite the facing {WORD}</value>
+  <value>Moverse en sentido contrario a la orientación: {WORD}</value>
   <comment>Moving opposite the facing {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Running" xml:space="preserve">
-  <value>Running {WORD}</value>
+  <value>Correr: {WORD}</value>
   <comment>Running {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Movement" xml:space="preserve">
-  <value>Movement {WORD}</value>
+  <value>Movimiento: {WORD}</value>
   <comment>Movement {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Hearing" xml:space="preserve">
-  <value>Hearing {WORD}</value>
+  <value>Oído: {WORD}</value>
   <comment>Hearing {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Blood" xml:space="preserve">
-  <value>Blood {WORD}</value>
+  <value>Sangre: {WORD}</value>
   <comment>Blood {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Crawling" xml:space="preserve">
-  <value>Crawling {WORD}</value>
+  <value>Arrastrarse: {WORD}</value>
   <comment>Crawling {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Eating" xml:space="preserve">
-  <value>Eating {WORD}</value>
+  <value>Comer: {WORD}</value>
   <comment>Eating {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.HungerEffects" xml:space="preserve">
-  <value>Hunger effects {WORD}</value>
+  <value>Efectos del hambre: {WORD}</value>
   <comment>Hunger effects {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.Drinking" xml:space="preserve">
-  <value>Drinking {WORD}</value>
+  <value>Beber: {WORD}</value>
   <comment>Drinking {WORD}</comment>
 </data>
 <data name="Moodlet.WordToken.ThirstEffects" xml:space="preserve">
-  <value>Thirst effects {WORD}</value>
+  <value>Efectos de la sed: {WORD}</value>
   <comment>Thirst effects {WORD}</comment>
 </data>
 <data name="Moodlet.Word.Reduced" xml:space="preserve">
@@ -3076,23 +3076,23 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>cancelled</comment>
 </data>
 <data name="Moodlet.Row.SurgeryTakes" xml:space="preserve">
-  <value>Surgery takes {PERCENT}% as long</value>
+  <value>La cirugía tarda {PERCENT}% más</value>
   <comment>Surgery takes {PERCENT}% as long</comment>
 </data>
 <data name="Moodlet.Row.SpotRangeOne" xml:space="preserve">
-  <value>Zombies spot you only within {TILES} tile</value>
+  <value>Los zombis solo te ven a menos de {TILES} casilla</value>
   <comment>Zombies spot you only within {TILES} tile</comment>
 </data>
 <data name="Moodlet.Row.SpotRangeMany" xml:space="preserve">
-  <value>Zombies spot you only within {TILES} tiles</value>
+  <value>Los zombis solo te ven a menos de {TILES} casillas</value>
   <comment>Zombies spot you only within {TILES} tiles</comment>
 </data>
 <data name="Moodlet.Row.SightReachesOne" xml:space="preserve">
-  <value>Sight reaches {TILES} tile ahead</value>
+  <value>La vista alcanza {TILES} casilla por delante</value>
   <comment>Sight reaches {TILES} tile ahead</comment>
 </data>
 <data name="Moodlet.Row.SightReachesMany" xml:space="preserve">
-  <value>Sight reaches {TILES} tiles ahead</value>
+  <value>La vista alcanza {TILES} casillas por delante</value>
   <comment>Sight reaches {TILES} tiles ahead</comment>
 </data>
 <data name="Moodlet.Unit.BloodPerSecond" xml:space="preserve">
@@ -3248,11 +3248,11 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>close</comment>
 </data>
 <data name="EquipSlotsUi.ChipToggleShow" xml:space="preserve">
-  <value>show {CONTROLS}</value>
+  <value>mostrar {CONTROLS}</value>
   <comment>show {CONTROLS}</comment>
 </data>
 <data name="EquipSlotsUi.ChipToggleHide" xml:space="preserve">
-  <value>hide {CONTROLS}</value>
+  <value>ocultar {CONTROLS}</value>
   <comment>hide {CONTROLS}</comment>
 </data>
 <data name="EquipSlotsUi.ChipToggleWeaponControls" xml:space="preserve">
