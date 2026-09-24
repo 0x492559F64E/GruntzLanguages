@@ -5900,7 +5900,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>STATUS</comment>
 </data>
 <data name="Microwave.IdleWord" xml:space="preserve">
-  <value>INACTIVA</value>
+  <value>INACTIVO</value>
   <comment>IDLE</comment>
 </data>
 <data name="Microwave.CookingWord" xml:space="preserve">
@@ -7148,7 +7148,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>FAINT</comment>
 </data>
 <data name="IntroStyle.WeatherClear" xml:space="preserve">
-  <value>BORRAR</value>
+  <value>DESPEJADO</value>
   <comment>CLEAR</comment>
 </data>
 <data name="IntroStyle.WeatherDrizzle" xml:space="preserve">
@@ -8148,7 +8148,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>UNMADE</comment>
 </data>
 <data name="EorScreen.CauseOther" xml:space="preserve">
-  <value>OTROS</value>
+  <value>OTRO</value>
   <comment>OTHER</comment>
 </data>
 <data name="CrtWidgets.On" xml:space="preserve">
