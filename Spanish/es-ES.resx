@@ -7568,11 +7568,11 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>PRESS ] TO FOLLOW</comment>
 </data>
 <data name="DeadOverlay.RoamHint" xml:space="preserve">
-  <value>SUELTA PARA VAGAR</value>
+  <value>SAL DEL CUERPO PARA VAGAR</value>
   <comment>RELEASE TO ROAM</comment>
 </data>
 <data name="DeadOverlay.ReleaseLabel" xml:space="preserve">
-  <value>SOLTAR</value>
+  <value>SALIR DEL CUERPO</value>
   <comment>RELEASE</comment>
 </data>
 <data name="DeadOverlay.ReturnLabel" xml:space="preserve">
@@ -7608,7 +7608,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>GHOST</comment>
 </data>
 <data name="DeadOverlay.ReleaseTip" xml:space="preserve">
-  <value>Aún pueden reanimarte aunque te hayas soltado.</value>
+  <value>Aún pueden reanimarte aunque hayas salido del cuerpo.</value>
   <comment>You can still be revived while released.</comment>
 </data>
 <data name="DeadOverlay.ObserveEnabledTip" xml:space="preserve">
