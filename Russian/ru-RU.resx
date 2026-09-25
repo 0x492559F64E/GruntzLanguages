@@ -8327,6 +8327,798 @@ The file is looked up beside this language file first, then under the game's Con
   <value>placeholders must match the english</value>
   <comment>placeholders must match the english</comment>
 </data>
+<data name="Codex.Title" xml:space="preserve">
+  <value>codex</value>
+  <comment>codex</comment>
+</data>
+<data name="Codex.Home" xml:space="preserve">
+  <value>HOME</value>
+  <comment>HOME</comment>
+</data>
+<data name="Codex.Topics" xml:space="preserve">
+  <value>TOPICS</value>
+  <comment>TOPICS</comment>
+</data>
+<data name="Codex.Search" xml:space="preserve">
+  <value>SEARCH NAMES</value>
+  <comment>SEARCH NAMES</comment>
+</data>
+<data name="Codex.Pin" xml:space="preserve">
+  <value>PIN</value>
+  <comment>PIN</comment>
+</data>
+<data name="Codex.Pinned" xml:space="preserve">
+  <value>PINNED</value>
+  <comment>PINNED</comment>
+</data>
+<data name="Codex.Recent" xml:space="preserve">
+  <value>RECENT</value>
+  <comment>RECENT</comment>
+</data>
+<data name="Codex.Guide" xml:space="preserve">
+  <value>GUIDE</value>
+  <comment>GUIDE</comment>
+</data>
+<data name="Codex.Examine" xml:space="preserve">
+  <value>EXAMINE</value>
+  <comment>EXAMINE</comment>
+</data>
+<data name="Codex.HomeBrief" xml:space="preserve">
+  <value>EVERY NAME ON A PAGE IS A LINK. A NAME MARKED ANY IS A FAMILY: A PAGE LISTING EVERYTHING THAT COUNTS AS ONE.</value>
+  <comment>EVERY NAME ON A PAGE IS A LINK. A NAME MARKED ANY IS A FAMILY: A PAGE LISTING EVERYTHING THAT COUNTS AS ONE.</comment>
+</data>
+<data name="Codex.HomeSub" xml:space="preserve">
+  <value>FIELD REFERENCE // GENERATED FROM GAME DATA</value>
+  <comment>FIELD REFERENCE // GENERATED FROM GAME DATA</comment>
+</data>
+<data name="Codex.FootHint" xml:space="preserve">
+  <value>F1 OVER A THING OPENS ITS PAGE // BACKSPACE GOES BACK</value>
+  <comment>F1 OVER A THING OPENS ITS PAGE // BACKSPACE GOES BACK</comment>
+</data>
+<data name="Codex.Pages" xml:space="preserve">
+  <value>PAGES</value>
+  <comment>PAGES</comment>
+</data>
+<data name="Codex.NothingYet" xml:space="preserve">
+  <value>NOTHING YET</value>
+  <comment>NOTHING YET</comment>
+</data>
+<data name="Codex.NoPins" xml:space="preserve">
+  <value>PIN A PAGE FROM ITS MASTHEAD.</value>
+  <comment>PIN A PAGE FROM ITS MASTHEAD.</comment>
+</data>
+<data name="Codex.NoMatch" xml:space="preserve">
+  <value>NO PAGE MATCHES. SEARCH LOOKS AT NAMES ONLY.</value>
+  <comment>NO PAGE MATCHES. SEARCH LOOKS AT NAMES ONLY.</comment>
+</data>
+<data name="Codex.Any" xml:space="preserve">
+  <value>ANY</value>
+  <comment>ANY</comment>
+</data>
+<data name="Codex.Size.S" xml:space="preserve">
+  <value>S</value>
+  <comment>S</comment>
+</data>
+<data name="Codex.Size.M" xml:space="preserve">
+  <value>M</value>
+  <comment>M</comment>
+</data>
+<data name="Codex.Size.L" xml:space="preserve">
+  <value>L</value>
+  <comment>L</comment>
+</data>
+<data name="Codex.Kind.Item" xml:space="preserve">
+  <value>ITEM</value>
+  <comment>ITEM</comment>
+</data>
+<data name="Codex.Kind.Structure" xml:space="preserve">
+  <value>STRUCTURE</value>
+  <comment>STRUCTURE</comment>
+</data>
+<data name="Codex.Kind.Reagent" xml:space="preserve">
+  <value>REAGENT</value>
+  <comment>REAGENT</comment>
+</data>
+<data name="Codex.Kind.Reaction" xml:space="preserve">
+  <value>REACTION</value>
+  <comment>REACTION</comment>
+</data>
+<data name="Codex.Kind.Condition" xml:space="preserve">
+  <value>MEDICAL CONDITION</value>
+  <comment>MEDICAL CONDITION</comment>
+</data>
+<data name="Codex.Kind.Family" xml:space="preserve">
+  <value>FAMILY</value>
+  <comment>FAMILY</comment>
+</data>
+<data name="Codex.Kind.ToolFamily" xml:space="preserve">
+  <value>TOOL FAMILY</value>
+  <comment>TOOL FAMILY</comment>
+</data>
+<data name="Codex.Kind.StackFamily" xml:space="preserve">
+  <value>STACK FAMILY</value>
+  <comment>STACK FAMILY</comment>
+</data>
+<data name="Codex.Makes" xml:space="preserve">
+  <value>MAKES</value>
+  <comment>MAKES</comment>
+</data>
+<data name="Codex.Sect.Stats" xml:space="preserve">
+  <value>STATS</value>
+  <comment>STATS</comment>
+</data>
+<data name="Codex.Sect.Qualities" xml:space="preserve">
+  <value>TOOL QUALITIES</value>
+  <comment>TOOL QUALITIES</comment>
+</data>
+<data name="Codex.Sect.Contains" xml:space="preserve">
+  <value>CONTAINS</value>
+  <comment>CONTAINS</comment>
+</data>
+<data name="Codex.Sect.Build" xml:space="preserve">
+  <value>BUILD</value>
+  <comment>BUILD</comment>
+</data>
+<data name="Codex.Sect.TakingApart" xml:space="preserve">
+  <value>TAKING APART</value>
+  <comment>TAKING APART</comment>
+</data>
+<data name="Codex.Sect.Mend" xml:space="preserve">
+  <value>MEND STEPS</value>
+  <comment>MEND STEPS</comment>
+</data>
+<data name="Codex.Sect.Upgrades" xml:space="preserve">
+  <value>UPGRADES</value>
+  <comment>UPGRADES</comment>
+</data>
+<data name="Codex.Sect.Tools" xml:space="preserve">
+  <value>TOOLS THAT WORK ON IT</value>
+  <comment>TOOLS THAT WORK ON IT</comment>
+</data>
+<data name="Codex.Sect.Builds" xml:space="preserve">
+  <value>BUILDS</value>
+  <comment>BUILDS</comment>
+</data>
+<data name="Codex.Sect.UsedOn" xml:space="preserve">
+  <value>USED ON</value>
+  <comment>USED ON</comment>
+</data>
+<data name="Codex.Sect.Treats" xml:space="preserve">
+  <value>TREATS</value>
+  <comment>TREATS</comment>
+</data>
+<data name="Codex.Sect.SoldIn" xml:space="preserve">
+  <value>SOLD IN</value>
+  <comment>SOLD IN</comment>
+</data>
+<data name="Codex.Sect.Members" xml:space="preserve">
+  <value>MEMBERS</value>
+  <comment>MEMBERS</comment>
+</data>
+<data name="Codex.Sect.Effects" xml:space="preserve">
+  <value>EFFECTS</value>
+  <comment>EFFECTS</comment>
+</data>
+<data name="Codex.Sect.HowToMake" xml:space="preserve">
+  <value>HOW TO MAKE</value>
+  <comment>HOW TO MAKE</comment>
+</data>
+<data name="Codex.Sect.IngredientIn" xml:space="preserve">
+  <value>INGREDIENT IN</value>
+  <comment>INGREDIENT IN</comment>
+</data>
+<data name="Codex.Sect.StockedIn" xml:space="preserve">
+  <value>STOCKED IN</value>
+  <comment>STOCKED IN</comment>
+</data>
+<data name="Codex.Sect.Mix" xml:space="preserve">
+  <value>MIX</value>
+  <comment>MIX</comment>
+</data>
+<data name="Codex.Sect.Conditions" xml:space="preserve">
+  <value>CONDITIONS</value>
+  <comment>CONDITIONS</comment>
+</data>
+<data name="Codex.Sect.Treatment" xml:space="preserve">
+  <value>TREATMENT</value>
+  <comment>TREATMENT</comment>
+</data>
+<data name="Codex.Sect.Signs" xml:space="preserve">
+  <value>HOW YOU KNOW</value>
+  <comment>HOW YOU KNOW</comment>
+</data>
+<data name="Codex.Sect.Causes" xml:space="preserve">
+  <value>CAUSES</value>
+  <comment>CAUSES</comment>
+</data>
+<data name="Codex.Sect.SeeAlso" xml:space="preserve">
+  <value>SEE ALSO</value>
+  <comment>SEE ALSO</comment>
+</data>
+<data name="Codex.Sect.Sections" xml:space="preserve">
+  <value>SECTIONS</value>
+  <comment>SECTIONS</comment>
+</data>
+<data name="Codex.Col.Stage" xml:space="preserve">
+  <value>STAGE</value>
+  <comment>STAGE</comment>
+</data>
+<data name="Codex.Col.Tool" xml:space="preserve">
+  <value>TOOL</value>
+  <comment>TOOL</comment>
+</data>
+<data name="Codex.Col.Time" xml:space="preserve">
+  <value>TIME</value>
+  <comment>TIME</comment>
+</data>
+<data name="Codex.Col.Becomes" xml:space="preserve">
+  <value>BECOMES</value>
+  <comment>BECOMES</comment>
+</data>
+<data name="Codex.Col.With" xml:space="preserve">
+  <value>WITH</value>
+  <comment>WITH</comment>
+</data>
+<data name="Codex.Col.From" xml:space="preserve">
+  <value>FROM</value>
+  <comment>FROM</comment>
+</data>
+<data name="Codex.Col.Does" xml:space="preserve">
+  <value>DOES</value>
+  <comment>DOES</comment>
+</data>
+<data name="Codex.Col.Reagent" xml:space="preserve">
+  <value>REAGENT</value>
+  <comment>REAGENT</comment>
+</data>
+<data name="Codex.Col.Units" xml:space="preserve">
+  <value>UNITS</value>
+  <comment>UNITS</comment>
+</data>
+<data name="Codex.Col.Role" xml:space="preserve">
+  <value>ROLE</value>
+  <comment>ROLE</comment>
+</data>
+<data name="Codex.Col.Special" xml:space="preserve">
+  <value>SPECIAL</value>
+  <comment>SPECIAL</comment>
+</data>
+<data name="Codex.Col.Strength" xml:space="preserve">
+  <value>STRENGTH</value>
+  <comment>STRENGTH</comment>
+</data>
+<data name="Codex.Col.Use" xml:space="preserve">
+  <value>USE</value>
+  <comment>USE</comment>
+</data>
+<data name="Codex.Col.How" xml:space="preserve">
+  <value>HOW</value>
+  <comment>HOW</comment>
+</data>
+<data name="Codex.Col.Item" xml:space="preserve">
+  <value>ITEM</value>
+  <comment>ITEM</comment>
+</data>
+<data name="Codex.Col.Size" xml:space="preserve">
+  <value>SIZE</value>
+  <comment>SIZE</comment>
+</data>
+<data name="Codex.Col.Fits" xml:space="preserve">
+  <value>FITS</value>
+  <comment>FITS</comment>
+</data>
+<data name="Codex.Col.Name" xml:space="preserve">
+  <value>NAME</value>
+  <comment>NAME</comment>
+</data>
+<data name="Codex.Col.Kind" xml:space="preserve">
+  <value>KIND</value>
+  <comment>KIND</comment>
+</data>
+<data name="Codex.Col.Structure" xml:space="preserve">
+  <value>STRUCTURE</value>
+  <comment>STRUCTURE</comment>
+</data>
+<data name="Codex.Col.Needs" xml:space="preserve">
+  <value>NEEDS</value>
+  <comment>NEEDS</comment>
+</data>
+<data name="Codex.Row.Health" xml:space="preserve">
+  <value>HEALTH</value>
+  <comment>HEALTH</comment>
+</data>
+<data name="Codex.Row.Size" xml:space="preserve">
+  <value>SIZE</value>
+  <comment>SIZE</comment>
+</data>
+<data name="Codex.Row.Fits" xml:space="preserve">
+  <value>FITS</value>
+  <comment>FITS</comment>
+</data>
+<data name="Codex.Row.Storage" xml:space="preserve">
+  <value>STORAGE</value>
+  <comment>STORAGE</comment>
+</data>
+<data name="Codex.Row.Melee" xml:space="preserve">
+  <value>MELEE</value>
+  <comment>MELEE</comment>
+</data>
+<data name="Codex.Row.Blocks" xml:space="preserve">
+  <value>BLOCKS</value>
+  <comment>BLOCKS</comment>
+</data>
+<data name="Codex.Row.Overdose" xml:space="preserve">
+  <value>OVERDOSE</value>
+  <comment>OVERDOSE</comment>
+</data>
+<data name="Codex.Row.Critical" xml:space="preserve">
+  <value>CRITICAL OD</value>
+  <comment>CRITICAL OD</comment>
+</data>
+<data name="Codex.Row.Metabolism" xml:space="preserve">
+  <value>METABOLISM</value>
+  <comment>METABOLISM</comment>
+</data>
+<data name="Codex.Row.Chip" xml:space="preserve">
+  <value>CHIP</value>
+  <comment>CHIP</comment>
+</data>
+<data name="Codex.Row.Heat" xml:space="preserve">
+  <value>HEAT</value>
+  <comment>HEAT</comment>
+</data>
+<data name="Codex.Row.Yield" xml:space="preserve">
+  <value>YIELD</value>
+  <comment>YIELD</comment>
+</data>
+<data name="Codex.Row.InBody" xml:space="preserve">
+  <value>IN A BODY</value>
+  <comment>IN A BODY</comment>
+</data>
+<data name="Codex.Hands" xml:space="preserve">
+  <value>HANDS</value>
+  <comment>HANDS</comment>
+</data>
+<data name="Codex.Locked" xml:space="preserve">
+  <value>LOCKED</value>
+  <comment>LOCKED</comment>
+</data>
+<data name="Codex.Part" xml:space="preserve">
+  <value>PART</value>
+  <comment>PART</comment>
+</data>
+<data name="Codex.Catalyst" xml:space="preserve">
+  <value>CATALYST</value>
+  <comment>CATALYST</comment>
+</data>
+<data name="Codex.Result" xml:space="preserve">
+  <value>RESULT</value>
+  <comment>RESULT</comment>
+</data>
+<data name="Codex.Explodes" xml:space="preserve">
+  <value>EXPLODES</value>
+  <comment>EXPLODES</comment>
+</data>
+<data name="Codex.NotInABody" xml:space="preserve">
+  <value>WILL NOT REACT</value>
+  <comment>WILL NOT REACT</comment>
+</data>
+<data name="Codex.ReactsInABody" xml:space="preserve">
+  <value>REACTS TOO</value>
+  <comment>REACTS TOO</comment>
+</data>
+<data name="Codex.NoHeat" xml:space="preserve">
+  <value>NONE. NOTHING NEEDS HEATING</value>
+  <comment>NONE. NOTHING NEEDS HEATING</comment>
+</data>
+<data name="Codex.ThisMix" xml:space="preserve">
+  <value>THIS MIX</value>
+  <comment>THIS MIX</comment>
+</data>
+<data name="Codex.NotStocked" xml:space="preserve">
+  <value>NOT STOCKED</value>
+  <comment>NOT STOCKED</comment>
+</data>
+<data name="Codex.Dispensed" xml:space="preserve">
+  <value>DISPENSED</value>
+  <comment>DISPENSED</comment>
+</data>
+<data name="Codex.Stocked" xml:space="preserve">
+  <value>STOCKED, NOT MIXED</value>
+  <comment>STOCKED, NOT MIXED</comment>
+</data>
+<data name="Codex.None" xml:space="preserve">
+  <value>NONE</value>
+  <comment>NONE</comment>
+</data>
+<data name="Codex.Gone" xml:space="preserve">
+  <value>GONE</value>
+  <comment>GONE</comment>
+</data>
+<data name="Codex.UpTo" xml:space="preserve">
+  <value>UP TO</value>
+  <comment>UP TO</comment>
+</data>
+<data name="Codex.ThisStage" xml:space="preserve">
+  <value>(THIS)</value>
+  <comment>(THIS)</comment>
+</data>
+<data name="Codex.NoTreatment" xml:space="preserve">
+  <value>NO ITEM OR REAGENT TREATS THIS</value>
+  <comment>NO ITEM OR REAGENT TREATS THIS</comment>
+</data>
+<data name="Codex.Anyone" xml:space="preserve">
+  <value>ANYONE</value>
+  <comment>ANYONE</comment>
+</data>
+<data name="Codex.InTheBloodstream" xml:space="preserve">
+  <value>IN THE BLOODSTREAM</value>
+  <comment>IN THE BLOODSTREAM</comment>
+</data>
+<data name="Codex.Surgery" xml:space="preserve">
+  <value>SURGERY</value>
+  <comment>SURGERY</comment>
+</data>
+<data name="Codex.Dense" xml:space="preserve">
+  <value>DENSE</value>
+  <comment>DENSE</comment>
+</data>
+<data name="Codex.Border" xml:space="preserve">
+  <value>BORDER</value>
+  <comment>BORDER</comment>
+</data>
+<data name="Codex.Cover" xml:space="preserve">
+  <value>COVER</value>
+  <comment>COVER</comment>
+</data>
+<data name="Codex.Climb" xml:space="preserve">
+  <value>CLIMB</value>
+  <comment>CLIMB</comment>
+</data>
+<data name="Codex.Sev.Minor" xml:space="preserve">
+  <value>MINOR</value>
+  <comment>MINOR</comment>
+</data>
+<data name="Codex.Sev.Serious" xml:space="preserve">
+  <value>SERIOUS</value>
+  <comment>SERIOUS</comment>
+</data>
+<data name="Codex.Sev.Lethal" xml:space="preserve">
+  <value>LETHAL IF UNTREATED</value>
+  <comment>LETHAL IF UNTREATED</comment>
+</data>
+<data name="Codex.Eff.Stabilises" xml:space="preserve">
+  <value>STABILISES</value>
+  <comment>STABILISES</comment>
+</data>
+<data name="Codex.Eff.Mends" xml:space="preserve">
+  <value>MENDS</value>
+  <comment>MENDS</comment>
+</data>
+<data name="Codex.Eff.Revives" xml:space="preserve">
+  <value>REVIVES</value>
+  <comment>REVIVES</comment>
+</data>
+<data name="Codex.Eff.Relieves" xml:space="preserve">
+  <value>RELIEVES</value>
+  <comment>RELIEVES</comment>
+</data>
+<data name="Codex.Quality.Prying" xml:space="preserve">
+  <value>PRYING</value>
+  <comment>PRYING</comment>
+</data>
+<data name="Codex.Quality.Screwing" xml:space="preserve">
+  <value>SCREWING</value>
+  <comment>SCREWING</comment>
+</data>
+<data name="Codex.Quality.Cutting" xml:space="preserve">
+  <value>CUTTING</value>
+  <comment>CUTTING</comment>
+</data>
+<data name="Codex.Quality.Wrenching" xml:space="preserve">
+  <value>WRENCHING</value>
+  <comment>WRENCHING</comment>
+</data>
+<data name="Codex.Quality.Welding" xml:space="preserve">
+  <value>WELDING</value>
+  <comment>WELDING</comment>
+</data>
+<data name="Codex.Quality.Multitool" xml:space="preserve">
+  <value>MULTITOOL</value>
+  <comment>MULTITOOL</comment>
+</data>
+<data name="Codex.Quality.Pen" xml:space="preserve">
+  <value>PEN</value>
+  <comment>PEN</comment>
+</data>
+<data name="Codex.Quality.Nailing" xml:space="preserve">
+  <value>NAILING</value>
+  <comment>NAILING</comment>
+</data>
+<data name="Codex.Quality.Wedging" xml:space="preserve">
+  <value>WEDGING</value>
+  <comment>WEDGING</comment>
+</data>
+<data name="Codex.F1Hint" xml:space="preserve">
+  <value>CODEX</value>
+  <comment>CODEX</comment>
+</data>
+<data name="Codex.Atm" xml:space="preserve">
+  <value>W-Y ATM</value>
+  <comment>W-Y ATM</comment>
+</data>
+<data name="Codex.Lit" xml:space="preserve">
+  <value>LIT</value>
+  <comment>LIT</comment>
+</data>
+<data name="Codex.Row.Cell" xml:space="preserve">
+  <value>CELL</value>
+  <comment>CELL</comment>
+</data>
+<data name="Codex.Row.Fuel" xml:space="preserve">
+  <value>FUEL</value>
+  <comment>FUEL</comment>
+</data>
+<data name="Codex.Col.Seller" xml:space="preserve">
+  <value>SELLER</value>
+  <comment>SELLER</comment>
+</data>
+<data name="Codex.Col.Price" xml:space="preserve">
+  <value>PRICE</value>
+  <comment>PRICE</comment>
+</data>
+<data name="Codex.Col.WorksOn" xml:space="preserve">
+  <value>WORKS ON</value>
+  <comment>WORKS ON</comment>
+</data>
+<data name="Codex.Item.Tiny" xml:space="preserve">
+  <value>TINY</value>
+  <comment>TINY</comment>
+</data>
+<data name="Codex.Item.Small" xml:space="preserve">
+  <value>SMALL</value>
+  <comment>SMALL</comment>
+</data>
+<data name="Codex.Item.Medium" xml:space="preserve">
+  <value>MEDIUM</value>
+  <comment>MEDIUM</comment>
+</data>
+<data name="Codex.Item.Large" xml:space="preserve">
+  <value>LARGE</value>
+  <comment>LARGE</comment>
+</data>
+<data name="Codex.Item.Huge" xml:space="preserve">
+  <value>HUGE</value>
+  <comment>HUGE</comment>
+</data>
+<data name="Codex.Item.Massive" xml:space="preserve">
+  <value>MASSIVE</value>
+  <comment>MASSIVE</comment>
+</data>
+<data name="Codex.Slot.Uniform" xml:space="preserve">
+  <value>UNIFORM</value>
+  <comment>UNIFORM</comment>
+</data>
+<data name="Codex.Slot.Suit" xml:space="preserve">
+  <value>SUIT</value>
+  <comment>SUIT</comment>
+</data>
+<data name="Codex.Slot.Head" xml:space="preserve">
+  <value>HEAD</value>
+  <comment>HEAD</comment>
+</data>
+<data name="Codex.Slot.Shoes" xml:space="preserve">
+  <value>SHOES</value>
+  <comment>SHOES</comment>
+</data>
+<data name="Codex.Slot.Gloves" xml:space="preserve">
+  <value>GLOVES</value>
+  <comment>GLOVES</comment>
+</data>
+<data name="Codex.Slot.Eyes" xml:space="preserve">
+  <value>EYES</value>
+  <comment>EYES</comment>
+</data>
+<data name="Codex.Slot.Mask" xml:space="preserve">
+  <value>MASK</value>
+  <comment>MASK</comment>
+</data>
+<data name="Codex.Slot.Ear" xml:space="preserve">
+  <value>EAR</value>
+  <comment>EAR</comment>
+</data>
+<data name="Codex.Slot.Belt" xml:space="preserve">
+  <value>BELT</value>
+  <comment>BELT</comment>
+</data>
+<data name="Codex.Slot.Back" xml:space="preserve">
+  <value>BACK</value>
+  <comment>BACK</comment>
+</data>
+<data name="Codex.Slot.Id" xml:space="preserve">
+  <value>ID</value>
+  <comment>ID</comment>
+</data>
+<data name="Codex.Chip.Medicated" xml:space="preserve">
+  <value>MEDICATED</value>
+  <comment>MEDICATED</comment>
+</data>
+<data name="Codex.Chip.Painkillers" xml:space="preserve">
+  <value>PAINKILLERS</value>
+  <comment>PAINKILLERS</comment>
+</data>
+<data name="Codex.Chip.Poisoned" xml:space="preserve">
+  <value>POISONED</value>
+  <comment>POISONED</comment>
+</data>
+<data name="Codex.Chip.NeedsFed" xml:space="preserve">
+  <value>FED</value>
+  <comment>FED</comment>
+</data>
+<data name="Codex.Chip.Stimulated" xml:space="preserve">
+  <value>STIMULATED</value>
+  <comment>STIMULATED</comment>
+</data>
+<data name="Codex.Topic.Chemistry" xml:space="preserve">
+  <value>CHEMISTRY</value>
+  <comment>CHEMISTRY</comment>
+</data>
+<data name="Codex.Topic.Medical" xml:space="preserve">
+  <value>MEDICAL</value>
+  <comment>MEDICAL</comment>
+</data>
+<data name="Codex.Topic.Construction" xml:space="preserve">
+  <value>CONSTRUCTION</value>
+  <comment>CONSTRUCTION</comment>
+</data>
+<data name="Codex.Topic.Items" xml:space="preserve">
+  <value>ITEMS</value>
+  <comment>ITEMS</comment>
+</data>
+<data name="Codex.Section.Chemistry.Reactions" xml:space="preserve">
+  <value>REACTIONS</value>
+  <comment>REACTIONS</comment>
+</data>
+<data name="Codex.Section.Chemistry.Reagents" xml:space="preserve">
+  <value>REAGENTS</value>
+  <comment>REAGENTS</comment>
+</data>
+<data name="Codex.Section.Chemistry.Glassware" xml:space="preserve">
+  <value>GLASSWARE</value>
+  <comment>GLASSWARE</comment>
+</data>
+<data name="Codex.Section.Chemistry.Machines" xml:space="preserve">
+  <value>MACHINES</value>
+  <comment>MACHINES</comment>
+</data>
+<data name="Codex.Section.Medical.Conditions" xml:space="preserve">
+  <value>CONDITIONS</value>
+  <comment>CONDITIONS</comment>
+</data>
+<data name="Codex.Section.Medical.Treatments" xml:space="preserve">
+  <value>TREATMENTS</value>
+  <comment>TREATMENTS</comment>
+</data>
+<data name="Codex.Section.Construction.Recipes" xml:space="preserve">
+  <value>RECIPES</value>
+  <comment>RECIPES</comment>
+</data>
+<data name="Codex.Section.Construction.Structures" xml:space="preserve">
+  <value>STRUCTURES</value>
+  <comment>STRUCTURES</comment>
+</data>
+<data name="Codex.Section.Construction.Materials" xml:space="preserve">
+  <value>MATERIALS</value>
+  <comment>MATERIALS</comment>
+</data>
+<data name="Codex.Section.Items.Families" xml:space="preserve">
+  <value>FAMILIES</value>
+  <comment>FAMILIES</comment>
+</data>
+<data name="Codex.Section.Items.Tools" xml:space="preserve">
+  <value>TOOLS</value>
+  <comment>TOOLS</comment>
+</data>
+<data name="Codex.Property.Neogenetic" xml:space="preserve">
+  <value>MENDS BRUTE ON EVERY LIMB</value>
+  <comment>MENDS BRUTE ON EVERY LIMB</comment>
+</data>
+<data name="Codex.Property.Anticorrosive" xml:space="preserve">
+  <value>MENDS BURN ON EVERY LIMB</value>
+  <comment>MENDS BURN ON EVERY LIMB</comment>
+</data>
+<data name="Codex.Property.Antitoxic" xml:space="preserve">
+  <value>CLEARS TOXIN</value>
+  <comment>CLEARS TOXIN</comment>
+</data>
+<data name="Codex.Property.Oxygenating" xml:space="preserve">
+  <value>RESTORES OXYGEN</value>
+  <comment>RESTORES OXYGEN</comment>
+</data>
+<data name="Codex.Property.Cardiostabilizing" xml:space="preserve">
+  <value>HOLDS A CRITICAL PATIENT</value>
+  <comment>HOLDS A CRITICAL PATIENT</comment>
+</data>
+<data name="Codex.Property.Painkilling" xml:space="preserve">
+  <value>REDUCES PAIN</value>
+  <comment>REDUCES PAIN</comment>
+</data>
+<data name="Codex.Property.Organstabilize" xml:space="preserve">
+  <value>MENDS BRUISED ORGANS</value>
+  <comment>MENDS BRUISED ORGANS</comment>
+</data>
+<data name="Codex.Property.Antihallucinogenic" xml:space="preserve">
+  <value>CLEARS HALLUCINATIONS</value>
+  <comment>CLEARS HALLUCINATIONS</comment>
+</data>
+<data name="Codex.Property.Thermostabilizing" xml:space="preserve">
+  <value>STEADIES BODY TEMPERATURE</value>
+  <comment>STEADIES BODY TEMPERATURE</comment>
+</data>
+<data name="Codex.Property.Explosive" xml:space="preserve">
+  <value>EXPLOSIVE WHEN MIXED</value>
+  <comment>EXPLOSIVE WHEN MIXED</comment>
+</data>
+<data name="Codex.Property.Fueling" xml:space="preserve">
+  <value>BURNS AS FUEL</value>
+  <comment>BURNS AS FUEL</comment>
+</data>
+<data name="Codex.Property.Oxidizing" xml:space="preserve">
+  <value>FEEDS A FIRE</value>
+  <comment>FEEDS A FIRE</comment>
+</data>
+<data name="Codex.Property.Neuropeutic" xml:space="preserve">
+  <value>MENDS THE BRAIN</value>
+  <comment>MENDS THE BRAIN</comment>
+</data>
+<data name="Codex.Property.Oculopeutic" xml:space="preserve">
+  <value>MENDS THE EYES</value>
+  <comment>MENDS THE EYES</comment>
+</data>
+<data name="Codex.Property.Hemostatic" xml:space="preserve">
+  <value>STOPS EXTERNAL BLEEDING</value>
+  <comment>STOPS EXTERNAL BLEEDING</comment>
+</data>
+<data name="Codex.Property.Bonemending" xml:space="preserve">
+  <value>KNITS A FRACTURE, FASTER UNDER A SPLINT</value>
+  <comment>KNITS A FRACTURE, FASTER UNDER A SPLINT</comment>
+</data>
+<data name="Codex.Property.Toxic" xml:space="preserve">
+  <value>POISONS</value>
+  <comment>POISONS</comment>
+</data>
+<data name="Codex.Property.Corrosive" xml:space="preserve">
+  <value>BURNS FROM INSIDE</value>
+  <comment>BURNS FROM INSIDE</comment>
+</data>
+<data name="Codex.Property.Hypoxemic" xml:space="preserve">
+  <value>STARVES OF OXYGEN</value>
+  <comment>STARVES OF OXYGEN</comment>
+</data>
+<data name="Codex.Property.Nutritious" xml:space="preserve">
+  <value>FEEDS</value>
+  <comment>FEEDS</comment>
+</data>
+<data name="Codex.Property.Hydrating" xml:space="preserve">
+  <value>HYDRATES</value>
+  <comment>HYDRATES</comment>
+</data>
+<data name="Codex.Property.Veinmending" xml:space="preserve">
+  <value>CURES INTERNAL BLEEDING OVER TIME</value>
+  <comment>CURES INTERNAL BLEEDING OVER TIME</comment>
+</data>
+<data name="Codex.Property.Stimulant" xml:space="preserve">
+  <value>STIMULATES</value>
+  <comment>STIMULATES</comment>
+</data>
+<data name="Codex.Property.Sedative" xml:space="preserve">
+  <value>KNOCKS OUT ABOVE A DOSE</value>
+  <comment>KNOCKS OUT ABOVE A DOSE</comment>
+</data>
+<data name="Codex.Property.Antiradiation" xml:space="preserve">
+  <value>BLUNTS RADIATION</value>
+  <comment>BLUNTS RADIATION</comment>
+</data>
 <data name="Def.Crate.DisplayName" xml:space="preserve">
   <value>crate</value>
   <comment>crate</comment>
@@ -74870,6 +75662,682 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Reagent.Medical.PotassiumIodide.Advice" xml:space="preserve">
   <value>blunts the radiation dose while in the bloodstream</value>
   <comment>blunts the radiation dose while in the bloodstream</comment>
+</data>
+<data name="Condition.Fracture.DisplayName" xml:space="preserve">
+  <value>fracture</value>
+  <comment>fracture</comment>
+</data>
+<data name="Condition.Fracture.Chip" xml:space="preserve">
+  <value>FRACTURED</value>
+  <comment>FRACTURED</comment>
+</data>
+<data name="Condition.Fracture.Brief" xml:space="preserve">
+  <value>a broken bone in one limb. the limb hurts and works badly until it is splinted</value>
+  <comment>a broken bone in one limb. the limb hurts and works badly until it is splinted</comment>
+</data>
+<data name="Condition.Fracture.Mend" xml:space="preserve">
+  <value>mending is surgery (set bone), or osteracil in the blood: slow, faster under a splint</value>
+  <comment>mending is surgery (set bone), or osteracil in the blood: slow, faster under a splint</comment>
+</data>
+<data name="Condition.Fracture.Sign.Scan" xml:space="preserve">
+  <value>scan: limb flag BROKEN</value>
+  <comment>scan: limb flag BROKEN</comment>
+</data>
+<data name="Condition.Fracture.Sign.Pain" xml:space="preserve">
+  <value>pain rises, the limb drags</value>
+  <comment>pain rises, the limb drags</comment>
+</data>
+<data name="Condition.Fracture.Sign.Drop" xml:space="preserve">
+  <value>a broken arm drops what it holds</value>
+  <comment>a broken arm drops what it holds</comment>
+</data>
+<data name="Condition.Fracture.Cause.Brute" xml:space="preserve">
+  <value>heavy brute on one limb</value>
+  <comment>heavy brute on one limb</comment>
+</data>
+<data name="Condition.Fracture.Cause.Falls" xml:space="preserve">
+  <value>falls and blasts</value>
+  <comment>falls and blasts</comment>
+</data>
+<data name="Condition.Fracture.Alias.Bone" xml:space="preserve">
+  <value>broken bone</value>
+  <comment>broken bone</comment>
+</data>
+<data name="Condition.Fracture.Alias.Leg" xml:space="preserve">
+  <value>broken leg</value>
+  <comment>broken leg</comment>
+</data>
+<data name="Condition.Fracture.Alias.Arm" xml:space="preserve">
+  <value>broken arm</value>
+  <comment>broken arm</comment>
+</data>
+<data name="Condition.Fracture.Treatment.Splint.How" xml:space="preserve">
+  <value>pain and drag stop, the bone stays broken</value>
+  <comment>pain and drag stop, the bone stays broken</comment>
+</data>
+<data name="Condition.Fracture.Treatment.Bonemending.How" xml:space="preserve">
+  <value>in the bloodstream, faster under a splint</value>
+  <comment>in the bloodstream, faster under a splint</comment>
+</data>
+<data name="Condition.InternalBleeding.DisplayName" xml:space="preserve">
+  <value>internal bleeding</value>
+  <comment>internal bleeding</comment>
+</data>
+<data name="Condition.InternalBleeding.Chip" xml:space="preserve">
+  <value>INTERNAL BLEEDING</value>
+  <comment>INTERNAL BLEEDING</comment>
+</data>
+<data name="Condition.InternalBleeding.Brief" xml:space="preserve">
+  <value>blood drains with no visible wound</value>
+  <comment>blood drains with no visible wound</comment>
+</data>
+<data name="Condition.InternalBleeding.Sign.Scan" xml:space="preserve">
+  <value>scan: limb flag IB</value>
+  <comment>scan: limb flag IB</comment>
+</data>
+<data name="Condition.InternalBleeding.Sign.BloodLevel" xml:space="preserve">
+  <value>blood level falls with no bleeding shown</value>
+  <comment>blood level falls with no bleeding shown</comment>
+</data>
+<data name="Condition.InternalBleeding.Sign.Pale" xml:space="preserve">
+  <value>pale, then unconscious</value>
+  <comment>pale, then unconscious</comment>
+</data>
+<data name="Condition.InternalBleeding.Cause.Brute" xml:space="preserve">
+  <value>deep brute</value>
+  <comment>deep brute</comment>
+</data>
+<data name="Condition.InternalBleeding.Cause.Bullets" xml:space="preserve">
+  <value>bullets and shrapnel</value>
+  <comment>bullets and shrapnel</comment>
+</data>
+<data name="Condition.InternalBleeding.Alias.Ib" xml:space="preserve">
+  <value>ib</value>
+  <comment>ib</comment>
+</data>
+<data name="Condition.InternalBleeding.Treatment.Veinmending.How" xml:space="preserve">
+  <value>in the bloodstream, over time</value>
+  <comment>in the bloodstream, over time</comment>
+</data>
+<data name="Condition.InternalBleeding.Treatment.Hemostatic.How" xml:space="preserve">
+  <value>slows the loss while the vein mends</value>
+  <comment>slows the loss while the vein mends</comment>
+</data>
+<data name="Condition.Bleeding.DisplayName" xml:space="preserve">
+  <value>bleeding</value>
+  <comment>bleeding</comment>
+</data>
+<data name="Condition.Bleeding.Chip" xml:space="preserve">
+  <value>BLEEDING</value>
+  <comment>BLEEDING</comment>
+</data>
+<data name="Condition.Bleeding.Brief" xml:space="preserve">
+  <value>an open wound losing blood</value>
+  <comment>an open wound losing blood</comment>
+</data>
+<data name="Condition.Bleeding.Sign.Scan" xml:space="preserve">
+  <value>scan: limb flag BLEEDING</value>
+  <comment>scan: limb flag BLEEDING</comment>
+</data>
+<data name="Condition.Bleeding.Sign.Trail" xml:space="preserve">
+  <value>a blood trail behind the body</value>
+  <comment>a blood trail behind the body</comment>
+</data>
+<data name="Condition.Bleeding.Cause.Source" xml:space="preserve">
+  <value>brute cuts and bullets</value>
+  <comment>brute cuts and bullets</comment>
+</data>
+<data name="Condition.Bleeding.Treatment.Gauze.How" xml:space="preserve">
+  <value>bandage the limb</value>
+  <comment>bandage the limb</comment>
+</data>
+<data name="Condition.Bleeding.Treatment.TraumaKit.How" xml:space="preserve">
+  <value>treats the wound and bandages</value>
+  <comment>treats the wound and bandages</comment>
+</data>
+<data name="Condition.Bleeding.Treatment.Hemostatic.How" xml:space="preserve">
+  <value>in the bloodstream</value>
+  <comment>in the bloodstream</comment>
+</data>
+<data name="Condition.DeadRevivable.DisplayName" xml:space="preserve">
+  <value>dead (revivable)</value>
+  <comment>dead (revivable)</comment>
+</data>
+<data name="Condition.DeadRevivable.Chip" xml:space="preserve">
+  <value>REVIVAL POSSIBLE</value>
+  <comment>REVIVAL POSSIBLE</comment>
+</data>
+<data name="Condition.DeadRevivable.Brief" xml:space="preserve">
+  <value>dead, and the scanner still says revival possible</value>
+  <comment>dead, and the scanner still says revival possible</comment>
+</data>
+<data name="Condition.DeadRevivable.Mend" xml:space="preserve">
+  <value>cpr extends the window. mend the worst damage before the shock or they die again</value>
+  <comment>cpr extends the window. mend the worst damage before the shock or they die again</comment>
+</data>
+<data name="Condition.DeadRevivable.Sign.Scan" xml:space="preserve">
+  <value>scan: REVIVAL POSSIBLE</value>
+  <comment>scan: REVIVAL POSSIBLE</comment>
+</data>
+<data name="Condition.DeadRevivable.Sign.Required" xml:space="preserve">
+  <value>scan: DEFIBRILLATION REQUIRED</value>
+  <comment>scan: DEFIBRILLATION REQUIRED</comment>
+</data>
+<data name="Condition.DeadRevivable.Cause.Source" xml:space="preserve">
+  <value>death within the revival window</value>
+  <comment>death within the revival window</comment>
+</data>
+<data name="Condition.DeadRevivable.Alias.Defib" xml:space="preserve">
+  <value>defib</value>
+  <comment>defib</comment>
+</data>
+<data name="Condition.DeadRevivable.Treatment.Defibrillator.How" xml:space="preserve">
+  <value>the body comes back unconscious, never awake</value>
+  <comment>the body comes back unconscious, never awake</comment>
+</data>
+<data name="Condition.Brute.DisplayName" xml:space="preserve">
+  <value>brute damage</value>
+  <comment>brute damage</comment>
+</data>
+<data name="Condition.Brute.Chip" xml:space="preserve">
+  <value>BRUTE</value>
+  <comment>BRUTE</comment>
+</data>
+<data name="Condition.Brute.Brief" xml:space="preserve">
+  <value>cuts, bruises and bullet wounds</value>
+  <comment>cuts, bruises and bullet wounds</comment>
+</data>
+<data name="Condition.Brute.Sign.Scan" xml:space="preserve">
+  <value>scan: brute column</value>
+  <comment>scan: brute column</comment>
+</data>
+<data name="Condition.Brute.Sign.Diagram" xml:space="preserve">
+  <value>red on the limb diagram</value>
+  <comment>red on the limb diagram</comment>
+</data>
+<data name="Condition.Brute.Cause.Source" xml:space="preserve">
+  <value>melee, bullets, falls, blasts</value>
+  <comment>melee, bullets, falls, blasts</comment>
+</data>
+<data name="Condition.Brute.Treatment.TraumaKit.How" xml:space="preserve">
+  <value>heals 12 brute on the limb</value>
+  <comment>heals brute on the limb</comment>
+</data>
+<data name="Condition.Burn.DisplayName" xml:space="preserve">
+  <value>burn damage</value>
+  <comment>burn damage</comment>
+</data>
+<data name="Condition.Burn.Chip" xml:space="preserve">
+  <value>BURN</value>
+  <comment>BURN</comment>
+</data>
+<data name="Condition.Burn.Brief" xml:space="preserve">
+  <value>fire, acid and energy damage</value>
+  <comment>fire, acid and energy damage</comment>
+</data>
+<data name="Condition.Burn.Sign.Scan" xml:space="preserve">
+  <value>scan: burn column</value>
+  <comment>scan: burn column</comment>
+</data>
+<data name="Condition.Burn.Cause.Source" xml:space="preserve">
+  <value>fire, xeno acid, flamers</value>
+  <comment>fire, xeno acid, flamers</comment>
+</data>
+<data name="Condition.Burn.Treatment.Ointment.How" xml:space="preserve">
+  <value>heals 5 burn on the limb</value>
+  <comment>heals 5 burn on the limb</comment>
+</data>
+<data name="Condition.Burn.Treatment.BurnKit.How" xml:space="preserve">
+  <value>heals burn on the limb</value>
+  <comment>heals burn on the limb</comment>
+</data>
+<data name="Condition.Toxin.DisplayName" xml:space="preserve">
+  <value>toxin damage</value>
+  <comment>toxin damage</comment>
+</data>
+<data name="Condition.Toxin.Chip" xml:space="preserve">
+  <value>TOXIN</value>
+  <comment>TOXIN</comment>
+</data>
+<data name="Condition.Toxin.Brief" xml:space="preserve">
+  <value>poison building up in the blood</value>
+  <comment>poison building up in the blood</comment>
+</data>
+<data name="Condition.Toxin.Sign.Scan" xml:space="preserve">
+  <value>scan: toxin column</value>
+  <comment>scan: toxin column</comment>
+</data>
+<data name="Condition.Toxin.Sign.Moodlet" xml:space="preserve">
+  <value>moodlet poisoned</value>
+  <comment>moodlet poisoned</comment>
+</data>
+<data name="Condition.Toxin.Cause.Source" xml:space="preserve">
+  <value>phoron, overdose, radiation</value>
+  <comment>phoron, overdose, radiation</comment>
+</data>
+<data name="Condition.Oxy.DisplayName" xml:space="preserve">
+  <value>oxygen loss</value>
+  <comment>oxygen loss</comment>
+</data>
+<data name="Condition.Oxy.Chip" xml:space="preserve">
+  <value>OXYGEN</value>
+  <comment>OXYGEN</comment>
+</data>
+<data name="Condition.Oxy.Brief" xml:space="preserve">
+  <value>the body is not getting air</value>
+  <comment>the body is not getting air</comment>
+</data>
+<data name="Condition.Oxy.Sign.Scan" xml:space="preserve">
+  <value>scan: oxygen column</value>
+  <comment>scan: oxygen column</comment>
+</data>
+<data name="Condition.Oxy.Sign.Gasping" xml:space="preserve">
+  <value>gasping</value>
+  <comment>gasping</comment>
+</data>
+<data name="Condition.Oxy.Cause.Crit" xml:space="preserve">
+  <value>critical state</value>
+  <comment>critical state</comment>
+</data>
+<data name="Condition.Oxy.Cause.Lungs" xml:space="preserve">
+  <value>crushed lungs</value>
+  <comment>crushed lungs</comment>
+</data>
+<data name="Condition.Oxy.Cause.Blood" xml:space="preserve">
+  <value>low blood</value>
+  <comment>low blood</comment>
+</data>
+<data name="Condition.Pain.DisplayName" xml:space="preserve">
+  <value>pain</value>
+  <comment>pain</comment>
+</data>
+<data name="Condition.Pain.Chip" xml:space="preserve">
+  <value>IN PAIN</value>
+  <comment>IN PAIN</comment>
+</data>
+<data name="Condition.Pain.Brief" xml:space="preserve">
+  <value>a pure readout of every wound and fracture</value>
+  <comment>a pure readout of every wound and fracture</comment>
+</data>
+<data name="Condition.Pain.Mend" xml:space="preserve">
+  <value>six levels: mild, discomforting, moderate, distressing, severe, horrible. a painkiller takes levels off, not wounds</value>
+  <comment>six levels: mild, discomforting, moderate, distressing, severe, horrible. a painkiller takes levels off, not wounds</comment>
+</data>
+<data name="Condition.Pain.Sign.Moodlet" xml:space="preserve">
+  <value>moodlet in pain, in serious pain, or in agony</value>
+  <comment>moodlet in pain, in serious pain, or in agony</comment>
+</data>
+<data name="Condition.Pain.Sign.Knockout" xml:space="preserve">
+  <value>severe pain knocks you out</value>
+  <comment>severe pain knocks you out</comment>
+</data>
+<data name="Condition.Pain.Cause.Source" xml:space="preserve">
+  <value>wounds, fractures, shock</value>
+  <comment>wounds, fractures, shock</comment>
+</data>
+<data name="Condition.Critical.DisplayName" xml:space="preserve">
+  <value>critical</value>
+  <comment>critical</comment>
+</data>
+<data name="Condition.Critical.Chip" xml:space="preserve">
+  <value>CRITICAL</value>
+  <comment>CRITICAL</comment>
+</data>
+<data name="Condition.Critical.Brief" xml:space="preserve">
+  <value>down, dying, and still alive</value>
+  <comment>down, dying, and still alive</comment>
+</data>
+<data name="Condition.Critical.Mend" xml:space="preserve">
+  <value>cpr buys time, inaprovaline holds the heart. fix the damage or this becomes death</value>
+  <comment>cpr buys time, inaprovaline holds the heart. fix the damage or this becomes death</comment>
+</data>
+<data name="Condition.Critical.Sign.Moodlet" xml:space="preserve">
+  <value>moodlet critical</value>
+  <comment>moodlet critical</comment>
+</data>
+<data name="Condition.Critical.Sign.Banner" xml:space="preserve">
+  <value>scan banner</value>
+  <comment>scan banner</comment>
+</data>
+<data name="Condition.Critical.Cause.Source" xml:space="preserve">
+  <value>total damage past the crit line</value>
+  <comment>total damage past the crit line</comment>
+</data>
+<data name="Condition.Critical.Treatment.Medkit.How" xml:space="preserve">
+  <value>treat every limb</value>
+  <comment>treat every limb</comment>
+</data>
+<data name="Condition.Unconscious.DisplayName" xml:space="preserve">
+  <value>unconscious</value>
+  <comment>unconscious</comment>
+</data>
+<data name="Condition.Unconscious.Chip" xml:space="preserve">
+  <value>UNCONSCIOUS</value>
+  <comment>UNCONSCIOUS</comment>
+</data>
+<data name="Condition.Unconscious.Brief" xml:space="preserve">
+  <value>down but not dying</value>
+  <comment>down but not dying</comment>
+</data>
+<data name="Condition.Unconscious.Sign.Moodlet" xml:space="preserve">
+  <value>moodlet unconscious</value>
+  <comment>moodlet unconscious</comment>
+</data>
+<data name="Condition.Unconscious.Cause.Pain" xml:space="preserve">
+  <value>severe pain</value>
+  <comment>severe pain</comment>
+</data>
+<data name="Condition.Unconscious.Cause.Blow" xml:space="preserve">
+  <value>a head blow</value>
+  <comment>a head blow</comment>
+</data>
+<data name="Condition.Unconscious.Cause.Sedatives" xml:space="preserve">
+  <value>sedatives</value>
+  <comment>sedatives</comment>
+</data>
+<data name="Condition.Unconscious.Cause.Revival" xml:space="preserve">
+  <value>coming back from death</value>
+  <comment>coming back from death</comment>
+</data>
+<data name="Condition.DeadPermanent.DisplayName" xml:space="preserve">
+  <value>dead (permanent)</value>
+  <comment>dead (permanent)</comment>
+</data>
+<data name="Condition.DeadPermanent.Chip" xml:space="preserve">
+  <value>GONE FOREVER</value>
+  <comment>GONE FOREVER</comment>
+</data>
+<data name="Condition.DeadPermanent.Brief" xml:space="preserve">
+  <value>no shock brings this body back</value>
+  <comment>no shock brings this body back</comment>
+</data>
+<data name="Condition.DeadPermanent.Sign.Scan" xml:space="preserve">
+  <value>scan: GONE FOREVER</value>
+  <comment>scan: GONE FOREVER</comment>
+</data>
+<data name="Condition.DeadPermanent.Cause.Expired" xml:space="preserve">
+  <value>expired: too long dead</value>
+  <comment>expired: too long dead</comment>
+</data>
+<data name="Condition.DeadPermanent.Cause.Decapitated" xml:space="preserve">
+  <value>decapitated</value>
+  <comment>decapitated</comment>
+</data>
+<data name="Condition.DeadPermanent.Cause.Exsanguinated" xml:space="preserve">
+  <value>exsanguinated: no blood left</value>
+  <comment>exsanguinated: no blood left</comment>
+</data>
+<data name="Condition.DeadPermanent.Cause.Heart" xml:space="preserve">
+  <value>heart destroyed (surgery first, then shock)</value>
+  <comment>heart destroyed (surgery first, then shock)</comment>
+</data>
+<data name="Condition.DeadPermanent.Cause.Chest" xml:space="preserve">
+  <value>chest burst</value>
+  <comment>chest burst</comment>
+</data>
+<data name="Condition.Concussion.DisplayName" xml:space="preserve">
+  <value>concussion</value>
+  <comment>concussion</comment>
+</data>
+<data name="Condition.Concussion.Chip" xml:space="preserve">
+  <value>CONCUSSED</value>
+  <comment>CONCUSSED</comment>
+</data>
+<data name="Condition.Concussion.Brief" xml:space="preserve">
+  <value>a blast or a blow to the head</value>
+  <comment>a blast or a blow to the head</comment>
+</data>
+<data name="Condition.Concussion.Mend" xml:space="preserve">
+  <value>three levels: dazed, concussed, shellshocked. it fades on its own, nothing speeds it</value>
+  <comment>three levels: dazed, concussed, shellshocked. it fades on its own, nothing speeds it</comment>
+</data>
+<data name="Condition.Concussion.Sign.Moodlet" xml:space="preserve">
+  <value>moodlet head swimming, concussed, or shellshocked</value>
+  <comment>moodlet head swimming, concussed, or shellshocked</comment>
+</data>
+<data name="Condition.Concussion.Sign.Senses" xml:space="preserve">
+  <value>muffled sound, blurred view</value>
+  <comment>muffled sound, blurred view</comment>
+</data>
+<data name="Condition.Concussion.Cause.Source" xml:space="preserve">
+  <value>blasts, head hits</value>
+  <comment>blasts, head hits</comment>
+</data>
+<data name="Condition.Organ.DisplayName" xml:space="preserve">
+  <value>organ damage</value>
+  <comment>organ damage</comment>
+</data>
+<data name="Condition.Organ.Chip" xml:space="preserve">
+  <value>ORGAN</value>
+  <comment>ORGAN</comment>
+</data>
+<data name="Condition.Organ.Brief" xml:space="preserve">
+  <value>heart, lungs, liver, kidneys, brain or eyes bruised or broken</value>
+  <comment>heart, lungs, liver, kidneys, brain or eyes bruised or broken</comment>
+</data>
+<data name="Condition.Organ.Mend" xml:space="preserve">
+  <value>a bruised organ mends on peridaxon. a broken one needs surgery</value>
+  <comment>a bruised organ mends on peridaxon. a broken one needs surgery</comment>
+</data>
+<data name="Condition.Organ.Sign.Scan" xml:space="preserve">
+  <value>scan: organs bruised or broken</value>
+  <comment>scan: organs bruised or broken</comment>
+</data>
+<data name="Condition.Organ.Sign.Symptoms" xml:space="preserve">
+  <value>coughing, headache, blurred sight</value>
+  <comment>coughing, headache, blurred sight</comment>
+</data>
+<data name="Condition.Organ.Cause.Source" xml:space="preserve">
+  <value>deep damage to the chest or head</value>
+  <comment>deep damage to the chest or head</comment>
+</data>
+<data name="Condition.Organ.Treatment.Peridaxon.How" xml:space="preserve">
+  <value>mends bruised organs over time</value>
+  <comment>mends bruised organs over time</comment>
+</data>
+<data name="Condition.Overdose.DisplayName" xml:space="preserve">
+  <value>overdose</value>
+  <comment>overdose</comment>
+</data>
+<data name="Condition.Overdose.Chip" xml:space="preserve">
+  <value>OVERDOSE</value>
+  <comment>OVERDOSE</comment>
+</data>
+<data name="Condition.Overdose.Brief" xml:space="preserve">
+  <value>too much of one reagent in the body</value>
+  <comment>too much of one reagent in the body</comment>
+</data>
+<data name="Condition.Overdose.Sign.Moodlet" xml:space="preserve">
+  <value>moodlet overdose: the reagent has reached dangerous levels</value>
+  <comment>moodlet overdose: the reagent has reached dangerous levels</comment>
+</data>
+<data name="Condition.Overdose.Sign.Scan" xml:space="preserve">
+  <value>scan: OD or OD CRITICAL beside the reagent</value>
+  <comment>scan: OD or OD CRITICAL beside the reagent</comment>
+</data>
+<data name="Condition.Overdose.Cause.Source" xml:space="preserve">
+  <value>every medicine has an overdose line, see its own page</value>
+  <comment>every medicine has an overdose line, see its own page</comment>
+</data>
+<data name="Condition.Radiation.DisplayName" xml:space="preserve">
+  <value>irradiated</value>
+  <comment>irradiated</comment>
+</data>
+<data name="Condition.Radiation.Chip" xml:space="preserve">
+  <value>IRRADIATED</value>
+  <comment>IRRADIATED</comment>
+</data>
+<data name="Condition.Radiation.Brief" xml:space="preserve">
+  <value>a dose of radiation</value>
+  <comment>a dose of radiation</comment>
+</data>
+<data name="Condition.Radiation.Sign.Moodlet" xml:space="preserve">
+  <value>moodlet irradiated</value>
+  <comment>moodlet irradiated</comment>
+</data>
+<data name="Condition.Radiation.Sign.Geiger" xml:space="preserve">
+  <value>geiger clicks</value>
+  <comment>geiger clicks</comment>
+</data>
+<data name="Condition.Radiation.Cause.Anomaly" xml:space="preserve">
+  <value>the anomaly</value>
+  <comment>the anomaly</comment>
+</data>
+<data name="Condition.Radiation.Cause.Radium" xml:space="preserve">
+  <value>radium</value>
+  <comment>radium</comment>
+</data>
+<data name="Condition.Radiation.Treatment.Antiradiation.How" xml:space="preserve">
+  <value>slows the dose while carried</value>
+  <comment>slows the dose while carried</comment>
+</data>
+<data name="Condition.Thirst.DisplayName" xml:space="preserve">
+  <value>thirst</value>
+  <comment>thirst</comment>
+</data>
+<data name="Condition.Thirst.Chip" xml:space="preserve">
+  <value>THIRSTY</value>
+  <comment>THIRSTY</comment>
+</data>
+<data name="Condition.Thirst.Brief" xml:space="preserve">
+  <value>thirsty, then parched, then dehydrated</value>
+  <comment>thirsty, then parched, then dehydrated</comment>
+</data>
+<data name="Condition.Thirst.Sign.Moodlet" xml:space="preserve">
+  <value>moodlet thirsty, parched, or dehydrated</value>
+  <comment>moodlet thirsty, parched, or dehydrated</comment>
+</data>
+<data name="Condition.Thirst.Cause.Time" xml:space="preserve">
+  <value>time</value>
+  <comment>time</comment>
+</data>
+<data name="Condition.Thirst.Treatment.Hydrating.How" xml:space="preserve">
+  <value>drink water or any hydrating reagent</value>
+  <comment>drink water or any hydrating reagent</comment>
+</data>
+<data name="Condition.Hunger.DisplayName" xml:space="preserve">
+  <value>hunger</value>
+  <comment>hunger</comment>
+</data>
+<data name="Condition.Hunger.Chip" xml:space="preserve">
+  <value>HUNGRY</value>
+  <comment>HUNGRY</comment>
+</data>
+<data name="Condition.Hunger.Brief" xml:space="preserve">
+  <value>hungry, then peckish, then starving</value>
+  <comment>peckish, then hungry, then starving</comment>
+</data>
+<data name="Condition.Hunger.Sign.Moodlet" xml:space="preserve">
+  <value>moodlet hungry, peckish, or starving</value>
+  <comment>moodlet peckish, hungry, or starving</comment>
+</data>
+<data name="Condition.Hunger.Cause.Time" xml:space="preserve">
+  <value>time</value>
+  <comment>time</comment>
+</data>
+<data name="Condition.Hunger.Treatment.Nutritious.How" xml:space="preserve">
+  <value>eat food or drink a nutritious reagent</value>
+  <comment>eat food or drink a nutritious reagent</comment>
+</data>
+<data name="Guide.Topic.Chemistry.Text" xml:space="preserve">
+  <value>mix in a beaker. a reaction fires the moment every part is present in ratio; nothing in gruntz needs heating. the chemmaster turns a beaker into pills and bottles</value>
+  <comment>mix in a beaker. a reaction fires the moment every part is present in ratio; nothing in gruntz needs heating. the chemmaster turns a beaker into pills and bottles</comment>
+</data>
+<data name="Guide.Topic.Medical.Text" xml:space="preserve">
+  <value>conditions are what can go wrong with a body; treatments are what fixes each one</value>
+  <comment>conditions are what can go wrong with a body; treatments are what fixes each one</comment>
+</data>
+<data name="Guide.Topic.Construction.Text" xml:space="preserve">
+  <value>hold the stack and click the ground. no tool builds anything; tools only take things apart and mend them</value>
+  <comment>hold the stack and click the ground. no tool builds anything; tools only take things apart and mend them</comment>
+</data>
+<data name="Guide.Topic.Items.Text" xml:space="preserve">
+  <value>tools and the families the game names them by; a family groups every item that does the same job</value>
+  <comment>tools and the families the game names them by; a family groups every item that does the same job</comment>
+</data>
+<data name="Guide.Section.Chemistry.Reactions.Text" xml:space="preserve">
+  <value>ratio is what matters. every multiple of a table reacts. a catalyst is never consumed</value>
+  <comment>ratio is what matters. every multiple of a table reacts. a catalyst is never consumed</comment>
+</data>
+<data name="Guide.Section.Chemistry.Reagents.Text" xml:space="preserve">
+  <value>each reagent has one job in a body: what it treats, its overdose line, and how fast it metabolises</value>
+  <comment>each reagent has one job in a body: what it treats, its overdose line, and how fast it metabolises</comment>
+</data>
+<data name="Guide.Section.Chemistry.Glassware.Text" xml:space="preserve">
+  <value>beakers, bottles, pills and injectors hold and carry reagents; a reaction only fires in open glassware</value>
+  <comment>beakers, bottles, pills and injectors hold and carry reagents; a reaction only fires in open glassware</comment>
+</data>
+<data name="Guide.Section.Chemistry.Machines.Text" xml:space="preserve">
+  <value>the dispenser pours base reagents, the chemmaster splits a beaker into pills and bottles, and the grinder breaks an item down into its reagents</value>
+  <comment>the dispenser pours base reagents, the chemmaster splits a beaker into pills and bottles, and the grinder breaks an item down into its reagents</comment>
+</data>
+<data name="Guide.Section.Medical.Conditions.Text" xml:space="preserve">
+  <value>every condition here lists its signs, its causes, and what treats it</value>
+  <comment>every condition here lists its signs, its causes, and what treats it</comment>
+</data>
+<data name="Guide.Section.Medical.Treatments.Text" xml:space="preserve">
+  <value>kits, splints and tools are what treat a condition; each condition page names which ones work</value>
+  <comment>kits, splints and tools are what treat a condition; each condition page names which ones work</comment>
+</data>
+<data name="Guide.Section.Construction.Recipes.Text" xml:space="preserve">
+  <value>hold a stack and click the ground; the recipe list here is every stack that builds something</value>
+  <comment>hold a stack and click the ground; the recipe list here is every stack that builds something</comment>
+</data>
+<data name="Guide.Section.Construction.Structures.Text" xml:space="preserve">
+  <value>barricades, girders and tables are what a recipe builds; each page lists its hit points and how it comes apart</value>
+  <comment>barricades, girders and tables are what a recipe builds; each page lists its hit points and how it comes apart</comment>
+</data>
+<data name="Guide.Section.Construction.Materials.Text" xml:space="preserve">
+  <value>sheets and planks are the stacks a recipe spends; a family groups every stack that counts as the same material</value>
+  <comment>sheets and planks are the stacks a recipe spends; a family groups every stack that counts as the same material</comment>
+</data>
+<data name="Guide.Section.Items.Families.Text" xml:space="preserve">
+  <value>when the game names a family like crowbars, this is the exact list of items it means</value>
+  <comment>when the game names a family like crowbars, this is the exact list of items it means</comment>
+</data>
+<data name="Guide.Section.Items.Tools.Text" xml:space="preserve">
+  <value>every hand tool, its qualities, and what family it belongs to</value>
+  <comment>every hand tool, its qualities, and what family it belongs to</comment>
+</data>
+<data name="Guide.Entity.Obj.Item.Tool.Crowbar.Text" xml:space="preserve">
+  <value>wedge it under a door to hold it open</value>
+  <comment>wedge it under a door to hold it open</comment>
+</data>
+<data name="Guide.Family.Obj.Item.Tool.Crowbar.Text" xml:space="preserve">
+  <value>a prybar swings five times harder than a plain crowbar and pries just the same</value>
+  <comment>a prybar swings five times harder than a plain crowbar and pries just the same</comment>
+</data>
+<data name="Guide.Entity.Obj.Structure.Barricade.Metal.Text" xml:space="preserve">
+  <value>screw, then wrench, then pry to take it down. a nailgun mends 10 percent per shot. it breaks into 2 metal sheets</value>
+  <comment>screw, then wrench, then pry to take it down. a nailgun mends 10 percent per shot. it breaks into 2 metal sheets</comment>
+</data>
+<data name="Guide.Entity.Obj.Structure.Girder.Text" xml:space="preserve">
+  <value>a girder is half a wall; weld metal sheets onto it to finish</value>
+  <comment>a girder is half a wall; weld metal sheets onto it to finish</comment>
+</data>
+<data name="Guide.Entity.Obj.Item.Device.Defibrillator.Text" xml:space="preserve">
+  <value>only a revivable body takes a shock; the scanner says which</value>
+  <comment>only a revivable body takes a shock; the scanner says which</comment>
+</data>
+<data name="Guide.Entity.Obj.Structure.Machinery.ChemDispenser.Text" xml:space="preserve">
+  <value>pours base reagents into a seated beaker; every medicine starts here</value>
+  <comment>pours base reagents into a seated beaker; every medicine starts here</comment>
+</data>
+<data name="Guide.Entity.Obj.Structure.Machinery.ChemMaster.Text" xml:space="preserve">
+  <value>splits a beaker into pills and bottles, and labels them</value>
+  <comment>splits a beaker into pills and bottles, and labels them</comment>
+</data>
+<data name="Guide.Condition.Condition.Fracture.Text" xml:space="preserve">
+  <value>a fracture keeps hurting and dragging the limb until splinted; splint first, then mend it with surgery or osteracil</value>
+  <comment>a fracture keeps hurting and dragging the limb until splinted; splint first, then mend it with surgery or osteracil</comment>
+</data>
+<data name="Guide.Condition.Condition.InternalBleeding.Text" xml:space="preserve">
+  <value>internal bleeding shows no wound and no blood trail; only a scan catches it before someone goes pale</value>
+  <comment>internal bleeding shows no wound and no blood trail; only a scan catches it before someone goes pale</comment>
+</data>
+<data name="Guide.Condition.Condition.DeadRevivable.Text" xml:space="preserve">
+  <value>revival possible means the body is not gone yet; treat the worst damage before the shock, not after</value>
+  <comment>revival possible means the body is not gone yet; treat the worst damage before the shock, not after</comment>
 </data>
 <data name="Loadout.Executive.Name" xml:space="preserve">
   <value>Executive</value>
