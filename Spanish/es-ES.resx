@@ -7952,7 +7952,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>~UNKNOWN</comment>
 </data>
 <data name="EorScreen.TilesSuffix" xml:space="preserve">
-  <value>{VALUE} M</value>
+  <value>{VALUE} CAS.</value>
   <comment>{VALUE} TILES</comment>
 </data>
 <data name="EorScreen.LegendaryTipHeader" xml:space="preserve">
