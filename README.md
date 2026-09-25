@@ -102,6 +102,15 @@ All of these write only into `Documents\My Games\Gruntz\Languages`. The game nev
 | `languages merge <locale> <file>` | Reads `<file>` (usually a translated `.missing.resx`) and writes a complete `<locale>.resx`: the file's values first, then the locale's existing valid translations, then English for anything left. `Language` and `Font` come from the file when present, otherwise from the existing language. |
 | `languages mark` | Toggles marking. While on, every string the active language lacks shows as `** English text **` in the game, so gaps are visible in place. Toggling reloads. |
 
+## Editing in the game
+
+The fastest way to translate is in place. Set your language, open the console and run `languages edit on`. While the mode is on, hold CTRL and SHIFT and left click any string on screen. A popup opens with the string's id, the English text and a field holding the current translation. Change it and press APPLY. The screen updates at once, and the game writes your whole language file to `Documents\My Games\Gruntz\Languages\<locale>.resx`, backing the previous copy up as `.bak`. RESET drops the string back to English. When several strings share the same words the popup lists them by id first; when nothing is under the cursor it offers a search field over ids and English.
+
+- The mode refuses to start while English is selected, since English is generated from the game's code.
+- A translation must keep the placeholders the English has; APPLY refuses one that does not.
+- The field takes any character in the Basic Multilingual Plane, typed or pasted, up to 256 characters.
+- Turn the mode off with `languages edit off` or `languages edit`. The file it wrote is the file to commit here.
+
 ## Making a new language
 
 1. Start the game and open the console.

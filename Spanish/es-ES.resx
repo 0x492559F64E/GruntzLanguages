@@ -8279,6 +8279,54 @@ The file is looked up beside this language file first, then under the game's Con
   <value> DAÑO DE FUEGO</value>
   <comment> FIRE DAMAGE</comment>
 </data>
+<data name="TranslatePopup.Title" xml:space="preserve">
+  <value>TRANSLATE</value>
+  <comment>TRANSLATE</comment>
+</data>
+<data name="TranslatePopup.IdLabel" xml:space="preserve">
+  <value>ID</value>
+  <comment>ID</comment>
+</data>
+<data name="TranslatePopup.EnglishLabel" xml:space="preserve">
+  <value>ENGLISH</value>
+  <comment>ENGLISH</comment>
+</data>
+<data name="TranslatePopup.PlaceholdersLabel" xml:space="preserve">
+  <value>PLACEHOLDERS: {LIST}</value>
+  <comment>PLACEHOLDERS: {LIST}</comment>
+</data>
+<data name="TranslatePopup.ApplyLabel" xml:space="preserve">
+  <value>APPLY</value>
+  <comment>APPLY</comment>
+</data>
+<data name="TranslatePopup.ResetLabel" xml:space="preserve">
+  <value>RESET</value>
+  <comment>RESET</comment>
+</data>
+<data name="TranslatePopup.CancelLabel" xml:space="preserve">
+  <value>CANCEL</value>
+  <comment>CANCEL</comment>
+</data>
+<data name="TranslatePopup.PickTitle" xml:space="preserve">
+  <value>SEVERAL STRINGS MATCH // PICK ONE</value>
+  <comment>SEVERAL STRINGS MATCH // PICK ONE</comment>
+</data>
+<data name="TranslatePopup.SearchHint" xml:space="preserve">
+  <value>type part of the id or the english</value>
+  <comment>type part of the id or the english</comment>
+</data>
+<data name="TranslatePopup.SearchTitle" xml:space="preserve">
+  <value>NO STRING UNDER THE CURSOR // SEARCH</value>
+  <comment>NO STRING UNDER THE CURSOR // SEARCH</comment>
+</data>
+<data name="TranslatePopup.EmptyRefusal" xml:space="preserve">
+  <value>empty: use RESET to fall back to english</value>
+  <comment>empty: use RESET to fall back to english</comment>
+</data>
+<data name="TranslatePopup.PlaceholderRefusal" xml:space="preserve">
+  <value>placeholders must match the english</value>
+  <comment>placeholders must match the english</comment>
+</data>
 <data name="Def.Crate.DisplayName" xml:space="preserve">
   <value>caja</value>
   <comment>crate</comment>
