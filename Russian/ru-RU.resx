@@ -307,6 +307,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>НАСТРОЙКИ</value>
   <comment>SETTINGS</comment>
 </data>
+<data name="MainMenu.Row.Codex.Label" xml:space="preserve">
+  <value>CODEX</value>
+  <comment>CODEX</comment>
+</data>
 <data name="MainMenu.Row.JoinGame.Label" xml:space="preserve">
   <value>ВОЙТИ В ИГРУ</value>
   <comment>JOIN GAME</comment>
@@ -327,6 +331,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>КАРТИНКА // ЗВУК // УПРАВЛЕНИЕ</value>
   <comment>DISPLAY // AUDIO // CONTROLS</comment>
 </data>
+<data name="MainMenu.Row.Codex.Caption" xml:space="preserve">
+  <value>FIELD REFERENCE // F1 IN GAME</value>
+  <comment>FIELD REFERENCE // F1 IN GAME</comment>
+</data>
 <data name="MainMenu.Row.JoinGame.Caption" xml:space="preserve">
   <value>ПОДКЛЮЧИТЬСЯ К СЕРВЕРУ</value>
   <comment>CONNECT TO SERVER</comment>
@@ -346,6 +354,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="MainMenu.Row.Settings.Status" xml:space="preserve">
   <value>НАСТРОЙКИ // КАРТИНКА / ЗВУК / УПРАВЛЕНИЕ</value>
   <comment>SETTINGS // DISPLAY / AUDIO / CONTROLS</comment>
+</data>
+<data name="MainMenu.Row.Codex.Status" xml:space="preserve">
+  <value>CODEX // OPENING FIELD REFERENCE</value>
+  <comment>CODEX // OPENING FIELD REFERENCE</comment>
 </data>
 <data name="MainMenu.Row.JoinGame.Status" xml:space="preserve">
   <value>ВОЙТИ В ИГРУ // ОЖИДАНИЕ АЙПИ-АДРЕСА</value>
