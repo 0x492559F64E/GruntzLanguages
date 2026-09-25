@@ -1472,7 +1472,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>insert</comment>
 </data>
 <data name="HoverVerbLabels.FridgeStash" xml:space="preserve">
-  <value>existencias</value>
+  <value>guardar</value>
   <comment>stock</comment>
 </data>
 <data name="HoverVerbLabels.ChemDispenserWindow" xml:space="preserve">
@@ -6388,7 +6388,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>UNDERBARREL</comment>
 </data>
 <data name="ExamineWeapon.StockLabel" xml:space="preserve">
-  <value>CULATA</value>
+  <value>culata</value>
   <comment>STOCK</comment>
 </data>
 <data name="ExamineWeapon.MagazineLabel" xml:space="preserve">
@@ -33300,7 +33300,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>collapse stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Pistol.Collapsible.Verb.Toggle.State" xml:space="preserve">
-  <value>existencias</value>
+  <value>culata</value>
   <comment>stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Pistol.Collapsible.Folded.DisplayName" xml:space="preserve">
@@ -33348,7 +33348,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>collapse stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Verb.Toggle.State" xml:space="preserve">
-  <value>existencias</value>
+  <value>culata</value>
   <comment>stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Folded.DisplayName" xml:space="preserve">
@@ -33380,7 +33380,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>collapse stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak4047.Verb.Toggle.State" xml:space="preserve">
-  <value>existencias</value>
+  <value>culata</value>
   <comment>stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak4047.Folded.DisplayName" xml:space="preserve">
@@ -33412,7 +33412,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>collapse stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.M41ae2.Verb.Toggle.State" xml:space="preserve">
-  <value>existencias</value>
+  <value>culata</value>
   <comment>stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.M41ae2.Folded.DisplayName" xml:space="preserve">
@@ -33460,7 +33460,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>collapse stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Smg.Collapsible.Verb.Toggle.State" xml:space="preserve">
-  <value>existencias</value>
+  <value>culata</value>
   <comment>stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Smg.Collapsible.Folded.DisplayName" xml:space="preserve">
@@ -33492,7 +33492,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>collapse stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Smg.Collapsible.Brace.Verb.Toggle.State" xml:space="preserve">
-  <value>existencias</value>
+  <value>culata</value>
   <comment>stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Smg.Collapsible.Brace.Folded.DisplayName" xml:space="preserve">
@@ -33524,7 +33524,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>collapse stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Smg.Collapsible.Mp5a5.Verb.Toggle.State" xml:space="preserve">
-  <value>existencias</value>
+  <value>culata</value>
   <comment>stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Smg.Collapsible.Mp5a5.Folded.DisplayName" xml:space="preserve">
@@ -33556,7 +33556,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>collapse stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Synth.Collapsible.Verb.Toggle.State" xml:space="preserve">
-  <value>existencias</value>
+  <value>culata</value>
   <comment>stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Synth.Collapsible.Folded.DisplayName" xml:space="preserve">
@@ -33604,7 +33604,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>collapse stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Xm177.Verb.Toggle.State" xml:space="preserve">
-  <value>existencias</value>
+  <value>culata</value>
   <comment>stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Xm177.Folded.DisplayName" xml:space="preserve">
@@ -33636,7 +33636,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>collapse stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Xm177.Car15a3.Verb.Toggle.State" xml:space="preserve">
-  <value>existencias</value>
+  <value>culata</value>
   <comment>stock</comment>
 </data>
 <data name="Def.Obj.Item.Attachable.Stock.Xm177.Car15a3.Folded.DisplayName" xml:space="preserve">
