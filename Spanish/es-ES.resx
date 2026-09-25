@@ -620,7 +620,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>{ACTOR} drinks from the {USED}.</comment>
 </data>
 <data name="Chat.Swallow" xml:space="preserve">
-  <value>{ACTOR} le da de comer {USED} a {TARGET}.</value>
+  <value>{ACTOR} le da {USED} a {TARGET}.</value>
   <comment>{ACTOR} feeds the {TARGET} a {USED}.</comment>
 </data>
 <data name="Chat.EatRefused" xml:space="preserve">
@@ -2692,7 +2692,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Splint it</comment>
 </data>
 <data name="Moodlet.Hint.Splinted" xml:space="preserve">
-  <value>Quita la férula desde el menú contextual cuando se cure</value>
+  <value>Usa Quitar férula en el menú contextual cuando se cure</value>
   <comment>Remove Splint from the context menu when healed</comment>
 </data>
 <data name="Moodlet.Hint.Shrapnel.Known" xml:space="preserve">
@@ -2700,7 +2700,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Dig it out with a scalpel, bayonet, or screwdriver</comment>
 </data>
 <data name="Moodlet.Hint.Shrapnel.Unknown" xml:space="preserve">
-  <value>Arrancar objeto clavado desde el menú contextual</value>
+  <value>Usa Arrancar objeto clavado en el menú contextual</value>
   <comment>Yank Embedded Object from the context menu</comment>
 </data>
 <data name="Moodlet.Hint.Hunger.EatSomething" xml:space="preserve">
@@ -2732,7 +2732,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Click the hand slot to unwield</comment>
 </data>
 <data name="Moodlet.Hint.Crowded" xml:space="preserve">
-  <value>Dispersaos</value>
+  <value>Sepárate de los demás</value>
   <comment>Spread out</comment>
 </data>
 <data name="Moodlet.Hint.Concussed" xml:space="preserve">
@@ -2796,7 +2796,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Noise and closeness still give you away</comment>
 </data>
 <data name="Moodlet.Hint.Gestation" xml:space="preserve">
-  <value>Busca un cirujano para que te lo extraiga</value>
+  <value>Busca un cirujano que te saque lo que llevas dentro</value>
   <comment>Find a surgeon for extraction</comment>
 </data>
 <data name="Moodlet.Hint.Scoped" xml:space="preserve">
@@ -2804,7 +2804,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Unwield or switch the scope off to exit</comment>
 </data>
 <data name="Moodlet.Hint.HoldingBreath" xml:space="preserve">
-  <value>Suéltalo antes de desmayarte</value>
+  <value>Suelta el aire antes de desmayarte</value>
   <comment>Release it before you black out</comment>
 </data>
 <data name="Moodlet.Hint.Entangled" xml:space="preserve">
@@ -2972,7 +2972,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Night vision optics</comment>
 </data>
 <data name="Moodlet.Phrase.CrosshairPicksTheLimb" xml:space="preserve">
-  <value>La mira elige la extremidad, no el muñeco</value>
+  <value>La retícula elige la extremidad, no el selector de zona</value>
   <comment>Crosshair picks the limb, not the paper doll</comment>
 </data>
 <data name="Moodlet.Phrase.NoBloodRegeneration" xml:space="preserve">
@@ -4032,15 +4032,15 @@ The file is looked up beside this language file first, then under the game's Con
   <comment> Every word comes out a shout, hears only close or shouted speech</comment>
 </data>
 <data name="TraitChips.Marker.NoToken" xml:space="preserve">
-  <value>No</value>
+  <value>Sin</value>
   <comment>No</comment>
 </data>
 <data name="TraitChips.Marker.NoFriendlyFireUnit" xml:space="preserve">
-  <value> fuego amigo perdido con la mira</value>
+  <value> fuego amigo al disparar con mira</value>
   <comment> stray friendly fire while scoped</comment>
 </data>
 <data name="TraitChips.Marker.NoCoverUnit" xml:space="preserve">
-  <value> la cobertura detiene un disparo con mira</value>
+  <value> bloqueo de la cobertura al disparar con mira</value>
   <comment> cover stops a scoped shot</comment>
 </data>
 <data name="TraitChips.Marker.ShortSightedToken" xml:space="preserve">
@@ -9124,7 +9124,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>STIMULATES</comment>
 </data>
 <data name="Codex.Property.Sedative" xml:space="preserve">
-  <value>DEJA INCONSCIENTE A PARTIR DE UNA DOSIS</value>
+  <value>DEJA INCONSCIENTE A PARTIR DE CIERTA DOSIS</value>
   <comment>KNOCKS OUT ABOVE A DOSE</comment>
 </data>
 <data name="Codex.Property.Antiradiation" xml:space="preserve">
@@ -53172,7 +53172,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.DonutBox.DisplayName" xml:space="preserve">
-  <value>¡Dónuts Yum!</value>
+  <value>dónuts Yum!</value>
   <comment>Yum! donuts</comment>
 </data>
 <data name="Def.Obj.Item.Storage.DonutBox.Verb.PickUp" xml:space="preserve">
@@ -53180,7 +53180,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.DonutBox.Open.DisplayName" xml:space="preserve">
-  <value>¡Dónuts Yum!</value>
+  <value>dónuts Yum!</value>
   <comment>Yum! donuts</comment>
 </data>
 <data name="Def.Obj.Item.Storage.DonutBox.Open.Verb.PickUp" xml:space="preserve">
@@ -53188,7 +53188,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.DonutBox.Empty.DisplayName" xml:space="preserve">
-  <value>¡Dónuts Yum!</value>
+  <value>dónuts Yum!</value>
   <comment>Yum! donuts</comment>
 </data>
 <data name="Def.Obj.Item.Storage.DonutBox.Empty.Verb.PickUp" xml:space="preserve">
@@ -53196,7 +53196,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.DonutBox.Empty.Open.DisplayName" xml:space="preserve">
-  <value>¡Dónuts Yum!</value>
+  <value>dónuts Yum!</value>
   <comment>Yum! donuts</comment>
 </data>
 <data name="Def.Obj.Item.Storage.DonutBox.Empty.Open.Verb.PickUp" xml:space="preserve">
@@ -73480,7 +73480,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>LIGHTNING ROD</comment>
 </data>
 <data name="Honor.LightningRod.Flavor" xml:space="preserve">
-  <value>alcanzado por un rayo más veces</value>
+  <value>el que más rayos ha recibido</value>
   <comment>struck by lightning the most times</comment>
 </data>
 <data name="Trait.Veteran.Name" xml:space="preserve">
