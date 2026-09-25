@@ -1104,11 +1104,11 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>weld</comment>
 </data>
 <data name="HoverVerbLabels.StorageOpenCloseClose" xml:space="preserve">
-  <value>cerrar almacenamiento</value>
+  <value>cerrar almacenaje</value>
   <comment>close storage</comment>
 </data>
 <data name="HoverVerbLabels.StorageOpenCloseOpen" xml:space="preserve">
-  <value>abrir almacenamiento</value>
+  <value>abrir almacenaje</value>
   <comment>open storage</comment>
 </data>
 <data name="HoverVerbLabels.PickUp" xml:space="preserve">
@@ -1164,7 +1164,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>scan</comment>
 </data>
 <data name="HoverVerbLabels.SleeperWindow" xml:space="preserve">
-  <value>operar</value>
+  <value>usar</value>
   <comment>operate</comment>
 </data>
 <data name="HoverVerbLabels.PodLoad" xml:space="preserve">
@@ -1228,7 +1228,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>attach</comment>
 </data>
 <data name="HoverVerbLabels.StashIntoOpenStorage" xml:space="preserve">
-  <value>insertar</value>
+  <value>meter</value>
   <comment>insert</comment>
 </data>
 <data name="HoverVerbLabels.PlaceAtContainerTile" xml:space="preserve">
@@ -1312,7 +1312,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>attack</comment>
 </data>
 <data name="HoverVerbLabels.GlassKnock" xml:space="preserve">
-  <value>llamar</value>
+  <value>golpear</value>
   <comment>knock</comment>
 </data>
 <data name="HoverVerbLabels.Disarm" xml:space="preserve">
@@ -1372,7 +1372,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>remove cell</comment>
 </data>
 <data name="HoverVerbLabels.RechargerIn" xml:space="preserve">
-  <value>insertar</value>
+  <value>meter</value>
   <comment>insert</comment>
 </data>
 <data name="HoverVerbLabels.RechargerEject" xml:space="preserve">
@@ -1468,7 +1468,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>controls</comment>
 </data>
 <data name="HoverVerbLabels.ChemSocketIn" xml:space="preserve">
-  <value>insertar</value>
+  <value>meter</value>
   <comment>insert</comment>
 </data>
 <data name="HoverVerbLabels.FridgeStash" xml:space="preserve">
@@ -1512,7 +1512,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>insert cash</comment>
 </data>
 <data name="HoverVerbLabels.RegisterWindow" xml:space="preserve">
-  <value>operar</value>
+  <value>usar</value>
   <comment>operate</comment>
 </data>
 <data name="HoverVerbLabels.BioprinterWindow" xml:space="preserve">
@@ -1540,7 +1540,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>wet mop</comment>
 </data>
 <data name="HoverVerbLabels.CookInsert" xml:space="preserve">
-  <value>insertar</value>
+  <value>meter</value>
   <comment>insert</comment>
 </data>
 <data name="HoverVerbLabels.CookPour" xml:space="preserve">
@@ -2080,7 +2080,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>body</comment>
 </data>
 <data name="SurgeryStepNames.Incise" xml:space="preserve">
-  <value>incisión</value>
+  <value>incidir</value>
   <comment>incise</comment>
 </data>
 <data name="SurgeryStepNames.Cauterize" xml:space="preserve">
@@ -3492,7 +3492,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>out of reach</comment>
 </data>
 <data name="StorageUi.Reason.OneWay" xml:space="preserve">
-  <value>no cabe nada más de vuelta</value>
+  <value>no se puede volver a meter nada</value>
   <comment>nothing fits back in</comment>
 </data>
 <data name="StorageUi.Reason.LidClosed" xml:space="preserve">
@@ -3540,7 +3540,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Decline</comment>
 </data>
 <data name="GunHud.Tooltip.Cycle" xml:space="preserve">
-  <value>Ciclar</value>
+  <value>Cambiar</value>
   <comment>Cycle</comment>
 </data>
 <data name="GunHud.Tooltip.Use" xml:space="preserve">
@@ -4108,7 +4108,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Unload</comment>
 </data>
 <data name="ContextMenu.Strip" xml:space="preserve">
-  <value>Desvestir</value>
+  <value>Quitar equipo</value>
   <comment>Strip</comment>
 </data>
 <data name="ContextMenu.Climb" xml:space="preserve">
@@ -6388,7 +6388,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>UNDERBARREL</comment>
 </data>
 <data name="ExamineWeapon.StockLabel" xml:space="preserve">
-  <value>culata</value>
+  <value>CULATA</value>
   <comment>STOCK</comment>
 </data>
 <data name="ExamineWeapon.MagazineLabel" xml:space="preserve">
@@ -8092,11 +8092,11 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>TIME IN A CLOSET</comment>
 </data>
 <data name="EorScreen.StatLeglessTiles" xml:space="preserve">
-  <value>DISTANCIA ARRASTRADA SIN PIERNAS</value>
+  <value>DISTANCIA ARRASTRÁNDOSE SIN PIERNAS</value>
   <comment>DISTANCE CRAWLED LEGLESS</comment>
 </data>
 <data name="EorScreen.StatDraggedDownedTiles" xml:space="preserve">
-  <value>DISTANCIA ARRASTRANDO</value>
+  <value>DISTANCIA ARRASTRANDO HERIDOS</value>
   <comment>DISTANCE DRAGGING</comment>
 </data>
 <data name="EorScreen.StatLightningStruck" xml:space="preserve">
@@ -21300,23 +21300,23 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Delta Squad Fireteam Leader Preparations</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.Door.Airlock.Almayer.Marine.Requisitions.DisplayName" xml:space="preserve">
-  <value>Bahía de requisiciones</value>
+  <value>Sala de requisiciones</value>
   <comment>Requisitions Bay</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.Door.Airlock.Almayer.Marine.Requisitions.Opening.DisplayName" xml:space="preserve">
-  <value>Bahía de requisiciones</value>
+  <value>Sala de requisiciones</value>
   <comment>Requisitions Bay</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.Door.Airlock.Almayer.Marine.Requisitions.Open.DisplayName" xml:space="preserve">
-  <value>Bahía de requisiciones</value>
+  <value>Sala de requisiciones</value>
   <comment>Requisitions Bay</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.Door.Airlock.Almayer.Marine.Requisitions.Closing.DisplayName" xml:space="preserve">
-  <value>Bahía de requisiciones</value>
+  <value>Sala de requisiciones</value>
   <comment>Requisitions Bay</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.Door.Airlock.Almayer.Marine.Requisitions.Welded.DisplayName" xml:space="preserve">
-  <value>Bahía de requisiciones</value>
+  <value>Sala de requisiciones</value>
   <comment>Requisitions Bay</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.Door.Airlock.Almayer.Medical.DisplayName" xml:space="preserve">
@@ -24276,7 +24276,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>M56D heavy machine gun</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.MechBayRechargePort.DisplayName" xml:space="preserve">
-  <value>Toma de energía de la bahía de mechas</value>
+  <value>Toma de energía del hangar de mechas</value>
   <comment>Mech Bay Power Port</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.MedicalPod.Autodoc.DisplayName" xml:space="preserve">
@@ -52380,7 +52380,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.Box.Kit.Pursuit.DisplayName" xml:space="preserve">
-  <value>Kit de punta de lanza M39</value>
+  <value>Kit de hombre punta M39</value>
   <comment>M39 Point Man Kit</comment>
 </data>
 <data name="Def.Obj.Item.Storage.Box.Kit.Pursuit.Verb.PickUp" xml:space="preserve">
@@ -52388,7 +52388,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.Box.Kit.Pursuit.Open.DisplayName" xml:space="preserve">
-  <value>Kit de punta de lanza M39</value>
+  <value>Kit de hombre punta M39</value>
   <comment>M39 Point Man Kit</comment>
 </data>
 <data name="Def.Obj.Item.Storage.Box.Kit.Pursuit.Open.Verb.PickUp" xml:space="preserve">
@@ -73464,7 +73464,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>SLUG RACE</comment>
 </data>
 <data name="Honor.SlugRace.Flavor" xml:space="preserve">
-  <value>mayor distancia arrastrada tras perder una pierna, cincuenta casillas como mínimo</value>
+  <value>más distancia arrastrándose tras perder una pierna, cincuenta casillas como mínimo</value>
   <comment>greatest distance crawled with a leg left behind, fifty tiles at the least</comment>
 </data>
 <data name="Honor.StretcherBearer.Name" xml:space="preserve">
@@ -73668,7 +73668,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Spent too many years beside the gun. Cannot hear a word, and says everything at a shout.</comment>
 </data>
 <data name="Trait.Gunner.Name" xml:space="preserve">
-  <value>Artillero</value>
+  <value>Ametrallador</value>
   <comment>Gunner</comment>
 </data>
 <data name="Trait.Gunner.Flavor" xml:space="preserve">
@@ -73768,7 +73768,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>raises an eyebrow.</comment>
 </data>
 <data name="Emote.Facepalms" xml:space="preserve">
-  <value>se da una palmada en la cara.</value>
+  <value>se lleva la mano a la cara.</value>
   <comment>facepalms.</comment>
 </data>
 <data name="Emote.Frowns" xml:space="preserve">
@@ -73860,7 +73860,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>gives a thumbs down.</comment>
 </data>
 <data name="Emote.Twitches" xml:space="preserve">
-  <value>se estremece.</value>
+  <value>sufre un espasmo.</value>
   <comment>twitches.</comment>
 </data>
 <data name="Emote.Waves" xml:space="preserve">
@@ -76592,7 +76592,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>XENO NEST</comment>
 </data>
 <data name="Modifier.XenoNest.Tooltip" xml:space="preserve">
-  <value>UN NIDO XENO SE PUDRE EN LA COLONIA // LOS ZÁNGANOS CAZAN DE NOCHE Y VUELVEN AL AMANECER</value>
+  <value>UN NIDO XENO SE EXTIENDE POR LA COLONIA // LOS ZÁNGANOS CAZAN DE NOCHE Y VUELVEN AL AMANECER</value>
   <comment>A XENO NEST FESTERS IN THE COLONY // DRONES HUNT AT NIGHT AND RETURN AT DAWN</comment>
 </data>
 <data name="Modifier.UnnaturalNight.Label" xml:space="preserve">
