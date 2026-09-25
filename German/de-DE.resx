@@ -8455,6 +8455,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>CONTAINS</value>
   <comment>CONTAINS</comment>
 </data>
+<data name="Codex.Sect.Dispenses" xml:space="preserve">
+  <value>DISPENSES</value>
+  <comment>DISPENSES</comment>
+</data>
 <data name="Codex.Sect.Build" xml:space="preserve">
   <value>BUILD</value>
   <comment>BUILD</comment>
@@ -8718,10 +8722,6 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.NotStocked" xml:space="preserve">
   <value>NOT STOCKED</value>
   <comment>NOT STOCKED</comment>
-</data>
-<data name="Codex.Dispensed" xml:space="preserve">
-  <value>DISPENSED</value>
-  <comment>DISPENSED</comment>
 </data>
 <data name="Codex.Stocked" xml:space="preserve">
   <value>STOCKED, NOT MIXED</value>
