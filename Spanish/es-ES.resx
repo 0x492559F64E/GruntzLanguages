@@ -18956,7 +18956,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>chemical dispenser</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.ChemDispenser.Soda.DisplayName" xml:space="preserve">
-  <value>fuente de refrescos</value>
+  <value>dispensador de refrescos</value>
   <comment>soda fountain</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.ChemDispenser.Soda.Verb.Toggle" xml:space="preserve">
@@ -18964,7 +18964,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>turn off</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.ChemDispenser.Soda.Off.DisplayName" xml:space="preserve">
-  <value>fuente de refrescos</value>
+  <value>dispensador de refrescos</value>
   <comment>soda fountain</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.ChemDispenser.Soda.Off.Verb.Toggle" xml:space="preserve">
