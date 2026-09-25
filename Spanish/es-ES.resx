@@ -8840,8 +8840,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>WEDGING</comment>
 </data>
 <data name="Codex.F1Hint" xml:space="preserve">
-  <value>CODEX</value>
-  <comment>CODEX</comment>
+  <value>codex</value>
+  <comment>codex</comment>
 </data>
 <data name="Codex.Atm" xml:space="preserve">
   <value>W-Y ATM</value>
