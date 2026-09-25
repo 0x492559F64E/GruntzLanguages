@@ -8996,7 +8996,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>REAGENTS</comment>
 </data>
 <data name="Codex.Section.Chemistry.Glassware" xml:space="preserve">
-  <value>MATERIAL DE VIDRIO</value>
+  <value>RECIPIENTES</value>
   <comment>GLASSWARE</comment>
 </data>
 <data name="Codex.Section.Chemistry.Machines" xml:space="preserve">
