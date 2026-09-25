@@ -73408,7 +73408,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>FACE MAGNET</comment>
 </data>
 <data name="Honor.MostHugged.Flavor" xml:space="preserve">
-  <value>recibió más abrazacaras en la cara</value>
+  <value>el que más abrazacaras se ha comido</value>
   <comment>took the most facehuggers to the face</comment>
 </data>
 <data name="Honor.CombatEngineer.Name" xml:space="preserve">
