@@ -8376,7 +8376,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>EXAMINE</comment>
 </data>
 <data name="Codex.HomeBrief" xml:space="preserve">
-  <value>CADA NOMBRE DE UNA PÁGINA ES UN ENLACE. UN NOMBRE MARCADO COMO CUALQUIERA ES UNA FAMILIA: UNA PÁGINA CON TODO LO QUE CUENTA COMO LO MISMO.</value>
+  <value>CADA NOMBRE DE UNA PÁGINA ES UN ENLACE. UN NOMBRE CON CUALQUIER DELANTE ES UNA FAMILIA: UNA PÁGINA CON TODO LO QUE CUENTA COMO LO MISMO.</value>
   <comment>EVERY NAME ON A PAGE IS A LINK. A NAME MARKED ANY IS A FAMILY: A PAGE LISTING EVERYTHING THAT COUNTS AS ONE.</comment>
 </data>
 <data name="Codex.HomeSub" xml:space="preserve">
@@ -8404,7 +8404,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>NO PAGE MATCHES. SEARCH LOOKS AT NAMES ONLY.</comment>
 </data>
 <data name="Codex.Any" xml:space="preserve">
-  <value>CUALQUIERA</value>
+  <value>CUALQUIER</value>
   <comment>ANY</comment>
 </data>
 <data name="Codex.Size.S" xml:space="preserve">
