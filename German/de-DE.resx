@@ -8072,7 +8072,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>XENOMORPHS KILLED</comment>
 </data>
 <data name="EorScreen.StatHugsTaken" xml:space="preserve">
-  <value>ERHALTENE GESICHTSKLAMMERER</value>
+  <value>FACEHUGGER GEFANGEN</value>
   <comment>FACEHUGS TAKEN</comment>
 </data>
 <data name="EorScreen.StatCadesBuilt" xml:space="preserve">
