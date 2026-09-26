@@ -6144,7 +6144,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>HIT THE VENDOR WITH A SPENT BOTTLE TO REFILL IT</comment>
 </data>
 <data name="Vendor.PaymentHint" xml:space="preserve">
-  <value>GELDABBUCHUNG AM VERKAUFSAUTOMATEN – BARGELD AN JEDEM W-Y-GELDAUTOMATEN EINZAHLEN</value>
+  <value>GELDABBUCHUNG AM VERKAUFSAUTOMATEN - BARGELD AN JEDEM W-Y-GELDAUTOMATEN EINZAHLEN</value>
   <comment>FUNDS DEBIT ON VEND - DEPOSIT CASH AT ANY W-Y ATM</comment>
 </data>
 <data name="Vendor.EmptyLabel" xml:space="preserve">
@@ -6192,11 +6192,11 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>NO OPTIONS FOR THIS STACK</comment>
 </data>
 <data name="Construction.HintLine1" xml:space="preserve">
-  <value>WÄHLE EINE STRUKTUR, UM IHREN GEIST ZU AKTIVIEREN – LINKSKLICK IN DER WELT BAUT</value>
+  <value>WÄHLE EINE STRUKTUR, UM IHREN GEIST ZU AKTIVIEREN - LINKSKLICK IN DER WELT BAUT</value>
   <comment>SELECT A STRUCTURE TO ARM ITS GHOST - LCLICK IN THE WORLD BUILDS</comment>
 </data>
 <data name="Construction.HintLine2" xml:space="preserve">
-  <value>TAB DREHT DIE AUSRICHTUNG – RECHTSKLICK ODER ESC DEAKTIVIERT</value>
+  <value>TAB DREHT DIE AUSRICHTUNG - RECHTSKLICK ODER ESC DEAKTIVIERT</value>
   <comment>TAB ROTATES FACING - RCLICK OR ESC DISARMS</comment>
 </data>
 <data name="Construction.ItemsHint" xml:space="preserve">
@@ -6208,7 +6208,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>NO OPTION SELECTED</comment>
 </data>
 <data name="Construction.ArmedFootLine" xml:space="preserve">
-  <value>GEIST AKTIVIERT – {NAME}</value>
+  <value>GEIST AKTIVIERT - {NAME}</value>
   <comment>GHOST ARMED - {NAME}</comment>
 </data>
 <data name="Construction.ArmedTag" xml:space="preserve">
@@ -7016,11 +7016,11 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>SELECT YOUR LOADOUT</comment>
 </data>
 <data name="LoadoutSelect.HintText" xml:space="preserve">
-  <value>A/D, PFEILE ODER 1–9 ZUM DURCHSUCHEN // ENTER ODER EINSATZ ZUM ERSCHEINEN</value>
+  <value>A/D, PFEILE ODER 1-9 ZUM DURCHSUCHEN // ENTER ODER EINSATZ ZUM ERSCHEINEN</value>
   <comment>A/D, ARROWS OR 1-9 TO BROWSE // ENTER OR DEPLOY TO SPAWN</comment>
 </data>
 <data name="LoadoutSelect.HintWithMapKey" xml:space="preserve">
-  <value>A/D, PFEILE ODER 1–9 ZUM DURCHSUCHEN // ENTER ODER EINSATZ ZUM ERSCHEINEN // {KEY} FÜR ÜBERSICHTSKARTE</value>
+  <value>A/D, PFEILE ODER 1-9 ZUM DURCHSUCHEN // ENTER ODER EINSATZ ZUM ERSCHEINEN // {KEY} FÜR ÜBERSICHTSKARTE</value>
   <comment>A/D, ARROWS OR 1-9 TO BROWSE // ENTER OR DEPLOY TO SPAWN // {KEY} FOR SURVEY MAP</comment>
 </data>
 <data name="LoadoutSelect.FooterSelectedLine" xml:space="preserve">
@@ -7232,7 +7232,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>COLONY UPLINK</comment>
 </data>
 <data name="AwaitingMap.StateLine" xml:space="preserve">
-  <value>BITTE WARTEN – KARTENZUWEISUNG AUSSTEHEND</value>
+  <value>BITTE WARTEN - KARTENZUWEISUNG AUSSTEHEND</value>
   <comment>PLEASE WAIT - AWAITING MAP ASSIGNMENT</comment>
 </data>
 <data name="AwaitingMap.ServerLabel" xml:space="preserve">
@@ -7260,7 +7260,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>TARGET</comment>
 </data>
 <data name="Tracker.BearingSignalLine" xml:space="preserve">
-  <value>PEILUNG {BEARING} – SIGNAL {SIGNAL}</value>
+  <value>PEILUNG {BEARING} - SIGNAL {SIGNAL}</value>
   <comment>BEARING {BEARING} - SIGNAL {SIGNAL}</comment>
 </data>
 <data name="Tracker.SourceLabel" xml:space="preserve">
@@ -18548,11 +18548,11 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Hybrisa Prospera welcome sign</comment>
 </data>
 <data name="Def.Obj.Structure.LzSign.HybrisaSign.Medical.DisplayName" xml:space="preserve">
-  <value>Hybrisa Prospera – Notfallmedizinische Landezone Eins-Schild</value>
+  <value>Hybrisa Prospera - Notfallmedizinische Landezone Eins-Schild</value>
   <comment>Hybrisa Prospera - Emergency Medical Landing Zone one sign</comment>
 </data>
 <data name="Def.Obj.Structure.LzSign.HybrisaSign.Mining.DisplayName" xml:space="preserve">
-  <value>Hybrisa Prospera – Weyland-Yutani Kelland Mining – Landezone Zwei-Schild</value>
+  <value>Hybrisa Prospera - Weyland-Yutani Kelland Mining - Landezone Zwei-Schild</value>
   <comment>Hybrisa Prospera - Weyland-Yutani Kelland Mining - Landing Zone two sign</comment>
 </data>
 <data name="Def.Obj.Structure.LzSign.LasalleBionationalSign.DisplayName" xml:space="preserve">
@@ -18796,7 +18796,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Biogenerator</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.BiohazardLockdown.DisplayName" xml:space="preserve">
-  <value>Notfall – Sicherheitsbereich verletzt</value>
+  <value>Notfall - Sicherheitsbereich verletzt</value>
   <comment>Emergency Containment Breach</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.Bioprinter.DisplayName" xml:space="preserve">
@@ -33916,7 +33916,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Book.Manual.HydroponicsBeekeeping.DisplayName" xml:space="preserve">
-  <value>Die Einzelheiten der Imkerei – eine präzise Kunst</value>
+  <value>Die Einzelheiten der Imkerei - eine präzise Kunst</value>
   <comment>The Ins and Outs of Apiculture - A Precise Art</comment>
 </data>
 <data name="Def.Obj.Item.Book.Manual.HydroponicsBeekeeping.Verb.PickUp" xml:space="preserve">
@@ -37756,7 +37756,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.BioSuit.WyBio.DisplayName" xml:space="preserve">
-  <value>WY-TSS MK I – Bioanzug</value>
+  <value>WY-TSS MK I - Bioanzug</value>
   <comment>WY-TSS MK I - bio suit</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.BioSuit.WyBio.Verb.PickUp" xml:space="preserve">
@@ -37828,7 +37828,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Hybrisa.EMTGreenUtility.DisplayName" xml:space="preserve">
-  <value>EMT – Sanitäter-Dienstuniform</value>
+  <value>EMT - Sanitäter-Dienstuniform</value>
   <comment>EMT - Paramedic utility fatigues</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Hybrisa.EMTGreenUtility.Verb.PickUp" xml:space="preserve">
@@ -37836,7 +37836,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Hybrisa.EMTRedUtility.DisplayName" xml:space="preserve">
-  <value>EMT – Sanitäter-Dienstuniform</value>
+  <value>EMT - Sanitäter-Dienstuniform</value>
   <comment>EMT - Paramedic utility fatigues</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Hybrisa.EMTRedUtility.Verb.PickUp" xml:space="preserve">
@@ -38164,7 +38164,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Hazardvest.MedicalGreen.DisplayName" xml:space="preserve">
-  <value>EMT – grüne Warnweste</value>
+  <value>EMT - grüne Warnweste</value>
   <comment>EMT - green hazard vest</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Hazardvest.MedicalGreen.Verb.PickUp" xml:space="preserve">
@@ -38172,7 +38172,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Hazardvest.MedicalGreen.Open.DisplayName" xml:space="preserve">
-  <value>EMT – grüne Warnweste</value>
+  <value>EMT - grüne Warnweste</value>
   <comment>EMT - green hazard vest</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Hazardvest.MedicalGreen.Open.Verb.PickUp" xml:space="preserve">
@@ -38180,7 +38180,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Hazardvest.MedicalRed.DisplayName" xml:space="preserve">
-  <value>EMT – rote Warnweste</value>
+  <value>EMT - rote Warnweste</value>
   <comment>EMT - red hazard vest</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Hazardvest.MedicalRed.Verb.PickUp" xml:space="preserve">
@@ -38188,7 +38188,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Hazardvest.MedicalRed.Open.DisplayName" xml:space="preserve">
-  <value>EMT – rote Warnweste</value>
+  <value>EMT - rote Warnweste</value>
   <comment>EMT - red hazard vest</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Hazardvest.MedicalRed.Open.Verb.PickUp" xml:space="preserve">
@@ -44352,7 +44352,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Implantcase.DeathAlarm.DisplayName" xml:space="preserve">
-  <value>Vitrine – 'Death Alarm'</value>
+  <value>Vitrine - 'Death Alarm'</value>
   <comment>Glass Case - 'Death Alarm'</comment>
 </data>
 <data name="Def.Obj.Item.Implantcase.DeathAlarm.Verb.PickUp" xml:space="preserve">
@@ -44360,7 +44360,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Implantcase.Loyalty.DisplayName" xml:space="preserve">
-  <value>Vitrine – 'Wey-Yu'</value>
+  <value>Vitrine - 'Wey-Yu'</value>
   <comment>Glass Case - 'Wey-Yu'</comment>
 </data>
 <data name="Def.Obj.Item.Implantcase.Loyalty.Verb.PickUp" xml:space="preserve">
@@ -44368,7 +44368,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Implantcase.Tracking.DisplayName" xml:space="preserve">
-  <value>Vitrine – 'Tracking'</value>
+  <value>Vitrine - 'Tracking'</value>
   <comment>Glass Case - 'Tracking'</comment>
 </data>
 <data name="Def.Obj.Item.Implantcase.Tracking.Verb.PickUp" xml:space="preserve">
@@ -45792,7 +45792,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.OMinus.DisplayName" xml:space="preserve">
-  <value>O−-Blutbeutel</value>
+  <value>O--Blutbeutel</value>
   <comment>O- blood pack</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.OMinus.Verb.PickUp" xml:space="preserve">
@@ -45800,7 +45800,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.OMinus.Draw.DisplayName" xml:space="preserve">
-  <value>O−-Blutbeutel</value>
+  <value>O--Blutbeutel</value>
   <comment>O- blood pack</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.OMinus.Draw.Verb.PickUp" xml:space="preserve">
@@ -45824,7 +45824,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.AMinus.DisplayName" xml:space="preserve">
-  <value>A−-Blutbeutel</value>
+  <value>A--Blutbeutel</value>
   <comment>A- blood pack</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.AMinus.Verb.PickUp" xml:space="preserve">
@@ -45832,7 +45832,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.AMinus.Draw.DisplayName" xml:space="preserve">
-  <value>A−-Blutbeutel</value>
+  <value>A--Blutbeutel</value>
   <comment>A- blood pack</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.AMinus.Draw.Verb.PickUp" xml:space="preserve">
@@ -45856,7 +45856,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.BMinus.DisplayName" xml:space="preserve">
-  <value>B−-Blutbeutel</value>
+  <value>B--Blutbeutel</value>
   <comment>B- blood pack</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.BMinus.Verb.PickUp" xml:space="preserve">
@@ -45864,7 +45864,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.BMinus.Draw.DisplayName" xml:space="preserve">
-  <value>B−-Blutbeutel</value>
+  <value>B--Blutbeutel</value>
   <comment>B- blood pack</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.BMinus.Draw.Verb.PickUp" xml:space="preserve">
@@ -45888,7 +45888,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.ABMinus.DisplayName" xml:space="preserve">
-  <value>AB−-Blutbeutel</value>
+  <value>AB--Blutbeutel</value>
   <comment>AB- blood pack</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.ABMinus.Verb.PickUp" xml:space="preserve">
@@ -45896,7 +45896,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.ABMinus.Draw.DisplayName" xml:space="preserve">
-  <value>AB−-Blutbeutel</value>
+  <value>AB--Blutbeutel</value>
   <comment>AB- blood pack</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Blood.ABMinus.Draw.Verb.PickUp" xml:space="preserve">
