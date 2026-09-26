@@ -271,6 +271,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>FOREN // AHWOO-FOREN WERDEN GEÖFFNET</value>
   <comment>FORUMS // OPENING AHWOO FORUMS</comment>
 </data>
+<data name="MainMenu.Row.Codex.Label" xml:space="preserve">
+  <value>KODEX</value>
+  <comment>CODEX</comment>
+</data>
+<data name="MainMenu.Row.Codex.Status" xml:space="preserve">
+  <value>KODEX // FELDREFERENZ WIRD GEÖFFNET</value>
+  <comment>CODEX // OPENING FIELD REFERENCE</comment>
+</data>
 <data name="MainMenu.AhwooPrefix" xml:space="preserve">
   <value>AHWOO-LINK // </value>
   <comment>AHWOO LINK // </comment>
@@ -307,10 +315,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>EINSTELLUNGEN</value>
   <comment>SETTINGS</comment>
 </data>
-<data name="MainMenu.Row.Codex.Label" xml:space="preserve">
-  <value>KODEX</value>
-  <comment>CODEX</comment>
-</data>
 <data name="MainMenu.Row.JoinGame.Label" xml:space="preserve">
   <value>SPIEL BEITRETEN</value>
   <comment>JOIN GAME</comment>
@@ -331,10 +335,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ANZEIGE // AUDIO // STEUERUNG</value>
   <comment>DISPLAY // AUDIO // CONTROLS</comment>
 </data>
-<data name="MainMenu.Row.Codex.Caption" xml:space="preserve">
-  <value>FELDREFERENZ // {KEY} IM SPIEL</value>
-  <comment>FIELD REFERENCE // {KEY} IN GAME</comment>
-</data>
 <data name="MainMenu.Row.JoinGame.Caption" xml:space="preserve">
   <value>MIT SERVER VERBINDEN</value>
   <comment>CONNECT TO SERVER</comment>
@@ -354,10 +354,6 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="MainMenu.Row.Settings.Status" xml:space="preserve">
   <value>EINSTELLUNGEN // ANZEIGE / AUDIO / STEUERUNG</value>
   <comment>SETTINGS // DISPLAY / AUDIO / CONTROLS</comment>
-</data>
-<data name="MainMenu.Row.Codex.Status" xml:space="preserve">
-  <value>KODEX // FELDREFERENZ WIRD GEÖFFNET</value>
-  <comment>CODEX // OPENING FIELD REFERENCE</comment>
 </data>
 <data name="MainMenu.Row.JoinGame.Status" xml:space="preserve">
   <value>SPIEL BEITRETEN // ADRESSE WIRD ERWARTET</value>

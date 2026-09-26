@@ -271,6 +271,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>FOROS // ABRIENDO FOROS DE AHWOO</value>
   <comment>FORUMS // OPENING AHWOO FORUMS</comment>
 </data>
+<data name="MainMenu.Row.Codex.Label" xml:space="preserve">
+  <value>CÓDEX</value>
+  <comment>CODEX</comment>
+</data>
+<data name="MainMenu.Row.Codex.Status" xml:space="preserve">
+  <value>CÓDEX // ABRIENDO REFERENCIA DE CAMPO</value>
+  <comment>CODEX // OPENING FIELD REFERENCE</comment>
+</data>
 <data name="MainMenu.AhwooPrefix" xml:space="preserve">
   <value>ENLACE AHWOO // </value>
   <comment>AHWOO LINK // </comment>
@@ -307,10 +315,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>AJUSTES</value>
   <comment>SETTINGS</comment>
 </data>
-<data name="MainMenu.Row.Codex.Label" xml:space="preserve">
-  <value>CÓDEX</value>
-  <comment>CODEX</comment>
-</data>
 <data name="MainMenu.Row.JoinGame.Label" xml:space="preserve">
   <value>UNIRSE A PARTIDA</value>
   <comment>JOIN GAME</comment>
@@ -331,10 +335,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>PANTALLA // AUDIO // CONTROLES</value>
   <comment>DISPLAY // AUDIO // CONTROLS</comment>
 </data>
-<data name="MainMenu.Row.Codex.Caption" xml:space="preserve">
-  <value>REFERENCIA DE CAMPO // {KEY} EN PARTIDA</value>
-  <comment>FIELD REFERENCE // {KEY} IN GAME</comment>
-</data>
 <data name="MainMenu.Row.JoinGame.Caption" xml:space="preserve">
   <value>CONECTAR AL SERVIDOR</value>
   <comment>CONNECT TO SERVER</comment>
@@ -354,10 +354,6 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="MainMenu.Row.Settings.Status" xml:space="preserve">
   <value>AJUSTES // PANTALLA / AUDIO / CONTROLES</value>
   <comment>SETTINGS // DISPLAY / AUDIO / CONTROLS</comment>
-</data>
-<data name="MainMenu.Row.Codex.Status" xml:space="preserve">
-  <value>CÓDEX // ABRIENDO REFERENCIA DE CAMPO</value>
-  <comment>CODEX // OPENING FIELD REFERENCE</comment>
 </data>
 <data name="MainMenu.Row.JoinGame.Status" xml:space="preserve">
   <value>UNIRSE A PARTIDA // ESPERANDO DIRECCIÓN</value>
