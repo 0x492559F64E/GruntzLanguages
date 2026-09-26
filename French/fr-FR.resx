@@ -271,6 +271,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>FORUMS // OPENING AHWOO FORUMS</value>
   <comment>FORUMS // OPENING AHWOO FORUMS</comment>
 </data>
+<data name="MainMenu.Row.Codex.Label" xml:space="preserve">
+  <value>CODEX</value>
+  <comment>CODEX</comment>
+</data>
+<data name="MainMenu.Row.Codex.Status" xml:space="preserve">
+  <value>CODEX // OPENING FIELD REFERENCE</value>
+  <comment>CODEX // OPENING FIELD REFERENCE</comment>
+</data>
 <data name="MainMenu.AhwooPrefix" xml:space="preserve">
   <value>AHWOO LINK // </value>
   <comment>AHWOO LINK // </comment>
@@ -307,10 +315,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>SETTINGS</value>
   <comment>SETTINGS</comment>
 </data>
-<data name="MainMenu.Row.Codex.Label" xml:space="preserve">
-  <value>CODEX</value>
-  <comment>CODEX</comment>
-</data>
 <data name="MainMenu.Row.JoinGame.Label" xml:space="preserve">
   <value>JOIN GAME</value>
   <comment>JOIN GAME</comment>
@@ -331,10 +335,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>DISPLAY // AUDIO // CONTROLS</value>
   <comment>DISPLAY // AUDIO // CONTROLS</comment>
 </data>
-<data name="MainMenu.Row.Codex.Caption" xml:space="preserve">
-  <value>FIELD REFERENCE // F1 IN GAME</value>
-  <comment>FIELD REFERENCE // F1 IN GAME</comment>
-</data>
 <data name="MainMenu.Row.JoinGame.Caption" xml:space="preserve">
   <value>CONNECT TO SERVER</value>
   <comment>CONNECT TO SERVER</comment>
@@ -354,10 +354,6 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="MainMenu.Row.Settings.Status" xml:space="preserve">
   <value>SETTINGS // DISPLAY / AUDIO / CONTROLS</value>
   <comment>SETTINGS // DISPLAY / AUDIO / CONTROLS</comment>
-</data>
-<data name="MainMenu.Row.Codex.Status" xml:space="preserve">
-  <value>CODEX // OPENING FIELD REFERENCE</value>
-  <comment>CODEX // OPENING FIELD REFERENCE</comment>
 </data>
 <data name="MainMenu.Row.JoinGame.Status" xml:space="preserve">
   <value>JOIN GAME // AWAITING ADDRESS</value>
@@ -8388,8 +8384,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>FIELD REFERENCE // GENERATED FROM GAME DATA</comment>
 </data>
 <data name="Codex.FootHint" xml:space="preserve">
-  <value>F1 OVER A THING OPENS ITS PAGE // BACKSPACE GOES BACK</value>
-  <comment>F1 OVER A THING OPENS ITS PAGE // BACKSPACE GOES BACK</comment>
+  <value>{KEY} OVER A THING OPENS ITS PAGE // BACKSPACE GOES BACK</value>
+  <comment>{KEY} OVER A THING OPENS ITS PAGE // BACKSPACE GOES BACK</comment>
 </data>
 <data name="Codex.Pages" xml:space="preserve">
   <value>PAGES</value>
@@ -73858,6 +73854,118 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Explosive.Grenade.Round40mm.Incendiary.Armed.Verb.PickUp" xml:space="preserve">
   <value>pick up</value>
   <comment>pick up</comment>
+</data>
+<data name="StackFamily.TestPlank" xml:space="preserve">
+  <value>TestPlank</value>
+  <comment>TestPlank</comment>
+</data>
+<data name="StackFamily.TestWire" xml:space="preserve">
+  <value>TestWire</value>
+  <comment>TestWire</comment>
+</data>
+<data name="StackFamily.cuppa joes lidded cups" xml:space="preserve">
+  <value>cuppa joes lidded cups</value>
+  <comment>cuppa joes lidded cups</comment>
+</data>
+<data name="StackFamily.apc frame" xml:space="preserve">
+  <value>apc frame</value>
+  <comment>apc frame</comment>
+</data>
+<data name="StackFamily.tan table kit" xml:space="preserve">
+  <value>tan table kit</value>
+  <comment>tan table kit</comment>
+</data>
+<data name="StackFamily.gray table kit" xml:space="preserve">
+  <value>gray table kit</value>
+  <comment>gray table kit</comment>
+</data>
+<data name="StackFamily.gambling table kit" xml:space="preserve">
+  <value>gambling table kit</value>
+  <comment>gambling table kit</comment>
+</data>
+<data name="StackFamily.reinforced table kit" xml:space="preserve">
+  <value>reinforced table kit</value>
+  <comment>reinforced table kit</comment>
+</data>
+<data name="StackFamily.wooden table kit" xml:space="preserve">
+  <value>wooden table kit</value>
+  <comment>wooden table kit</comment>
+</data>
+<data name="StackFamily.fancy table kit" xml:space="preserve">
+  <value>fancy table kit</value>
+  <comment>fancy table kit</comment>
+</data>
+<data name="StackFamily.poor table kit" xml:space="preserve">
+  <value>poor table kit</value>
+  <comment>poor table kit</comment>
+</data>
+<data name="StackFamily.space cash" xml:space="preserve">
+  <value>space cash</value>
+  <comment>space cash</comment>
+</data>
+<data name="StackFamily.barbed wire" xml:space="preserve">
+  <value>barbed wire</value>
+  <comment>barbed wire</comment>
+</data>
+<data name="StackFamily.cable coil" xml:space="preserve">
+  <value>cable coil</value>
+  <comment>cable coil</comment>
+</data>
+<data name="StackFamily.folding barricade" xml:space="preserve">
+  <value>folding barricade</value>
+  <comment>folding barricade</comment>
+</data>
+<data name="StackFamily.metal rods" xml:space="preserve">
+  <value>metal rods</value>
+  <comment>metal rods</comment>
+</data>
+<data name="StackFamily.plasteel rods" xml:space="preserve">
+  <value>plasteel rods</value>
+  <comment>plasteel rods</comment>
+</data>
+<data name="StackFamily.filled sandbags" xml:space="preserve">
+  <value>filled sandbags</value>
+  <comment>filled sandbags</comment>
+</data>
+<data name="StackFamily.glass sheets" xml:space="preserve">
+  <value>glass sheets</value>
+  <comment>glass sheets</comment>
+</data>
+<data name="StackFamily.metal sheets" xml:space="preserve">
+  <value>metal sheets</value>
+  <comment>metal sheets</comment>
+</data>
+<data name="StackFamily.plasteel sheets" xml:space="preserve">
+  <value>plasteel sheets</value>
+  <comment>plasteel sheets</comment>
+</data>
+<data name="StackFamily.wood planks" xml:space="preserve">
+  <value>wood planks</value>
+  <comment>wood planks</comment>
+</data>
+<data name="StackFamily.cuppa joes cups" xml:space="preserve">
+  <value>cuppa joes cups</value>
+  <comment>cuppa joes cups</comment>
+</data>
+<data name="StackFamily.cuppa joes lids" xml:space="preserve">
+  <value>cuppa joes lids</value>
+  <comment>cuppa joes lids</comment>
+</data>
+<data name="StackFamily.sentry tripod kit" xml:space="preserve">
+  <value>sentry tripod kit</value>
+  <comment>sentry tripod kit</comment>
+</data>
+<data name="StackFamily.razor wire" xml:space="preserve">
+  <value>razor wire</value>
+  <comment>razor wire</comment>
+</data>
+<data name="StackFamily.m2 tripod kit" xml:space="preserve">
+  <value>m2 tripod kit</value>
+  <comment>m2 tripod kit</comment>
+</data>
+<data name="StackFamily.containment emitter kit" xml:space="preserve">
+  <value>containment emitter kit</value>
+  <comment>containment emitter kit</comment>
 </data>
 <data name="Honor.ApexPredator.Name" xml:space="preserve">
   <value>APEX PREDATOR</value>
