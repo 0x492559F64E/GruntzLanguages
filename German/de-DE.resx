@@ -328,7 +328,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>DISPLAY // AUDIO // CONTROLS</comment>
 </data>
 <data name="MainMenu.Row.Codex.Caption" xml:space="preserve">
-  <value>FELDREFERENZ // F1 IM SPIEL</value>
+  <value>FELDREFERENZ // {KEY} IM SPIEL</value>
   <comment>FIELD REFERENCE // {KEY} IN GAME</comment>
 </data>
 <data name="MainMenu.Row.JoinGame.Caption" xml:space="preserve">
@@ -8380,7 +8380,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>FIELD REFERENCE // GENERATED FROM GAME DATA</comment>
 </data>
 <data name="Codex.FootHint" xml:space="preserve">
-  <value>F1 ÜBER EINEM DING ÖFFNET SEINE SEITE // RÜCKTASTE GEHT ZURÜCK</value>
+  <value>{KEY} ÜBER EINEM DING ÖFFNET SEINE SEITE // RÜCKTASTE GEHT ZURÜCK</value>
   <comment>{KEY} OVER A THING OPENS ITS PAGE // BACKSPACE GOES BACK</comment>
 </data>
 <data name="Codex.Pages" xml:space="preserve">
