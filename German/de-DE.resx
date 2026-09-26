@@ -7584,11 +7584,11 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>PRESS ] TO FOLLOW</comment>
 </data>
 <data name="DeadOverlay.RoamHint" xml:space="preserve">
-  <value>LOS LASSEN, UM FREI ZU STREIFEN</value>
+  <value>LASSE LOS, UM DICH FREI ZU BEWEGEN</value>
   <comment>RELEASE TO ROAM</comment>
 </data>
 <data name="DeadOverlay.ReleaseLabel" xml:space="preserve">
-  <value>LOS LASSEN</value>
+  <value>LOSLASSEN</value>
   <comment>RELEASE</comment>
 </data>
 <data name="DeadOverlay.ReturnLabel" xml:space="preserve">
