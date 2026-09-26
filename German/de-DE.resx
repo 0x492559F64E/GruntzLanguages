@@ -8080,7 +8080,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>BARRICADES BUILT</comment>
 </data>
 <data name="EorScreen.StatSlotJackpots" xml:space="preserve">
-  <value>GEWONNENE AUTOMATEN-JACKPOTS</value>
+  <value>GEWONNENE JACKPOTS</value>
   <comment>SLOT JACKPOTS WON</comment>
 </data>
 <data name="EorScreen.StatClosetSeconds" xml:space="preserve">
