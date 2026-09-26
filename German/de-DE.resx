@@ -6152,7 +6152,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>EMPTY</comment>
 </data>
 <data name="Vendor.VendLabel" xml:space="preserve">
-  <value>KAUFEN</value>
+  <value>AUSGEBEN</value>
   <comment>VEND</comment>
 </data>
 <data name="Vendor.OutLabel" xml:space="preserve">
