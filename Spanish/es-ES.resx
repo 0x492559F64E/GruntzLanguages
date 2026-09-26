@@ -9816,7 +9816,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>THE SLOTS NEVER CHANGE ON A FAILURE</comment>
 </data>
 <data name="Codex.Surgery.PainSuffix" xml:space="preserve">
-  <value>CADA PUNTO QUE FALTE AÑADE UN {PERCENT} % DE FALLO</value>
+  <value>(CADA PUNTO QUE FALTE AÑADE UN {PERCENT} % DE FALLO)</value>
   <comment>EVERY POINT SHORT ADDS {PERCENT} PCT FAIL</comment>
 </data>
 <data name="Codex.Surgery.FracturePercent" xml:space="preserve">
