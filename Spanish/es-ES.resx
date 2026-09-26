@@ -8512,7 +8512,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>MAKES</comment>
 </data>
 <data name="Codex.Sect.Stats" xml:space="preserve">
-  <value>ESTADÍSTICAS</value>
+  <value>DATOS</value>
   <comment>STATS</comment>
 </data>
 <data name="Codex.Sect.Qualities" xml:space="preserve">
@@ -9212,7 +9212,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>BLUNTS RADIATION</comment>
 </data>
 <data name="Codex.Surgery.Stats" xml:space="preserve">
-  <value>ESTADÍSTICAS</value>
+  <value>DATOS</value>
   <comment>STATS</comment>
 </data>
 <data name="Codex.Surgery.ZoneSlots" xml:space="preserve">
