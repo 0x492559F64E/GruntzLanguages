@@ -329,7 +329,7 @@ The file is looked up beside this language file first, then under the game's Con
 </data>
 <data name="MainMenu.Row.Codex.Caption" xml:space="preserve">
   <value>FELDREFERENZ // F1 IM SPIEL</value>
-  <comment>FIELD REFERENCE // F1 IN GAME</comment>
+  <comment>FIELD REFERENCE // {KEY} IN GAME</comment>
 </data>
 <data name="MainMenu.Row.JoinGame.Caption" xml:space="preserve">
   <value>MIT SERVER VERBINDEN</value>
@@ -7564,7 +7564,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>~ROUND</comment>
 </data>
 <data name="DeadOverlay.NotFollowingHeading" xml:space="preserve">
-  <value>FOLGT NICHT</value>
+  <value>FOLGE KEINEM</value>
   <comment>NOT FOLLOWING</comment>
 </data>
 <data name="DeadOverlay.DeadHeading" xml:space="preserve">
@@ -8381,7 +8381,7 @@ The file is looked up beside this language file first, then under the game's Con
 </data>
 <data name="Codex.FootHint" xml:space="preserve">
   <value>F1 ÜBER EINEM DING ÖFFNET SEINE SEITE // RÜCKTASTE GEHT ZURÜCK</value>
-  <comment>F1 OVER A THING OPENS ITS PAGE // BACKSPACE GOES BACK</comment>
+  <comment>{KEY} OVER A THING OPENS ITS PAGE // BACKSPACE GOES BACK</comment>
 </data>
 <data name="Codex.Pages" xml:space="preserve">
   <value>SEITEN</value>
