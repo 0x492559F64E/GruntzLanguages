@@ -10172,8 +10172,12 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>AND {COUNT} OTHER BLADES</comment>
 </data>
 <data name="CoveredHint.Covered" xml:space="preserve">
-  <value>you cannot use {TOOL} while {AREA} is covered by {CLOTHING}</value>
-  <comment>you cannot use {TOOL} while {AREA} is covered by {CLOTHING}</comment>
+  <value>cannot use while {AREA} is covered</value>
+  <comment>cannot use while {AREA} is covered</comment>
+</data>
+<data name="CoveredHint.Remove" xml:space="preserve">
+  <value>remove the {CLOTHING}</value>
+  <comment>remove the {CLOTHING}</comment>
 </data>
 <data name="CrewMonitor.Header" xml:space="preserve">
   <value>CREW MONITOR</value>
