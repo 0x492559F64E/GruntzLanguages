@@ -9911,6 +9911,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>WITH</value>
   <comment>WITH</comment>
 </data>
+<data name="Codex.Galley.Using" xml:space="preserve">
+  <value>USING</value>
+  <comment>USING</comment>
+</data>
 <data name="Codex.Galley.KindMicrowave" xml:space="preserve">
   <value>MICROWAVE</value>
   <comment>MICROWAVE</comment>
@@ -9967,9 +9971,9 @@ The file is looked up beside this language file first, then under the game's Con
   <value>x1D4</value>
   <comment>x1D4</comment>
 </data>
-<data name="Codex.Galley.WithAnySlicer" xml:space="preserve">
-  <value>WITH ANY SLICER</value>
-  <comment>WITH ANY SLICER</comment>
+<data name="Codex.Galley.AnySlicer" xml:space="preserve">
+  <value>ANY SLICER</value>
+  <comment>ANY SLICER</comment>
 </data>
 <data name="Codex.Galley.OnASurface" xml:space="preserve">
   <value>FOOD ON A TABLE OR ANY SURFACE</value>
