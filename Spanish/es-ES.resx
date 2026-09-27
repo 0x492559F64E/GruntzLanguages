@@ -46568,7 +46568,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Implanter.DisplayName" xml:space="preserve">
-  <value>implantador</value>
+  <value>inyector de implantes</value>
   <comment>implanter</comment>
 </data>
 <data name="Def.Obj.Item.Implanter.Verb.PickUp" xml:space="preserve">
@@ -75508,7 +75508,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>tracking implant</comment>
 </data>
 <data name="Def.Obj.Item.Implanter.Tracking.DisplayName" xml:space="preserve">
-  <value>implantador de rastreo</value>
+  <value>inyector de implantes de rastreo</value>
   <comment>tracking implanter</comment>
 </data>
 <data name="Def.Obj.Item.Implanter.Tracking.Verb.PickUp" xml:space="preserve">
@@ -75516,7 +75516,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Implanter.Tracking.Empty.DisplayName" xml:space="preserve">
-  <value>implantador vacío</value>
+  <value>inyector de implantes vacío</value>
   <comment>empty implanter</comment>
 </data>
 <data name="Def.Obj.Item.Implanter.Tracking.Empty.Verb.PickUp" xml:space="preserve">
