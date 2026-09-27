@@ -2760,7 +2760,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Dexalin restores the breath</comment>
 </data>
 <data name="Moodlet.Hint.Headache" xml:space="preserve">
-  <value>Alkysine repariert das Gehirn</value>
+  <value>Alkysin repariert das Gehirn</value>
   <comment>Alkysine mends the brain</comment>
 </data>
 <data name="Moodlet.Hint.Unconscious.Severe" xml:space="preserve">
@@ -4932,7 +4932,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>CREATE</comment>
 </data>
 <data name="ChemMaster.FridgeKey" xml:space="preserve">
-  <value>SMARTER KÜHLSCHRANK</value>
+  <value>SMARTFRIDGE</value>
   <comment>SMART FRIDGE</comment>
 </data>
 <data name="ChemMaster.PillsKey" xml:space="preserve">
@@ -19704,7 +19704,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>messaging server</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.BigComputers.ScienceBig.Medilathe.DisplayName" xml:space="preserve">
-  <value>Medilathe</value>
+  <value>Medidrehmaschine</value>
   <comment>medilathe</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.BigComputers.ScienceBig.OperatorMachine.DisplayName" xml:space="preserve">
@@ -24912,7 +24912,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>ignition switch</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.IvDrip.DisplayName" xml:space="preserve">
-  <value>Infusion</value>
+  <value>Infusionsständer</value>
   <comment>IV drip</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.Juicer.DisplayName" xml:space="preserve">
@@ -25948,11 +25948,11 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>experimental sensor tower</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.SentryHolder.Almayer.Mini.Aicore.DisplayName" xml:space="preserve">
-  <value>Wachposten-Aufstellsystem</value>
+  <value>Wachgeschütz-Aufstellsystem</value>
   <comment>sentry deployment system</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.SentryHolder.Wy.DisplayName" xml:space="preserve">
-  <value>Wachposten-Aufstellsystem</value>
+  <value>Wachgeschütz-Aufstellsystem</value>
   <comment>sentry deployment system</comment>
 </data>
 <data name="Def.Obj.Structure.Machinery.Shower.DisplayName" xml:space="preserve">
@@ -44156,7 +44156,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Defenses.Handheld.Sentry.DisplayName" xml:space="preserve">
-  <value>tragbare UA-571-C-Wachkanone</value>
+  <value>tragbare UA-571-C-Wächterkanone</value>
   <comment>handheld UA 571-C sentry gun</comment>
 </data>
 <data name="Def.Obj.Item.Defenses.Handheld.Sentry.Verb.PickUp" xml:space="preserve">
@@ -50212,7 +50212,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Glass.Bottle.Antitoxin.DisplayName" xml:space="preserve">
-  <value>Dylovene-Flasche</value>
+  <value>Dyloven-Flasche</value>
   <comment>Dylovene bottle</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Glass.Bottle.Antitoxin.Verb.PickUp" xml:space="preserve">
@@ -50468,7 +50468,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Antitoxin.DisplayName" xml:space="preserve">
-  <value>Dylovene-Autoinjektor</value>
+  <value>Dyloven-Autoinjektor</value>
   <comment>dylovene autoinjector</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Antitoxin.Verb.PickUp" xml:space="preserve">
@@ -50476,7 +50476,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Antitoxin.Spent.DisplayName" xml:space="preserve">
-  <value>Dylovene-Autoinjektor</value>
+  <value>Dyloven-Autoinjektor</value>
   <comment>dylovene autoinjector</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Antitoxin.Spent.Verb.PickUp" xml:space="preserve">
@@ -50484,7 +50484,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Antitoxin.Uses1.DisplayName" xml:space="preserve">
-  <value>Dylovene-Autoinjektor</value>
+  <value>Dyloven-Autoinjektor</value>
   <comment>dylovene autoinjector</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Antitoxin.Uses1.Verb.PickUp" xml:space="preserve">
@@ -50492,7 +50492,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Antitoxin.Uses2.DisplayName" xml:space="preserve">
-  <value>Dylovene-Autoinjektor</value>
+  <value>Dyloven-Autoinjektor</value>
   <comment>dylovene autoinjector</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Antitoxin.Uses2.Verb.PickUp" xml:space="preserve">
@@ -50660,7 +50660,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Empty.Skillless.Medium.DisplayName" xml:space="preserve">
-  <value>30u benutzerdefinierter EZ-Autoinjektor</value>
+  <value>30u Spezial-EZ-Autoinjektor</value>
   <comment>30u custom EZ autoinjector</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Empty.Skillless.Medium.Verb.PickUp" xml:space="preserve">
@@ -55424,7 +55424,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Alkysine.DisplayName" xml:space="preserve">
-  <value>Alkysine-Pillenfläschchen</value>
+  <value>Alkysin-Pillenfläschchen</value>
   <comment>Alkysine pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Alkysine.Verb.PickUp" xml:space="preserve">
@@ -55432,7 +55432,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Alkysine.Open.DisplayName" xml:space="preserve">
-  <value>Alkysine-Pillenfläschchen</value>
+  <value>Alkysin-Pillenfläschchen</value>
   <comment>Alkysine pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Alkysine.Open.Verb.PickUp" xml:space="preserve">
@@ -55440,7 +55440,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Antitox.DisplayName" xml:space="preserve">
-  <value>Dylovene-Pillenfläschchen</value>
+  <value>Dyloven-Pillenfläschchen</value>
   <comment>Dylovene pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Antitox.Verb.PickUp" xml:space="preserve">
@@ -55448,7 +55448,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Antitox.Open.DisplayName" xml:space="preserve">
-  <value>Dylovene-Pillenfläschchen</value>
+  <value>Dyloven-Pillenfläschchen</value>
   <comment>Dylovene pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Antitox.Open.Verb.PickUp" xml:space="preserve">
@@ -55456,7 +55456,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Antitox.Skillless.DisplayName" xml:space="preserve">
-  <value>Dylovene-Pillenfläschchen</value>
+  <value>Dyloven-Pillenfläschchen</value>
   <comment>Dylovene pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Antitox.Skillless.Verb.PickUp" xml:space="preserve">
@@ -55464,7 +55464,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Antitox.Skillless.Open.DisplayName" xml:space="preserve">
-  <value>Dylovene-Pillenfläschchen</value>
+  <value>Dyloven-Pillenfläschchen</value>
   <comment>Dylovene pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Antitox.Skillless.Open.Verb.PickUp" xml:space="preserve">
@@ -55472,7 +55472,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Bicaridine.DisplayName" xml:space="preserve">
-  <value>Bicaridine-Pillenfläschchen</value>
+  <value>Bicaridin-Pillenfläschchen</value>
   <comment>Bicaridine pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Bicaridine.Verb.PickUp" xml:space="preserve">
@@ -55480,7 +55480,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Bicaridine.Open.DisplayName" xml:space="preserve">
-  <value>Bicaridine-Pillenfläschchen</value>
+  <value>Bicaridin-Pillenfläschchen</value>
   <comment>Bicaridine pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Bicaridine.Open.Verb.PickUp" xml:space="preserve">
@@ -55488,7 +55488,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Bicaridine.Skillless.DisplayName" xml:space="preserve">
-  <value>Bicaridine-Pillenfläschchen</value>
+  <value>Bicaridin-Pillenfläschchen</value>
   <comment>Bicaridine pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Bicaridine.Skillless.Verb.PickUp" xml:space="preserve">
@@ -55496,7 +55496,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Bicaridine.Skillless.Open.DisplayName" xml:space="preserve">
-  <value>Bicaridine-Pillenfläschchen</value>
+  <value>Bicaridin-Pillenfläschchen</value>
   <comment>Bicaridine pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Bicaridine.Skillless.Open.Verb.PickUp" xml:space="preserve">
@@ -55544,7 +55544,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Imidazoline.Open.DisplayName" xml:space="preserve">
-  <value>Imidazoline-Pillenfläschchen</value>
+  <value>Imidazolin-Pillenfläschchen</value>
   <comment>Imidazoline pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Imidazoline.Open.Verb.PickUp" xml:space="preserve">
@@ -55552,7 +55552,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Inaprovaline.DisplayName" xml:space="preserve">
-  <value>Inaprovaline-Pillenfläschchen</value>
+  <value>Inaprovalin-Pillenfläschchen</value>
   <comment>Inaprovaline pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Inaprovaline.Verb.PickUp" xml:space="preserve">
@@ -55560,7 +55560,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Inaprovaline.Open.DisplayName" xml:space="preserve">
-  <value>Inaprovaline-Pillenfläschchen</value>
+  <value>Inaprovalin-Pillenfläschchen</value>
   <comment>Inaprovaline pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Inaprovaline.Open.Verb.PickUp" xml:space="preserve">
@@ -55568,7 +55568,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Inaprovaline.Skillless.DisplayName" xml:space="preserve">
-  <value>Inaprovaline-Pillenfläschchen</value>
+  <value>Inaprovalin-Pillenfläschchen</value>
   <comment>Inaprovaline pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Inaprovaline.Skillless.Verb.PickUp" xml:space="preserve">
@@ -55576,7 +55576,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Inaprovaline.Skillless.Open.DisplayName" xml:space="preserve">
-  <value>Inaprovaline-Pillenfläschchen</value>
+  <value>Inaprovalin-Pillenfläschchen</value>
   <comment>Inaprovaline pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Inaprovaline.Skillless.Open.Verb.PickUp" xml:space="preserve">
@@ -55584,7 +55584,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Kelotane.DisplayName" xml:space="preserve">
-  <value>Kelotane-Pillenfläschchen</value>
+  <value>Kelotan-Pillenfläschchen</value>
   <comment>Kelotane pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Kelotane.Verb.PickUp" xml:space="preserve">
@@ -55592,7 +55592,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Kelotane.Open.DisplayName" xml:space="preserve">
-  <value>Kelotane-Pillenfläschchen</value>
+  <value>Kelotan-Pillenfläschchen</value>
   <comment>Kelotane pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Kelotane.Open.Verb.PickUp" xml:space="preserve">
@@ -55600,7 +55600,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Kelotane.Skillless.DisplayName" xml:space="preserve">
-  <value>Kelotane-Pillenfläschchen</value>
+  <value>Kelotan-Pillenfläschchen</value>
   <comment>Kelotane pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Kelotane.Skillless.Verb.PickUp" xml:space="preserve">
@@ -55608,7 +55608,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Kelotane.Skillless.Open.DisplayName" xml:space="preserve">
-  <value>Kelotane-Pillenfläschchen</value>
+  <value>Kelotan-Pillenfläschchen</value>
   <comment>Kelotane pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Kelotane.Skillless.Open.Verb.PickUp" xml:space="preserve">
@@ -55616,7 +55616,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Oxycodone.DisplayName" xml:space="preserve">
-  <value>Oxycodone-Pillenfläschchen</value>
+  <value>Oxycodon-Pillenfläschchen</value>
   <comment>Oxycodone pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Oxycodone.Verb.PickUp" xml:space="preserve">
@@ -55624,7 +55624,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Oxycodone.Open.DisplayName" xml:space="preserve">
-  <value>Oxycodone-Pillenfläschchen</value>
+  <value>Oxycodon-Pillenfläschchen</value>
   <comment>Oxycodone pill bottle</comment>
 </data>
 <data name="Def.Obj.Item.Storage.PillBottle.Oxycodone.Open.Verb.PickUp" xml:space="preserve">
@@ -63148,7 +63148,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Rifle.Type71.Carbine.Commando.DisplayName" xml:space="preserve">
-  <value>Type 71 'Commando'-Impulskarabiner</value>
+  <value>Type 71 'Kommando'-Impulskarabiner</value>
   <comment>Type 71 'Commando' pulse carbine</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Rifle.Type71.Carbine.Commando.Verb.PickUp" xml:space="preserve">
@@ -63156,7 +63156,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Rifle.Type71.Carbine.Commando.Empty.DisplayName" xml:space="preserve">
-  <value>Type 71 'Commando'-Impulskarabiner</value>
+  <value>Type 71 'Kommando'-Impulskarabiner</value>
   <comment>Type 71 'Commando' pulse carbine</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Rifle.Type71.Carbine.Commando.Empty.Verb.PickUp" xml:space="preserve">
@@ -63164,7 +63164,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Rifle.Type71.Carbine.Commando.Deathsquad.DisplayName" xml:space="preserve">
-  <value>Type 71 'Commando'-Impulskarabiner</value>
+  <value>Type 71 'Kommando'-Impulskarabiner</value>
   <comment>Type 71 'Commando' pulse carbine</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Rifle.Type71.Carbine.Commando.Deathsquad.Verb.PickUp" xml:space="preserve">
@@ -63172,7 +63172,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Rifle.Type71.Carbine.Commando.Deathsquad.Empty.DisplayName" xml:space="preserve">
-  <value>Type 71 'Commando'-Impulskarabiner</value>
+  <value>Type 71 'Kommando'-Impulskarabiner</value>
   <comment>Type 71 'Commando' pulse carbine</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Rifle.Type71.Carbine.Commando.Deathsquad.Empty.Verb.PickUp" xml:space="preserve">
@@ -63180,7 +63180,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Rifle.Type71.Carbine.Commando.Proc.DisplayName" xml:space="preserve">
-  <value>Type 71 'Commando'-Impulskarabiner</value>
+  <value>Type 71 'Kommando'-Impulskarabiner</value>
   <comment>Type 71 'Commando' pulse carbine</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Rifle.Type71.Carbine.Commando.Proc.Verb.PickUp" xml:space="preserve">
@@ -63188,7 +63188,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Rifle.Type71.Carbine.Commando.Proc.Empty.DisplayName" xml:space="preserve">
-  <value>Type 71 'Commando'-Impulskarabiner</value>
+  <value>Type 71 'Kommando'-Impulskarabiner</value>
   <comment>Type 71 'Commando' pulse carbine</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Rifle.Type71.Carbine.Commando.Proc.Empty.Verb.PickUp" xml:space="preserve">
@@ -75940,7 +75940,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Ice</comment>
 </data>
 <data name="Reagent.Drink.Cold.LemonLime.Name" xml:space="preserve">
-  <value>Zitronen-Lime</value>
+  <value>Zitronen-Limette</value>
   <comment>Lemon Lime</comment>
 </data>
 <data name="Reagent.Drink.Cold.Lemonade.Name" xml:space="preserve">
@@ -76028,7 +76028,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Potato Juice</comment>
 </data>
 <data name="Reagent.Drink.Souto.Blueraspberry.Name" xml:space="preserve">
-  <value>Blaue Himbeere Souto</value>
+  <value>Blaue Himbeere-Souto</value>
   <comment>Blue Raspberry Souto</comment>
 </data>
 <data name="Reagent.Drink.Souto.Cherry.Name" xml:space="preserve">
@@ -76192,7 +76192,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Manhattan Project</comment>
 </data>
 <data name="Reagent.Ethanol.ManlyDorf.Name" xml:space="preserve">
-  <value>Der männliche Dorf</value>
+  <value>Das Männliche Dorf</value>
   <comment>The Manly Dorf</comment>
 </data>
 <data name="Reagent.Ethanol.Martini.Name" xml:space="preserve">
@@ -76228,7 +76228,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Snow White</comment>
 </data>
 <data name="Reagent.Ethanol.Specialwhiskey.Name" xml:space="preserve">
-  <value>Spezialmischung Whiskey</value>
+  <value>Spezialmischung Whisky</value>
   <comment>Special Blend Whiskey</comment>
 </data>
 <data name="Reagent.Ethanol.Spikedeggnog.Name" xml:space="preserve">
@@ -76268,11 +76268,11 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Vodka and Tonic</comment>
 </data>
 <data name="Reagent.Ethanol.WhiskeyCola.Name" xml:space="preserve">
-  <value>Whiskey-Cola</value>
+  <value>Whisky-Cola</value>
   <comment>Whiskey Cola</comment>
 </data>
 <data name="Reagent.Ethanol.Whiskeysoda.Name" xml:space="preserve">
-  <value>Whiskey-Soda</value>
+  <value>Whisky-Soda</value>
   <comment>Whiskey Soda</comment>
 </data>
 <data name="Reagent.Ethanol.Wine.Name" xml:space="preserve">

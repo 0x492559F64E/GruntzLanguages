@@ -1,0 +1,1283 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+<xs:schema id="root">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xs:element name="root" ns1:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="metadata">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="value" type="xsd:string" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="name" use="required" type="xsd:string" />
+            <xs:attribute name="type" type="xsd:string" />
+            <xs:attribute name="mimetype" type="xsd:string" />
+            <xs:attribute ref="xml:space" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="assembly">
+          <xs:complexType>
+            <xs:attribute name="alias" type="xsd:string" />
+            <xs:attribute name="name" type="xsd:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="data">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+            </xs:sequence>
+            <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+            <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+            <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+            <xs:attribute ref="xml:space" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="resheader">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+            </xs:sequence>
+            <xs:attribute name="name" type="xsd:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+<resheader name="resmimetype">
+  <value>text/microsoft-resx</value>
+</resheader>
+<resheader name="version">
+  <value>2.0</value>
+</resheader>
+<resheader name="reader">
+  <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="writer">
+  <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+
+<data name="HoverVerbLabels.CrewSync" xml:space="preserve">
+  <value>Monitor synchronisieren</value>
+  <comment>sync monitor</comment>
+</data>
+<data name="ActivateVerbLabels.Monitor" xml:space="preserve">
+  <value>Monitor öffnen</value>
+  <comment>open monitor</comment>
+</data>
+<data name="HealthScan.TrackingImplantLine" xml:space="preserve">
+  <value>ORTUNGSIMPLANTAT</value>
+  <comment>TRACKING IMPLANT</comment>
+</data>
+<data name="Codex.Any" xml:space="preserve">
+  <value>BELIEBIG</value>
+  <comment>ANY</comment>
+</data>
+<data name="Codex.F1Hint" xml:space="preserve">
+  <value>Kodex</value>
+  <comment>codex</comment>
+</data>
+<data name="Codex.Topic.Weapons" xml:space="preserve">
+  <value>WAFFEN</value>
+  <comment>WEAPONS</comment>
+</data>
+<data name="Codex.Section.Weapons.Guns" xml:space="preserve">
+  <value>SCHUSSWAFFEN</value>
+  <comment>GUNS</comment>
+</data>
+<data name="Codex.Section.Weapons.Attachments" xml:space="preserve">
+  <value>ZUBEHÖR</value>
+  <comment>ATTACHMENTS</comment>
+</data>
+<data name="Codex.Section.Weapons.Magazines" xml:space="preserve">
+  <value>MAGAZINE</value>
+  <comment>MAGAZINES</comment>
+</data>
+<data name="Codex.Section.Weapons.Melee" xml:space="preserve">
+  <value>NAHKAMPF</value>
+  <comment>MELEE</comment>
+</data>
+<data name="Codex.Surgery.Operation" xml:space="preserve">
+  <value>CHIRURGIE</value>
+  <comment>OPERATION</comment>
+</data>
+<data name="Codex.Surgery.Optional" xml:space="preserve">
+  <value>OPTIONAL</value>
+  <comment>OPTIONAL</comment>
+</data>
+<data name="Codex.Surgery.WithAHackingTool" xml:space="preserve">
+  <value>MIT EINEM HACK-WERKZEUG</value>
+  <comment>WITH A HACKING TOOL</comment>
+</data>
+<data name="Codex.Surgery.WithAnAwfulTool" xml:space="preserve">
+  <value>MIT EINEM SCHLECHTEN WERKZEUG</value>
+  <comment>WITH AN AWFUL TOOL</comment>
+</data>
+<data name="Codex.Surgery.Patient" xml:space="preserve">
+  <value>PATIENT</value>
+  <comment>PATIENT</comment>
+</data>
+<data name="Codex.Surgery.BySurgeonProperToolsSuffix" xml:space="preserve">
+  <value>VOM PATIENTEN MIT KORREKTEN WERKZEUGEN AUF EINEM OP-TISCH</value>
+  <comment>BY THE PATIENT WITH PROPER TOOLS ON AN OPERATING TABLE</comment>
+</data>
+<data name="Codex.Surgery.BySurgeonBestAvailableToolsSuffix" xml:space="preserve">
+  <value>VOM PATIENTEN MIT DEN BESTEN VERFÜGBAREN WERKZEUGEN AUF EINEM OP-TISCH</value>
+  <comment>BY THE PATIENT WITH THE BEST AVAILABLE TOOLS ON AN OPERATING TABLE</comment>
+</data>
+<data name="Codex.Surgery.About" xml:space="preserve">
+  <value>ÜBER</value>
+  <comment>ABOUT</comment>
+</data>
+<data name="Codex.Surgery.InAll" xml:space="preserve">
+  <value>INSGESAMT</value>
+  <comment>IN ALL</comment>
+</data>
+<data name="Codex.Surgery.FactImplant" xml:space="preserve">
+  <value>HIER EIN ORTUNGSIMPLANTAT</value>
+  <comment>A TRACKING IMPLANT HERE</comment>
+</data>
+<data name="Codex.Surgery.LimbGoneClean" xml:space="preserve">
+  <value>BEREIT</value>
+  <comment>READY</comment>
+</data>
+<data name="Codex.Surgery.ACleanZone" xml:space="preserve">
+  <value>EINE SAUBERE ZONE</value>
+  <comment>A CLEAN ZONE</comment>
+</data>
+<data name="Codex.Surgery.FitSuboptimal" xml:space="preserve">
+  <value>SUBOPTIMAL</value>
+  <comment>SUBOPTIMAL</comment>
+</data>
+<data name="Codex.Surgery.Pct" xml:space="preserve">
+  <value>PCT</value>
+  <comment>PCT</comment>
+</data>
+<data name="Codex.Surgery.PlacesTheImplant" xml:space="preserve">
+  <value>SETZT HIER EIN ORTUNGSIMPLANTAT</value>
+  <comment>PLACES A TRACKING IMPLANT HERE</comment>
+</data>
+<data name="Codex.Surgery.RemovesTheImplant" xml:space="preserve">
+  <value>ENTFERNT DAS ORTUNGSIMPLANTAT</value>
+  <comment>REMOVES THE TRACKING IMPLANT</comment>
+</data>
+<data name="CoveredHint.Covered" xml:space="preserve">
+  <value>kann nicht genutzt werden, solange {AREA} bedeckt ist</value>
+  <comment>cannot use while {AREA} is covered</comment>
+</data>
+<data name="CoveredHint.Remove" xml:space="preserve">
+  <value>entferne {CLOTHING}</value>
+  <comment>remove the {CLOTHING}</comment>
+</data>
+<data name="CrewMonitor.Header" xml:space="preserve">
+  <value>CREW-MONITOR</value>
+  <comment>CREW MONITOR</comment>
+</data>
+<data name="CrewMonitor.SubLine" xml:space="preserve">
+  <value>PDT/L-VERFOLGUNGSNETZ // {TEAM}</value>
+  <comment>PDT/L TRACKING NET // {TEAM}</comment>
+</data>
+<data name="CrewMonitor.TabRoster" xml:space="preserve">
+  <value>DIENSTPLAN</value>
+  <comment>ROSTER</comment>
+</data>
+<data name="CrewMonitor.TabTrack" xml:space="preserve">
+  <value>VERFOLGUNG</value>
+  <comment>TRACK</comment>
+</data>
+<data name="CrewMonitor.TabSetup" xml:space="preserve">
+  <value>EINSTELLUNGEN</value>
+  <comment>SETUP</comment>
+</data>
+<data name="CrewMonitor.EventDown" xml:space="preserve">
+  <value>{NAME} VERLETZT</value>
+  <comment>{NAME} DOWN</comment>
+</data>
+<data name="CrewMonitor.EventDead" xml:space="preserve">
+  <value>{NAME} TOT</value>
+  <comment>{NAME} DEAD</comment>
+</data>
+<data name="CrewMonitor.EventLost" xml:space="preserve">
+  <value>{NAME} SIGNAL VERLOREN</value>
+  <comment>{NAME} SIGNAL LOST</comment>
+</data>
+<data name="CrewMonitor.CarriersSection" xml:space="preserve">
+  <value>TRÄGER</value>
+  <comment>CARRIERS</comment>
+</data>
+<data name="CrewMonitor.DownCount" xml:space="preserve">
+  <value>{COUNT} VERLETZT</value>
+  <comment>{COUNT} DOWN</comment>
+</data>
+<data name="CrewMonitor.DeadCount" xml:space="preserve">
+  <value>{COUNT} TOT</value>
+  <comment>{COUNT} DEAD</comment>
+</data>
+<data name="CrewMonitor.StateAlive" xml:space="preserve">
+  <value>AM LEBEN</value>
+  <comment>ALIVE</comment>
+</data>
+<data name="CrewMonitor.StateDown" xml:space="preserve">
+  <value>VERLETZT</value>
+  <comment>DOWN</comment>
+</data>
+<data name="CrewMonitor.StateDead" xml:space="preserve">
+  <value>TOT</value>
+  <comment>DEAD</comment>
+</data>
+<data name="CrewMonitor.NoCarriers" xml:space="preserve">
+  <value>KEINE TRÄGER</value>
+  <comment>NO CARRIERS</comment>
+</data>
+<data name="CrewMonitor.SelectPrompt" xml:space="preserve">
+  <value>AUSWÄHLEN</value>
+  <comment>SELECT</comment>
+</data>
+<data name="CrewMonitor.PlaceholderName" xml:space="preserve">
+  <value>~SPIELER {ID}</value>
+  <comment>~PLAYER {ID}</comment>
+</data>
+<data name="CrewMonitor.Deceased" xml:space="preserve">
+  <value>VERSTORBEN</value>
+  <comment>DECEASED</comment>
+</data>
+<data name="CrewMonitor.SameDeck" xml:space="preserve">
+  <value>GLEICHES DECK</value>
+  <comment>SAME DECK</comment>
+</data>
+<data name="CrewMonitor.DeckAbove" xml:space="preserve">
+  <value>{COUNT} DECK DARÜBER</value>
+  <comment>{COUNT} DECK ABOVE</comment>
+</data>
+<data name="CrewMonitor.DecksAbove" xml:space="preserve">
+  <value>{COUNT} DECKS DARÜBER</value>
+  <comment>{COUNT} DECKS ABOVE</comment>
+</data>
+<data name="CrewMonitor.DeckBelow" xml:space="preserve">
+  <value>{COUNT} DECK DARUNTER</value>
+  <comment>{COUNT} DECK BELOW</comment>
+</data>
+<data name="CrewMonitor.DecksBelow" xml:space="preserve">
+  <value>{COUNT} DECKS DARUNTER</value>
+  <comment>{COUNT} DECKS BELOW</comment>
+</data>
+<data name="CrewMonitor.Tracking" xml:space="preserve">
+  <value>VERFOLGUNG</value>
+  <comment>TRACKING</comment>
+</data>
+<data name="CrewMonitor.NoSignal" xml:space="preserve">
+  <value>KEIN SIGNAL</value>
+  <comment>NO SIGNAL</comment>
+</data>
+<data name="CrewMonitor.SignalLost" xml:space="preserve">
+  <value>SIGNAL VERLOREN</value>
+  <comment>SIGNAL LOST</comment>
+</data>
+<data name="CrewMonitor.DistanceLine" xml:space="preserve">
+  <value>{TILES} FELDER</value>
+  <comment>{TILES} TILES</comment>
+</data>
+<data name="CrewMonitor.KeyPower" xml:space="preserve">
+  <value>LEISTUNG</value>
+  <comment>POWER</comment>
+</data>
+<data name="CrewMonitor.KeyAlarm" xml:space="preserve">
+  <value>ALARM</value>
+  <comment>ALARM</comment>
+</data>
+<data name="CrewMonitor.KeyAlarmOn" xml:space="preserve">
+  <value>ALARM AN</value>
+  <comment>ALARM ON</comment>
+</data>
+<data name="CrewMonitor.KeySort" xml:space="preserve">
+  <value>SORTIEREN</value>
+  <comment>SORT</comment>
+</data>
+<data name="CrewMonitor.KeySide" xml:space="preserve">
+  <value>SEITE</value>
+  <comment>SIDE</comment>
+</data>
+<data name="CrewMonitor.KeyCell" xml:space="preserve">
+  <value>ZELLE</value>
+  <comment>CELL</comment>
+</data>
+<data name="CrewMonitor.KeyNet" xml:space="preserve">
+  <value>NETZ</value>
+  <comment>NET</comment>
+</data>
+<data name="CrewMonitor.AlarmDownDead" xml:space="preserve">
+  <value>VERLETZT + TOT</value>
+  <comment>DOWN + DEAD</comment>
+</data>
+<data name="CrewMonitor.AlarmAnyChange" xml:space="preserve">
+  <value>JEDER WECHSEL</value>
+  <comment>ANY CHANGE</comment>
+</data>
+<data name="CrewMonitor.SortDownFirst" xml:space="preserve">
+  <value>ZUERST VERLETZT</value>
+  <comment>DOWN FIRST</comment>
+</data>
+<data name="CrewMonitor.SortSquad" xml:space="preserve">
+  <value>TRUPPE</value>
+  <comment>SQUAD</comment>
+</data>
+<data name="CrewMonitor.NetValue" xml:space="preserve">
+  <value>PDT/L 1 HZ</value>
+  <comment>PDT/L 1 HZ</comment>
+</data>
+<data name="CrewMonitor.FootLeft" xml:space="preserve">
+  <value>PDT/L-NETZ</value>
+  <comment>PDT/L NET</comment>
+</data>
+<data name="CrewMonitor.FootRight" xml:space="preserve">
+  <value>{TEAM} . 1 HZ</value>
+  <comment>{TEAM} . 1 HZ</comment>
+</data>
+<data name="Codex.Weapons.Base" xml:space="preserve">
+  <value>BASIS</value>
+  <comment>BASE</comment>
+</data>
+<data name="Codex.Weapons.Reveal" xml:space="preserve">
+  <value>ANZEIGEN</value>
+  <comment>REVEAL</comment>
+</data>
+<data name="Codex.Weapons.Mounts" xml:space="preserve">
+  <value>MONTAGEN</value>
+  <comment>MOUNTS</comment>
+</data>
+<data name="Codex.Weapons.Magazines" xml:space="preserve">
+  <value>MAGAZINE</value>
+  <comment>MAGAZINES</comment>
+</data>
+<data name="Codex.Weapons.Fits" xml:space="preserve">
+  <value>PASST</value>
+  <comment>FITS</comment>
+</data>
+<data name="Codex.Weapons.HeldBy" xml:space="preserve">
+  <value>GEHALTEN VON</value>
+  <comment>HELD BY</comment>
+</data>
+<data name="Codex.Weapons.Caliber" xml:space="preserve">
+  <value>KALIBER</value>
+  <comment>CALIBER</comment>
+</data>
+<data name="Codex.Weapons.Rounds" xml:space="preserve">
+  <value>PATRONEN</value>
+  <comment>ROUNDS</comment>
+</data>
+<data name="Codex.Weapons.NoMounts" xml:space="preserve">
+  <value>KEINE MONTAGEN</value>
+  <comment>NO MOUNTS</comment>
+</data>
+<data name="Codex.Weapons.OneAttachmentPerMount" xml:space="preserve">
+  <value>EIN ANBAUTEIL PRO HALTERUNG, ZUGEWIESEN FÜR DIESE WAFFE</value>
+  <comment>ONE ATTACHMENT PER MOUNT, ISSUED FOR THIS GUN</comment>
+</data>
+<data name="Codex.Weapons.NoGunIssued" xml:space="preserve">
+  <value>ES WIRD KEINE WAFFE AUSGEGEBEN FÜR DIESES ANBAUTEIL</value>
+  <comment>NO GUN IS ISSUED WITH THIS ATTACHMENT</comment>
+</data>
+<data name="Codex.Weapons.NoGunLoads" xml:space="preserve">
+  <value>KEINE WAFFE LÄDT DIESES MAGAZIN</value>
+  <comment>NO GUN LOADS THIS MAGAZINE</comment>
+</data>
+<data name="Codex.Weapons.NeedsLoadedRound" xml:space="preserve">
+  <value>SCHADEN UND REICHWEITE BENÖTIGEN EINE GELADENE PATRONE: UNTERSUCHE EINE GELADENE WAFFE</value>
+  <comment>DAMAGE AND RANGE NEED A LOADED ROUND: EXAMINE A LOADED GUN</comment>
+</data>
+<data name="Codex.Weapons.AtModeWielded" xml:space="preserve">
+  <value>IM MODUS {MODE}, GEHALTEN: DIE BASISSPALTE IM UNTERSUCHUNGSFENSTER</value>
+  <comment>AT {MODE}, WIELDED: THE EXAMINE WINDOW'S BASE COLUMN</comment>
+</data>
+<data name="Def.Obj.Structure.DropshipEquipment.FultonSystem.DisplayName" xml:space="preserve">
+  <value>RMU-19 Fulton Bergungssystem</value>
+  <comment>RMU-19 Fulton Recovery System</comment>
+</data>
+<data name="Def.Obj.Structure.DropshipEquipment.MedevacSystem.DisplayName" xml:space="preserve">
+  <value>RMU-4M Medizinisches Evakuierungssystem</value>
+  <comment>RMU-4M Medevac System</comment>
+</data>
+<data name="Def.Obj.Structure.DropshipEquipment.MgHolder.DisplayName" xml:space="preserve">
+  <value>MTU-4B Türschütze Aufhängungssystem</value>
+  <comment>MTU-4B Door Gunner Hardpoint System</comment>
+</data>
+<data name="Def.Obj.Structure.DropshipEquipment.ParadropSystem.DisplayName" xml:space="preserve">
+  <value>HPU-1 Fallschirmabwurfsystem</value>
+  <comment>HPU-1 Paradrop Deployment System</comment>
+</data>
+<data name="Def.Obj.Structure.DropshipEquipment.SentryHolder.DisplayName" xml:space="preserve">
+  <value>A/A-32-P Wächter-Verteidigungssystem</value>
+  <comment>A/A-32-P Sentry Defense System</comment>
+</data>
+<data name="Def.Obj.Structure.DropshipEquipment.Weapon.LaserBeamGun.DisplayName" xml:space="preserve">
+  <value>LWU-6B Laser Kanone</value>
+  <comment>LWU-6B Laser Cannon</comment>
+</data>
+<data name="Def.Obj.Structure.DropshipEquipment.Weapon.LaunchBay.DisplayName" xml:space="preserve">
+  <value>LAG-14 Internes Wächter-Abwurfsystem</value>
+  <comment>LAG-14 Internal Sentry Launcher</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Autolathe.DisplayName" xml:space="preserve">
+  <value>autodrehmaschine</value>
+  <comment>autolathe</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Autolathe.Armylathe.DisplayName" xml:space="preserve">
+  <value>Armydrehmaschine</value>
+  <comment>Armylathe</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Autolathe.Armylathe.Partial.DisplayName" xml:space="preserve">
+  <value>Armydrehmaschine</value>
+  <comment>Armylathe</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Autolathe.Medilathe.Full.DisplayName" xml:space="preserve">
+  <value>Medidrehmaschine</value>
+  <comment>Medilathe</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Autolathe.Partial.DisplayName" xml:space="preserve">
+  <value>autodrehmaschine</value>
+  <comment>autolathe</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Biogenerator.DisplayName" xml:space="preserve">
+  <value>Biogenerator</value>
+  <comment>Biogenerator</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Computer.Arcade.DisplayName" xml:space="preserve">
+  <value>Schwarzer Donnovan II: Doppelte Rache</value>
+  <comment>Black Donnovan II: Double Revenge</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Computer.Arcade.BlueStripe.DisplayName" xml:space="preserve">
+  <value>Schwarzer Donnovan II: Doppelte Rache</value>
+  <comment>Black Donnovan II: Double Revenge</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Computer.Arcade.GreenStripe.DisplayName" xml:space="preserve">
+  <value>Schwarzer Donnovan II: Doppelte Rache</value>
+  <comment>Black Donnovan II: Double Revenge</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.RND.OrganicAnalyzer.DisplayName" xml:space="preserve">
+  <value>Weyland-Yutani Organischer Analysator(TM)</value>
+  <comment>Weyland-Yutani Brand Organic Analyzer(TM)</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.RND.Protolathe.DisplayName" xml:space="preserve">
+  <value>Protodrehmaschine</value>
+  <comment>Protolathe</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Vending.Cola.DisplayName" xml:space="preserve">
+  <value>Souto Limonaden</value>
+  <comment>Souto Softdrinks</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Vending.Cola.Off.DisplayName" xml:space="preserve">
+  <value>Souto Limonaden</value>
+  <comment>Souto Softdrinks</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Vending.Cola.Alt.DisplayName" xml:space="preserve">
+  <value>Souto Limonaden</value>
+  <comment>Souto Softdrinks</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Vending.Cola.Alt.Off.DisplayName" xml:space="preserve">
+  <value>Souto Limonaden</value>
+  <comment>Souto Softdrinks</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Vending.Cola.Generic.DisplayName" xml:space="preserve">
+  <value>Souto Limonaden</value>
+  <comment>Souto Softdrinks</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.Vending.Cola.Research.DisplayName" xml:space="preserve">
+  <value>Souto Limonaden</value>
+  <comment>Souto Softdrinks</comment>
+</data>
+<data name="Def.Obj.Structure.MagazineBox.DisplayName" xml:space="preserve">
+  <value>magazin_box</value>
+  <comment>magazine_box</comment>
+</data>
+<data name="Def.Obj.Structure.PowerloaderWreckage.DisplayName" xml:space="preserve">
+  <value>Caterpillar P-5000 Arbeitslader Wreck</value>
+  <comment>Caterpillar P-5000 Work Loader wreckage</comment>
+</data>
+<data name="Def.Obj.Structure.PowerloaderWreckage.Ft.DisplayName" xml:space="preserve">
+  <value>Ferret Schwerindustrie Mk4 Kraftlader Wreck</value>
+  <comment>Ferret Heavy Industries Mk4 Power Loader wreckage</comment>
+</data>
+<data name="Def.Obj.Structure.Prop.Invuln.Dense.CliffWall.DisplayName" xml:space="preserve">
+  <value>Klippe</value>
+  <comment>Cliff Wall</comment>
+</data>
+<data name="Def.Obj.Structure.Prop.Invuln.Dense.CliffWall.Alt.DisplayName" xml:space="preserve">
+  <value>Klippe</value>
+  <comment>Cliff Wall</comment>
+</data>
+<data name="Def.Obj.Structure.Prop.Invuln.Dense.CliffWall.LeftShort.DisplayName" xml:space="preserve">
+  <value>Klippe</value>
+  <comment>Cliff Wall</comment>
+</data>
+<data name="Def.Obj.Structure.Prop.Invuln.Dense.CliffWall.RightShort.DisplayName" xml:space="preserve">
+  <value>Klippe</value>
+  <comment>Cliff Wall</comment>
+</data>
+<data name="Def.Obj.Structure.Prop.Invuln.Dense.CliffWall.Short.DisplayName" xml:space="preserve">
+  <value>Klippe</value>
+  <comment>Cliff Wall</comment>
+</data>
+<data name="Def.Obj.Structure.Prop.Invuln.Dense.Excavator.DisplayName" xml:space="preserve">
+  <value>Modell 30 Leichter Bagger</value>
+  <comment>Model 30 Light Excavator</comment>
+</data>
+<data name="Def.Obj.Structure.Prop.Invuln.Dense.Excavator.GrayAlt.DisplayName" xml:space="preserve">
+  <value>Modell 30 Leichter Bagger</value>
+  <comment>Model 30 Light Excavator</comment>
+</data>
+<data name="Def.Obj.Structure.Prop.Invuln.Dense.Excavator.Yellow.DisplayName" xml:space="preserve">
+  <value>Modell 30 Leichter Bagger</value>
+  <comment>Model 30 Light Excavator</comment>
+</data>
+<data name="Def.Obj.Structure.Prop.Invuln.Joey.DisplayName" xml:space="preserve">
+  <value>Hackler Joe</value>
+  <comment>Workin' Joey</comment>
+</data>
+<data name="Def.Obj.Structure.ShipAmmo.Sentry.DisplayName" xml:space="preserve">
+  <value>A/C-49-P Air Einsatzbereites Wächtergeschütz</value>
+  <comment>A/C-49-P Air Deployable Sentry</comment>
+</data>
+<data name="Def.Obj.Structure.Sign.Double.Maltesefalcon.Left.DisplayName" xml:space="preserve">
+  <value>Der Malteser Falke</value>
+  <comment>The Maltese Falcon</comment>
+</data>
+<data name="Def.Obj.Structure.Sign.Double.Maltesefalcon.Right.DisplayName" xml:space="preserve">
+  <value>Der Malteser Falke</value>
+  <comment>The Maltese Falcon</comment>
+</data>
+<data name="Def.Obj.Structure.Sign.Goldenplaque.DisplayName" xml:space="preserve">
+  <value>Der Robuste Männer Preis für Robustheit</value>
+  <comment>The Most Robust Men Award for Robustness</comment>
+</data>
+<data name="Def.Obj.Vehicle.Powerloader.DisplayName" xml:space="preserve">
+  <value>Caterpillar P-5000 Arbeitslader</value>
+  <comment>Caterpillar P-5000 Work Loader</comment>
+</data>
+<data name="Def.Obj.Vehicle.Powerloader.Ft.DisplayName" xml:space="preserve">
+  <value>Ferret Schwerindustrie Mk4 Kraftlader</value>
+  <comment>Ferret Heavy Industries Mk4 Power Loader</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Shoes.Stompers.DisplayName" xml:space="preserve">
+  <value>Reebok Treter</value>
+  <comment>Reebok Stompers</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Army.DisplayName" xml:space="preserve">
+  <value>Persönliches Körperschutzsystem</value>
+  <comment>Personal Body Armor System</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Army.Open.DisplayName" xml:space="preserve">
+  <value>Persönliches Körperschutzsystem</value>
+  <comment>Personal Body Armor System</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Army.Lit.DisplayName" xml:space="preserve">
+  <value>Persönliches Körperschutzsystem</value>
+  <comment>Personal Body Armor System</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Army.Lit.Open.DisplayName" xml:space="preserve">
+  <value>Persönliches Körperschutzsystem</value>
+  <comment>Personal Body Armor System</comment>
+</data>
+<data name="Def.Obj.Item.Device.Aicard.DisplayName" xml:space="preserve">
+  <value>inteliCard</value>
+  <comment>inteliCard</comment>
+</data>
+<data name="Def.Obj.Item.Paper.ColonialGrunts.DisplayName" xml:space="preserve">
+  <value>Koloniale Weltraumgruntzer</value>
+  <comment>Colonial Space Grunts</comment>
+</data>
+<data name="Def.Obj.Item.Paper.Court.DisplayName" xml:space="preserve">
+  <value>Urteil</value>
+  <comment>Judgement</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Magazine.Book.Bladerunner.DisplayName" xml:space="preserve">
+  <value>Bladerunner: Eine wahre Detektivgeschichte</value>
+  <comment>Bladerunner: A True Detectives Story</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Magazine.Book.Starshiptroopers.DisplayName" xml:space="preserve">
+  <value>Starship Troopers</value>
+  <comment>Starship Troopers</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Magazine.Book.Theartofwar.DisplayName" xml:space="preserve">
+  <value>Die Kunst des Krieges</value>
+  <comment>The Art of War</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Bottle.Beer.Craft.Ganucci.DisplayName" xml:space="preserve">
+  <value>Ganucci's echtes Leichtbier</value>
+  <comment>Ganucci's Genuine Light Beer</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Bottle.Beer.Craft.Mono.DisplayName" xml:space="preserve">
+  <value>Mono Lager</value>
+  <comment>Mono Lager</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Bottle.Blackout.DisplayName" xml:space="preserve">
+  <value>Blackout Stout</value>
+  <comment>Blackout Stout</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Bottle.Gin.DisplayName" xml:space="preserve">
+  <value>Griffeater Gin</value>
+  <comment>Griffeater Gin</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Bottle.Pwine.DisplayName" xml:space="preserve">
+  <value>Warlock's Samtiger</value>
+  <comment>Warlock's Velvet</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Bottle.Rum.DisplayName" xml:space="preserve">
+  <value>Captain Pete's kubanischer Rum</value>
+  <comment>Captain Pete's Cuban Spiced Rum</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Bottle.Sake.DisplayName" xml:space="preserve">
+  <value>Weyland-Yutani Sake</value>
+  <comment>Weyland-Yutani Sake</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Bottle.Vodka.DisplayName" xml:space="preserve">
+  <value>Red Star Vodka</value>
+  <comment>Red Star Vodka</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Bottle.Whiskey.DisplayName" xml:space="preserve">
+  <value>Uncle Git's Spezialreserve</value>
+  <comment>Uncle Git's Special Reserve</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Bottle.Wine.DisplayName" xml:space="preserve">
+  <value>Doublebeard Bearded Spezialwein</value>
+  <comment>Doublebeard Bearded Special Wine</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Aspen.DisplayName" xml:space="preserve">
+  <value>Weyland-Yutani Aspen Bier</value>
+  <comment>Weyland-Yutani Aspen Beer</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Aspen.Open.DisplayName" xml:space="preserve">
+  <value>Weyland-Yutani Aspen Bier</value>
+  <comment>Weyland-Yutani Aspen Beer</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Beer.DisplayName" xml:space="preserve">
+  <value>Weyland-Yutani Light</value>
+  <comment>Weyland-Yutani Lite</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Beer.Open.DisplayName" xml:space="preserve">
+  <value>Weyland-Yutani Light</value>
+  <comment>Weyland-Yutani Lite</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Boda.DisplayName" xml:space="preserve">
+  <value>Boda</value>
+  <comment>Boda</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Boda.Open.DisplayName" xml:space="preserve">
+  <value>Boda</value>
+  <comment>Boda</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Bodaplus.DisplayName" xml:space="preserve">
+  <value>Boda-Plyus</value>
+  <comment>Boda-Plyus</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Bodaplus.Open.DisplayName" xml:space="preserve">
+  <value>Boda-Plyus</value>
+  <comment>Boda-Plyus</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Classcola.DisplayName" xml:space="preserve">
+  <value>Klassik Cola</value>
+  <comment>Classic Cola</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Classcola.Open.DisplayName" xml:space="preserve">
+  <value>Klassik Cola</value>
+  <comment>Classic Cola</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Cola.DisplayName" xml:space="preserve">
+  <value>Fruchtbier</value>
+  <comment>Fruit-Beer</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Cola.Open.DisplayName" xml:space="preserve">
+  <value>Fruchtbier</value>
+  <comment>Fruit-Beer</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.DrGibb.DisplayName" xml:space="preserve">
+  <value>Dr. Gibb</value>
+  <comment>Dr. Gibb</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.DrGibb.Open.DisplayName" xml:space="preserve">
+  <value>Dr. Gibb</value>
+  <comment>Dr. Gibb</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Blue.DisplayName" xml:space="preserve">
+  <value>Blaue Himbeer-Souto</value>
+  <comment>Blue Raspberry Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Blue.Open.DisplayName" xml:space="preserve">
+  <value>Blaue Himbeer-Souto</value>
+  <comment>Blue Raspberry Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Classic.DisplayName" xml:space="preserve">
+  <value>Souto Klassik</value>
+  <comment>Souto Classic</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Classic.Open.DisplayName" xml:space="preserve">
+  <value>Souto Klassik</value>
+  <comment>Souto Classic</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Diet.Blue.DisplayName" xml:space="preserve">
+  <value>Diät Blaue Himbeer-Souto</value>
+  <comment>Diet Blue Raspberry Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Diet.Blue.Open.DisplayName" xml:space="preserve">
+  <value>Diät Blaue Himbeer-Souto</value>
+  <comment>Diet Blue Raspberry Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Diet.Cherry.DisplayName" xml:space="preserve">
+  <value>Diät Kirsch-Souto</value>
+  <comment>Diet Cherry Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Diet.Cherry.Open.DisplayName" xml:space="preserve">
+  <value>Diät Kirsch-Souto</value>
+  <comment>Diet Cherry Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Diet.Grape.DisplayName" xml:space="preserve">
+  <value>Diät Trauben-Souto</value>
+  <comment>Diet Grape Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Diet.Grape.Open.DisplayName" xml:space="preserve">
+  <value>Diät Trauben-Souto</value>
+  <comment>Diet Grape Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Diet.Lime.DisplayName" xml:space="preserve">
+  <value>Diät Limetten-Souto</value>
+  <comment>Diet Lime Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Diet.Lime.Open.DisplayName" xml:space="preserve">
+  <value>Diät Limetten-Souto</value>
+  <comment>Diet Lime Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Diet.Peach.DisplayName" xml:space="preserve">
+  <value>Diät Pfirsich-Souto</value>
+  <comment>Diet Peach Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Diet.Peach.Open.DisplayName" xml:space="preserve">
+  <value>Diät Pfirsich-Souto</value>
+  <comment>Diet Peach Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Grape.DisplayName" xml:space="preserve">
+  <value>Trauben-Souto</value>
+  <comment>Grape Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Grape.Open.DisplayName" xml:space="preserve">
+  <value>Trauben-Souto</value>
+  <comment>Grape Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Peach.DisplayName" xml:space="preserve">
+  <value>Pfirsich-Souto</value>
+  <comment>Peach Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Peach.Open.DisplayName" xml:space="preserve">
+  <value>Pfirsich-Souto</value>
+  <comment>Peach Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Vanilla.DisplayName" xml:space="preserve">
+  <value>Vanille-Souto</value>
+  <comment>Vanilla Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Souto.Vanilla.Open.DisplayName" xml:space="preserve">
+  <value>Vanille-Souto</value>
+  <comment>Vanilla Souto</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.SpaceMountainWind.DisplayName" xml:space="preserve">
+  <value>Bergwind</value>
+  <comment>Mountain Wind</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.SpaceMountainWind.Open.DisplayName" xml:space="preserve">
+  <value>Bergwind</value>
+  <comment>Mountain Wind</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Thirteenloko.DisplayName" xml:space="preserve">
+  <value>Dreizehn Loko</value>
+  <comment>Thirteen Loko</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Thirteenloko.Open.DisplayName" xml:space="preserve">
+  <value>Dreizehn Loko</value>
+  <comment>Thirteen Loko</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Tea.DisplayName" xml:space="preserve">
+  <value>Duke Purpur-Tee</value>
+  <comment>Duke Purple Tea</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Baguette.DisplayName" xml:space="preserve">
+  <value>Baguette</value>
+  <comment>Baguette</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Bigbiteburger.DisplayName" xml:space="preserve">
+  <value>Big Bite Burger</value>
+  <comment>Big Bite Burger</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Donkpocket.DisplayName" xml:space="preserve">
+  <value>Donk-pocket</value>
+  <comment>Donk-pocket</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Enchiladas.DisplayName" xml:space="preserve">
+  <value>Enchiladas</value>
+  <comment>Enchiladas</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Fries.DisplayName" xml:space="preserve">
+  <value>Weltraumfritten</value>
+  <comment>Space Fries</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Muffin.DisplayName" xml:space="preserve">
+  <value>Muffin</value>
+  <comment>Muffin</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Omelette.DisplayName" xml:space="preserve">
+  <value>Omelette Du Fromage</value>
+  <comment>Omelette Du Fromage</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Pastatomato.DisplayName" xml:space="preserve">
+  <value>Spaghetti</value>
+  <comment>Spaghetti</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Popcorn.DisplayName" xml:space="preserve">
+  <value>Popcorn</value>
+  <comment>Popcorn</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Sandwich.DisplayName" xml:space="preserve">
+  <value>Sandwich</value>
+  <comment>Sandwich</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Sliceable.Pizza.Margherita.DisplayName" xml:space="preserve">
+  <value>Margherita</value>
+  <comment>Margherita</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Spagetti.DisplayName" xml:space="preserve">
+  <value>Spaghetti</value>
+  <comment>Spaghetti</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Spesslaw.DisplayName" xml:space="preserve">
+  <value>Spesslaw</value>
+  <comment>Spesslaw</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Food.Snacks.Tofu.DisplayName" xml:space="preserve">
+  <value>Tofu</value>
+  <comment>Tofu</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Sedative.DisplayName" xml:space="preserve">
+  <value>Sedativer Hypospray</value>
+  <comment>Sedative Hypospray</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Ld50Syringe.DisplayName" xml:space="preserve">
+  <value>Tödliche Injektionsspritze</value>
+  <comment>Lethal Injection Syringe</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Ld50Syringe.Choral.DisplayName" xml:space="preserve">
+  <value>Tödliche Injektionsspritze</value>
+  <comment>Lethal Injection Syringe</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Spray.Plantbgone.DisplayName" xml:space="preserve">
+  <value>Pflanzen-B-Gone</value>
+  <comment>Plant-B-Gone</comment>
+</data>
+<data name="Def.Obj.Item.Stack.FoldingBarricade.DisplayName" xml:space="preserve">
+  <value>MB-6 Klappbare Absperrung</value>
+  <comment>MB-6 Folding Barricade</comment>
+</data>
+<data name="Def.Obj.Item.Stack.FoldingBarricade.Three.DisplayName" xml:space="preserve">
+  <value>MB-6 Klappbare Absperrung</value>
+  <comment>MB-6 Folding Barricade</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.CdeathalarmKit.DisplayName" xml:space="preserve">
+  <value>Todesalarm-Set</value>
+  <comment>Death Alarm Kit</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.CdeathalarmKit.Open.DisplayName" xml:space="preserve">
+  <value>Todesalarm-Set</value>
+  <comment>Death Alarm Kit</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.Kit.Honorguard.DisplayName" xml:space="preserve">
+  <value>Ehrenwächter-Set</value>
+  <comment>Honor Guard Kit</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.Kit.Honorguard.Open.DisplayName" xml:space="preserve">
+  <value>Ehrenwächter-Set</value>
+  <comment>Honor Guard Kit</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.Kit.Pursuit.DisplayName" xml:space="preserve">
+  <value>M39 Späher-Set</value>
+  <comment>M39 Point Man Kit</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.Kit.Pursuit.Open.DisplayName" xml:space="preserve">
+  <value>M39 Späher-Set</value>
+  <comment>M39 Point Man Kit</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.PdtKit.DisplayName" xml:space="preserve">
+  <value>Boots! PDT/L "Battle Buddy"-Set</value>
+  <comment>Boots! PDT/L Battle Buddy kit</comment>
+</data>
+<data name="Def.Obj.Item.Tool.Surgery.FixOVein.DisplayName" xml:space="preserve">
+  <value>FixOVein</value>
+  <comment>FixOVein</comment>
+</data>
+<data name="Def.Obj.Item.Tool.Surgery.WYautopsy.DisplayName" xml:space="preserve">
+  <value>Weyland Automatisches Autopsiesystem(TM)</value>
+  <comment>Weyland Brand Automatic Autopsy System(TM)</comment>
+</data>
+<data name="Def.Obj.Item.Trash.Sosjerky.DisplayName" xml:space="preserve">
+  <value>Scaredy's Spezialreserve Rindfleisch Trockenfleisch</value>
+  <comment>Scaredy's Private Reserve Beef Jerky</comment>
+</data>
+<data name="Def.Obj.Item.Weapon.Gun.Flamer.Flammenwerfer3.DisplayName" xml:space="preserve">
+  <value>Flammenwerfer 3 Schwere Verbrennungseinheit</value>
+  <comment>Flammenwerfer 3 Heavy Incineration Unit</comment>
+</data>
+<data name="Def.Obj.Item.Weapon.Gun.Flamer.Flammenwerfer3.Empty.DisplayName" xml:space="preserve">
+  <value>Flammenwerfer 3 Schwere Verbrennungseinheit</value>
+  <comment>Flammenwerfer 3 Heavy Incineration Unit</comment>
+</data>
+<data name="Def.Obj.Item.AmmoBox.Magazine.M41ae2.DisplayName" xml:space="preserve">
+  <value>magazin (M41AE2 x 8)</value>
+  <comment>magazine (M41AE2 x 8)</comment>
+</data>
+<data name="Def.Obj.Item.AmmoBox.Magazine.M41ae2.Empty.DisplayName" xml:space="preserve">
+  <value>magazin (M41AE2 x 8)</value>
+  <comment>magazine (M41AE2 x 8)</comment>
+</data>
+<data name="Def.Obj.Item.AmmoBox.Magazine.M41ae2.Deployed.DisplayName" xml:space="preserve">
+  <value>magazin (M41AE2 x 8)</value>
+  <comment>magazine (M41AE2 x 8)</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.IvDrip.Descending.DisplayName" xml:space="preserve">
+  <value>Infusionsständer Kiste</value>
+  <comment>IV drip crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.IvDrip.DisplayName" xml:space="preserve">
+  <value>Infusionsständer Kiste</value>
+  <comment>IV drip crate</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.DisplayName" xml:space="preserve">
+  <value>Verfolgungstransmitter</value>
+  <comment>tracking transmitter</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.Verb.Toggle" xml:space="preserve">
+  <value>einschalten</value>
+  <comment>switch on</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.On.DisplayName" xml:space="preserve">
+  <value>Verfolgungstransmitter</value>
+  <comment>tracking transmitter</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.On.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.On.Verb.Toggle" xml:space="preserve">
+  <value>ausschalten</value>
+  <comment>switch off</comment>
+</data>
+<data name="Def.Obj.Item.Implant.Tracking.DisplayName" xml:space="preserve">
+  <value>Verfolgungsimplantat</value>
+  <comment>tracking implant</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.DisplayName" xml:space="preserve">
+  <value>Verfolgungsimplanter</value>
+  <comment>tracking implanter</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.Empty.DisplayName" xml:space="preserve">
+  <value>leerer Implanter</value>
+  <comment>empty implanter</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.DisplayName" xml:space="preserve">
+  <value>Crew Monitor</value>
+  <comment>crew monitor</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Verb.Toggle" xml:space="preserve">
+  <value>einschalten</value>
+  <comment>switch on</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.On.DisplayName" xml:space="preserve">
+  <value>Crew Monitor</value>
+  <comment>crew monitor</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.On.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.On.Verb.Toggle" xml:space="preserve">
+  <value>ausschalten</value>
+  <comment>switch off</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Empty.DisplayName" xml:space="preserve">
+  <value>Crew Monitor</value>
+  <comment>crew monitor</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="SurgeryOp.ImplantInsertLimb.Display" xml:space="preserve">
+  <value>Verfolgungsimplantat-Einsetzung</value>
+  <comment>Tracking Implant Insertion</comment>
+</data>
+<data name="SurgeryOp.ImplantInsertCavity.Display" xml:space="preserve">
+  <value>Verfolgungsimplantat-Kavität-Einsetzung</value>
+  <comment>Tracking Implant Cavity Insertion</comment>
+</data>
+<data name="SurgeryOp.ImplantRemovalLimb.Display" xml:space="preserve">
+  <value>Verfolgungsimplantat-Entfernung</value>
+  <comment>Tracking Implant Removal</comment>
+</data>
+<data name="SurgeryOp.ImplantRemovalCavity.Display" xml:space="preserve">
+  <value>Verfolgungsimplantat-Kavität-Entfernung</value>
+  <comment>Tracking Implant Cavity Removal</comment>
+</data>
+<data name="Reagent.Drink.Cold.Kiraspecial.Name" xml:space="preserve">
+  <value>Kira Spezial</value>
+  <comment>Kira Special</comment>
+</data>
+<data name="Reagent.Drink.Cold.NukaCola.Name" xml:space="preserve">
+  <value>Nuka Cola</value>
+  <comment>Nuka Cola</comment>
+</data>
+<data name="Reagent.Drink.Cold.Rewriter.Name" xml:space="preserve">
+  <value>Rewriter</value>
+  <comment>Rewriter</comment>
+</data>
+<data name="Reagent.Drink.Cold.SpaceCola.Name" xml:space="preserve">
+  <value>Weltraum-Cola</value>
+  <comment>Space Cola</comment>
+</data>
+<data name="Reagent.Drink.Cold.SpaceUp.Name" xml:space="preserve">
+  <value>Space-Up</value>
+  <comment>Space-Up</comment>
+</data>
+<data name="Reagent.Drink.Cold.Spacemountainwind.Name" xml:space="preserve">
+  <value>Bergwind</value>
+  <comment>Mountain Wind</comment>
+</data>
+<data name="Reagent.Drink.Cold.Tonic.Name" xml:space="preserve">
+  <value>Tonic Water</value>
+  <comment>Tonic Water</comment>
+</data>
+<data name="Reagent.Drink.Souto.Name" xml:space="preserve">
+  <value>Souto Klassik</value>
+  <comment>Souto Classic</comment>
+</data>
+<data name="Reagent.Drink.Souto.Cranberry.Name" xml:space="preserve">
+  <value>Preiselbeer-Souto</value>
+  <comment>Cranberry Souto</comment>
+</data>
+<data name="Reagent.Ethanol.Ale.Name" xml:space="preserve">
+  <value>Ale</value>
+  <comment>Ale</comment>
+</data>
+<data name="Reagent.Ethanol.Aloe.Name" xml:space="preserve">
+  <value>Aloe</value>
+  <comment>Aloe</comment>
+</data>
+<data name="Reagent.Ethanol.Amasec.Name" xml:space="preserve">
+  <value>Amasec</value>
+  <comment>Amasec</comment>
+</data>
+<data name="Reagent.Ethanol.B52.Name" xml:space="preserve">
+  <value>B-52</value>
+  <comment>B-52</comment>
+</data>
+<data name="Reagent.Ethanol.Bilk.Name" xml:space="preserve">
+  <value>Bilch</value>
+  <comment>Bilk</comment>
+</data>
+<data name="Reagent.Ethanol.BlackRussian.Name" xml:space="preserve">
+  <value>Black Russian</value>
+  <comment>Black Russian</comment>
+</data>
+<data name="Reagent.Ethanol.BloodyMary.Name" xml:space="preserve">
+  <value>Bloody Mary</value>
+  <comment>Bloody Mary</comment>
+</data>
+<data name="Reagent.Ethanol.BraveBull.Name" xml:space="preserve">
+  <value>Brave Bull</value>
+  <comment>Brave Bull</comment>
+</data>
+<data name="Reagent.Ethanol.Cognac.Name" xml:space="preserve">
+  <value>Cognac</value>
+  <comment>Cognac</comment>
+</data>
+<data name="Reagent.Ethanol.CubaLibre.Name" xml:space="preserve">
+  <value>Cuba Libre</value>
+  <comment>Cuba Libre</comment>
+</data>
+<data name="Reagent.Ethanol.Deadrum.Name" xml:space="preserve">
+  <value>Deadrum</value>
+  <comment>Deadrum</comment>
+</data>
+<data name="Reagent.Ethanol.Gin.Name" xml:space="preserve">
+  <value>Gin</value>
+  <comment>Gin</comment>
+</data>
+<data name="Reagent.Ethanol.Ginfizz.Name" xml:space="preserve">
+  <value>Gin Fizz</value>
+  <comment>Gin Fizz</comment>
+</data>
+<data name="Reagent.Ethanol.Goldschlager.Name" xml:space="preserve">
+  <value>Goldschlager</value>
+  <comment>Goldschlager</comment>
+</data>
+<data name="Reagent.Ethanol.Grog.Name" xml:space="preserve">
+  <value>Grog</value>
+  <comment>Grog</comment>
+</data>
+<data name="Reagent.Ethanol.Hooch.Name" xml:space="preserve">
+  <value>Hooch</value>
+  <comment>Hooch</comment>
+</data>
+<data name="Reagent.Ethanol.Irishcoffee.Name" xml:space="preserve">
+  <value>Irish Coffee</value>
+  <comment>Irish Coffee</comment>
+</data>
+<data name="Reagent.Ethanol.Kahlua.Name" xml:space="preserve">
+  <value>Kahlua</value>
+  <comment>Kahlua</comment>
+</data>
+<data name="Reagent.Ethanol.Longislandicedtea.Name" xml:space="preserve">
+  <value>Long Island Eistee</value>
+  <comment>Long Island Iced Tea</comment>
+</data>
+<data name="Reagent.Ethanol.Manhattan.Name" xml:space="preserve">
+  <value>Manhattan</value>
+  <comment>Manhattan</comment>
+</data>
+<data name="Reagent.Ethanol.Margarita.Name" xml:space="preserve">
+  <value>Margarita</value>
+  <comment>Margarita</comment>
+</data>
+<data name="Reagent.Ethanol.Mojito.Name" xml:space="preserve">
+  <value>Mojito</value>
+  <comment>Mojito</comment>
+</data>
+<data name="Reagent.Ethanol.Moonshine.Name" xml:space="preserve">
+  <value>Moonshine</value>
+  <comment>Moonshine</comment>
+</data>
+<data name="Reagent.Ethanol.Patron.Name" xml:space="preserve">
+  <value>Patron</value>
+  <comment>Patron</comment>
+</data>
+<data name="Reagent.Ethanol.Sake.Name" xml:space="preserve">
+  <value>Sake</value>
+  <comment>Sake</comment>
+</data>
+<data name="Reagent.Ethanol.Sbiten.Name" xml:space="preserve">
+  <value>Sbiten</value>
+  <comment>Sbiten</comment>
+</data>
+<data name="Reagent.Ethanol.Singulo.Name" xml:space="preserve">
+  <value>Singulo</value>
+  <comment>Singulo</comment>
+</data>
+<data name="Reagent.Ethanol.Tequila.Name" xml:space="preserve">
+  <value>Tequila</value>
+  <comment>Tequila</comment>
+</data>
+<data name="Reagent.Ethanol.TequilaSunrise.Name" xml:space="preserve">
+  <value>Tequila Sunrise</value>
+  <comment>Tequila Sunrise</comment>
+</data>
+<data name="Reagent.Ethanol.Threemileisland.Name" xml:space="preserve">
+  <value>Three Mile Island Eistee</value>
+  <comment>Three Mile Island Iced Tea</comment>
+</data>
+<data name="Reagent.Ethanol.Whiskey.Name" xml:space="preserve">
+  <value>Whisky</value>
+  <comment>Whiskey</comment>
+</data>
+<data name="Reagent.Ethanol.WhiteRussian.Name" xml:space="preserve">
+  <value>White Russian</value>
+  <comment>White Russian</comment>
+</data>
+<data name="Reagent.HippiesDelight.Name" xml:space="preserve">
+  <value>Hippies' Freude</value>
+  <comment>Hippies' Delight</comment>
+</data>
+<data name="Reagent.Hotsauce.Name" xml:space="preserve">
+  <value>Hot Sauce</value>
+  <comment>Hot Sauce</comment>
+</data>
+<data name="Reagent.Impedrezene.Name" xml:space="preserve">
+  <value>Impedrezen</value>
+  <comment>Impedrezene</comment>
+</data>
+<data name="Reagent.Ketchup.Name" xml:space="preserve">
+  <value>Ketchup</value>
+  <comment>Ketchup</comment>
+</data>
+<data name="Reagent.Medical.AntiToxin.Name" xml:space="preserve">
+  <value>Dyloven</value>
+  <comment>Dylovene</comment>
+</data>
+<data name="Reagent.Medical.Meralyne.Name" xml:space="preserve">
+  <value>Meralin</value>
+  <comment>Meralyne</comment>
+</data>
+<data name="Reagent.Medical.Spaceacillin.Name" xml:space="preserve">
+  <value>All-Acillin</value>
+  <comment>Spaceacillin</comment>
+</data>
+<data name="Reagent.Medical.Sterilizine.Name" xml:space="preserve">
+  <value>Sterilizin</value>
+  <comment>Sterilizine</comment>
+</data>
+<data name="Reagent.Nutriment.Tofu.Name" xml:space="preserve">
+  <value>Tofu</value>
+  <comment>Tofu</comment>
+</data>
+<data name="Reagent.Plasticide.Name" xml:space="preserve">
+  <value>Plasticid</value>
+  <comment>Plasticide</comment>
+</data>
+<data name="Reagent.Toxin.Fertilizer.Left4zed.Name" xml:space="preserve">
+  <value>Left-4-Zed</value>
+  <comment>Left-4-Zed</comment>
+</data>
+<data name="Condition.Toxin.Chip" xml:space="preserve">
+  <value>GIFT</value>
+  <comment>TOXIN</comment>
+</data>
+<data name="Guide.Topic.Weapons" xml:space="preserve">
+  <value>Eine Waffe listet ihre zugehörigen Aufsätze; ohne Liste akzeptiert sie zwar jeden, zeigt aber keine Halterungen. Ihre Magazine sind die für sie gefertigten, und jede Aufsatz-/Magazinseite nennt die passenden Waffen</value>
+  <comment>a gun's mounts list the attachments issued for it, its own list; a gun with no list reads no mounts, though it would take any attachment. its magazines are the ones made for it, and each attachment and magazine page names the guns it goes with</comment>
+</data>
+<data name="Guide.Section.Weapons.Guns" xml:space="preserve">
+  <value>Die Zahlen sind die Basis des Prüffensters: die Waffe im aktuellen Zustand, im Startfeuermodus und im Griff. Schaden und Reichweite brauchen eine geladene Patrone; prüfe daher eine geladene Waffe dafür</value>
+  <comment>the numbers are the examine window's base column: the gun as built, at its starting fire mode and wielded. damage and range need a loaded round, so examine a loaded gun for those</comment>
+</data>
+<data name="Guide.Section.Weapons.Melee" xml:space="preserve">
+  <value>Die Handwaffen hier sind die Gegenstände mit einer Nahkampf-Kraft unter dem Waffen-Namensbereich, die keine Schusswaffe, kein Aufsatz oder keine Magazine sind</value>
+  <comment>the hand weapons here are the items with a melee force under the weapon namespace that are not a gun, an attachment or a magazine</comment>
+</data>
+<data name="Intro.CAPE.Title" xml:space="preserve">
+  <value>KAPP FLUSS</value>
+  <comment>CAPE RIVER</comment>
+</data>
+<data name="Intro.LV759.Title" xml:space="preserve">
+  <value>HYBRISA PROSPERA</value>
+  <comment>HYBRISA PROSPERA</comment>
+</data>
+<data name="Intro.LV976.Title" xml:space="preserve">
+  <value>SOROKYNE STRATA</value>
+  <comment>SOROKYNE STRATA</comment>
+</data>
+<data name="Intro.LV376.Title" xml:space="preserve">
+  <value>CHARONS SCHMELZTIEGEL</value>
+  <comment>CHARON'S CRUCIBLE</comment>
+</data>
+</root>
