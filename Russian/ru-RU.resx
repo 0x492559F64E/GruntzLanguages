@@ -1684,7 +1684,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Engineer</comment>
 </data>
 <data name="Loadout.Anomaly.FireFighter.Name" xml:space="preserve">
-  <value>Пожарник</value>
+  <value>Пожарный</value>
   <comment>Firefighter</comment>
 </data>
 <data name="Loadout.Anomaly.Marine.Medic.Name" xml:space="preserve">
