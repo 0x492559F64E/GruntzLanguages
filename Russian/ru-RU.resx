@@ -1812,7 +1812,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>SETTINGS</comment>
 </data>
 <data name="Loadout.FireFighter.Name" xml:space="preserve">
-  <value>ПОЖАРНЫЙ</value>
+  <value>Пожарный</value>
   <comment>Firefighter</comment>
 </data>
 <data name="Bindings.Global" xml:space="preserve">
