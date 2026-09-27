@@ -77024,19 +77024,19 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>beakers, bottles, pills and injectors hold and carry reagents; a reaction only fires in open glassware</comment>
 </data>
 <data name="Guide.Section.Chemistry.Machines.Text" xml:space="preserve">
-  <value>Der Spender gießt Basenreagenzien ein, der Chemmaster teilt ein Becherglas in Pillen und Flaschen, und der Mörser zerlegt ein Item in seine Reagenzien</value>
+  <value>Der Spender gießt Basenreagenzien ein, der Chemmaster teilt ein Becherglas in Pillen und Flaschen, und der Mörser zerlegt einen Gegenstand in seine Reagenzien</value>
   <comment>the dispenser pours base reagents, the chemmaster splits a beaker into pills and bottles, and the grinder breaks an item down into its reagents</comment>
 </data>
 <data name="Guide.Section.Medical.Conditions.Text" xml:space="preserve">
-  <value>jeder Zustand hier listet seine Anzeichen, seine Ursachen und was ihn behandelt</value>
+  <value>jeder Zustand hier listet seine Anzeichen, seine Ursachen und was ihn behandelt auf</value>
   <comment>every condition here lists its signs, its causes, and what treats it</comment>
 </data>
 <data name="Guide.Section.Medical.Treatments.Text" xml:space="preserve">
-  <value>Kits, Schienen und Werkzeuge sind das, was einen Zustand behandelt; jede Zustandsseite nennt, welche davon funktionieren</value>
+  <value>Kits, Schienen und Werkzeuge sind das, was einen Zustand behandelt; jede Zustandsseite listet auf, welche davon funktionieren</value>
   <comment>kits, splints and tools are what treat a condition; each condition page names which ones work</comment>
 </data>
 <data name="Guide.Section.Medical.Surgery.Text" xml:space="preserve">
-  <value>four slots per zone: skin, vessels, bone, prosthetic. an operation needs some set and refuses others; the slots, the patient and the tool in hand decide what you click, priority breaks ties. the patient lies down; a table is fastest, the ground slowest</value>
+  <value>vier Slots per Zone: Haut, Blutgefässe, Knochen, Prothese. Der ausgewählte Slot, Patient, ausgerüstete Instrument und Priorität bestimmen was angeklickt werden kann. Der Patient muss liegen; ein Tisch ist schneller, der Boden langsamer</value>
   <comment>four slots per zone: skin, vessels, bone, prosthetic. an operation needs some set and refuses others; the slots, the patient and the tool in hand decide what you click, priority breaks ties. the patient lies down; a table is fastest, the ground slowest</comment>
 </data>
 <data name="Guide.Section.Construction.Recipes.Text" xml:space="preserve">
