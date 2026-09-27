@@ -335,10 +335,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ANZEIGE // AUDIO // STEUERUNG</value>
   <comment>DISPLAY // AUDIO // CONTROLS</comment>
 </data>
-<data name="MainMenu.Row.Codex.Caption" xml:space="preserve">
-  <value>FELDREFERENZ // {KEY} IM SPIEL</value>
-  <comment>FIELD REFERENCE // {KEY} IN GAME</comment>
-</data>
 <data name="MainMenu.Row.JoinGame.Caption" xml:space="preserve">
   <value>MIT SERVER VERBINDEN</value>
   <comment>CONNECT TO SERVER</comment>
@@ -78275,119 +78271,119 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Essen oder ein nahrhaftes Reagenz trinken</value>
   <comment>eat food or drink a nutritious reagent</comment>
 </data>
-<data name="Guide.Topic.Chemistry.Text" xml:space="preserve">
+<data name="Guide.Topic.Chemistry" xml:space="preserve">
   <value>in einem Becherglas mischen. Eine Reaktion feuert sofort, sobald jeder Bestandteil im richtigen Verhältnis vorhanden ist; in Gruntz muss nichts erhitzt werden. Der Chemmaster macht aus einem Becherglas Pillen und Flaschen</value>
   <comment>mix in a beaker. a reaction fires the moment every part is present in ratio; nothing in gruntz needs heating. the chemmaster turns a beaker into pills and bottles</comment>
 </data>
-<data name="Guide.Topic.Medical.Text" xml:space="preserve">
+<data name="Guide.Topic.Medical" xml:space="preserve">
   <value>Zustände sind das, was einem Körper schaden kann; Behandlungen sind das, was jeden Zustand heilt</value>
   <comment>conditions are what can go wrong with a body; treatments are what fixes each one</comment>
 </data>
-<data name="Guide.Topic.Construction.Text" xml:space="preserve">
+<data name="Guide.Topic.Construction" xml:space="preserve">
   <value>Stapel halten und auf den Boden klicken. Kein Werkzeug baut etwas; Werkzeuge nehmen nur Dinge auseinander und reparieren sie</value>
   <comment>hold the stack and click the ground. no tool builds anything; tools only take things apart and mend them</comment>
 </data>
-<data name="Guide.Topic.Galley.Text" xml:space="preserve">
+<data name="Guide.Topic.Galley" xml:space="preserve">
   <value>food is made four ways: by hand, sliced on a table, in an appliance, or by a reaction. every food page says what makes it and what it goes into. the microwave, the processor and the gibber are structures too</value>
   <comment>food is made four ways: by hand, sliced on a table, in an appliance, or by a reaction. every food page says what makes it and what it goes into. the microwave, the processor and the gibber are structures too</comment>
 </data>
-<data name="Guide.Topic.Items.Text" xml:space="preserve">
+<data name="Guide.Topic.Items" xml:space="preserve">
   <value>Werkzeuge und die Familien, wie das Spiel sie nennt; eine Familie gruppiert jedes Item, das dieselbe Aufgabe erfüllt</value>
   <comment>tools and the families the game names them by; a family groups every item that does the same job</comment>
 </data>
-<data name="Guide.Section.Chemistry.Reactions.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Reactions" xml:space="preserve">
   <value>das Verhältnis zählt. Jede Mehrfachheit einer Tabelle reagiert. Ein Katalysator wird nie verbraucht</value>
   <comment>ratio is what matters. every multiple of a table reacts. a catalyst is never consumed</comment>
 </data>
-<data name="Guide.Section.Chemistry.Reagents.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Reagents" xml:space="preserve">
   <value>jedes Reagenz hat eine Aufgabe im Körper: was es behandelt, seine Überdosisgrenze und wie schnell es metabolisiert</value>
   <comment>each reagent has one job in a body: what it treats, its overdose line, and how fast it metabolises</comment>
 </data>
-<data name="Guide.Section.Chemistry.Glassware.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Glassware" xml:space="preserve">
   <value>Bechergläser, Flaschen, Pillen und Injektoren halten und tragen Reagenzien; eine Reaktion feuert nur in offenem Glas</value>
   <comment>beakers, bottles, pills and injectors hold and carry reagents; a reaction only fires in open glassware</comment>
 </data>
-<data name="Guide.Section.Chemistry.Machines.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Machines" xml:space="preserve">
   <value>Der Spender gießt Basenreagenzien ein, der Chemmaster teilt ein Becherglas in Pillen und Flaschen, und der Mörser zerlegt ein Item in seine Reagenzien</value>
   <comment>the dispenser pours base reagents, the chemmaster splits a beaker into pills and bottles, and the grinder breaks an item down into its reagents</comment>
 </data>
-<data name="Guide.Section.Medical.Conditions.Text" xml:space="preserve">
+<data name="Guide.Section.Medical.Conditions" xml:space="preserve">
   <value>jeder Zustand hier listet seine Anzeichen, seine Ursachen und was ihn behandelt</value>
   <comment>every condition here lists its signs, its causes, and what treats it</comment>
 </data>
-<data name="Guide.Section.Medical.Treatments.Text" xml:space="preserve">
+<data name="Guide.Section.Medical.Treatments" xml:space="preserve">
   <value>Kits, Schienen und Werkzeuge sind das, was einen Zustand behandelt; jede Zustandsseite nennt, welche davon funktionieren</value>
   <comment>kits, splints and tools are what treat a condition; each condition page names which ones work</comment>
 </data>
-<data name="Guide.Section.Medical.Surgery.Text" xml:space="preserve">
+<data name="Guide.Section.Medical.Surgery" xml:space="preserve">
   <value>four slots per zone: skin, vessels, bone, prosthetic. an operation needs some set and refuses others; the slots, the patient and the tool in hand decide what you click, priority breaks ties. the patient lies down; a table is fastest, the ground slowest</value>
   <comment>four slots per zone: skin, vessels, bone, prosthetic. an operation needs some set and refuses others; the slots, the patient and the tool in hand decide what you click, priority breaks ties. the patient lies down; a table is fastest, the ground slowest</comment>
 </data>
-<data name="Guide.Section.Construction.Recipes.Text" xml:space="preserve">
+<data name="Guide.Section.Construction.Recipes" xml:space="preserve">
   <value>einen Stapel halten und auf den Boden klicken; die Rezeptliste hier ist jeder Stapel, der etwas baut</value>
   <comment>hold a stack and click the ground; the recipe list here is every stack that builds something</comment>
 </data>
-<data name="Guide.Section.Construction.Structures.Text" xml:space="preserve">
+<data name="Guide.Section.Construction.Structures" xml:space="preserve">
   <value>Barrikaden, Träger und Tische sind das, was ein Rezept baut; jede Seite listet ihre Trefferpunkte und wie sie zerlegt werden</value>
   <comment>barricades, girders and tables are what a recipe builds; each page lists its hit points and how it comes apart</comment>
 </data>
-<data name="Guide.Section.Construction.Materials.Text" xml:space="preserve">
+<data name="Guide.Section.Construction.Materials" xml:space="preserve">
   <value>Platten und Bretter sind die Stapel, die ein Rezept verbraucht; eine Familie gruppiert jeden Stapel, der als dasselbe Material zählt</value>
   <comment>sheets and planks are the stacks a recipe spends; a family groups every stack that counts as the same material</comment>
 </data>
-<data name="Guide.Section.Galley.Recipes.Text" xml:space="preserve">
+<data name="Guide.Section.Galley.Recipes" xml:space="preserve">
   <value>the microwave cooks the first recipe in this list that its load matches exactly, so a bigger recipe comes first and wins a load that fits two. a load that matches no recipe burns</value>
   <comment>the microwave cooks the first recipe in this list that its load matches exactly, so a bigger recipe comes first and wins a load that fits two. a load that matches no recipe burns</comment>
 </data>
-<data name="Guide.Section.Galley.Kitchenware.Text" xml:space="preserve">
+<data name="Guide.Section.Galley.Kitchenware" xml:space="preserve">
   <value>the tools a hand craft keeps, like the rolling pin and the knives, and the boxes the ingredients come in. a knife or any other blade slices food on a table</value>
   <comment>the tools a hand craft keeps, like the rolling pin and the knives, and the boxes the ingredients come in. a knife or any other blade slices food on a table</comment>
 </data>
-<data name="Guide.Section.Items.Families.Text" xml:space="preserve">
+<data name="Guide.Section.Items.Families" xml:space="preserve">
   <value>wenn das Spiel eine Familie wie Brechstangen nennt, ist dies die genaue Liste der Items, die gemeint sind</value>
   <comment>when the game names a family like crowbars, this is the exact list of items it means</comment>
 </data>
-<data name="Guide.Section.Items.Tools.Text" xml:space="preserve">
+<data name="Guide.Section.Items.Tools" xml:space="preserve">
   <value>jedes Handwerkzeug, seine Eigenschaften und zu welcher Familie es gehört</value>
   <comment>every hand tool, its qualities, and what family it belongs to</comment>
 </data>
-<data name="Guide.Entity.Obj.Item.Tool.Crowbar.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Item.Tool.Crowbar" xml:space="preserve">
   <value>es unter eine Tür schieben, um sie offen zu halten</value>
   <comment>wedge it under a door to hold it open</comment>
 </data>
-<data name="Guide.Family.Obj.Item.Tool.Crowbar.Text" xml:space="preserve">
+<data name="Guide.Family.Obj.Item.Tool.Crowbar" xml:space="preserve">
   <value>eine Brechstange schwingt fünfmal härter als eine normale Brechstange und hebt genau dasselbe auf</value>
   <comment>a prybar swings five times harder than a plain crowbar and pries just the same</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Barricade.Metal.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Barricade.Metal" xml:space="preserve">
   <value>schrauben, dann Schraubenschlüssel, dann Hebel, um es abzunehmen. Ein Nagelgewehr heilt 10 Prozent pro Schuss. Es zerfällt in 2 Metallbleche</value>
   <comment>screw, then wrench, then pry to take it down. a nailgun mends 10 percent per shot. it breaks into 2 metal sheets</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Girder.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Girder" xml:space="preserve">
   <value>Ein Träger ist die Hälfte einer Wand; schweiße Metallbleche darauf, um sie fertigzustellen</value>
   <comment>a girder is half a wall; weld metal sheets onto it to finish</comment>
 </data>
-<data name="Guide.Entity.Obj.Item.Device.Defibrillator.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Item.Device.Defibrillator" xml:space="preserve">
   <value>nur ein wiederbelebbarer Körper nimmt einen Schock; der Scanner sagt, welcher</value>
   <comment>only a revivable body takes a shock; the scanner says which</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Machinery.ChemDispenser.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Machinery.ChemDispenser" xml:space="preserve">
   <value>gießt Basenreagenzien in ein sitzendes Becherglas; jedes Medikament beginnt hier</value>
   <comment>pours base reagents into a seated beaker; every medicine starts here</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Machinery.ChemMaster.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Machinery.ChemMaster" xml:space="preserve">
   <value>teilt ein Becherglas in Pillen und Flaschen und beschriftet sie</value>
   <comment>splits a beaker into pills and bottles, and labels them</comment>
 </data>
-<data name="Guide.Condition.Condition.Fracture.Text" xml:space="preserve">
+<data name="Guide.Condition.Condition.Fracture" xml:space="preserve">
   <value>Eine Fraktur schmerzt weiter und beeinträchtigt das Glied, bis es geschient ist; zuerst schienen, dann mit einer Operation oder Osteracil heilen</value>
   <comment>a fracture keeps hurting and dragging the limb until splinted; splint first, then mend it with surgery or osteracil</comment>
 </data>
-<data name="Guide.Condition.Condition.InternalBleeding.Text" xml:space="preserve">
+<data name="Guide.Condition.Condition.InternalBleeding" xml:space="preserve">
   <value>innere Blutung zeigt keine Wunde und keine Blutspur; nur ein Scan entdeckt sie, bevor jemand blass wird</value>
   <comment>internal bleeding shows no wound and no blood trail; only a scan catches it before someone goes pale</comment>
 </data>
-<data name="Guide.Condition.Condition.DeadRevivable.Text" xml:space="preserve">
+<data name="Guide.Condition.Condition.DeadRevivable" xml:space="preserve">
   <value>Wiederbelebung möglich bedeutet, dass der Körper noch nicht verloren ist; behandle den schlimmsten Schaden vor dem Schock, nicht danach</value>
   <comment>revival possible means the body is not gone yet; treat the worst damage before the shock, not after</comment>
 </data>

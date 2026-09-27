@@ -78271,119 +78271,119 @@ The file is looked up beside this language file first, then under the game's Con
   <value>come algo o bebe un reactivo nutritivo</value>
   <comment>eat food or drink a nutritious reagent</comment>
 </data>
-<data name="Guide.Topic.Chemistry.Text" xml:space="preserve">
+<data name="Guide.Topic.Chemistry" xml:space="preserve">
   <value>mezcla en un vaso. una reacción se produce en cuanto todas las partes están en proporción; nada en gruntz necesita calor. el chemmaster convierte un vaso en pastillas y frascos</value>
   <comment>mix in a beaker. a reaction fires the moment every part is present in ratio; nothing in gruntz needs heating. the chemmaster turns a beaker into pills and bottles</comment>
 </data>
-<data name="Guide.Topic.Medical.Text" xml:space="preserve">
+<data name="Guide.Topic.Medical" xml:space="preserve">
   <value>las condiciones son lo que puede ir mal en un cuerpo; los tratamientos son lo que arregla cada una</value>
   <comment>conditions are what can go wrong with a body; treatments are what fixes each one</comment>
 </data>
-<data name="Guide.Topic.Construction.Text" xml:space="preserve">
+<data name="Guide.Topic.Construction" xml:space="preserve">
   <value>sujeta la pila y haz clic en el suelo. ninguna herramienta construye nada; solo desmontan y reparan</value>
   <comment>hold the stack and click the ground. no tool builds anything; tools only take things apart and mend them</comment>
 </data>
-<data name="Guide.Topic.Galley.Text" xml:space="preserve">
+<data name="Guide.Topic.Galley" xml:space="preserve">
   <value>la comida se hace de cuatro formas: a mano, cortada sobre una mesa, en un electrodoméstico o por una reacción. cada página de comida dice qué la produce y en qué se usa. el microondas, el procesador y la trituradora de cadáveres también son estructuras</value>
   <comment>food is made four ways: by hand, sliced on a table, in an appliance, or by a reaction. every food page says what makes it and what it goes into. the microwave, the processor and the gibber are structures too</comment>
 </data>
-<data name="Guide.Topic.Items.Text" xml:space="preserve">
+<data name="Guide.Topic.Items" xml:space="preserve">
   <value>las herramientas y las familias con las que el juego las nombra; una familia agrupa todos los objetos que hacen lo mismo</value>
   <comment>tools and the families the game names them by; a family groups every item that does the same job</comment>
 </data>
-<data name="Guide.Section.Chemistry.Reactions.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Reactions" xml:space="preserve">
   <value>lo que importa es la proporción. cualquier múltiplo de la tabla reacciona. un catalizador nunca se consume</value>
   <comment>ratio is what matters. every multiple of a table reacts. a catalyst is never consumed</comment>
 </data>
-<data name="Guide.Section.Chemistry.Reagents.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Reagents" xml:space="preserve">
   <value>cada reactivo tiene una función en el cuerpo: qué trata, su umbral de sobredosis y lo rápido que se metaboliza</value>
   <comment>each reagent has one job in a body: what it treats, its overdose line, and how fast it metabolises</comment>
 </data>
-<data name="Guide.Section.Chemistry.Glassware.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Glassware" xml:space="preserve">
   <value>vasos, frascos, pastillas e inyectores guardan y transportan reactivos; una reacción solo se produce en recipientes abiertos</value>
   <comment>beakers, bottles, pills and injectors hold and carry reagents; a reaction only fires in open glassware</comment>
 </data>
-<data name="Guide.Section.Chemistry.Machines.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Machines" xml:space="preserve">
   <value>el dispensador vierte reactivos básicos, el chemmaster divide un vaso en pastillas y frascos, y la trituradora descompone un objeto en sus reactivos</value>
   <comment>the dispenser pours base reagents, the chemmaster splits a beaker into pills and bottles, and the grinder breaks an item down into its reagents</comment>
 </data>
-<data name="Guide.Section.Medical.Conditions.Text" xml:space="preserve">
+<data name="Guide.Section.Medical.Conditions" xml:space="preserve">
   <value>cada condición de aquí indica sus síntomas, sus causas y qué la trata</value>
   <comment>every condition here lists its signs, its causes, and what treats it</comment>
 </data>
-<data name="Guide.Section.Medical.Treatments.Text" xml:space="preserve">
+<data name="Guide.Section.Medical.Treatments" xml:space="preserve">
   <value>los kits, las férulas y las herramientas tratan las condiciones; la página de cada condición dice cuáles sirven</value>
   <comment>kits, splints and tools are what treat a condition; each condition page names which ones work</comment>
 </data>
-<data name="Guide.Section.Medical.Surgery.Text" xml:space="preserve">
+<data name="Guide.Section.Medical.Surgery" xml:space="preserve">
   <value>cuatro capas por zona: piel, vasos, hueso y prótesis. cada operación exige unas y rechaza otras; las capas, el paciente y la herramienta deciden qué haces y la prioridad desempata. el paciente va tumbado: en mesa es lo más rápido, en el suelo lo más lento</value>
   <comment>four slots per zone: skin, vessels, bone, prosthetic. an operation needs some set and refuses others; the slots, the patient and the tool in hand decide what you click, priority breaks ties. the patient lies down; a table is fastest, the ground slowest</comment>
 </data>
-<data name="Guide.Section.Construction.Recipes.Text" xml:space="preserve">
+<data name="Guide.Section.Construction.Recipes" xml:space="preserve">
   <value>sujeta una pila y haz clic en el suelo; esta lista de recetas es cada pila que construye algo</value>
   <comment>hold a stack and click the ground; the recipe list here is every stack that builds something</comment>
 </data>
-<data name="Guide.Section.Construction.Structures.Text" xml:space="preserve">
+<data name="Guide.Section.Construction.Structures" xml:space="preserve">
   <value>barricadas, vigas y mesas son lo que construye una receta; cada página indica sus puntos de vida y cómo se desmonta</value>
   <comment>barricades, girders and tables are what a recipe builds; each page lists its hit points and how it comes apart</comment>
 </data>
-<data name="Guide.Section.Construction.Materials.Text" xml:space="preserve">
+<data name="Guide.Section.Construction.Materials" xml:space="preserve">
   <value>las planchas y los tablones son las pilas que gasta una receta; una familia agrupa todas las pilas que cuentan como el mismo material</value>
   <comment>sheets and planks are the stacks a recipe spends; a family groups every stack that counts as the same material</comment>
 </data>
-<data name="Guide.Section.Galley.Recipes.Text" xml:space="preserve">
+<data name="Guide.Section.Galley.Recipes" xml:space="preserve">
   <value>el microondas cocina la primera receta de esta lista que coincida exactamente con su carga, así que una receta mayor va antes y gana si una carga vale para dos. una carga que no coincide con ninguna se quema</value>
   <comment>the microwave cooks the first recipe in this list that its load matches exactly, so a bigger recipe comes first and wins a load that fits two. a load that matches no recipe burns</comment>
 </data>
-<data name="Guide.Section.Galley.Kitchenware.Text" xml:space="preserve">
+<data name="Guide.Section.Galley.Kitchenware" xml:space="preserve">
   <value>los utensilios que una receta a mano conserva, como el rodillo y los cuchillos, y las cajas de las que salen los ingredientes. un cuchillo o cualquier otra hoja corta la comida sobre una mesa</value>
   <comment>the tools a hand craft keeps, like the rolling pin and the knives, and the boxes the ingredients come in. a knife or any other blade slices food on a table</comment>
 </data>
-<data name="Guide.Section.Items.Families.Text" xml:space="preserve">
+<data name="Guide.Section.Items.Families" xml:space="preserve">
   <value>cuando el juego nombra una familia como palancas, esta es la lista exacta de objetos a la que se refiere</value>
   <comment>when the game names a family like crowbars, this is the exact list of items it means</comment>
 </data>
-<data name="Guide.Section.Items.Tools.Text" xml:space="preserve">
+<data name="Guide.Section.Items.Tools" xml:space="preserve">
   <value>cada herramienta de mano, sus cualidades y a qué familia pertenece</value>
   <comment>every hand tool, its qualities, and what family it belongs to</comment>
 </data>
-<data name="Guide.Entity.Obj.Item.Tool.Crowbar.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Item.Tool.Crowbar" xml:space="preserve">
   <value>cálzala bajo una puerta para mantenerla abierta</value>
   <comment>wedge it under a door to hold it open</comment>
 </data>
-<data name="Guide.Family.Obj.Item.Tool.Crowbar.Text" xml:space="preserve">
+<data name="Guide.Family.Obj.Item.Tool.Crowbar" xml:space="preserve">
   <value>una palanca táctica golpea cinco veces más fuerte que una normal y hace palanca igual</value>
   <comment>a prybar swings five times harder than a plain crowbar and pries just the same</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Barricade.Metal.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Barricade.Metal" xml:space="preserve">
   <value>destornillador, luego llave inglesa, luego palanca para desmontarla. una pistola de clavos repara un 10 por ciento por disparo. se rompe en 2 planchas de metal</value>
   <comment>screw, then wrench, then pry to take it down. a nailgun mends 10 percent per shot. it breaks into 2 metal sheets</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Girder.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Girder" xml:space="preserve">
   <value>una viga es media pared; suelda planchas de metal encima para terminarla</value>
   <comment>a girder is half a wall; weld metal sheets onto it to finish</comment>
 </data>
-<data name="Guide.Entity.Obj.Item.Device.Defibrillator.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Item.Device.Defibrillator" xml:space="preserve">
   <value>solo un cuerpo reanimable acepta la descarga; el escáner te dice cuál</value>
   <comment>only a revivable body takes a shock; the scanner says which</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Machinery.ChemDispenser.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Machinery.ChemDispenser" xml:space="preserve">
   <value>vierte reactivos básicos en un vaso encajado; toda medicina empieza aquí</value>
   <comment>pours base reagents into a seated beaker; every medicine starts here</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Machinery.ChemMaster.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Machinery.ChemMaster" xml:space="preserve">
   <value>divide un vaso en pastillas y frascos, y los etiqueta</value>
   <comment>splits a beaker into pills and bottles, and labels them</comment>
 </data>
-<data name="Guide.Condition.Condition.Fracture.Text" xml:space="preserve">
+<data name="Guide.Condition.Condition.Fracture" xml:space="preserve">
   <value>una fractura sigue doliendo y haciendo pesar la extremidad hasta entablillarla; primero la férula, luego cúrala con cirugía u osteracil</value>
   <comment>a fracture keeps hurting and dragging the limb until splinted; splint first, then mend it with surgery or osteracil</comment>
 </data>
-<data name="Guide.Condition.Condition.InternalBleeding.Text" xml:space="preserve">
+<data name="Guide.Condition.Condition.InternalBleeding" xml:space="preserve">
   <value>la hemorragia interna no deja herida ni rastro de sangre; solo un escáner la detecta antes de que alguien se ponga pálido</value>
   <comment>internal bleeding shows no wound and no blood trail; only a scan catches it before someone goes pale</comment>
 </data>
-<data name="Guide.Condition.Condition.DeadRevivable.Text" xml:space="preserve">
+<data name="Guide.Condition.Condition.DeadRevivable" xml:space="preserve">
   <value>reanimación posible significa que el cuerpo aún no está perdido; trata el peor daño antes de la descarga, no después</value>
   <comment>revival possible means the body is not gone yet; treat the worst damage before the shock, not after</comment>
 </data>

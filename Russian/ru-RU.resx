@@ -78271,119 +78271,119 @@ The file is looked up beside this language file first, then under the game's Con
   <value>eat food or drink a nutritious reagent</value>
   <comment>eat food or drink a nutritious reagent</comment>
 </data>
-<data name="Guide.Topic.Chemistry.Text" xml:space="preserve">
+<data name="Guide.Topic.Chemistry" xml:space="preserve">
   <value>mix in a beaker. a reaction fires the moment every part is present in ratio; nothing in gruntz needs heating. the chemmaster turns a beaker into pills and bottles</value>
   <comment>mix in a beaker. a reaction fires the moment every part is present in ratio; nothing in gruntz needs heating. the chemmaster turns a beaker into pills and bottles</comment>
 </data>
-<data name="Guide.Topic.Medical.Text" xml:space="preserve">
+<data name="Guide.Topic.Medical" xml:space="preserve">
   <value>conditions are what can go wrong with a body; treatments are what fixes each one</value>
   <comment>conditions are what can go wrong with a body; treatments are what fixes each one</comment>
 </data>
-<data name="Guide.Topic.Construction.Text" xml:space="preserve">
+<data name="Guide.Topic.Construction" xml:space="preserve">
   <value>hold the stack and click the ground. no tool builds anything; tools only take things apart and mend them</value>
   <comment>hold the stack and click the ground. no tool builds anything; tools only take things apart and mend them</comment>
 </data>
-<data name="Guide.Topic.Galley.Text" xml:space="preserve">
+<data name="Guide.Topic.Galley" xml:space="preserve">
   <value>food is made four ways: by hand, sliced on a table, in an appliance, or by a reaction. every food page says what makes it and what it goes into. the microwave, the processor and the gibber are structures too</value>
   <comment>food is made four ways: by hand, sliced on a table, in an appliance, or by a reaction. every food page says what makes it and what it goes into. the microwave, the processor and the gibber are structures too</comment>
 </data>
-<data name="Guide.Topic.Items.Text" xml:space="preserve">
+<data name="Guide.Topic.Items" xml:space="preserve">
   <value>tools and the families the game names them by; a family groups every item that does the same job</value>
   <comment>tools and the families the game names them by; a family groups every item that does the same job</comment>
 </data>
-<data name="Guide.Section.Chemistry.Reactions.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Reactions" xml:space="preserve">
   <value>ratio is what matters. every multiple of a table reacts. a catalyst is never consumed</value>
   <comment>ratio is what matters. every multiple of a table reacts. a catalyst is never consumed</comment>
 </data>
-<data name="Guide.Section.Chemistry.Reagents.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Reagents" xml:space="preserve">
   <value>each reagent has one job in a body: what it treats, its overdose line, and how fast it metabolises</value>
   <comment>each reagent has one job in a body: what it treats, its overdose line, and how fast it metabolises</comment>
 </data>
-<data name="Guide.Section.Chemistry.Glassware.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Glassware" xml:space="preserve">
   <value>beakers, bottles, pills and injectors hold and carry reagents; a reaction only fires in open glassware</value>
   <comment>beakers, bottles, pills and injectors hold and carry reagents; a reaction only fires in open glassware</comment>
 </data>
-<data name="Guide.Section.Chemistry.Machines.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Machines" xml:space="preserve">
   <value>the dispenser pours base reagents, the chemmaster splits a beaker into pills and bottles, and the grinder breaks an item down into its reagents</value>
   <comment>the dispenser pours base reagents, the chemmaster splits a beaker into pills and bottles, and the grinder breaks an item down into its reagents</comment>
 </data>
-<data name="Guide.Section.Medical.Conditions.Text" xml:space="preserve">
+<data name="Guide.Section.Medical.Conditions" xml:space="preserve">
   <value>every condition here lists its signs, its causes, and what treats it</value>
   <comment>every condition here lists its signs, its causes, and what treats it</comment>
 </data>
-<data name="Guide.Section.Medical.Treatments.Text" xml:space="preserve">
+<data name="Guide.Section.Medical.Treatments" xml:space="preserve">
   <value>kits, splints and tools are what treat a condition; each condition page names which ones work</value>
   <comment>kits, splints and tools are what treat a condition; each condition page names which ones work</comment>
 </data>
-<data name="Guide.Section.Medical.Surgery.Text" xml:space="preserve">
+<data name="Guide.Section.Medical.Surgery" xml:space="preserve">
   <value>four slots per zone: skin, vessels, bone, prosthetic. an operation needs some set and refuses others; the slots, the patient and the tool in hand decide what you click, priority breaks ties. the patient lies down; a table is fastest, the ground slowest</value>
   <comment>four slots per zone: skin, vessels, bone, prosthetic. an operation needs some set and refuses others; the slots, the patient and the tool in hand decide what you click, priority breaks ties. the patient lies down; a table is fastest, the ground slowest</comment>
 </data>
-<data name="Guide.Section.Construction.Recipes.Text" xml:space="preserve">
+<data name="Guide.Section.Construction.Recipes" xml:space="preserve">
   <value>hold a stack and click the ground; the recipe list here is every stack that builds something</value>
   <comment>hold a stack and click the ground; the recipe list here is every stack that builds something</comment>
 </data>
-<data name="Guide.Section.Construction.Structures.Text" xml:space="preserve">
+<data name="Guide.Section.Construction.Structures" xml:space="preserve">
   <value>barricades, girders and tables are what a recipe builds; each page lists its hit points and how it comes apart</value>
   <comment>barricades, girders and tables are what a recipe builds; each page lists its hit points and how it comes apart</comment>
 </data>
-<data name="Guide.Section.Construction.Materials.Text" xml:space="preserve">
+<data name="Guide.Section.Construction.Materials" xml:space="preserve">
   <value>sheets and planks are the stacks a recipe spends; a family groups every stack that counts as the same material</value>
   <comment>sheets and planks are the stacks a recipe spends; a family groups every stack that counts as the same material</comment>
 </data>
-<data name="Guide.Section.Galley.Recipes.Text" xml:space="preserve">
+<data name="Guide.Section.Galley.Recipes" xml:space="preserve">
   <value>the microwave cooks the first recipe in this list that its load matches exactly, so a bigger recipe comes first and wins a load that fits two. a load that matches no recipe burns</value>
   <comment>the microwave cooks the first recipe in this list that its load matches exactly, so a bigger recipe comes first and wins a load that fits two. a load that matches no recipe burns</comment>
 </data>
-<data name="Guide.Section.Galley.Kitchenware.Text" xml:space="preserve">
+<data name="Guide.Section.Galley.Kitchenware" xml:space="preserve">
   <value>the tools a hand craft keeps, like the rolling pin and the knives, and the boxes the ingredients come in. a knife or any other blade slices food on a table</value>
   <comment>the tools a hand craft keeps, like the rolling pin and the knives, and the boxes the ingredients come in. a knife or any other blade slices food on a table</comment>
 </data>
-<data name="Guide.Section.Items.Families.Text" xml:space="preserve">
+<data name="Guide.Section.Items.Families" xml:space="preserve">
   <value>when the game names a family like crowbars, this is the exact list of items it means</value>
   <comment>when the game names a family like crowbars, this is the exact list of items it means</comment>
 </data>
-<data name="Guide.Section.Items.Tools.Text" xml:space="preserve">
+<data name="Guide.Section.Items.Tools" xml:space="preserve">
   <value>every hand tool, its qualities, and what family it belongs to</value>
   <comment>every hand tool, its qualities, and what family it belongs to</comment>
 </data>
-<data name="Guide.Entity.Obj.Item.Tool.Crowbar.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Item.Tool.Crowbar" xml:space="preserve">
   <value>wedge it under a door to hold it open</value>
   <comment>wedge it under a door to hold it open</comment>
 </data>
-<data name="Guide.Family.Obj.Item.Tool.Crowbar.Text" xml:space="preserve">
+<data name="Guide.Family.Obj.Item.Tool.Crowbar" xml:space="preserve">
   <value>a prybar swings five times harder than a plain crowbar and pries just the same</value>
   <comment>a prybar swings five times harder than a plain crowbar and pries just the same</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Barricade.Metal.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Barricade.Metal" xml:space="preserve">
   <value>screw, then wrench, then pry to take it down. a nailgun mends 10 percent per shot. it breaks into 2 metal sheets</value>
   <comment>screw, then wrench, then pry to take it down. a nailgun mends 10 percent per shot. it breaks into 2 metal sheets</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Girder.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Girder" xml:space="preserve">
   <value>a girder is half a wall; weld metal sheets onto it to finish</value>
   <comment>a girder is half a wall; weld metal sheets onto it to finish</comment>
 </data>
-<data name="Guide.Entity.Obj.Item.Device.Defibrillator.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Item.Device.Defibrillator" xml:space="preserve">
   <value>only a revivable body takes a shock; the scanner says which</value>
   <comment>only a revivable body takes a shock; the scanner says which</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Machinery.ChemDispenser.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Machinery.ChemDispenser" xml:space="preserve">
   <value>pours base reagents into a seated beaker; every medicine starts here</value>
   <comment>pours base reagents into a seated beaker; every medicine starts here</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Machinery.ChemMaster.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Machinery.ChemMaster" xml:space="preserve">
   <value>splits a beaker into pills and bottles, and labels them</value>
   <comment>splits a beaker into pills and bottles, and labels them</comment>
 </data>
-<data name="Guide.Condition.Condition.Fracture.Text" xml:space="preserve">
+<data name="Guide.Condition.Condition.Fracture" xml:space="preserve">
   <value>a fracture keeps hurting and dragging the limb until splinted; splint first, then mend it with surgery or osteracil</value>
   <comment>a fracture keeps hurting and dragging the limb until splinted; splint first, then mend it with surgery or osteracil</comment>
 </data>
-<data name="Guide.Condition.Condition.InternalBleeding.Text" xml:space="preserve">
+<data name="Guide.Condition.Condition.InternalBleeding" xml:space="preserve">
   <value>internal bleeding shows no wound and no blood trail; only a scan catches it before someone goes pale</value>
   <comment>internal bleeding shows no wound and no blood trail; only a scan catches it before someone goes pale</comment>
 </data>
-<data name="Guide.Condition.Condition.DeadRevivable.Text" xml:space="preserve">
+<data name="Guide.Condition.Condition.DeadRevivable" xml:space="preserve">
   <value>revival possible means the body is not gone yet; treat the worst damage before the shock, not after</value>
   <comment>revival possible means the body is not gone yet; treat the worst damage before the shock, not after</comment>
 </data>
