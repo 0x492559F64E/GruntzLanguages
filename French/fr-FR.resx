@@ -75275,6 +75275,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>generator crate</value>
   <comment>generator crate</comment>
 </data>
+<data name="Def.Obj.Structure.Largecrate.Machine.IvDrip.Descending.DisplayName" xml:space="preserve">
+  <value>IV drip crate</value>
+  <comment>IV drip crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.IvDrip.DisplayName" xml:space="preserve">
+  <value>IV drip crate</value>
+  <comment>IV drip crate</comment>
+</data>
 <data name="StackFamily.TestPlank" xml:space="preserve">
   <value>TestPlank</value>
   <comment>TestPlank</comment>
