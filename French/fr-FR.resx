@@ -9103,6 +9103,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ITEMS</value>
   <comment>ITEMS</comment>
 </data>
+<data name="Codex.Topic.Weapons" xml:space="preserve">
+  <value>WEAPONS</value>
+  <comment>WEAPONS</comment>
+</data>
 <data name="Codex.Section.Chemistry.Reactions" xml:space="preserve">
   <value>REACTIONS</value>
   <comment>REACTIONS</comment>
@@ -9158,6 +9162,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Section.Galley.Kitchenware" xml:space="preserve">
   <value>KITCHENWARE</value>
   <comment>KITCHENWARE</comment>
+</data>
+<data name="Codex.Section.Weapons.Guns" xml:space="preserve">
+  <value>GUNS</value>
+  <comment>GUNS</comment>
+</data>
+<data name="Codex.Section.Weapons.Attachments" xml:space="preserve">
+  <value>ATTACHMENTS</value>
+  <comment>ATTACHMENTS</comment>
+</data>
+<data name="Codex.Section.Weapons.Magazines" xml:space="preserve">
+  <value>MAGAZINES</value>
+  <comment>MAGAZINES</comment>
+</data>
+<data name="Codex.Section.Weapons.Melee" xml:space="preserve">
+  <value>MELEE</value>
+  <comment>MELEE</comment>
 </data>
 <data name="Codex.Section.Items.Families" xml:space="preserve">
   <value>FAMILIES</value>
@@ -10318,6 +10338,62 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="CrewMonitor.FootRight" xml:space="preserve">
   <value>{TEAM} . 1 HZ</value>
   <comment>{TEAM} . 1 HZ</comment>
+</data>
+<data name="Codex.Weapons.Base" xml:space="preserve">
+  <value>BASE</value>
+  <comment>BASE</comment>
+</data>
+<data name="Codex.Weapons.Reveal" xml:space="preserve">
+  <value>REVEAL</value>
+  <comment>REVEAL</comment>
+</data>
+<data name="Codex.Weapons.Mounts" xml:space="preserve">
+  <value>MOUNTS</value>
+  <comment>MOUNTS</comment>
+</data>
+<data name="Codex.Weapons.Magazines" xml:space="preserve">
+  <value>MAGAZINES</value>
+  <comment>MAGAZINES</comment>
+</data>
+<data name="Codex.Weapons.Fits" xml:space="preserve">
+  <value>FITS</value>
+  <comment>FITS</comment>
+</data>
+<data name="Codex.Weapons.HeldBy" xml:space="preserve">
+  <value>HELD BY</value>
+  <comment>HELD BY</comment>
+</data>
+<data name="Codex.Weapons.Caliber" xml:space="preserve">
+  <value>CALIBER</value>
+  <comment>CALIBER</comment>
+</data>
+<data name="Codex.Weapons.Rounds" xml:space="preserve">
+  <value>ROUNDS</value>
+  <comment>ROUNDS</comment>
+</data>
+<data name="Codex.Weapons.NoMounts" xml:space="preserve">
+  <value>NO MOUNTS</value>
+  <comment>NO MOUNTS</comment>
+</data>
+<data name="Codex.Weapons.OneAttachmentPerMount" xml:space="preserve">
+  <value>ONE ATTACHMENT PER MOUNT, ISSUED FOR THIS GUN</value>
+  <comment>ONE ATTACHMENT PER MOUNT, ISSUED FOR THIS GUN</comment>
+</data>
+<data name="Codex.Weapons.NoGunIssued" xml:space="preserve">
+  <value>NO GUN IS ISSUED WITH THIS ATTACHMENT</value>
+  <comment>NO GUN IS ISSUED WITH THIS ATTACHMENT</comment>
+</data>
+<data name="Codex.Weapons.NoGunLoads" xml:space="preserve">
+  <value>NO GUN LOADS THIS MAGAZINE</value>
+  <comment>NO GUN LOADS THIS MAGAZINE</comment>
+</data>
+<data name="Codex.Weapons.NeedsLoadedRound" xml:space="preserve">
+  <value>DAMAGE AND RANGE NEED A LOADED ROUND: EXAMINE A LOADED GUN</value>
+  <comment>DAMAGE AND RANGE NEED A LOADED ROUND: EXAMINE A LOADED GUN</comment>
+</data>
+<data name="Codex.Weapons.AtModeWielded" xml:space="preserve">
+  <value>AT {MODE}, WIELDED: THE EXAMINE WINDOW'S BASE COLUMN</value>
+  <comment>AT {MODE}, WIELDED: THE EXAMINE WINDOW'S BASE COLUMN</comment>
 </data>
 <data name="Def.Crate.DisplayName" xml:space="preserve">
   <value>crate</value>
@@ -78715,6 +78791,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>food is made four ways: by hand, sliced on a table, in an appliance, or by a reaction. every food page says what makes it and what it goes into. the microwave, the processor and the gibber are structures too</value>
   <comment>food is made four ways: by hand, sliced on a table, in an appliance, or by a reaction. every food page says what makes it and what it goes into. the microwave, the processor and the gibber are structures too</comment>
 </data>
+<data name="Guide.Topic.Weapons" xml:space="preserve">
+  <value>a gun's mounts list the attachments issued for it, its own list; a gun with no list reads no mounts, though it would take any attachment. its magazines are the ones made for it, and each attachment and magazine page names the guns it goes with</value>
+  <comment>a gun's mounts list the attachments issued for it, its own list; a gun with no list reads no mounts, though it would take any attachment. its magazines are the ones made for it, and each attachment and magazine page names the guns it goes with</comment>
+</data>
 <data name="Guide.Topic.Items" xml:space="preserve">
   <value>tools and the families the game names them by; a family groups every item that does the same job</value>
   <comment>tools and the families the game names them by; a family groups every item that does the same job</comment>
@@ -78766,6 +78846,14 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Guide.Section.Galley.Kitchenware" xml:space="preserve">
   <value>the tools a hand craft keeps, like the rolling pin and the knives, and the boxes the ingredients come in. a knife or any other blade slices food on a table</value>
   <comment>the tools a hand craft keeps, like the rolling pin and the knives, and the boxes the ingredients come in. a knife or any other blade slices food on a table</comment>
+</data>
+<data name="Guide.Section.Weapons.Guns" xml:space="preserve">
+  <value>the numbers are the examine window's base column: the gun as built, at its starting fire mode and wielded. damage and range need a loaded round, so examine a loaded gun for those</value>
+  <comment>the numbers are the examine window's base column: the gun as built, at its starting fire mode and wielded. damage and range need a loaded round, so examine a loaded gun for those</comment>
+</data>
+<data name="Guide.Section.Weapons.Melee" xml:space="preserve">
+  <value>the hand weapons here are the items with a melee force under the weapon namespace that are not a gun, an attachment or a magazine</value>
+  <comment>the hand weapons here are the items with a melee force under the weapon namespace that are not a gun, an attachment or a magazine</comment>
 </data>
 <data name="Guide.Section.Items.Families" xml:space="preserve">
   <value>when the game names a family like crowbars, this is the exact list of items it means</value>
