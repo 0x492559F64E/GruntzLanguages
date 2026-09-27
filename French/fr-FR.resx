@@ -4508,8 +4508,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>EMBEDDED OBJECTS ({COUNT}) - PATIENT SHOULD NOT MOVE</comment>
 </data>
 <data name="HealthScan.ChemicalContentsHeader" xml:space="preserve">
-  <value>CHEMICAL CONTENTS - {WHOLE}.{FRAC} U</value>
-  <comment>CHEMICAL CONTENTS - {WHOLE}.{FRAC} U</comment>
+  <value>CHEMICAL CONTENTS - {WHOLE}.{FRAC}U</value>
+  <comment>CHEMICAL CONTENTS - {WHOLE}.{FRAC}U</comment>
 </data>
 <data name="HealthScan.BloodReadoutLine" xml:space="preserve">
   <value>{PERCENT}% - {CL} CL</value>
@@ -4944,8 +4944,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>PILLS</comment>
 </data>
 <data name="ChemMaster.BottleKeyLine" xml:space="preserve">
-  <value>BOTTLE ({AMOUNT} U)</value>
-  <comment>BOTTLE ({AMOUNT} U)</comment>
+  <value>BOTTLE ({AMOUNT}U)</value>
+  <comment>BOTTLE ({AMOUNT}U)</comment>
 </data>
 <data name="ChemMaster.FridgeInRange" xml:space="preserve">
   <value>IN RANGE</value>
@@ -5028,8 +5028,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>PRESET NAME</comment>
 </data>
 <data name="ChemMaster.BufferFootLine" xml:space="preserve">
-  <value>BUFFER {TOTALWHOLE}.{TOTALFRAC} / {CAPWHOLE}.{CAPFRAC} U</value>
-  <comment>BUFFER {TOTALWHOLE}.{TOTALFRAC} / {CAPWHOLE}.{CAPFRAC} U</comment>
+  <value>BUFFER {TOTALWHOLE}.{TOTALFRAC} / {CAPWHOLE}.{CAPFRAC}U</value>
+  <comment>BUFFER {TOTALWHOLE}.{TOTALFRAC} / {CAPWHOLE}.{CAPFRAC}U</comment>
 </data>
 <data name="ChemMaster.BufferFootLabel" xml:space="preserve">
   <value>BUFFER</value>
@@ -6152,8 +6152,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>BEAKER IS EMPTY</comment>
 </data>
 <data name="ChemDispenser.SynthLine" xml:space="preserve">
-  <value>1 ENERGY = {AMOUNT} U</value>
-  <comment>1 ENERGY = {AMOUNT} U</comment>
+  <value>1 ENERGY = {AMOUNT}U</value>
+  <comment>1 ENERGY = {AMOUNT}U</comment>
 </data>
 <data name="ChemDispenser.ChargeFootLine" xml:space="preserve">
   <value>CHARGE {PERCENT}%</value>
@@ -10076,8 +10076,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>CLICK IT WITH A BEAKER TO SOCKET IT, CLICK IT WITH FOOD TO LOAD, CLICK IT EMPTY-HANDED TO OPEN ITS SCREEN, THEN GRIND OR JUICE</comment>
 </data>
 <data name="Codex.Galley.HoldsItemsAndUnits" xml:space="preserve">
-  <value>{COUNT} ITEMS + {WHOLE}.{FRAC} U</value>
-  <comment>{COUNT} ITEMS + {WHOLE}.{FRAC} U</comment>
+  <value>{COUNT} ITEMS + {WHOLE}.{FRAC}U</value>
+  <comment>{COUNT} ITEMS + {WHOLE}.{FRAC}U</comment>
 </data>
 <data name="Codex.Galley.HoldsItems" xml:space="preserve">
   <value>{COUNT} ITEMS</value>
@@ -10088,12 +10088,12 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>{COUNT} ITEMS</comment>
 </data>
 <data name="Codex.Galley.PoursPerClick" xml:space="preserve">
-  <value>{WHOLE}.{FRAC} U PER CLICK</value>
-  <comment>{WHOLE}.{FRAC} U PER CLICK</comment>
+  <value>{WHOLE}.{FRAC}U PER CLICK</value>
+  <comment>{WHOLE}.{FRAC}U PER CLICK</comment>
 </data>
 <data name="Codex.Galley.PoursAfterOpening" xml:space="preserve">
-  <value>{WHOLE}.{FRAC} U PER CLICK AFTER OPENING</value>
-  <comment>{WHOLE}.{FRAC} U PER CLICK AFTER OPENING</comment>
+  <value>{WHOLE}.{FRAC}U PER CLICK AFTER OPENING</value>
+  <comment>{WHOLE}.{FRAC}U PER CLICK AFTER OPENING</comment>
 </data>
 <data name="Codex.Galley.FirePercent" xml:space="preserve">
   <value>{PERCENT} PCT FIRE</value>
@@ -10104,16 +10104,16 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>{COUNT} MEAT ON THE FLOOR</comment>
 </data>
 <data name="Codex.Galley.JuiceOutput" xml:space="preserve">
-  <value>UP TO {WHOLE}.{FRAC} U {REAGENT}</value>
-  <comment>UP TO {WHOLE}.{FRAC} U {REAGENT}</comment>
+  <value>UP TO {WHOLE}.{FRAC}U {REAGENT}</value>
+  <comment>UP TO {WHOLE}.{FRAC}U {REAGENT}</comment>
 </data>
 <data name="Codex.Galley.NutrimentOutput" xml:space="preserve">
   <value>{PERCENT} PCT OF ITS {FROM} AS {REAGENT}</value>
   <comment>{PERCENT} PCT OF ITS {FROM} AS {REAGENT}</comment>
 </data>
 <data name="Codex.Galley.Units" xml:space="preserve">
-  <value>{WHOLE}.{FRAC} U</value>
-  <comment>{WHOLE}.{FRAC} U</comment>
+  <value>{WHOLE}.{FRAC}U</value>
+  <comment>{WHOLE}.{FRAC}U</comment>
 </data>
 <data name="Codex.Galley.CountTimes" xml:space="preserve">
   <value>x{COUNT}</value>
