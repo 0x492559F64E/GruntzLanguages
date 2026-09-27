@@ -1675,6 +1675,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>link laptop</value>
   <comment>link laptop</comment>
 </data>
+<data name="HoverVerbLabels.CrewSync" xml:space="preserve">
+  <value>sync monitor</value>
+  <comment>sync monitor</comment>
+</data>
 <data name="HoverVerbLabels.PortGenFuelInsert" xml:space="preserve">
   <value>insert fuel can</value>
   <comment>insert fuel can</comment>
@@ -1806,6 +1810,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="ActivateVerbLabels.Label" xml:space="preserve">
   <value>set label</value>
   <comment>set label</comment>
+</data>
+<data name="ActivateVerbLabels.Monitor" xml:space="preserve">
+  <value>open monitor</value>
+  <comment>open monitor</comment>
 </data>
 <data name="ActivateVerbLabels.SwitchToInject" xml:space="preserve">
   <value>switch to inject</value>
@@ -4502,6 +4510,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="HealthScan.GestationStageLine" xml:space="preserve">
   <value>XENOMORPH EMBRYO, STAGE {STAGE}</value>
   <comment>XENOMORPH EMBRYO, STAGE {STAGE}</comment>
+</data>
+<data name="HealthScan.TrackingImplantLine" xml:space="preserve">
+  <value>TRACKING IMPLANT</value>
+  <comment>TRACKING IMPLANT</comment>
 </data>
 <data name="HealthScan.EmbeddedObjectsLine" xml:space="preserve">
   <value>EMBEDDED OBJECTS ({COUNT}) - PATIENT SHOULD NOT MOVE</value>
@@ -9563,6 +9575,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>A PARASITE HERE</value>
   <comment>A PARASITE HERE</comment>
 </data>
+<data name="Codex.Surgery.FactImplant" xml:space="preserve">
+  <value>A TRACKING IMPLANT HERE</value>
+  <comment>A TRACKING IMPLANT HERE</comment>
+</data>
 <data name="Codex.Surgery.FactNamedOrgan" xml:space="preserve">
   <value>A DAMAGED ORGAN</value>
   <comment>A DAMAGED ORGAN</comment>
@@ -9806,6 +9822,14 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Surgery.RemovesTheParasite" xml:space="preserve">
   <value>REMOVES THE PARASITE</value>
   <comment>REMOVES THE PARASITE</comment>
+</data>
+<data name="Codex.Surgery.PlacesTheImplant" xml:space="preserve">
+  <value>PLACES A TRACKING IMPLANT HERE</value>
+  <comment>PLACES A TRACKING IMPLANT HERE</comment>
+</data>
+<data name="Codex.Surgery.RemovesTheImplant" xml:space="preserve">
+  <value>REMOVES THE TRACKING IMPLANT</value>
+  <comment>REMOVES THE TRACKING IMPLANT</comment>
 </data>
 <data name="Codex.Surgery.UsesOneOfTheToolsStack" xml:space="preserve">
   <value>USES ONE OF THE TOOL'S STACK, IF IT IS A STACK</value>
@@ -10130,6 +10154,170 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="CoveredHint.Covered" xml:space="preserve">
   <value>you cannot use {TOOL} while {AREA} is covered by {CLOTHING}</value>
   <comment>you cannot use {TOOL} while {AREA} is covered by {CLOTHING}</comment>
+</data>
+<data name="CrewMonitor.Header" xml:space="preserve">
+  <value>CREW MONITOR</value>
+  <comment>CREW MONITOR</comment>
+</data>
+<data name="CrewMonitor.SubLine" xml:space="preserve">
+  <value>PDT/L TRACKING NET // {TEAM}</value>
+  <comment>PDT/L TRACKING NET // {TEAM}</comment>
+</data>
+<data name="CrewMonitor.TabRoster" xml:space="preserve">
+  <value>ROSTER</value>
+  <comment>ROSTER</comment>
+</data>
+<data name="CrewMonitor.TabTrack" xml:space="preserve">
+  <value>TRACK</value>
+  <comment>TRACK</comment>
+</data>
+<data name="CrewMonitor.TabSetup" xml:space="preserve">
+  <value>SETUP</value>
+  <comment>SETUP</comment>
+</data>
+<data name="CrewMonitor.EventDown" xml:space="preserve">
+  <value>{NAME} DOWN</value>
+  <comment>{NAME} DOWN</comment>
+</data>
+<data name="CrewMonitor.EventDead" xml:space="preserve">
+  <value>{NAME} DEAD</value>
+  <comment>{NAME} DEAD</comment>
+</data>
+<data name="CrewMonitor.EventLost" xml:space="preserve">
+  <value>{NAME} SIGNAL LOST</value>
+  <comment>{NAME} SIGNAL LOST</comment>
+</data>
+<data name="CrewMonitor.CarriersSection" xml:space="preserve">
+  <value>CARRIERS</value>
+  <comment>CARRIERS</comment>
+</data>
+<data name="CrewMonitor.DownCount" xml:space="preserve">
+  <value>{COUNT} DOWN</value>
+  <comment>{COUNT} DOWN</comment>
+</data>
+<data name="CrewMonitor.DeadCount" xml:space="preserve">
+  <value>{COUNT} DEAD</value>
+  <comment>{COUNT} DEAD</comment>
+</data>
+<data name="CrewMonitor.StateAlive" xml:space="preserve">
+  <value>ALIVE</value>
+  <comment>ALIVE</comment>
+</data>
+<data name="CrewMonitor.StateDown" xml:space="preserve">
+  <value>DOWN</value>
+  <comment>DOWN</comment>
+</data>
+<data name="CrewMonitor.StateDead" xml:space="preserve">
+  <value>DEAD</value>
+  <comment>DEAD</comment>
+</data>
+<data name="CrewMonitor.NoCarriers" xml:space="preserve">
+  <value>NO CARRIERS</value>
+  <comment>NO CARRIERS</comment>
+</data>
+<data name="CrewMonitor.SelectPrompt" xml:space="preserve">
+  <value>SELECT</value>
+  <comment>SELECT</comment>
+</data>
+<data name="CrewMonitor.PlaceholderName" xml:space="preserve">
+  <value>~PLAYER {ID}</value>
+  <comment>~PLAYER {ID}</comment>
+</data>
+<data name="CrewMonitor.Deceased" xml:space="preserve">
+  <value>DECEASED</value>
+  <comment>DECEASED</comment>
+</data>
+<data name="CrewMonitor.SameDeck" xml:space="preserve">
+  <value>SAME DECK</value>
+  <comment>SAME DECK</comment>
+</data>
+<data name="CrewMonitor.DeckAbove" xml:space="preserve">
+  <value>{COUNT} DECK ABOVE</value>
+  <comment>{COUNT} DECK ABOVE</comment>
+</data>
+<data name="CrewMonitor.DecksAbove" xml:space="preserve">
+  <value>{COUNT} DECKS ABOVE</value>
+  <comment>{COUNT} DECKS ABOVE</comment>
+</data>
+<data name="CrewMonitor.DeckBelow" xml:space="preserve">
+  <value>{COUNT} DECK BELOW</value>
+  <comment>{COUNT} DECK BELOW</comment>
+</data>
+<data name="CrewMonitor.DecksBelow" xml:space="preserve">
+  <value>{COUNT} DECKS BELOW</value>
+  <comment>{COUNT} DECKS BELOW</comment>
+</data>
+<data name="CrewMonitor.Tracking" xml:space="preserve">
+  <value>TRACKING</value>
+  <comment>TRACKING</comment>
+</data>
+<data name="CrewMonitor.NoSignal" xml:space="preserve">
+  <value>NO SIGNAL</value>
+  <comment>NO SIGNAL</comment>
+</data>
+<data name="CrewMonitor.SignalLost" xml:space="preserve">
+  <value>SIGNAL LOST</value>
+  <comment>SIGNAL LOST</comment>
+</data>
+<data name="CrewMonitor.DistanceLine" xml:space="preserve">
+  <value>{TILES} TILES</value>
+  <comment>{TILES} TILES</comment>
+</data>
+<data name="CrewMonitor.KeyPower" xml:space="preserve">
+  <value>POWER</value>
+  <comment>POWER</comment>
+</data>
+<data name="CrewMonitor.KeyAlarm" xml:space="preserve">
+  <value>ALARM</value>
+  <comment>ALARM</comment>
+</data>
+<data name="CrewMonitor.KeyAlarmOn" xml:space="preserve">
+  <value>ALARM ON</value>
+  <comment>ALARM ON</comment>
+</data>
+<data name="CrewMonitor.KeySort" xml:space="preserve">
+  <value>SORT</value>
+  <comment>SORT</comment>
+</data>
+<data name="CrewMonitor.KeySide" xml:space="preserve">
+  <value>SIDE</value>
+  <comment>SIDE</comment>
+</data>
+<data name="CrewMonitor.KeyCell" xml:space="preserve">
+  <value>CELL</value>
+  <comment>CELL</comment>
+</data>
+<data name="CrewMonitor.KeyNet" xml:space="preserve">
+  <value>NET</value>
+  <comment>NET</comment>
+</data>
+<data name="CrewMonitor.AlarmDownDead" xml:space="preserve">
+  <value>DOWN + DEAD</value>
+  <comment>DOWN + DEAD</comment>
+</data>
+<data name="CrewMonitor.AlarmAnyChange" xml:space="preserve">
+  <value>ANY CHANGE</value>
+  <comment>ANY CHANGE</comment>
+</data>
+<data name="CrewMonitor.SortDownFirst" xml:space="preserve">
+  <value>DOWN FIRST</value>
+  <comment>DOWN FIRST</comment>
+</data>
+<data name="CrewMonitor.SortSquad" xml:space="preserve">
+  <value>SQUAD</value>
+  <comment>SQUAD</comment>
+</data>
+<data name="CrewMonitor.NetValue" xml:space="preserve">
+  <value>PDT/L 1 HZ</value>
+  <comment>PDT/L 1 HZ</comment>
+</data>
+<data name="CrewMonitor.FootLeft" xml:space="preserve">
+  <value>PDT/L NET</value>
+  <comment>PDT/L NET</comment>
+</data>
+<data name="CrewMonitor.FootRight" xml:space="preserve">
+  <value>{TEAM} . 1 HZ</value>
+  <comment>{TEAM} . 1 HZ</comment>
 </data>
 <data name="Def.Crate.DisplayName" xml:space="preserve">
   <value>crate</value>
@@ -75283,6 +75471,82 @@ The file is looked up beside this language file first, then under the game's Con
   <value>IV drip crate</value>
   <comment>IV drip crate</comment>
 </data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.DisplayName" xml:space="preserve">
+  <value>tracking transmitter</value>
+  <comment>tracking transmitter</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.Verb.Toggle" xml:space="preserve">
+  <value>switch on</value>
+  <comment>switch on</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.On.DisplayName" xml:space="preserve">
+  <value>tracking transmitter</value>
+  <comment>tracking transmitter</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.On.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.On.Verb.Toggle" xml:space="preserve">
+  <value>switch off</value>
+  <comment>switch off</comment>
+</data>
+<data name="Def.Obj.Item.Implant.Tracking.DisplayName" xml:space="preserve">
+  <value>tracking implant</value>
+  <comment>tracking implant</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.DisplayName" xml:space="preserve">
+  <value>tracking implanter</value>
+  <comment>tracking implanter</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.Empty.DisplayName" xml:space="preserve">
+  <value>empty implanter</value>
+  <comment>empty implanter</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.Empty.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.DisplayName" xml:space="preserve">
+  <value>crew monitor</value>
+  <comment>crew monitor</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Verb.Toggle" xml:space="preserve">
+  <value>switch on</value>
+  <comment>switch on</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.On.DisplayName" xml:space="preserve">
+  <value>crew monitor</value>
+  <comment>crew monitor</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.On.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.On.Verb.Toggle" xml:space="preserve">
+  <value>switch off</value>
+  <comment>switch off</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Empty.DisplayName" xml:space="preserve">
+  <value>crew monitor</value>
+  <comment>crew monitor</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Empty.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
 <data name="StackFamily.TestPlank" xml:space="preserve">
   <value>TestPlank</value>
   <comment>TestPlank</comment>
@@ -76190,6 +76454,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="SurgeryOp.EmbryoRemoval.Display" xml:space="preserve">
   <value>Xenomorph Parasite Removal</value>
   <comment>Xenomorph Parasite Removal</comment>
+</data>
+<data name="SurgeryOp.ImplantInsertLimb.Display" xml:space="preserve">
+  <value>Tracking Implant Insertion</value>
+  <comment>Tracking Implant Insertion</comment>
+</data>
+<data name="SurgeryOp.ImplantInsertCavity.Display" xml:space="preserve">
+  <value>Tracking Implant Cavity Insertion</value>
+  <comment>Tracking Implant Cavity Insertion</comment>
+</data>
+<data name="SurgeryOp.ImplantRemovalLimb.Display" xml:space="preserve">
+  <value>Tracking Implant Removal</value>
+  <comment>Tracking Implant Removal</comment>
+</data>
+<data name="SurgeryOp.ImplantRemovalCavity.Display" xml:space="preserve">
+  <value>Tracking Implant Cavity Removal</value>
+  <comment>Tracking Implant Cavity Removal</comment>
 </data>
 <data name="Construction.Test.Wire.DisplayName" xml:space="preserve">
   <value>~test wire</value>
