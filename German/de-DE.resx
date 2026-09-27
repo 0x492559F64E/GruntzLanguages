@@ -907,6 +907,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Du drängst dich durch {TARGET} und der Draht zerreißt dich!</value>
   <comment>You push through the {TARGET} and the wire tears at you!</comment>
 </data>
+<data name="Chat.OpenChestJostle" xml:space="preserve">
+  <value>Something shifts inside your open chest!</value>
+  <comment>Something shifts inside your open chest!</comment>
+</data>
+<data name="Chat.OpenChestFall" xml:space="preserve">
+  <value>The landing crushes your exposed organs!</value>
+  <comment>The landing crushes your exposed organs!</comment>
+</data>
 <data name="Chat.StripTake" xml:space="preserve">
   <value>{ACTOR} beginnt, {USED} von {TARGET} abzuziehen!</value>
   <comment>{ACTOR} starts pulling {USED} off the {TARGET}!</comment>
@@ -2351,6 +2359,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>MANGELHAFTE VERBINDUNG</value>
   <comment>POOR CONNECTION</comment>
 </data>
+<data name="Moodlet.Title.ChestOpen" xml:space="preserve">
+  <value>CHEST OPEN</value>
+  <comment>CHEST OPEN</comment>
+</data>
 <data name="Moodlet.Title.Fallback" xml:space="preserve">
   <value>~STIMMUNGSEFFEKT</value>
   <comment>~MOODLET</comment>
@@ -2635,6 +2647,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Deine Blickrichtung nach Westen beibehalten</value>
   <comment>Holding your facing to the west</comment>
 </data>
+<data name="Moodlet.Flavor.ChestOpen" xml:space="preserve">
+  <value>Your chest cavity is open</value>
+  <comment>Your chest cavity is open</comment>
+</data>
 <data name="Moodlet.Flavor.Fallback" xml:space="preserve">
   <value>~moodlet</value>
   <comment>~moodlet</comment>
@@ -2835,6 +2851,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ALT plus die Bewegungstaste, der du zugewandt bist, löst die Haltung</value>
   <comment>ALT plus the movement key you face releases the hold</comment>
 </data>
+<data name="Moodlet.Hint.ChestOpen" xml:space="preserve">
+  <value>Stay down until you are closed up, or let someone drag you</value>
+  <comment>Stay down until you are closed up, or let someone drag you</comment>
+</data>
 <data name="Moodlet.Phrase.ZombiesCannotSeeYou" xml:space="preserve">
   <value>Zombies können dich nicht sehen</value>
   <comment>Zombies cannot see you</comment>
@@ -3015,6 +3035,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Ruhigeres Zielen</value>
   <comment>Steadier aim</comment>
 </data>
+<data name="Moodlet.Phrase.MovingReopensTheBleeding" xml:space="preserve">
+  <value>Moving reopens the bleeding</value>
+  <comment>Moving reopens the bleeding</comment>
+</data>
 <data name="Moodlet.WordToken.MovingOppositeFacing" xml:space="preserve">
   <value>Bewegen entgegen der Blickrichtung {WORD}</value>
   <comment>Moving opposite the facing {WORD}</comment>
@@ -3102,6 +3126,18 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Moodlet.Row.SightReachesMany" xml:space="preserve">
   <value>Sicht reicht {TILES} Felder voraus</value>
   <comment>Sight reaches {TILES} tiles ahead</comment>
+</data>
+<data name="Moodlet.Row.FallLevelsBreaksHeartOne" xml:space="preserve">
+  <value>A fall of one level breaks your heart</value>
+  <comment>A fall of one level breaks your heart</comment>
+</data>
+<data name="Moodlet.Row.FallLevelsBreaksHeartMany" xml:space="preserve">
+  <value>A fall of {LEVELS} levels breaks your heart</value>
+  <comment>A fall of {LEVELS} levels breaks your heart</comment>
+</data>
+<data name="Moodlet.Row.OrganHitPerStep" xml:space="preserve">
+  <value>{PERCENT}% per step: {MIN} to {MAX} organ damage</value>
+  <comment>{PERCENT}% per step: {MIN} to {MAX} organ damage</comment>
 </data>
 <data name="Moodlet.Unit.BloodPerSecond" xml:space="preserve">
   <value> Blut/s</value>
@@ -3238,6 +3274,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Moodlet.Unit.LimbSplinted" xml:space="preserve">
   <value> geschient</value>
   <comment> splinted</comment>
+</data>
+<data name="Moodlet.Unit.PerStepInternalBleeding" xml:space="preserve">
+  <value> per step: internal bleeding</value>
+  <comment> per step: internal bleeding</comment>
 </data>
 <data name="StripUi.Adjacent" xml:space="preserve">
   <value>ANGRENZEND</value>
