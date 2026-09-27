@@ -1,8 +1,10 @@
-### What to know
+# German translation notes
+
+## What to know
 
 I'm not a professional translator. It's been a while since I worked with development tools and rarely use LLM models. But I have some time on my hands, I'm very firm with my languages, so why not give it a try to provide a first draft.
 
-### Known Issues
+## Known Issues
 
 The known issues are basically the same as with the Spanish translation. Some strings are too long for the UI, some strings are not exposed to the localisation file.
 Often the translation reads kind of simplistic or poor in its given context, as the only maintainer I have for now decided to lean towards accuracy of the translations to avoid possible conflicts with the development side.
@@ -32,9 +34,7 @@ Surgery.LimbGoneClean
 Surgery.Clean
 Surgery.ACleanZone
 
-## Linenumber being worked on
-
-### Details
+## Details
 
 For the first translation pass the procedure was to check if any of the large online services could help me in this task. But they either had a low limit at requests/second or required an account. I considered testing if the VSCode CoPilot might be up to the task. The full procedure with queries, interactions and problems can be explained if desired.
 In short I first extracted the strings and have it work in batches of 300 lines to manage the workload on the model. The translation was done line by line and so no data was lost or overlooked.
