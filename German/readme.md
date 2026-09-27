@@ -10,11 +10,13 @@ There is currently a mismatch in consistency of the use of ss/ß. At some point 
 
 ## Individual issues
 
-Removed 'SHRINKAGE IS THEFT AND THEFT IS TREASON' from Register.TickerLine to stay within the character limit.
+Removed 'SHRINKAGE IS THEFT AND THEFT IS TREASON' from `Register.TickerLine` to stay within the character limit.
 The ERT window text is not translatable and the button label does not fit inside.
 Some hover texts would render inside their own frame, but not fit in the window containing them (e.g. ghost menu).
 ~I'm very unhappy with the translation for "Facehugs taken" to "Gesichtsklammern erhalten" but can't find a fitting translation right now either.~
 "VEND" in vending machines does not have a direct equivalent. Two options would be BUY/KAUFEN or DISPENSE/AUSGEBEN. I went with the latter for now.
+`Guide.Section.Medical.Surgery.Text` changed the second half of translation because the line is 252 characters in English and may be confusing. The German text reads "The chosen slot, patient, equipped instrument and priority decide what can be clicked. The patient must lie down; a table is faster, the ground is slower".
+`space cash` for now translated as "Weltraumgeld"
 
 ## Known missing translations
 
@@ -29,9 +31,7 @@ Surgery.LimbGoneClean
 Surgery.Clean
 Surgery.ACleanZone
 
-73862
-76886
-77038
+## Linenumber being worked on
 
 ### Details
 
