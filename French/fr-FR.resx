@@ -6691,6 +6691,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>+ CART</value>
   <comment>+ CART</comment>
 </data>
+<data name="Atm.DropAloneHint" xml:space="preserve">
+  <value>SHIPS ALONE IN ITS OWN CRATE</value>
+  <comment>SHIPS ALONE IN ITS OWN CRATE</comment>
+</data>
 <data name="Atm.DispatchLabel" xml:space="preserve">
   <value>DISPATCH AIRDROP</value>
   <comment>DISPATCH AIRDROP</comment>
@@ -12122,6 +12126,30 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Test.PoweredEquip.Off.Verb.Toggle" xml:space="preserve">
   <value>turn on</value>
   <comment>turn on</comment>
+</data>
+<data name="Def.Test.Machine.DisplayName" xml:space="preserve">
+  <value>test machine</value>
+  <comment>test machine</comment>
+</data>
+<data name="Def.Test.Machine.Verb.Toggle" xml:space="preserve">
+  <value>turn off</value>
+  <comment>turn off</comment>
+</data>
+<data name="Def.Test.Machine.Off.DisplayName" xml:space="preserve">
+  <value>test machine</value>
+  <comment>test machine</comment>
+</data>
+<data name="Def.Test.Machine.Off.Verb.Toggle" xml:space="preserve">
+  <value>turn on</value>
+  <comment>turn on</comment>
+</data>
+<data name="Def.Test.MachineCrate.DisplayName" xml:space="preserve">
+  <value>test machine crate</value>
+  <comment>test machine crate</comment>
+</data>
+<data name="Def.Test.MachineCrate.Descending.DisplayName" xml:space="preserve">
+  <value>test machine crate</value>
+  <comment>test machine crate</comment>
 </data>
 <data name="Def.Test.PoweredEnviron.DisplayName" xml:space="preserve">
   <value>test powered vent</value>
@@ -75178,6 +75206,54 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Explosive.Grenade.Round40mm.Incendiary.Armed.Verb.PickUp" xml:space="preserve">
   <value>pick up</value>
   <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Recharger.Descending.DisplayName" xml:space="preserve">
+  <value>recharger crate</value>
+  <comment>recharger crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Recharger.DisplayName" xml:space="preserve">
+  <value>recharger crate</value>
+  <comment>recharger crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Grinder.Descending.DisplayName" xml:space="preserve">
+  <value>grinder crate</value>
+  <comment>grinder crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Grinder.DisplayName" xml:space="preserve">
+  <value>grinder crate</value>
+  <comment>grinder crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Microwave.Descending.DisplayName" xml:space="preserve">
+  <value>microwave crate</value>
+  <comment>microwave crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Microwave.DisplayName" xml:space="preserve">
+  <value>microwave crate</value>
+  <comment>microwave crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemMaster.Descending.DisplayName" xml:space="preserve">
+  <value>ChemMaster crate</value>
+  <comment>ChemMaster crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemMaster.DisplayName" xml:space="preserve">
+  <value>ChemMaster crate</value>
+  <comment>ChemMaster crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemDispenser.Descending.DisplayName" xml:space="preserve">
+  <value>chemical dispenser crate</value>
+  <comment>chemical dispenser crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemDispenser.DisplayName" xml:space="preserve">
+  <value>chemical dispenser crate</value>
+  <comment>chemical dispenser crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.PortGen.Descending.DisplayName" xml:space="preserve">
+  <value>generator crate</value>
+  <comment>generator crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.PortGen.DisplayName" xml:space="preserve">
+  <value>generator crate</value>
+  <comment>generator crate</comment>
 </data>
 <data name="StackFamily.TestPlank" xml:space="preserve">
   <value>TestPlank</value>
