@@ -1848,7 +1848,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>RESOLUTION</comment>
 </data>
 <data name="Enum.DisplayMode.Windowed" xml:space="preserve">
-  <value>В ОКНЕ</value>
+  <value>В окне</value>
   <comment>Windowed</comment>
 </data>
 <data name="Enum.DisplayMode.Borderless" xml:space="preserve">
@@ -1872,15 +1872,15 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>One Frame</comment>
 </data>
 <data name="Enum.FrameQueueLimit.None" xml:space="preserve">
-  <value>нет</value>
+  <value>Нет</value>
   <comment>None</comment>
 </data>
 <data name="Enum.FrameQueueLimit.Unlimited" xml:space="preserve">
-  <value>без ограничений</value>
+  <value>Без ограничений</value>
   <comment>Unlimited</comment>
 </data>
 <data name="Settings.AmbientOcclusionLabel" xml:space="preserve">
-  <value>Фоновое затенение</value>
+  <value>ФОНОВОЕ ЗАТЕНЕНИЕ</value>
   <comment>AMBIENT OCCLUSION</comment>
 </data>
 <data name="Enum.AmbientOcclusionQuality.High" xml:space="preserve">
@@ -1888,31 +1888,31 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>High</comment>
 </data>
 <data name="Enum.AmbientOcclusionQuality.Medium" xml:space="preserve">
-  <value>СРЕДНЕЕ</value>
+  <value>Среднее</value>
   <comment>Medium</comment>
 </data>
 <data name="Enum.AmbientOcclusionQuality.Low" xml:space="preserve">
-  <value>НИЗКОЕ</value>
+  <value>Низкое</value>
   <comment>Low</comment>
 </data>
 <data name="Enum.AmbientOcclusionQuality.Off" xml:space="preserve">
-  <value>ОТКЛЮЧЕНО</value>
+  <value>Выкл</value>
   <comment>Off</comment>
 </data>
 <data name="Settings.BelowFloorsLabel" xml:space="preserve">
-  <value>Нижние этажи</value>
+  <value>НИЖНИЕ ЭТАЖИ</value>
   <comment>BELOW FLOORS</comment>
 </data>
 <data name="Enum.BelowFloorsQuality.Medium" xml:space="preserve">
-  <value>СРЕДНЕЕ</value>
+  <value>Среднее</value>
   <comment>Medium</comment>
 </data>
 <data name="Enum.BelowFloorsQuality.Low" xml:space="preserve">
-  <value>НИЗКОЕ</value>
+  <value>Низкое</value>
   <comment>Low</comment>
 </data>
 <data name="Enum.BelowFloorsQuality.High" xml:space="preserve">
-  <value>ВЫСОКОЕ</value>
+  <value>Высокое</value>
   <comment>High</comment>
 </data>
 <data name="Settings.BloomLabel" xml:space="preserve">
@@ -1928,19 +1928,19 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>FOG QUALITY</comment>
 </data>
 <data name="Enum.FogQuality.High" xml:space="preserve">
-  <value>высокое</value>
+  <value>Высокое</value>
   <comment>High</comment>
 </data>
 <data name="Enum.FogQuality.Medium" xml:space="preserve">
-  <value>среднее</value>
+  <value>Среднее</value>
   <comment>Medium</comment>
 </data>
 <data name="Enum.FogQuality.Low" xml:space="preserve">
-  <value>низкое</value>
+  <value>Низкое</value>
   <comment>Low</comment>
 </data>
 <data name="Settings.TonemapperLabel" xml:space="preserve">
-  <value>Отображение тонов</value>
+  <value>ОТОБРАЖЕНИЕ ТОНОВ</value>
   <comment>TONEMAPPER</comment>
 </data>
 <data name="Settings.ExposureLabel" xml:space="preserve">
@@ -1956,15 +1956,15 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>MASTER VOLUME</comment>
 </data>
 <data name="Settings.SfxLabel" xml:space="preserve">
-  <value>громкость эффектов</value>
+  <value>ГРОМКОСТЬ ЭФФЕКТОВ</value>
   <comment>SFX VOLUME</comment>
 </data>
 <data name="Settings.MusicLabel" xml:space="preserve">
-  <value>громкость музыки</value>
+  <value>ГРОМКОСТЬ МУЗЫКИ</value>
   <comment>MUSIC VOLUME</comment>
 </data>
 <data name="Settings.ResetDefaultsLabel" xml:space="preserve">
-  <value>СБРОСИТЬ настройки</value>
+  <value>СБРОСИТЬ НАСТРОЙКИ</value>
   <comment>RESET DEFAULTS</comment>
 </data>
 <data name="Settings.CancelLabel" xml:space="preserve">
@@ -1988,23 +1988,23 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>ON</comment>
 </data>
 <data name="Settings.AutoHideLabel" xml:space="preserve">
-  <value>Автоскрытие меню</value>
+  <value>АВТОСКРЫТИЕ МЕНЮ</value>
   <comment>AUTO-HIDE MENU BAR</comment>
 </data>
 <data name="Settings.FrameStatsLabel" xml:space="preserve">
-  <value>Статистика кадров</value>
+  <value>СТАТИСТИКА КАДРОВ</value>
   <comment>FRAME STATISTICS</comment>
 </data>
 <data name="Settings.TileCoordsLabel" xml:space="preserve">
-  <value>Координаты тайла</value>
+  <value>КООРДИНАТЫ ТАЙЛА</value>
   <comment>TILE COORDINATES</comment>
 </data>
 <data name="Settings.PickupAnimsLabel" xml:space="preserve">
-  <value>Анимации подбора</value>
+  <value>АНИМИРОВАННЫЙ ПОДБОР</value>
   <comment>ITEM PICKUP ANIMATIONS</comment>
 </data>
 <data name="Settings.SpreadLabel" xml:space="preserve">
-  <value>отображение разброса</value>
+  <value>ОТОБРАЖЕНИЕ РАЗБРОСА</value>
   <comment>PROJECTILE SPREAD</comment>
 </data>
 <data name="Settings.OverheadLabel" xml:space="preserve">
