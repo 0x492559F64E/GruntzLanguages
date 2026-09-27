@@ -1659,10 +1659,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Бармен</value>
   <comment>Bartender</comment>
 </data>
-<data name="Loadout.FireFighter.Name" xml:space="preserve">
-  <value>Пожарник</value>
-  <comment>Firefighter</comment>
-</data>
 <data name="Loadout.Sorokyne.Pilot.Name" xml:space="preserve">
   <value>Пилот</value>
   <comment>Pilot</comment>
@@ -1790,5 +1786,261 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Mode.Anomaly.DisplayName" xml:space="preserve">
   <value>Аномалия</value>
   <comment>Anomaly</comment>
+</data>
+<data name="Loadout.Executive.Name" xml:space="preserve">
+  <value>Управляющий</value>
+  <comment>Executive</comment>
+</data>
+<data name="Settings.Tab.Controls" xml:space="preserve">
+  <value>УПРАВЛЕНИЕ</value>
+  <comment>CONTROLS</comment>
+</data>
+<data name="Settings.Tab.Graphics" xml:space="preserve">
+  <value>ГРАФИКА</value>
+  <comment>GRAPHICS</comment>
+</data>
+<data name="Settings.Tab.Audio" xml:space="preserve">
+  <value>ЗВУК</value>
+  <comment>AUDIO</comment>
+</data>
+<data name="Settings.Tab.Interface" xml:space="preserve">
+  <value>ИНТЕРФЕЙС</value>
+  <comment>INTERFACE</comment>
+</data>
+<data name="Settings.Title" xml:space="preserve">
+  <value>НАСТРОЙКИ</value>
+  <comment>SETTINGS</comment>
+</data>
+<data name="Loadout.FireFighter.Name" xml:space="preserve">
+  <value>ПОЖАРНЫЙ</value>
+  <comment>Firefighter</comment>
+</data>
+<data name="Bindings.Global" xml:space="preserve">
+  <value>ГЛОБАЛЬНЫЕ</value>
+  <comment>GLOBAL</comment>
+</data>
+<data name="Bindings.Console" xml:space="preserve">
+  <value>КОНСОЛЬ</value>
+  <comment>CONSOLE</comment>
+</data>
+<data name="Bindings.Menu" xml:space="preserve">
+  <value>МЕНЮ</value>
+  <comment>MENU</comment>
+</data>
+<data name="Bindings.Gameplay" xml:space="preserve">
+  <value>ИГРОВОЙ ПРОЦЕСС</value>
+  <comment>GAMEPLAY</comment>
+</data>
+<data name="Bindings.Emote" xml:space="preserve">
+  <value>ЭМОЦИИ</value>
+  <comment>EMOTE</comment>
+</data>
+<data name="Bindings.Ghost" xml:space="preserve">
+  <value>ПРИЗРАК</value>
+  <comment>GHOST</comment>
+</data>
+<data name="Settings.DisplayModeLabel" xml:space="preserve">
+  <value>РЕЖИМ ОТОБРАЖЕНИЯ</value>
+  <comment>DISPLAY MODE</comment>
+</data>
+<data name="Settings.ResolutionLabel" xml:space="preserve">
+  <value>РАЗРЕШЕНИЕ</value>
+  <comment>RESOLUTION</comment>
+</data>
+<data name="Enum.DisplayMode.Windowed" xml:space="preserve">
+  <value>В ОКНЕ</value>
+  <comment>Windowed</comment>
+</data>
+<data name="Enum.DisplayMode.Borderless" xml:space="preserve">
+  <value>В окне без рамки</value>
+  <comment>Borderless</comment>
+</data>
+<data name="Enum.DisplayMode.Fullscreen" xml:space="preserve">
+  <value>Полный экран</value>
+  <comment>Fullscreen</comment>
+</data>
+<data name="Settings.RefreshRateLabel" xml:space="preserve">
+  <value>ЧАСТОТА ОБНОВЛЕНИЯ</value>
+  <comment>REFRESH RATE</comment>
+</data>
+<data name="Settings.FrameQueueLimitLabel" xml:space="preserve">
+  <value>КАДРОВ В ОЧЕРЕДИ</value>
+  <comment>FRAMES QUEUED AHEAD</comment>
+</data>
+<data name="Enum.FrameQueueLimit.OneFrame" xml:space="preserve">
+  <value>Один Кадр</value>
+  <comment>One Frame</comment>
+</data>
+<data name="Enum.FrameQueueLimit.None" xml:space="preserve">
+  <value>нет</value>
+  <comment>None</comment>
+</data>
+<data name="Enum.FrameQueueLimit.Unlimited" xml:space="preserve">
+  <value>без ограничений</value>
+  <comment>Unlimited</comment>
+</data>
+<data name="Settings.AmbientOcclusionLabel" xml:space="preserve">
+  <value>Фоновое затенение</value>
+  <comment>AMBIENT OCCLUSION</comment>
+</data>
+<data name="Enum.AmbientOcclusionQuality.High" xml:space="preserve">
+  <value>Высокое</value>
+  <comment>High</comment>
+</data>
+<data name="Enum.AmbientOcclusionQuality.Medium" xml:space="preserve">
+  <value>СРЕДНЕЕ</value>
+  <comment>Medium</comment>
+</data>
+<data name="Enum.AmbientOcclusionQuality.Low" xml:space="preserve">
+  <value>НИЗКОЕ</value>
+  <comment>Low</comment>
+</data>
+<data name="Enum.AmbientOcclusionQuality.Off" xml:space="preserve">
+  <value>ОТКЛЮЧЕНО</value>
+  <comment>Off</comment>
+</data>
+<data name="Settings.BelowFloorsLabel" xml:space="preserve">
+  <value>Нижние этажи</value>
+  <comment>BELOW FLOORS</comment>
+</data>
+<data name="Enum.BelowFloorsQuality.Medium" xml:space="preserve">
+  <value>СРЕДНЕЕ</value>
+  <comment>Medium</comment>
+</data>
+<data name="Enum.BelowFloorsQuality.Low" xml:space="preserve">
+  <value>НИЗКОЕ</value>
+  <comment>Low</comment>
+</data>
+<data name="Enum.BelowFloorsQuality.High" xml:space="preserve">
+  <value>ВЫСОКОЕ</value>
+  <comment>High</comment>
+</data>
+<data name="Settings.BloomLabel" xml:space="preserve">
+  <value>СВЕЧЕНИЕ</value>
+  <comment>BLOOM</comment>
+</data>
+<data name="PortGenWindow.OffLabel" xml:space="preserve">
+  <value>ВЫКЛ</value>
+  <comment>OFF</comment>
+</data>
+<data name="Settings.FogQualityLabel" xml:space="preserve">
+  <value>КАЧЕСТВО ТУМАНА</value>
+  <comment>FOG QUALITY</comment>
+</data>
+<data name="Enum.FogQuality.High" xml:space="preserve">
+  <value>высокое</value>
+  <comment>High</comment>
+</data>
+<data name="Enum.FogQuality.Medium" xml:space="preserve">
+  <value>среднее</value>
+  <comment>Medium</comment>
+</data>
+<data name="Enum.FogQuality.Low" xml:space="preserve">
+  <value>низкое</value>
+  <comment>Low</comment>
+</data>
+<data name="Settings.TonemapperLabel" xml:space="preserve">
+  <value>Отображение тонов</value>
+  <comment>TONEMAPPER</comment>
+</data>
+<data name="Settings.ExposureLabel" xml:space="preserve">
+  <value>ЭКСПОЗИЦИЯ</value>
+  <comment>TONEMAP EXPOSURE</comment>
+</data>
+<data name="Settings.GammaLabel" xml:space="preserve">
+  <value>ГАММА</value>
+  <comment>TONEMAP GAMMA</comment>
+</data>
+<data name="Settings.MasterLabel" xml:space="preserve">
+  <value>ОБЩАЯ ГРОМКОСТЬ</value>
+  <comment>MASTER VOLUME</comment>
+</data>
+<data name="Settings.SfxLabel" xml:space="preserve">
+  <value>громкость эффектов</value>
+  <comment>SFX VOLUME</comment>
+</data>
+<data name="Settings.MusicLabel" xml:space="preserve">
+  <value>громкость музыки</value>
+  <comment>MUSIC VOLUME</comment>
+</data>
+<data name="Settings.ResetDefaultsLabel" xml:space="preserve">
+  <value>СБРОСИТЬ настройки</value>
+  <comment>RESET DEFAULTS</comment>
+</data>
+<data name="Settings.CancelLabel" xml:space="preserve">
+  <value>ОТМЕНА</value>
+  <comment>CANCEL</comment>
+</data>
+<data name="Settings.ApplyLabel" xml:space="preserve">
+  <value>ПРИНЯТЬ</value>
+  <comment>APPLY</comment>
+</data>
+<data name="Settings.LanguageLabel" xml:space="preserve">
+  <value>ЯЗЫК</value>
+  <comment>LANGUAGE</comment>
+</data>
+<data name="CrtWidgets.Off" xml:space="preserve">
+  <value>ВЫКЛ</value>
+  <comment>OFF</comment>
+</data>
+<data name="CrtWidgets.On" xml:space="preserve">
+  <value>ВКЛ</value>
+  <comment>ON</comment>
+</data>
+<data name="Settings.AutoHideLabel" xml:space="preserve">
+  <value>Автоскрытие меню</value>
+  <comment>AUTO-HIDE MENU BAR</comment>
+</data>
+<data name="Settings.FrameStatsLabel" xml:space="preserve">
+  <value>Статистика кадров</value>
+  <comment>FRAME STATISTICS</comment>
+</data>
+<data name="Settings.TileCoordsLabel" xml:space="preserve">
+  <value>Координаты тайла</value>
+  <comment>TILE COORDINATES</comment>
+</data>
+<data name="Settings.PickupAnimsLabel" xml:space="preserve">
+  <value>Анимации подбора</value>
+  <comment>ITEM PICKUP ANIMATIONS</comment>
+</data>
+<data name="Settings.SpreadLabel" xml:space="preserve">
+  <value>отображение разброса</value>
+  <comment>PROJECTILE SPREAD</comment>
+</data>
+<data name="Settings.OverheadLabel" xml:space="preserve">
+  <value>ТЕКСТ НАД ГОЛОВОЙ</value>
+  <comment>OVERHEAD TEXT</comment>
+</data>
+<data name="Settings.RetroCursorLabel" xml:space="preserve">
+  <value>РЕТРО-КУРСОР</value>
+  <comment>RETRO CURSOR</comment>
+</data>
+<data name="Settings.PredictOwnMovementLabel" xml:space="preserve">
+  <value>ПРЕДСКАЗАНИЕ ДВИЖЕНИЯ</value>
+  <comment>PREDICT OWN MOVEMENT</comment>
+</data>
+<data name="Settings.InterfaceScaleLabel" xml:space="preserve">
+  <value>МАСШТАБ ИНТЕРФЕЙСА</value>
+  <comment>INTERFACE SCALE</comment>
+</data>
+<data name="Settings.HudScaleLabel" xml:space="preserve">
+  <value>МАСШТАБ HUD</value>
+  <comment>HUD SCALE</comment>
+</data>
+<data name="Settings.MoodletScaleLabel" xml:space="preserve">
+  <value>МАСШТАБ СТАТУСОВ</value>
+  <comment>MOODLET SCALE</comment>
+</data>
+<data name="Settings.HudOpacityLabel" xml:space="preserve">
+  <value>ПРОЗРАЧНОСТЬ HUD</value>
+  <comment>HUD TRANSPARENCY</comment>
+</data>
+<data name="Settings.CursorScaleLabel" xml:space="preserve">
+  <value>МАСШТАБ КУРСОРА</value>
+  <comment>CURSOR SCALE</comment>
+</data>
+<data name="Settings.ScopeReticleLabel" xml:space="preserve">
+  <value>ШИРИНА ПЕРЕКРЕСТИЯ</value>
+  <comment>SCOPE CROSSHAIR WIDTH</comment>
 </data>
 </root>
