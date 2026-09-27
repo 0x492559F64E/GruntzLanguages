@@ -76884,11 +76884,11 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>mends bruised organs over time</comment>
 </data>
 <data name="Condition.Organ.Treatment.OrganRepairChest.How" xml:space="preserve">
-  <value>mends a broken organ in the chest</value>
+  <value>heilt Organschaden in der Brust</value>
   <comment>mends a broken organ in the chest</comment>
 </data>
 <data name="Condition.Organ.Treatment.OrganRepairGroin.How" xml:space="preserve">
-  <value>mends the kidneys</value>
+  <value>heilt die Nieren</value>
   <comment>mends the kidneys</comment>
 </data>
 <data name="Condition.Overdose.DisplayName" xml:space="preserve">

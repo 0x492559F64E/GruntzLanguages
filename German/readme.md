@@ -29,8 +29,6 @@ Surgery.LimbGoneClean
 Surgery.Clean
 Surgery.ACleanZone
 
-9659
-9146
 73862
 76886
 77038
