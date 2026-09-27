@@ -335,10 +335,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ANZEIGE // AUDIO // STEUERUNG</value>
   <comment>DISPLAY // AUDIO // CONTROLS</comment>
 </data>
-<data name="MainMenu.Row.Codex.Caption" xml:space="preserve">
-  <value>FELDREFERENZ // {KEY} IM SPIEL</value>
-  <comment>FIELD REFERENCE // {KEY} IN GAME</comment>
-</data>
 <data name="MainMenu.Row.JoinGame.Caption" xml:space="preserve">
   <value>MIT SERVER VERBINDEN</value>
   <comment>CONNECT TO SERVER</comment>
@@ -910,6 +906,14 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Chat.WireCross" xml:space="preserve">
   <value>Du drängst dich durch {TARGET} und der Draht zerreißt dich!</value>
   <comment>You push through the {TARGET} and the wire tears at you!</comment>
+</data>
+<data name="Chat.OpenChestJostle" xml:space="preserve">
+  <value>Etwas bewegt sich in deinem offenen Brustkorb!</value>
+  <comment>Something shifts inside your open chest!</comment>
+</data>
+<data name="Chat.OpenChestFall" xml:space="preserve">
+  <value>Der Aufprall zerquetscht deine ungeschützten Organe!</value>
+  <comment>The landing crushes your exposed organs!</comment>
 </data>
 <data name="Chat.StripTake" xml:space="preserve">
   <value>{ACTOR} beginnt, {USED} von {TARGET} abzuziehen!</value>
@@ -1671,6 +1675,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Laptop verbinden</value>
   <comment>link laptop</comment>
 </data>
+<data name="HoverVerbLabels.CrewSync" xml:space="preserve">
+  <value>sync monitor</value>
+  <comment>sync monitor</comment>
+</data>
 <data name="HoverVerbLabels.PortGenFuelInsert" xml:space="preserve">
   <value>Brennstoffkanister einsetzen</value>
   <comment>insert fuel can</comment>
@@ -1802,6 +1810,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="ActivateVerbLabels.Label" xml:space="preserve">
   <value>Etikett festlegen</value>
   <comment>set label</comment>
+</data>
+<data name="ActivateVerbLabels.Monitor" xml:space="preserve">
+  <value>open monitor</value>
+  <comment>open monitor</comment>
 </data>
 <data name="ActivateVerbLabels.SwitchToInject" xml:space="preserve">
   <value>Auf Injizieren wechseln</value>
@@ -2355,6 +2367,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>MANGELHAFTE VERBINDUNG</value>
   <comment>POOR CONNECTION</comment>
 </data>
+<data name="Moodlet.Title.ChestOpen" xml:space="preserve">
+  <value>BRUSTKORB OFFEN</value>
+  <comment>CHEST OPEN</comment>
+</data>
 <data name="Moodlet.Title.Fallback" xml:space="preserve">
   <value>~STIMMUNGSEFFEKT</value>
   <comment>~MOODLET</comment>
@@ -2639,6 +2655,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Deine Blickrichtung nach Westen beibehalten</value>
   <comment>Holding your facing to the west</comment>
 </data>
+<data name="Moodlet.Flavor.ChestOpen" xml:space="preserve">
+  <value>Deine Brusthöhle ist geöffnet</value>
+  <comment>Your chest cavity is open</comment>
+</data>
 <data name="Moodlet.Flavor.Fallback" xml:space="preserve">
   <value>~moodlet</value>
   <comment>~moodlet</comment>
@@ -2839,6 +2859,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ALT plus die Bewegungstaste, der du zugewandt bist, löst die Haltung</value>
   <comment>ALT plus the movement key you face releases the hold</comment>
 </data>
+<data name="Moodlet.Hint.ChestOpen" xml:space="preserve">
+  <value>Bleib liegen, bis dein Brustkorb wieder geschlossen ist, oder lass dich von jemandem wegziehen</value>
+  <comment>Stay down until you are closed up, or let someone drag you</comment>
+</data>
 <data name="Moodlet.Phrase.ZombiesCannotSeeYou" xml:space="preserve">
   <value>Zombies können dich nicht sehen</value>
   <comment>Zombies cannot see you</comment>
@@ -3019,6 +3043,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Ruhigeres Zielen</value>
   <comment>Steadier aim</comment>
 </data>
+<data name="Moodlet.Phrase.MovingReopensTheBleeding" xml:space="preserve">
+  <value>Durch Bewegung beginnt die Blutung erneut</value>
+  <comment>Moving reopens the bleeding</comment>
+</data>
 <data name="Moodlet.WordToken.MovingOppositeFacing" xml:space="preserve">
   <value>Bewegen entgegen der Blickrichtung {WORD}</value>
   <comment>Moving opposite the facing {WORD}</comment>
@@ -3106,6 +3134,18 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Moodlet.Row.SightReachesMany" xml:space="preserve">
   <value>Sicht reicht {TILES} Felder voraus</value>
   <comment>Sight reaches {TILES} tiles ahead</comment>
+</data>
+<data name="Moodlet.Row.FallLevelsBreaksHeartOne" xml:space="preserve">
+  <value>Ein Sturz aus einer Ebene Höhe zerreißt dir das Herz</value>
+  <comment>A fall of one level breaks your heart</comment>
+</data>
+<data name="Moodlet.Row.FallLevelsBreaksHeartMany" xml:space="preserve">
+  <value>Ein Sturz aus {LEVELS} Ebenen Höhe zerreißt dir das Herz</value>
+  <comment>A fall of {LEVELS} levels breaks your heart</comment>
+</data>
+<data name="Moodlet.Row.OrganHitPerStep" xml:space="preserve">
+  <value>{PERCENT} % pro Schritt: {MIN} bis {MAX} Organschaden</value>
+  <comment>{PERCENT}% per step: {MIN} to {MAX} organ damage</comment>
 </data>
 <data name="Moodlet.Unit.BloodPerSecond" xml:space="preserve">
   <value> Blut/s</value>
@@ -3242,6 +3282,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Moodlet.Unit.LimbSplinted" xml:space="preserve">
   <value> geschient</value>
   <comment> splinted</comment>
+</data>
+<data name="Moodlet.Unit.PerStepInternalBleeding" xml:space="preserve">
+  <value> pro Schritt: innere Blutung</value>
+  <comment> per step: internal bleeding</comment>
 </data>
 <data name="StripUi.Adjacent" xml:space="preserve">
   <value>ANGRENZEND</value>
@@ -4467,13 +4511,17 @@ The file is looked up beside this language file first, then under the game's Con
   <value>XENOMORPH-EMBRYO, STUFE {STAGE}</value>
   <comment>XENOMORPH EMBRYO, STAGE {STAGE}</comment>
 </data>
+<data name="HealthScan.TrackingImplantLine" xml:space="preserve">
+  <value>TRACKING IMPLANT</value>
+  <comment>TRACKING IMPLANT</comment>
+</data>
 <data name="HealthScan.EmbeddedObjectsLine" xml:space="preserve">
   <value>EINGEBETTETE OBJEKTE ({COUNT}) - PATIENT SOLLTE SICH NICHT BEWEGEN</value>
   <comment>EMBEDDED OBJECTS ({COUNT}) - PATIENT SHOULD NOT MOVE</comment>
 </data>
 <data name="HealthScan.ChemicalContentsHeader" xml:space="preserve">
   <value>CHEMISCHE INHALTE - {WHOLE},{FRAC} U</value>
-  <comment>CHEMICAL CONTENTS - {WHOLE}.{FRAC} U</comment>
+  <comment>CHEMICAL CONTENTS - {WHOLE}.{FRAC}U</comment>
 </data>
 <data name="HealthScan.BloodReadoutLine" xml:space="preserve">
   <value>{PERCENT}% - {CL} CL</value>
@@ -4909,7 +4957,7 @@ The file is looked up beside this language file first, then under the game's Con
 </data>
 <data name="ChemMaster.BottleKeyLine" xml:space="preserve">
   <value>FLASCHE ({AMOUNT} U)</value>
-  <comment>BOTTLE ({AMOUNT} U)</comment>
+  <comment>BOTTLE ({AMOUNT}U)</comment>
 </data>
 <data name="ChemMaster.FridgeInRange" xml:space="preserve">
   <value>IN REICHWEITE</value>
@@ -4993,7 +5041,7 @@ The file is looked up beside this language file first, then under the game's Con
 </data>
 <data name="ChemMaster.BufferFootLine" xml:space="preserve">
   <value>PUFFER {TOTALWHOLE},{TOTALFRAC} / {CAPWHOLE},{CAPFRAC} E</value>
-  <comment>BUFFER {TOTALWHOLE}.{TOTALFRAC} / {CAPWHOLE}.{CAPFRAC} U</comment>
+  <comment>BUFFER {TOTALWHOLE}.{TOTALFRAC} / {CAPWHOLE}.{CAPFRAC}U</comment>
 </data>
 <data name="ChemMaster.BufferFootLabel" xml:space="preserve">
   <value>PUFFER</value>
@@ -5959,6 +6007,58 @@ The file is looked up beside this language file first, then under the game's Con
   <value>KOCHEN</value>
   <comment>COOK</comment>
 </data>
+<data name="Microwave.RecipesSection" xml:space="preserve">
+  <value>REZEPTE</value>
+  <comment>RECIPES</comment>
+</data>
+<data name="Microwave.WillCook" xml:space="preserve">
+  <value>{NAME} WIRD GEKOCHT</value>
+  <comment>WILL COOK {NAME}</comment>
+</data>
+<data name="Microwave.WillCookStatus" xml:space="preserve">
+  <value>WIRD GEKOCHT</value>
+  <comment>WILL COOK</comment>
+</data>
+<data name="Microwave.WillBurn" xml:space="preserve">
+  <value>VERBRENNT IN DIESER BELADUNG</value>
+  <comment>WILL BURN AS LOADED</comment>
+</data>
+<data name="Microwave.AlsoMatches" xml:space="preserve">
+  <value>PASST AUCH</value>
+  <comment>ALSO MATCHES</comment>
+</data>
+<data name="Microwave.StillPartOf" xml:space="preserve">
+  <value>{COUNT} NOCH TEIL VON</value>
+  <comment>{COUNT} STILL PART OF</comment>
+</data>
+<data name="Microwave.RecipesCount" xml:space="preserve">
+  <value>{COUNT} REZEPTE</value>
+  <comment>{COUNT} RECIPES</comment>
+</data>
+<data name="Microwave.NoRecipeTakes" xml:space="preserve">
+  <value>KEIN REZEPT PASST ZU DIESER BELADUNG: ALLES AUSWERFEN</value>
+  <comment>NO RECIPE TAKES THIS LOAD: EJECT ALL</comment>
+</data>
+<data name="Microwave.LoadSomething" xml:space="preserve">
+  <value>GEGENSTAND EINLEGEN</value>
+  <comment>LOAD SOMETHING</comment>
+</data>
+<data name="Microwave.EjectAll" xml:space="preserve">
+  <value>KEIN REZEPT PASST ZU DIESER BELADUNG: ALLES AUSWERFEN UND ERNEUT BEGINNEN</value>
+  <comment>NO RECIPE CONTAINS THIS LOAD: EJECT ALL AND START AGAIN</comment>
+</data>
+<data name="Microwave.Missing" xml:space="preserve">
+  <value>FEHLT: {NAME}</value>
+  <comment>MISSING {NAME}</comment>
+</data>
+<data name="Microwave.MissingReagents" xml:space="preserve">
+  <value>FEHLENDE REAGENZIEN</value>
+  <comment>MISSING REAGENTS</comment>
+</data>
+<data name="Microwave.FootCodex" xml:space="preserve">
+  <value>Kodex</value>
+  <comment>CODEX</comment>
+</data>
 <data name="SmartFridge.HeaderFallback" xml:space="preserve">
   <value>INTELLIGENTES CHEMIKALIENLAGER</value>
   <comment>SMART CHEMICAL STORAGE</comment>
@@ -6065,7 +6165,7 @@ The file is looked up beside this language file first, then under the game's Con
 </data>
 <data name="ChemDispenser.SynthLine" xml:space="preserve">
   <value>ENERGIE = {AMOUNT} E</value>
-  <comment>1 ENERGY = {AMOUNT} U</comment>
+  <comment>1 ENERGY = {AMOUNT}U</comment>
 </data>
 <data name="ChemDispenser.ChargeFootLine" xml:space="preserve">
   <value>LADUNG {PERCENT}%</value>
@@ -6602,6 +6702,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Atm.AddLabel" xml:space="preserve">
   <value>+ WAGEN</value>
   <comment>+ CART</comment>
+</data>
+<data name="Atm.DropAloneHint" xml:space="preserve">
+  <value>WIRD EINZELN IN EINER EIGENEN KISTE VERSCHICKT</value>
+  <comment>SHIPS ALONE IN ITS OWN CRATE</comment>
 </data>
 <data name="Atm.DispatchLabel" xml:space="preserve">
   <value>LUFTABWURF VERSENDEN</value>
@@ -8381,7 +8485,7 @@ The file is looked up beside this language file first, then under the game's Con
 </data>
 <data name="Codex.HomeBrief" xml:space="preserve">
   <value>JEDER NAME AUF EINER SEITE IST EIN LINK. EIN MIT ANY GEKENNZEICHNETER NAME IST EINE FAMILIE: EINE SEITE, DIE ALLES AUFLISTET, WAS ALS EINS ZÄHLT.</value>
-  <comment>EVERY NAME ON A PAGE IS A LINK. A NAME MARKED ANY IS A FAMILY: A PAGE LISTING EVERYTHING THAT COUNTS AS ONE.</comment>
+  <comment>EVERY NAME ON A PAGE IS A LINK. A NAME MARKED ANY TAKES ANY KIND OF THAT THING: A FAMILY PAGE LISTS EVERYTHING THAT COUNTS AS ONE, AND A RECIPE ROW LISTS THE KINDS BESIDE IT.</comment>
 </data>
 <data name="Codex.HomeSub" xml:space="preserve">
   <value>FELDREFERENZ // AUS SPIELDATEN ERZEUGT</value>
@@ -8991,6 +9095,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>KONSTRUKTION</value>
   <comment>CONSTRUCTION</comment>
 </data>
+<data name="Codex.Topic.Galley" xml:space="preserve">
+  <value>KOMBÜSE</value>
+  <comment>GALLEY</comment>
+</data>
 <data name="Codex.Topic.Items" xml:space="preserve">
   <value>GEGENSTÄNDE</value>
   <comment>ITEMS</comment>
@@ -9034,6 +9142,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Section.Construction.Materials" xml:space="preserve">
   <value>MATERIALIEN</value>
   <comment>MATERIALS</comment>
+</data>
+<data name="Codex.Section.Galley.Recipes" xml:space="preserve">
+  <value>REZEPTE</value>
+  <comment>RECIPES</comment>
+</data>
+<data name="Codex.Section.Galley.Food" xml:space="preserve">
+  <value>LEBENSMITTEL</value>
+  <comment>FOOD</comment>
+</data>
+<data name="Codex.Section.Galley.Appliances" xml:space="preserve">
+  <value>GERÄTE</value>
+  <comment>APPLIANCES</comment>
+</data>
+<data name="Codex.Section.Galley.Kitchenware" xml:space="preserve">
+  <value>KÜCHENUTENSILIEN</value>
+  <comment>KITCHENWARE</comment>
 </data>
 <data name="Codex.Section.Items.Families" xml:space="preserve">
   <value>FAMILIEN</value>
@@ -9177,7 +9301,7 @@ The file is looked up beside this language file first, then under the game's Con
 </data>
 <data name="Codex.Surgery.Surgery" xml:space="preserve">
   <value>CHIRURGIE</value>
-  <comment>CHIRURGIE</comment>
+  <comment>SURGERY</comment>
 </data>
 <data name="Codex.Surgery.Step" xml:space="preserve">
   <value>SCHRITT</value>
@@ -9451,6 +9575,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>EIN PARASIT HIER</value>
   <comment>A PARASITE HERE</comment>
 </data>
+<data name="Codex.Surgery.FactImplant" xml:space="preserve">
+  <value>A TRACKING IMPLANT HERE</value>
+  <comment>A TRACKING IMPLANT HERE</comment>
+</data>
 <data name="Codex.Surgery.FactNamedOrgan" xml:space="preserve">
   <value>EIN BESCHÄDIGTES ORGAN HIER</value>
   <comment>A DAMAGED ORGAN</comment>
@@ -9695,6 +9823,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ENTFERNT DEN PARASITEN</value>
   <comment>REMOVES THE PARASITE</comment>
 </data>
+<data name="Codex.Surgery.PlacesTheImplant" xml:space="preserve">
+  <value>PLACES A TRACKING IMPLANT HERE</value>
+  <comment>PLACES A TRACKING IMPLANT HERE</comment>
+</data>
+<data name="Codex.Surgery.RemovesTheImplant" xml:space="preserve">
+  <value>REMOVES THE TRACKING IMPLANT</value>
+  <comment>REMOVES THE TRACKING IMPLANT</comment>
+</data>
 <data name="Codex.Surgery.UsesOneOfTheToolsStack" xml:space="preserve">
   <value>VERWENDET EINES VON DEN INSTRUMENTEN, WENN ES EIN STAPEL IST</value>
   <comment>USES ONE OF THE TOOL'S STACK, IF IT IS A STACK</comment>
@@ -9754,6 +9890,434 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Surgery.FracturePercent" xml:space="preserve">
   <value>{PERCENT} PCT CHANCE DEN KNOCHEN ZU BRECHEN</value>
   <comment>{PERCENT} PCT CHANCE TO FRACTURE THE BONE</comment>
+</data>
+<data name="Codex.Galley.MadeBy" xml:space="preserve">
+  <value>HERGESTELLT VON</value>
+  <comment>MADE BY</comment>
+</data>
+<data name="Codex.Galley.UsedIn" xml:space="preserve">
+  <value>VERWENDET IN</value>
+  <comment>USED IN</comment>
+</data>
+<data name="Codex.Galley.Cooks" xml:space="preserve">
+  <value>KOCHT</value>
+  <comment>COOKS</comment>
+</data>
+<data name="Codex.Galley.Grinds" xml:space="preserve">
+  <value>MAHLT</value>
+  <comment>GRINDS</comment>
+</data>
+<data name="Codex.Galley.Run" xml:space="preserve">
+  <value>START</value>
+  <comment>RUN</comment>
+</data>
+<data name="Codex.Galley.StockedIn" xml:space="preserve">
+  <value>VORRÄTIG IN</value>
+  <comment>STOCKED IN</comment>
+</data>
+<data name="Codex.Galley.JuicedFrom" xml:space="preserve">
+  <value>ENTSAFTET AUS</value>
+  <comment>JUICED FROM</comment>
+</data>
+<data name="Codex.Galley.GroundFrom" xml:space="preserve">
+  <value>GEMAHLEN AUS</value>
+  <comment>GROUND FROM</comment>
+</data>
+<data name="Codex.Galley.How" xml:space="preserve">
+  <value>WIE</value>
+  <comment>HOW</comment>
+</data>
+<data name="Codex.Galley.From" xml:space="preserve">
+  <value>VON</value>
+  <comment>FROM</comment>
+</data>
+<data name="Codex.Galley.Makes" xml:space="preserve">
+  <value>STELLT HER</value>
+  <comment>MAKES</comment>
+</data>
+<data name="Codex.Galley.With" xml:space="preserve">
+  <value>MIT</value>
+  <comment>WITH</comment>
+</data>
+<data name="Codex.Galley.Using" xml:space="preserve">
+  <value>MIT</value>
+  <comment>USING</comment>
+</data>
+<data name="Codex.Galley.KindMicrowave" xml:space="preserve">
+  <value>Mikrowelle</value>
+  <comment>MICROWAVE</comment>
+</data>
+<data name="Codex.Galley.KindProcessor" xml:space="preserve">
+  <value>VERARBEITER</value>
+  <comment>PROCESSOR</comment>
+</data>
+<data name="Codex.Galley.KindHand" xml:space="preserve">
+  <value>VON HAND</value>
+  <comment>BY HAND</comment>
+</data>
+<data name="Codex.Galley.KindSlice" xml:space="preserve">
+  <value>GESCHNITTEN</value>
+  <comment>SLICED</comment>
+</data>
+<data name="Codex.Galley.KindJuice" xml:space="preserve">
+  <value>ENTSAFTET</value>
+  <comment>JUICED</comment>
+</data>
+<data name="Codex.Galley.KindNutriment" xml:space="preserve">
+  <value>GEMAHLEN</value>
+  <comment>GROUND</comment>
+</data>
+<data name="Codex.Galley.KindReaction" xml:space="preserve">
+  <value>REAKTION</value>
+  <comment>REACTION</comment>
+</data>
+<data name="Codex.Galley.KindGibber" xml:space="preserve">
+  <value>GIBBER</value>
+  <comment>GIBBER</comment>
+</data>
+<data name="Codex.Galley.Juice" xml:space="preserve">
+  <value>SAFT</value>
+  <comment>JUICE</comment>
+</data>
+<data name="Codex.Galley.Grind" xml:space="preserve">
+  <value>MAHLEN</value>
+  <comment>GRIND</comment>
+</data>
+<data name="Codex.Galley.Any" xml:space="preserve">
+  <value>BELIEBIG</value>
+  <comment>ANY</comment>
+</data>
+<data name="Codex.Galley.Kept" xml:space="preserve">
+  <value>(BEHALTEN)</value>
+  <comment>(KEPT)</comment>
+</data>
+<data name="Codex.Galley.ThisOneIsKept" xml:space="preserve">
+  <value>DIESER GEGENSTAND BLEIBT ERHALTEN</value>
+  <comment>THIS ONE IS KEPT</comment>
+</data>
+<data name="Codex.Galley.RollCount" xml:space="preserve">
+  <value>x1D4</value>
+  <comment>x1D4</comment>
+</data>
+<data name="Codex.Galley.AnySlicer" xml:space="preserve">
+  <value>BELIEBIGES SCHNEIDWERKZEUG</value>
+  <comment>ANY SLICER</comment>
+</data>
+<data name="Codex.Galley.OnASurface" xml:space="preserve">
+  <value>LEBENSMITTEL AUF EINEM TISCH ODER EINER BELIEBIGEN OBERFLÄCHE</value>
+  <comment>FOOD ON A TABLE OR ANY SURFACE</comment>
+</data>
+<data name="Codex.Galley.GibberSentence" xml:space="preserve">
+  <value>EIN TOTER, NICHT WIEDERBELEBBARE KÖRPER EINER ART, DIE NIEMALS ISST, AN DEN KEIN GEIST GEBUNDEN IST UND DER NICHTS BEI SICH TRÄGT: HERANZIEHEN, EINLADEN UND DANN STARTEN</value>
+  <comment>A DEAD BODY THAT CANNOT BE REVIVED, OF A KIND THAT NEVER EATS, WITH NO GHOST BOUND TO IT, CARRYING NOTHING, PULLED IN AND LOADED, THEN RUN</comment>
+</data>
+<data name="Codex.Galley.Mix" xml:space="preserve">
+  <value>MISCHEN</value>
+  <comment>MIX</comment>
+</data>
+<data name="Codex.Galley.NothingElse" xml:space="preserve">
+  <value>SONST NICHTS</value>
+  <comment>NOTHING ELSE</comment>
+</data>
+<data name="Codex.Galley.IntoTheSocketedBeaker" xml:space="preserve">
+  <value>IN DEN EINGESETZTEN BECHER</value>
+  <comment>INTO THE SOCKETED BEAKER</comment>
+</data>
+<data name="Codex.Galley.ThenTheRest" xml:space="preserve">
+  <value>DANN DEN REST DER MISCHUNG, SOWEIT PLATZ IST</value>
+  <comment>THEN THE REST OF ITS MIX AS ROOM ALLOWS</comment>
+</data>
+<data name="Codex.Galley.NeedsPower" xml:space="preserve">
+  <value>BENÖTIGT STROM</value>
+  <comment>NEEDS POWER</comment>
+</data>
+<data name="Codex.Galley.Holds" xml:space="preserve">
+  <value>FASST</value>
+  <comment>HOLDS</comment>
+</data>
+<data name="Codex.Galley.Chamber" xml:space="preserve">
+  <value>KAMMER</value>
+  <comment>CHAMBER</comment>
+</data>
+<data name="Codex.Galley.Cycle" xml:space="preserve">
+  <value>Zyklus</value>
+  <comment>CYCLE</comment>
+</data>
+<data name="Codex.Galley.HowTo" xml:space="preserve">
+  <value>ANLEITUNG</value>
+  <comment>HOW TO</comment>
+</data>
+<data name="Codex.Galley.Pours" xml:space="preserve">
+  <value>GIESSEN</value>
+  <comment>POURS</comment>
+</data>
+<data name="Codex.Galley.TurnItOnFirst" xml:space="preserve">
+  <value>ZUERST EINSCHALTEN</value>
+  <comment>TURN IT ON FIRST</comment>
+</data>
+<data name="Codex.Galley.WrongLoadBurns" xml:space="preserve">
+  <value>BEI FALSCHER BELADUNG VERBRENNT DER INHALT</value>
+  <comment>A WRONG LOAD BURNS</comment>
+</data>
+<data name="Codex.Galley.HowToLoad" xml:space="preserve">
+  <value>OHNE GEGENSTAND ANKLICKEN, UM DIE ANZEIGE ZU ÖFFNEN; MIT LEBENSMITTEL ANKLICKEN, UM ES ZU BELADEN</value>
+  <comment>CLICK IT EMPTY-HANDED TO OPEN ITS SCREEN; LOAD IT BY CLICKING IT WITH FOOD</comment>
+</data>
+<data name="Codex.Galley.PourOpen" xml:space="preserve">
+  <value>ZUM EINGIESSEN MIT EINEM OFFENEN BEHÄLTER ANKLICKEN (VERSIEGELTE BEHÄLTER WERDEN ABGEWIESEN: ZUERST ÖFFNEN), PRO KLICK EINE DOSIS (AUF DER SEITE JEDES BEHÄLTERS STEHT, WAS ER AUSGIBT)</value>
+  <comment>POUR BY CLICKING IT WITH AN OPEN CONTAINER (A SEALED ONE IS REFUSED: OPEN IT FIRST), ONE DOSE PER CLICK (EVERY CONTAINER'S PAGE SAYS WHAT IT POURS)</comment>
+</data>
+<data name="Codex.Galley.PourExact" xml:space="preserve">
+  <value>EIN REAGENZ, DAS IN KEINEM REZEPT VORKOMMT, WIRD SOFORT ABGEWIESEN. EIN ANGENOMMENER ZUSATZ ERGIBT ABER NOCH KEIN REZEPT: DIE GESAMTE MISCHUNG MUSS GENAU DEN MENGEN EINES REZEPTS ENTSPRECHEN. MIT „ALLE AUSWERFEN“ LÄSST SICH EIN ÜBERSCHUSS ENTFERNEN</value>
+  <comment>A REAGENT NO RECIPE USES IS REFUSED AT THE DOOR, BUT AN ACCEPTED POUR IS NOT YET A RECIPE: THE WHOLE MIX MUST END EXACTLY ON ONE RECIPE'S AMOUNTS, AND EJECT ALL CLEARS AN OVER-POUR</comment>
+</data>
+<data name="Codex.Galley.HowToCook" xml:space="preserve">
+  <value>DANN ÜBER DIE ANZEIGE KOCHEN</value>
+  <comment>THEN COOK FROM THE SCREEN</comment>
+</data>
+<data name="Codex.Galley.RunsWithExactlyOne" xml:space="preserve">
+  <value>LÄUFT MIT GENAU EINEM GEGENSTAND IM INNEREN (WEITERE WERDEN ABGEWIESEN UND AUSGEWORFEN)</value>
+  <comment>RUNS WITH EXACTLY ONE INSIDE (MORE IS REFUSED AND EJECTED)</comment>
+</data>
+<data name="Codex.Galley.OutputOnTheFloor" xml:space="preserve">
+  <value>AUSGABE AUF DEM BODEN</value>
+  <comment>OUTPUT ON THE FLOOR</comment>
+</data>
+<data name="Codex.Galley.HowToProcessor" xml:space="preserve">
+  <value>MIT EINEM GEGENSTAND ANKLICKEN, DANN OHNE GEGENSTAND ANKLICKEN</value>
+  <comment>CLICK IT WITH ONE ITEM, THEN CLICK IT EMPTY-HANDED</comment>
+</data>
+<data name="Codex.Galley.GibberRefusal" xml:space="preserve">
+  <value>NIMMT NUR EINEN TOTEN, NICHT WIEDERBELEBBAREN KÖRPER EINER ART, DIE NIEMALS ISST ODER TRINKT (TIERE UND WIEDERGÄNGER, NIEMALS EINEN KÖRPER DER BESATZUNG); ES DARF KEIN GEIST AN IHN GEBUNDEN SEIN UND ER DARF NICHTS BEI SICH TRAGEN</value>
+  <comment>TAKES ONLY A DEAD BODY THAT CANNOT BE REVIVED, OF A KIND THAT NEVER EATS OR DRINKS (ANIMALS AND THE WALKING DEAD, NEVER A CREW BODY), WITH NO GHOST BOUND TO IT, CARRYING NOTHING</comment>
+</data>
+<data name="Codex.Galley.HowToGibber" xml:space="preserve">
+  <value>DEN KÖRPER DARAUF ZIEHEN UND OHNE GEGENSTAND ANKLICKEN, UM IHN EINZULEGEN; DANN ERNEUT OHNE GEGENSTAND ANKLICKEN, UM ZU STARTEN</value>
+  <comment>PULL THE BODY ONTO IT AND CLICK IT EMPTY-HANDED TO LOAD, THEN CLICK IT EMPTY-HANDED AGAIN TO RUN</comment>
+</data>
+<data name="Codex.Galley.BeakerRoom" xml:space="preserve">
+  <value>SAFT ODER MAHLGUT FÜLLT NUR DEN FREIEN PLATZ IM BECHER. BEIM ENTSAFTEN WIRD DER GEGENSTAND IN JEDEM FALL VERBRAUCHT</value>
+  <comment>A JUICE OR A GRIND ONLY FILLS THE ROOM LEFT IN THE BEAKER, AND A JUICE SPENDS THE ITEM EITHER WAY</comment>
+</data>
+<data name="Codex.Galley.HowToGrinder" xml:space="preserve">
+  <value>MIT EINEM BECHER ANKLICKEN, UM IHN EINZUSETZEN; MIT LEBENSMITTEL ANKLICKEN, UM ES EINZULADEN; OHNE GEGENSTAND ANKLICKEN, UM DIE ANZEIGE ZU ÖFFNEN; DANN MAHLEN ODER ENTSAFTEN</value>
+  <comment>CLICK IT WITH A BEAKER TO SOCKET IT, CLICK IT WITH FOOD TO LOAD, CLICK IT EMPTY-HANDED TO OPEN ITS SCREEN, THEN GRIND OR JUICE</comment>
+</data>
+<data name="Codex.Galley.HoldsItemsAndUnits" xml:space="preserve">
+  <value>{COUNT} GEGENSTÄNDE + {WHOLE},{FRAC}U</value>
+  <comment>{COUNT} ITEMS + {WHOLE}.{FRAC}U</comment>
+</data>
+<data name="Codex.Galley.HoldsItems" xml:space="preserve">
+  <value>{COUNT} GEGENSTÄNDE</value>
+  <comment>{COUNT} ITEMS</comment>
+</data>
+<data name="Codex.Galley.ChamberItems" xml:space="preserve">
+  <value>{COUNT} GEGENSTÄNDE</value>
+  <comment>{COUNT} ITEMS</comment>
+</data>
+<data name="Codex.Galley.PoursPerClick" xml:space="preserve">
+  <value>{WHOLE},{FRAC}U PRO KLICK</value>
+  <comment>{WHOLE}.{FRAC}U PER CLICK</comment>
+</data>
+<data name="Codex.Galley.PoursAfterOpening" xml:space="preserve">
+  <value>{WHOLE},{FRAC}U PRO KLICK NACH DEM ÖFFNEN</value>
+  <comment>{WHOLE}.{FRAC}U PER CLICK AFTER OPENING</comment>
+</data>
+<data name="Codex.Galley.FirePercent" xml:space="preserve">
+  <value>{PERCENT} % BRANDGEFAHR</value>
+  <comment>{PERCENT} PCT FIRE</comment>
+</data>
+<data name="Codex.Galley.MeatOnTheFloor" xml:space="preserve">
+  <value>{COUNT} FLEISCHSTÜCKE AUF DEM BODEN</value>
+  <comment>{COUNT} MEAT ON THE FLOOR</comment>
+</data>
+<data name="Codex.Galley.JuiceOutput" xml:space="preserve">
+  <value>BIS ZU {WHOLE},{FRAC}U {REAGENT}</value>
+  <comment>UP TO {WHOLE}.{FRAC}U {REAGENT}</comment>
+</data>
+<data name="Codex.Galley.NutrimentOutput" xml:space="preserve">
+  <value>{PERCENT} % SEINES {FROM} ALS {REAGENT}</value>
+  <comment>{PERCENT} PCT OF ITS {FROM} AS {REAGENT}</comment>
+</data>
+<data name="Codex.Galley.Units" xml:space="preserve">
+  <value>{WHOLE},{FRAC}U</value>
+  <comment>{WHOLE}.{FRAC}U</comment>
+</data>
+<data name="Codex.Galley.CountTimes" xml:space="preserve">
+  <value>x{COUNT}</value>
+  <comment>x{COUNT}</comment>
+</data>
+<data name="Codex.Galley.OtherBlades" xml:space="preserve">
+  <value>UND {COUNT} WEITERE KLINGEN</value>
+  <comment>AND {COUNT} OTHER BLADES</comment>
+</data>
+<data name="CoveredHint.Covered" xml:space="preserve">
+  <value>Du kannst {TOOL} nicht benutzen, solange {AREA} von {CLOTHING} bedeckt ist</value>
+  <comment>you cannot use {TOOL} while {AREA} is covered by {CLOTHING}</comment>
+</data>
+<data name="CrewMonitor.Header" xml:space="preserve">
+  <value>CREW MONITOR</value>
+  <comment>CREW MONITOR</comment>
+</data>
+<data name="CrewMonitor.SubLine" xml:space="preserve">
+  <value>PDT/L TRACKING NET // {TEAM}</value>
+  <comment>PDT/L TRACKING NET // {TEAM}</comment>
+</data>
+<data name="CrewMonitor.TabRoster" xml:space="preserve">
+  <value>ROSTER</value>
+  <comment>ROSTER</comment>
+</data>
+<data name="CrewMonitor.TabTrack" xml:space="preserve">
+  <value>TRACK</value>
+  <comment>TRACK</comment>
+</data>
+<data name="CrewMonitor.TabSetup" xml:space="preserve">
+  <value>SETUP</value>
+  <comment>SETUP</comment>
+</data>
+<data name="CrewMonitor.EventDown" xml:space="preserve">
+  <value>{NAME} DOWN</value>
+  <comment>{NAME} DOWN</comment>
+</data>
+<data name="CrewMonitor.EventDead" xml:space="preserve">
+  <value>{NAME} DEAD</value>
+  <comment>{NAME} DEAD</comment>
+</data>
+<data name="CrewMonitor.EventLost" xml:space="preserve">
+  <value>{NAME} SIGNAL LOST</value>
+  <comment>{NAME} SIGNAL LOST</comment>
+</data>
+<data name="CrewMonitor.CarriersSection" xml:space="preserve">
+  <value>CARRIERS</value>
+  <comment>CARRIERS</comment>
+</data>
+<data name="CrewMonitor.DownCount" xml:space="preserve">
+  <value>{COUNT} DOWN</value>
+  <comment>{COUNT} DOWN</comment>
+</data>
+<data name="CrewMonitor.DeadCount" xml:space="preserve">
+  <value>{COUNT} DEAD</value>
+  <comment>{COUNT} DEAD</comment>
+</data>
+<data name="CrewMonitor.StateAlive" xml:space="preserve">
+  <value>ALIVE</value>
+  <comment>ALIVE</comment>
+</data>
+<data name="CrewMonitor.StateDown" xml:space="preserve">
+  <value>DOWN</value>
+  <comment>DOWN</comment>
+</data>
+<data name="CrewMonitor.StateDead" xml:space="preserve">
+  <value>DEAD</value>
+  <comment>DEAD</comment>
+</data>
+<data name="CrewMonitor.NoCarriers" xml:space="preserve">
+  <value>NO CARRIERS</value>
+  <comment>NO CARRIERS</comment>
+</data>
+<data name="CrewMonitor.SelectPrompt" xml:space="preserve">
+  <value>SELECT</value>
+  <comment>SELECT</comment>
+</data>
+<data name="CrewMonitor.PlaceholderName" xml:space="preserve">
+  <value>~PLAYER {ID}</value>
+  <comment>~PLAYER {ID}</comment>
+</data>
+<data name="CrewMonitor.Deceased" xml:space="preserve">
+  <value>DECEASED</value>
+  <comment>DECEASED</comment>
+</data>
+<data name="CrewMonitor.SameDeck" xml:space="preserve">
+  <value>SAME DECK</value>
+  <comment>SAME DECK</comment>
+</data>
+<data name="CrewMonitor.DeckAbove" xml:space="preserve">
+  <value>{COUNT} DECK ABOVE</value>
+  <comment>{COUNT} DECK ABOVE</comment>
+</data>
+<data name="CrewMonitor.DecksAbove" xml:space="preserve">
+  <value>{COUNT} DECKS ABOVE</value>
+  <comment>{COUNT} DECKS ABOVE</comment>
+</data>
+<data name="CrewMonitor.DeckBelow" xml:space="preserve">
+  <value>{COUNT} DECK BELOW</value>
+  <comment>{COUNT} DECK BELOW</comment>
+</data>
+<data name="CrewMonitor.DecksBelow" xml:space="preserve">
+  <value>{COUNT} DECKS BELOW</value>
+  <comment>{COUNT} DECKS BELOW</comment>
+</data>
+<data name="CrewMonitor.Tracking" xml:space="preserve">
+  <value>TRACKING</value>
+  <comment>TRACKING</comment>
+</data>
+<data name="CrewMonitor.NoSignal" xml:space="preserve">
+  <value>NO SIGNAL</value>
+  <comment>NO SIGNAL</comment>
+</data>
+<data name="CrewMonitor.SignalLost" xml:space="preserve">
+  <value>SIGNAL LOST</value>
+  <comment>SIGNAL LOST</comment>
+</data>
+<data name="CrewMonitor.DistanceLine" xml:space="preserve">
+  <value>{TILES} TILES</value>
+  <comment>{TILES} TILES</comment>
+</data>
+<data name="CrewMonitor.KeyPower" xml:space="preserve">
+  <value>POWER</value>
+  <comment>POWER</comment>
+</data>
+<data name="CrewMonitor.KeyAlarm" xml:space="preserve">
+  <value>ALARM</value>
+  <comment>ALARM</comment>
+</data>
+<data name="CrewMonitor.KeyAlarmOn" xml:space="preserve">
+  <value>ALARM ON</value>
+  <comment>ALARM ON</comment>
+</data>
+<data name="CrewMonitor.KeySort" xml:space="preserve">
+  <value>SORT</value>
+  <comment>SORT</comment>
+</data>
+<data name="CrewMonitor.KeySide" xml:space="preserve">
+  <value>SIDE</value>
+  <comment>SIDE</comment>
+</data>
+<data name="CrewMonitor.KeyCell" xml:space="preserve">
+  <value>CELL</value>
+  <comment>CELL</comment>
+</data>
+<data name="CrewMonitor.KeyNet" xml:space="preserve">
+  <value>NET</value>
+  <comment>NET</comment>
+</data>
+<data name="CrewMonitor.AlarmDownDead" xml:space="preserve">
+  <value>DOWN + DEAD</value>
+  <comment>DOWN + DEAD</comment>
+</data>
+<data name="CrewMonitor.AlarmAnyChange" xml:space="preserve">
+  <value>ANY CHANGE</value>
+  <comment>ANY CHANGE</comment>
+</data>
+<data name="CrewMonitor.SortDownFirst" xml:space="preserve">
+  <value>DOWN FIRST</value>
+  <comment>DOWN FIRST</comment>
+</data>
+<data name="CrewMonitor.SortSquad" xml:space="preserve">
+  <value>SQUAD</value>
+  <comment>SQUAD</comment>
+</data>
+<data name="CrewMonitor.NetValue" xml:space="preserve">
+  <value>PDT/L 1 HZ</value>
+  <comment>PDT/L 1 HZ</comment>
+</data>
+<data name="CrewMonitor.FootLeft" xml:space="preserve">
+  <value>PDT/L NET</value>
+  <comment>PDT/L NET</comment>
+</data>
+<data name="CrewMonitor.FootRight" xml:space="preserve">
+  <value>{TEAM} . 1 HZ</value>
+  <comment>{TEAM} . 1 HZ</comment>
 </data>
 <data name="Def.Crate.DisplayName" xml:space="preserve">
   <value>Kiste</value>
@@ -10468,6 +11032,22 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>test fire armor helmet</comment>
 </data>
 <data name="Def.TestArmorFireHelmet.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.TestSurgeryBlockVest.DisplayName" xml:space="preserve">
+  <value>Test-OP-Weste</value>
+  <comment>test surgery block vest</comment>
+</data>
+<data name="Def.TestSurgeryBlockVest.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.TestSurgeryBlockHelmet.DisplayName" xml:space="preserve">
+  <value>Test-OP-Helm</value>
+  <comment>test surgery block helmet</comment>
+</data>
+<data name="Def.TestSurgeryBlockHelmet.Verb.PickUp" xml:space="preserve">
   <value>aufheben</value>
   <comment>pick up</comment>
 </data>
@@ -11754,6 +12334,30 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Test.PoweredEquip.Off.Verb.Toggle" xml:space="preserve">
   <value>einschalten</value>
   <comment>turn on</comment>
+</data>
+<data name="Def.Test.Machine.DisplayName" xml:space="preserve">
+  <value>Testmaschine</value>
+  <comment>test machine</comment>
+</data>
+<data name="Def.Test.Machine.Verb.Toggle" xml:space="preserve">
+  <value>Ausschalten</value>
+  <comment>turn off</comment>
+</data>
+<data name="Def.Test.Machine.Off.DisplayName" xml:space="preserve">
+  <value>Testmaschine</value>
+  <comment>test machine</comment>
+</data>
+<data name="Def.Test.Machine.Off.Verb.Toggle" xml:space="preserve">
+  <value>Einschalten</value>
+  <comment>turn on</comment>
+</data>
+<data name="Def.Test.MachineCrate.DisplayName" xml:space="preserve">
+  <value>Testmaschinen-Kiste</value>
+  <comment>test machine crate</comment>
+</data>
+<data name="Def.Test.MachineCrate.Descending.DisplayName" xml:space="preserve">
+  <value>Testmaschinen-Kiste</value>
+  <comment>test machine crate</comment>
 </data>
 <data name="Def.Test.PoweredEnviron.DisplayName" xml:space="preserve">
   <value>betriebsentlüftung testen</value>
@@ -36215,6 +36819,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.Empty.DisplayName" xml:space="preserve">
+  <value>Schutzhelm</value>
+  <comment>hard hat</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Head.Hardhat.Dblue.DisplayName" xml:space="preserve">
   <value>Schutzhelm</value>
   <comment>hard hat</comment>
@@ -36239,6 +36851,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.Dblue.Empty.DisplayName" xml:space="preserve">
+  <value>Schutzhelm</value>
+  <comment>hard hat</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.Dblue.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Head.Hardhat.Orange.DisplayName" xml:space="preserve">
   <value>Schutzhelm</value>
   <comment>hard hat</comment>
@@ -36262,6 +36882,14 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Head.Hardhat.Orange.Lit.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.Orange.Empty.DisplayName" xml:space="preserve">
+  <value>Schutzhelm</value>
+  <comment>hard hat</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.Orange.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Head.Hardhat.Red.DisplayName" xml:space="preserve">
   <value>Feuerwehrhelm</value>
@@ -36311,6 +36939,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.Red.Empty.DisplayName" xml:space="preserve">
+  <value>Feuerwehrhelm</value>
+  <comment>firefighter helmet</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.Red.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.Red.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Feuerwehrhelm</value>
+  <comment>firefighter helmet</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.Red.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Head.Hardhat.Red.Kelland.DisplayName" xml:space="preserve">
   <value>Kelland-Mining-Schutzhelm</value>
   <comment>kelland-mining hard hat</comment>
@@ -36335,6 +36979,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.Red.Kelland.Empty.DisplayName" xml:space="preserve">
+  <value>Kelland-Mining-Schutzhelm</value>
+  <comment>kelland-mining hard hat</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.Red.Kelland.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Head.Hardhat.White.DisplayName" xml:space="preserve">
   <value>Schutzhelm</value>
   <comment>hard hat</comment>
@@ -36358,6 +37010,14 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Head.Hardhat.White.Lit.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.White.Empty.DisplayName" xml:space="preserve">
+  <value>Schutzhelm</value>
+  <comment>hard hat</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Head.Hardhat.White.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Head.Headband.Rebel.DisplayName" xml:space="preserve">
   <value>Stirnband</value>
@@ -39335,6 +39995,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Empty.DisplayName" xml:space="preserve">
+  <value>Marine-Rüstung im M3-Muster</value>
+  <comment>M3 pattern marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Marine-Rüstung im M3-Muster</value>
+  <comment>M3 pattern marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.CIC.DisplayName" xml:space="preserve">
   <value>Offiziersrüstung nach M3-Muster</value>
   <comment>M3 pattern officer armor</comment>
@@ -39382,6 +40058,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.CIC.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.CIC.Empty.DisplayName" xml:space="preserve">
+  <value>Offiziersrüstung nach M3-Muster</value>
+  <comment>M3 pattern officer armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.CIC.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.CIC.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Offiziersrüstung nach M3-Muster</value>
+  <comment>M3 pattern officer armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.CIC.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Cbrn.DisplayName" xml:space="preserve">
   <value>M3-M-Rüstung</value>
@@ -39447,6 +40139,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Empty.DisplayName" xml:space="preserve">
+  <value>6B80-persönliche Körperpanzerung</value>
+  <comment>6B80 personal body armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Empty.Open.DisplayName" xml:space="preserve">
+  <value>6B80-persönliche Körperpanzerung</value>
+  <comment>6B80 personal body armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Alt.DisplayName" xml:space="preserve">
   <value>6B75-persönliche Körperpanzerung</value>
   <comment>6B75 personal body armour</comment>
@@ -39494,6 +40202,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Alt.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Alt.Empty.DisplayName" xml:space="preserve">
+  <value>6B75-persönliche Körperpanzerung</value>
+  <comment>6B75 personal body armour</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Alt.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Alt.Empty.Open.DisplayName" xml:space="preserve">
+  <value>6B75-persönliche Körperpanzerung</value>
+  <comment>6B75 personal body armour</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Alt.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Simple.DisplayName" xml:space="preserve">
   <value>6B70-persönliche Körperpanzerung</value>
@@ -39543,6 +40267,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Simple.Empty.DisplayName" xml:space="preserve">
+  <value>6B70-persönliche Körperpanzerung</value>
+  <comment>6B70 personal body armour</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Simple.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Simple.Empty.Open.DisplayName" xml:space="preserve">
+  <value>6B70-persönliche Körperpanzerung</value>
+  <comment>6B70 personal body armour</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.Army.Simple.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.SOFArmor.DisplayName" xml:space="preserve">
   <value>CCC5-L-taktische Weste</value>
   <comment>CCC5-L tactical vest</comment>
@@ -39590,6 +40330,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.SOFArmor.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.SOFArmor.Empty.DisplayName" xml:space="preserve">
+  <value>CCC5-L-taktische Weste</value>
+  <comment>CCC5-L tactical vest</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.SOFArmor.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.SOFArmor.Empty.Open.DisplayName" xml:space="preserve">
+  <value>CCC5-L-taktische Weste</value>
+  <comment>CCC5-L tactical vest</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Faction.UPP.SOFArmor.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.DisplayName" xml:space="preserve">
   <value>Schwere Rüstung nach M3-EOD-Muster</value>
@@ -39639,6 +40395,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Empty.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Carrier.DisplayName" xml:space="preserve">
   <value>Schwere Rüstung nach M3-EOD-Muster</value>
   <comment>M3-EOD pattern heavy armor</comment>
@@ -39686,6 +40458,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Carrier.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Carrier.Empty.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Carrier.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Carrier.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Carrier.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Padded.DisplayName" xml:space="preserve">
   <value>Schwere Rüstung nach M3-EOD-Muster</value>
@@ -39735,6 +40523,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Padded.Empty.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Padded.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Padded.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Padded.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Padless.DisplayName" xml:space="preserve">
   <value>Schwere Rüstung nach M3-EOD-Muster</value>
   <comment>M3-EOD pattern heavy armor</comment>
@@ -39782,6 +40586,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Padless.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Padless.Empty.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Padless.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Padless.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Padless.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.PadlessLines.DisplayName" xml:space="preserve">
   <value>Schwere Rüstung nach M3-EOD-Muster</value>
@@ -39831,6 +40651,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.PadlessLines.Empty.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.PadlessLines.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.PadlessLines.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.PadlessLines.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Skull.DisplayName" xml:space="preserve">
   <value>Schwere Rüstung nach M3-EOD-Muster</value>
   <comment>M3-EOD pattern heavy armor</comment>
@@ -39878,6 +40714,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Skull.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Skull.Empty.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Skull.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Skull.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Skull.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Smooth.DisplayName" xml:space="preserve">
   <value>Schwere Rüstung nach M3-EOD-Muster</value>
@@ -39927,6 +40779,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Smooth.Empty.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Smooth.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Smooth.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Schwere Rüstung nach M3-EOD-Muster</value>
+  <comment>M3-EOD pattern heavy armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Heavy.Smooth.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.DisplayName" xml:space="preserve">
   <value>Leichte Rüstung nach M3-L-Muster</value>
   <comment>M3-L pattern light armor</comment>
@@ -39974,6 +40842,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Empty.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Carrier.DisplayName" xml:space="preserve">
   <value>Leichte Rüstung nach M3-L-Muster</value>
@@ -40023,6 +40907,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Carrier.Empty.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Carrier.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Carrier.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Carrier.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Padded.DisplayName" xml:space="preserve">
   <value>Leichte Rüstung nach M3-L-Muster</value>
   <comment>M3-L pattern light armor</comment>
@@ -40070,6 +40970,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Padded.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Padded.Empty.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Padded.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Padded.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Padded.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Padless.DisplayName" xml:space="preserve">
   <value>Leichte Rüstung nach M3-L-Muster</value>
@@ -40119,6 +41035,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Padless.Empty.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Padless.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Padless.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Padless.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.PadlessLines.DisplayName" xml:space="preserve">
   <value>Leichte Rüstung nach M3-L-Muster</value>
   <comment>M3-L pattern light armor</comment>
@@ -40166,6 +41098,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.PadlessLines.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.PadlessLines.Empty.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.PadlessLines.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.PadlessLines.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.PadlessLines.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Recon.DisplayName" xml:space="preserve">
   <value>Leichte Rüstung nach M3-R-Muster</value>
@@ -40215,6 +41163,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Recon.Empty.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-R-Muster</value>
+  <comment>M3-R pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Recon.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Recon.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-R-Muster</value>
+  <comment>M3-R pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Recon.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Reporter.DisplayName" xml:space="preserve">
   <value>Presskörperpanzerung</value>
   <comment>press body armor</comment>
@@ -40262,6 +41226,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Reporter.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Reporter.Empty.DisplayName" xml:space="preserve">
+  <value>Presskörperpanzerung</value>
+  <comment>press body armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Reporter.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Reporter.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Presskörperpanzerung</value>
+  <comment>press body armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Reporter.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Skull.DisplayName" xml:space="preserve">
   <value>Leichte Rüstung nach M3-L-Muster</value>
@@ -40311,6 +41291,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Skull.Empty.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Skull.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Skull.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Skull.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Smooth.DisplayName" xml:space="preserve">
   <value>Leichte Rüstung nach M3-L-Muster</value>
   <comment>M3-L pattern light armor</comment>
@@ -40358,6 +41354,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Smooth.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Smooth.Empty.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Smooth.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Smooth.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Leichte Rüstung nach M3-L-Muster</value>
+  <comment>M3-L pattern light armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Smooth.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.DisplayName" xml:space="preserve">
   <value>Ballistische Weste im M3-VL-Muster</value>
@@ -40407,6 +41419,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.Empty.DisplayName" xml:space="preserve">
+  <value>Ballistische Weste im M3-VL-Muster</value>
+  <comment>M3-VL pattern ballistics vest</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Ballistische Weste im M3-VL-Muster</value>
+  <comment>M3-VL pattern ballistics vest</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.Dcc.DisplayName" xml:space="preserve">
   <value>Splitterweste im M3-VL-Muster</value>
   <comment>M3-VL pattern flak vest</comment>
@@ -40454,6 +41482,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.Dcc.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.Dcc.Empty.DisplayName" xml:space="preserve">
+  <value>Splitterweste im M3-VL-Muster</value>
+  <comment>M3-VL pattern flak vest</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.Dcc.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.Dcc.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Splitterweste im M3-VL-Muster</value>
+  <comment>M3-VL pattern flak vest</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.Dcc.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.FireLight.Upp.DisplayName" xml:space="preserve">
   <value>Brandschutzmantel T-20</value>
@@ -40503,6 +41547,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.FireLight.Upp.Empty.DisplayName" xml:space="preserve">
+  <value>Brandschutzmantel T-20</value>
+  <comment>T-20 fire response coat</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.FireLight.Upp.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.FireLight.Upp.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Brandschutzmantel T-20</value>
+  <comment>T-20 fire response coat</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.FireLight.Upp.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.HybrisaKelland.DisplayName" xml:space="preserve">
   <value>Dienstuniform von Kelland-Mining</value>
   <comment>Kelland-Mining utility uniform</comment>
@@ -40550,6 +41610,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.HybrisaKelland.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.HybrisaKelland.Empty.DisplayName" xml:space="preserve">
+  <value>Dienstuniform von Kelland-Mining</value>
+  <comment>Kelland-Mining utility uniform</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.HybrisaKelland.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.HybrisaKelland.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Dienstuniform von Kelland-Mining</value>
+  <comment>Kelland-Mining utility uniform</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.HybrisaKelland.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.HybrisaKellandAlt.DisplayName" xml:space="preserve">
   <value>Dienstuniform von Kelland-Mining</value>
@@ -40599,6 +41675,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.HybrisaKellandAlt.Empty.DisplayName" xml:space="preserve">
+  <value>Dienstuniform von Kelland-Mining</value>
+  <comment>Kelland-Mining utility uniform</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.HybrisaKellandAlt.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.HybrisaKellandAlt.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Dienstuniform von Kelland-Mining</value>
+  <comment>Kelland-Mining utility uniform</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Light.Vest.HybrisaKellandAlt.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.DisplayName" xml:space="preserve">
   <value>Marine-Rüstung im M3-Muster</value>
   <comment>M3 pattern marine armor</comment>
@@ -40646,6 +41738,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Empty.DisplayName" xml:space="preserve">
+  <value>Marine-Rüstung im M3-Muster</value>
+  <comment>M3 pattern marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Marine-Rüstung im M3-Muster</value>
+  <comment>M3 pattern marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Carrier.DisplayName" xml:space="preserve">
   <value>Marine-Träger-Rüstung im M3-Muster</value>
@@ -40695,6 +41803,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Carrier.Empty.DisplayName" xml:space="preserve">
+  <value>Marine-Träger-Rüstung im M3-Muster</value>
+  <comment>M3 pattern carrier marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Carrier.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Carrier.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Marine-Träger-Rüstung im M3-Muster</value>
+  <comment>M3 pattern carrier marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Carrier.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Leader.DisplayName" xml:space="preserve">
   <value>Marine-Rüstung im B12-Muster</value>
   <comment>B12 pattern marine armor</comment>
@@ -40742,6 +41866,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Leader.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Leader.Empty.DisplayName" xml:space="preserve">
+  <value>Marine-Rüstung im B12-Muster</value>
+  <comment>B12 pattern marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Leader.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Leader.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Marine-Rüstung im B12-Muster</value>
+  <comment>B12 pattern marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Leader.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Padded.DisplayName" xml:space="preserve">
   <value>Gepolsterte Marine-Rüstung im M3-Muster</value>
@@ -40791,6 +41931,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Padded.Empty.DisplayName" xml:space="preserve">
+  <value>Gepolsterte Marine-Rüstung im M3-Muster</value>
+  <comment>M3 pattern padded marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Padded.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Padded.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Gepolsterte Marine-Rüstung im M3-Muster</value>
+  <comment>M3 pattern padded marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Padded.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Padless.DisplayName" xml:space="preserve">
   <value>Polsterlose Marine-Rüstung im M3-Muster</value>
   <comment>M3 pattern padless marine armor</comment>
@@ -40838,6 +41994,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Padless.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Padless.Empty.DisplayName" xml:space="preserve">
+  <value>Polsterlose Marine-Rüstung im M3-Muster</value>
+  <comment>M3 pattern padless marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Padless.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Padless.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Polsterlose Marine-Rüstung im M3-Muster</value>
+  <comment>M3 pattern padless marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Padless.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.PadlessLines.DisplayName" xml:space="preserve">
   <value>Gerippte Marine-Rüstung im M3-Muster</value>
@@ -40887,6 +42059,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.PadlessLines.Empty.DisplayName" xml:space="preserve">
+  <value>Gerippte Marine-Rüstung im M3-Muster</value>
+  <comment>M3 pattern ridged marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.PadlessLines.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.PadlessLines.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Gerippte Marine-Rüstung im M3-Muster</value>
+  <comment>M3 pattern ridged marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.PadlessLines.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.DisplayName" xml:space="preserve">
   <value>Marine-Rüstung im M4-Muster</value>
   <comment>M4 pattern marine armor</comment>
@@ -40934,6 +42122,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Empty.DisplayName" xml:space="preserve">
+  <value>Marine-Rüstung im M4-Muster</value>
+  <comment>M4 pattern marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Marine-Rüstung im M4-Muster</value>
+  <comment>M4 pattern marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Army.DisplayName" xml:space="preserve">
   <value>Personal Body Armor System</value>
@@ -40983,6 +42187,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Army.Empty.DisplayName" xml:space="preserve">
+  <value>Persönliches Körperschutzsystem</value>
+  <comment>Personal Body Armor System</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Army.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Army.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Persönliches Körperschutzsystem</value>
+  <comment>Personal Body Armor System</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Rto.Army.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Skull.DisplayName" xml:space="preserve">
   <value>Marine-Rüstung mit Schädel im M3-Muster</value>
   <comment>M3 pattern skull marine armor</comment>
@@ -41030,6 +42250,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Skull.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Skull.Empty.DisplayName" xml:space="preserve">
+  <value>Marine-Rüstung mit Schädel im M3-Muster</value>
+  <comment>M3 pattern skull marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Skull.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Skull.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Marine-Rüstung mit Schädel im M3-Muster</value>
+  <comment>M3 pattern skull marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Skull.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Smooth.DisplayName" xml:space="preserve">
   <value>Glatte Marine-Rüstung im M3-Muster</value>
@@ -41079,6 +42315,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Smooth.Empty.DisplayName" xml:space="preserve">
+  <value>Glatte Marine-Rüstung im M3-Muster</value>
+  <comment>M3 pattern smooth marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Smooth.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Smooth.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Glatte Marine-Rüstung im M3-Muster</value>
+  <comment>M3 pattern smooth marine armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Medium.Smooth.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.DisplayName" xml:space="preserve">
   <value>PMC-Rüstung im M4-Muster</value>
   <comment>M4 pattern PMC armor</comment>
@@ -41126,6 +42378,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Empty.DisplayName" xml:space="preserve">
+  <value>PMC-Rüstung im M4-Muster</value>
+  <comment>M4 pattern PMC armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Empty.Open.DisplayName" xml:space="preserve">
+  <value>PMC-Rüstung im M4-Muster</value>
+  <comment>M4 pattern PMC armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.DisplayName" xml:space="preserve">
   <value>Commando-Rüstung im MY7-Muster</value>
@@ -41175,6 +42443,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Empty.DisplayName" xml:space="preserve">
+  <value>Commando-Rüstung im MY7-Muster</value>
+  <comment>MY7 pattern Commando armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Commando-Rüstung im MY7-Muster</value>
+  <comment>MY7 pattern Commando armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Damaged.DisplayName" xml:space="preserve">
   <value>Beschädigte Commando-Rüstung im MY7-Muster</value>
   <comment>damaged MY7 pattern Commando armor</comment>
@@ -41222,6 +42506,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Damaged.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Damaged.Empty.DisplayName" xml:space="preserve">
+  <value>Beschädigte Commando-Rüstung im MY7-Muster</value>
+  <comment>damaged MY7 pattern Commando armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Damaged.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Damaged.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Beschädigte Commando-Rüstung im MY7-Muster</value>
+  <comment>damaged MY7 pattern Commando armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Damaged.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Leader.DisplayName" xml:space="preserve">
   <value>Commando-Anführer-Rüstung im MY7-Muster</value>
@@ -41271,6 +42571,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Leader.Empty.DisplayName" xml:space="preserve">
+  <value>Commando-Anführer-Rüstung im MY7-Muster</value>
+  <comment>MY7 pattern Commando leader armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Leader.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Leader.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Commando-Anführer-Rüstung im MY7-Muster</value>
+  <comment>MY7 pattern Commando leader armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Commando.Leader.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Engineer.DisplayName" xml:space="preserve">
   <value>Ingenieur-PMC-Rüstung im M4-Muster</value>
   <comment>M4 pattern engineer PMC armor</comment>
@@ -41318,6 +42634,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Engineer.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Engineer.Empty.DisplayName" xml:space="preserve">
+  <value>Ingenieur-PMC-Rüstung im M4-Muster</value>
+  <comment>M4 pattern engineer PMC armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Engineer.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Engineer.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Ingenieur-PMC-Rüstung im M4-Muster</value>
+  <comment>M4 pattern engineer PMC armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Engineer.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.DisplayName" xml:space="preserve">
   <value>PMC-Wachenrüstung im M4-Muster</value>
@@ -41367,6 +42699,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Empty.DisplayName" xml:space="preserve">
+  <value>PMC-Wachenrüstung im M4-Muster</value>
+  <comment>M4 pattern PMC guard armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Empty.Open.DisplayName" xml:space="preserve">
+  <value>PMC-Wachenrüstung im M4-Muster</value>
+  <comment>M4 pattern PMC guard armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Heavy.DisplayName" xml:space="preserve">
   <value>PMC-Aufruhr-Wachenrüstung im M4-Muster</value>
   <comment>M4 pattern PMC riot guard armor</comment>
@@ -41414,6 +42762,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Heavy.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Heavy.Empty.DisplayName" xml:space="preserve">
+  <value>PMC-Aufruhr-Wachenrüstung im M4-Muster</value>
+  <comment>M4 pattern PMC riot guard armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Heavy.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Heavy.Empty.Open.DisplayName" xml:space="preserve">
+  <value>PMC-Aufruhr-Wachenrüstung im M4-Muster</value>
+  <comment>M4 pattern PMC riot guard armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Heavy.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Vest.DisplayName" xml:space="preserve">
   <value>Kugelsichere PMC-Wachenrüstung im M4-Muster</value>
@@ -41463,6 +42827,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Vest.Empty.DisplayName" xml:space="preserve">
+  <value>kugelsichere PMC-Wachschutzrüstung im M4-Muster</value>
+  <comment>M4 pattern PMC guard bulletproof armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Vest.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Vest.Empty.Open.DisplayName" xml:space="preserve">
+  <value>kugelsichere PMC-Wachschutzrüstung im M4-Muster</value>
+  <comment>M4 pattern PMC guard bulletproof armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Guard.Vest.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Leader.DisplayName" xml:space="preserve">
   <value>PMC-Anführer-Rüstung im M4-Muster</value>
   <comment>M4 pattern PMC leader armor</comment>
@@ -41510,6 +42890,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Leader.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Leader.Empty.DisplayName" xml:space="preserve">
+  <value>PMC-Anführer-Rüstung im M4-Muster</value>
+  <comment>M4 pattern PMC leader armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Leader.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Leader.Empty.Open.DisplayName" xml:space="preserve">
+  <value>PMC-Anführer-Rüstung im M4-Muster</value>
+  <comment>M4 pattern PMC leader armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Leader.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Leader.Guard.DisplayName" xml:space="preserve">
   <value>PMC-Wachenanführer-Rüstung im M4-Muster</value>
@@ -41559,6 +42955,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Leader.Guard.Empty.DisplayName" xml:space="preserve">
+  <value>PMC-Wachenanführer-Rüstung im M4-Muster</value>
+  <comment>M4 pattern PMC guard leader armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Leader.Guard.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Leader.Guard.Empty.Open.DisplayName" xml:space="preserve">
+  <value>PMC-Wachenanführer-Rüstung im M4-Muster</value>
+  <comment>M4 pattern PMC guard leader armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Leader.Guard.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.DisplayName" xml:space="preserve">
   <value>leichte PMC-Rüstung im M4-Muster</value>
   <comment>M4 pattern light PMC armor</comment>
@@ -41606,6 +43018,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Empty.DisplayName" xml:space="preserve">
+  <value>leichte PMC-Rüstung im M4-Muster</value>
+  <comment>M4 pattern light PMC armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Empty.Open.DisplayName" xml:space="preserve">
+  <value>leichte PMC-Rüstung im M4-Muster</value>
+  <comment>M4 pattern light PMC armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Bulletproof.DisplayName" xml:space="preserve">
   <value>kugelsichere PMC-Rüstung im M4-Muster</value>
@@ -41655,6 +43083,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Bulletproof.Empty.DisplayName" xml:space="preserve">
+  <value>kugelsichere PMC-Rüstung im M4-Muster</value>
+  <comment>M4 pattern PMC bulletproof armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Bulletproof.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Bulletproof.Empty.Open.DisplayName" xml:space="preserve">
+  <value>kugelsichere PMC-Rüstung im M4-Muster</value>
+  <comment>M4 pattern PMC bulletproof armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Bulletproof.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Bulletproof.Guard.DisplayName" xml:space="preserve">
   <value>kugelsichere PMC-Wachschutzrüstung im M4-Muster</value>
   <comment>M4 pattern PMC guard bulletproof armor</comment>
@@ -41702,6 +43146,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Bulletproof.Guard.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Bulletproof.Guard.Empty.DisplayName" xml:space="preserve">
+  <value>kugelsichere PMC-Wachschutzrüstung im M4-Muster</value>
+  <comment>M4 pattern PMC guard bulletproof armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Bulletproof.Guard.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Bulletproof.Guard.Empty.Open.DisplayName" xml:space="preserve">
+  <value>kugelsichere PMC-Wachschutzrüstung im M4-Muster</value>
+  <comment>M4 pattern PMC guard bulletproof armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Bulletproof.Guard.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.DisplayName" xml:space="preserve">
   <value>Konzernsicherheitsrüstung im M1-Muster</value>
@@ -41751,6 +43211,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Empty.DisplayName" xml:space="preserve">
+  <value>Konzernsicherheitsrüstung im M1-Muster</value>
+  <comment>M1 pattern corporate security armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Konzernsicherheitsrüstung im M1-Muster</value>
+  <comment>M1 pattern corporate security armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.LasalleSecurity.DisplayName" xml:space="preserve">
   <value>Konzernsicherheitsrüstung im M1-Muster</value>
   <comment>M1 pattern corporate security armor</comment>
@@ -41798,6 +43274,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.LasalleSecurity.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.LasalleSecurity.Empty.DisplayName" xml:space="preserve">
+  <value>Konzernsicherheitsrüstung im M1-Muster</value>
+  <comment>M1 pattern corporate security armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.LasalleSecurity.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.LasalleSecurity.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Konzernsicherheitsrüstung im M1-Muster</value>
+  <comment>M1 pattern corporate security armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.LasalleSecurity.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Lead.DisplayName" xml:space="preserve">
   <value>Konzernsicherheitsrüstung im M1-Muster</value>
@@ -41847,6 +43339,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Lead.Empty.DisplayName" xml:space="preserve">
+  <value>Konzernsicherheitsrüstung im M1-Muster</value>
+  <comment>M1 pattern corporate security armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Lead.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Lead.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Konzernsicherheitsrüstung im M1-Muster</value>
+  <comment>M1 pattern corporate security armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Lead.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Medic.DisplayName" xml:space="preserve">
   <value>Konzernsicherheitsrüstung im M1-Muster</value>
   <comment>M1 pattern corporate security armor</comment>
@@ -41894,6 +43402,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Medic.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Medic.Empty.DisplayName" xml:space="preserve">
+  <value>Konzernsicherheitsrüstung im M1-Muster</value>
+  <comment>M1 pattern corporate security armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Medic.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Medic.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Konzernsicherheitsrüstung im M1-Muster</value>
+  <comment>M1 pattern corporate security armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Medic.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Ppo.DisplayName" xml:space="preserve">
   <value>Konzernsicherheitsrüstung im M1-Muster</value>
@@ -41943,6 +43467,22 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ausschalten</value>
   <comment>turn off</comment>
 </data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Ppo.Empty.DisplayName" xml:space="preserve">
+  <value>Konzernsicherheitsrüstung im M1-Muster</value>
+  <comment>M1 pattern corporate security armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Ppo.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Ppo.Empty.Open.DisplayName" xml:space="preserve">
+  <value>Konzernsicherheitsrüstung im M1-Muster</value>
+  <comment>M1 pattern corporate security armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Ppo.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Ppo.Strong.DisplayName" xml:space="preserve">
   <value>PPO-Rüstung im M4-Muster</value>
   <comment>M4 pattern PPO armor</comment>
@@ -41990,6 +43530,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Ppo.Strong.Lit.Open.Verb.Toggle" xml:space="preserve">
   <value>ausschalten</value>
   <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Ppo.Strong.Empty.DisplayName" xml:space="preserve">
+  <value>PPO-Rüstung im M4-Muster</value>
+  <comment>M4 pattern PPO armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Ppo.Strong.Empty.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Ppo.Strong.Empty.Open.DisplayName" xml:space="preserve">
+  <value>PPO-Rüstung im M4-Muster</value>
+  <comment>M4 pattern PPO armor</comment>
+</data>
+<data name="Def.Obj.Item.Clothing.Suit.Storage.Marine.Veteran.Pmc.Light.Corporate.Ppo.Strong.Empty.Open.Verb.PickUp" xml:space="preserve">
+  <value>aufheben</value>
+  <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Clothing.Suit.Storage.Militia.Vest.DisplayName" xml:space="preserve">
   <value>Weste der Kolonialmiliz</value>
@@ -73859,6 +75415,138 @@ The file is looked up beside this language file first, then under the game's Con
   <value>aufheben</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Recharger.Descending.DisplayName" xml:space="preserve">
+  <value>Ladegerät-Kiste</value>
+  <comment>recharger crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Recharger.DisplayName" xml:space="preserve">
+  <value>Ladegerät-Kiste</value>
+  <comment>recharger crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Grinder.Descending.DisplayName" xml:space="preserve">
+  <value>Mörser-Kiste</value>
+  <comment>grinder crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Grinder.DisplayName" xml:space="preserve">
+  <value>Mörser-Kiste</value>
+  <comment>grinder crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Microwave.Descending.DisplayName" xml:space="preserve">
+  <value>Mikrowellen-Kiste</value>
+  <comment>microwave crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Microwave.DisplayName" xml:space="preserve">
+  <value>Mikrowellen-Kiste</value>
+  <comment>microwave crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemMaster.Descending.DisplayName" xml:space="preserve">
+  <value>ChemMaster-Kiste</value>
+  <comment>ChemMaster crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemMaster.DisplayName" xml:space="preserve">
+  <value>ChemMaster-Kiste</value>
+  <comment>ChemMaster crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemDispenser.Descending.DisplayName" xml:space="preserve">
+  <value>Kiste für Chemikalienspender</value>
+  <comment>chemical dispenser crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemDispenser.DisplayName" xml:space="preserve">
+  <value>Kiste für Chemikalienspender</value>
+  <comment>chemical dispenser crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.PortGen.Descending.DisplayName" xml:space="preserve">
+  <value>Generator-Kiste</value>
+  <comment>generator crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.PortGen.DisplayName" xml:space="preserve">
+  <value>Generator-Kiste</value>
+  <comment>generator crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.IvDrip.Descending.DisplayName" xml:space="preserve">
+  <value>IV drip crate</value>
+  <comment>IV drip crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.IvDrip.DisplayName" xml:space="preserve">
+  <value>IV drip crate</value>
+  <comment>IV drip crate</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.DisplayName" xml:space="preserve">
+  <value>tracking transmitter</value>
+  <comment>tracking transmitter</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.Verb.Toggle" xml:space="preserve">
+  <value>switch on</value>
+  <comment>switch on</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.On.DisplayName" xml:space="preserve">
+  <value>tracking transmitter</value>
+  <comment>tracking transmitter</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.On.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.On.Verb.Toggle" xml:space="preserve">
+  <value>switch off</value>
+  <comment>switch off</comment>
+</data>
+<data name="Def.Obj.Item.Implant.Tracking.DisplayName" xml:space="preserve">
+  <value>tracking implant</value>
+  <comment>tracking implant</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.DisplayName" xml:space="preserve">
+  <value>tracking implanter</value>
+  <comment>tracking implanter</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.Empty.DisplayName" xml:space="preserve">
+  <value>empty implanter</value>
+  <comment>empty implanter</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.Empty.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.DisplayName" xml:space="preserve">
+  <value>crew monitor</value>
+  <comment>crew monitor</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Verb.Toggle" xml:space="preserve">
+  <value>switch on</value>
+  <comment>switch on</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.On.DisplayName" xml:space="preserve">
+  <value>crew monitor</value>
+  <comment>crew monitor</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.On.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.On.Verb.Toggle" xml:space="preserve">
+  <value>switch off</value>
+  <comment>switch off</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Empty.DisplayName" xml:space="preserve">
+  <value>crew monitor</value>
+  <comment>crew monitor</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Empty.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
 <data name="StackFamily.TestPlank" xml:space="preserve">
   <value>TestPlanke</value>
   <comment>TestPlank</comment>
@@ -74766,6 +76454,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="SurgeryOp.EmbryoRemoval.Display" xml:space="preserve">
   <value>Xenomorph-Parasit entfernen</value>
   <comment>Xenomorph Parasite Removal</comment>
+</data>
+<data name="SurgeryOp.ImplantInsertLimb.Display" xml:space="preserve">
+  <value>Tracking Implant Insertion</value>
+  <comment>Tracking Implant Insertion</comment>
+</data>
+<data name="SurgeryOp.ImplantInsertCavity.Display" xml:space="preserve">
+  <value>Tracking Implant Cavity Insertion</value>
+  <comment>Tracking Implant Cavity Insertion</comment>
+</data>
+<data name="SurgeryOp.ImplantRemovalLimb.Display" xml:space="preserve">
+  <value>Tracking Implant Removal</value>
+  <comment>Tracking Implant Removal</comment>
+</data>
+<data name="SurgeryOp.ImplantRemovalCavity.Display" xml:space="preserve">
+  <value>Tracking Implant Cavity Removal</value>
+  <comment>Tracking Implant Cavity Removal</comment>
 </data>
 <data name="Construction.Test.Wire.DisplayName" xml:space="preserve">
   <value>~Testdraht</value>
@@ -76995,107 +78699,119 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Essen oder ein nahrhaftes Reagenz trinken</value>
   <comment>eat food or drink a nutritious reagent</comment>
 </data>
-<data name="Guide.Topic.Chemistry.Text" xml:space="preserve">
+<data name="Guide.Topic.Chemistry" xml:space="preserve">
   <value>in einem Becherglas mischen. Eine Reaktion feuert sofort, sobald jeder Bestandteil im richtigen Verhältnis vorhanden ist; in Gruntz muss nichts erhitzt werden. Der Chemmaster macht aus einem Becherglas Pillen und Flaschen</value>
   <comment>mix in a beaker. a reaction fires the moment every part is present in ratio; nothing in gruntz needs heating. the chemmaster turns a beaker into pills and bottles</comment>
 </data>
-<data name="Guide.Topic.Medical.Text" xml:space="preserve">
+<data name="Guide.Topic.Medical" xml:space="preserve">
   <value>Zustände sind das, was einem Körper schaden kann; Behandlungen sind das, was jeden Zustand heilt</value>
   <comment>conditions are what can go wrong with a body; treatments are what fixes each one</comment>
 </data>
-<data name="Guide.Topic.Construction.Text" xml:space="preserve">
+<data name="Guide.Topic.Construction" xml:space="preserve">
   <value>Stapel halten und auf den Boden klicken. Kein Werkzeug baut etwas; Werkzeuge nehmen nur Dinge auseinander und reparieren sie</value>
   <comment>hold the stack and click the ground. no tool builds anything; tools only take things apart and mend them</comment>
 </data>
-<data name="Guide.Topic.Items.Text" xml:space="preserve">
+<data name="Guide.Topic.Galley" xml:space="preserve">
+  <value>Lebensmittel werden auf vier Arten hergestellt: von Hand, auf dem Tisch geschnitten, in einem Gerät oder durch eine Reaktion. Jede Lebensmittelseite erklärt wie man es zubereitet. Mikrowelle, Prozessor und Mülleimer sind ebenfalls Strukturen.</value>
+  <comment>food is made four ways: by hand, sliced on a table, in an appliance, or by a reaction. every food page says what makes it and what it goes into. the microwave, the processor and the gibber are structures too</comment>
+</data>
+<data name="Guide.Topic.Items" xml:space="preserve">
   <value>Werkzeuge und die Familien, wie das Spiel sie nennt; eine Familie gruppiert jedes Item, das dieselbe Aufgabe erfüllt</value>
   <comment>tools and the families the game names them by; a family groups every item that does the same job</comment>
 </data>
-<data name="Guide.Section.Chemistry.Reactions.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Reactions" xml:space="preserve">
   <value>das Verhältnis zählt. Jede Mehrfachheit einer Tabelle reagiert. Ein Katalysator wird nie verbraucht</value>
   <comment>ratio is what matters. every multiple of a table reacts. a catalyst is never consumed</comment>
 </data>
-<data name="Guide.Section.Chemistry.Reagents.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Reagents" xml:space="preserve">
   <value>jedes Reagenz hat eine Aufgabe im Körper: was es behandelt, seine Überdosisgrenze und wie schnell es metabolisiert</value>
   <comment>each reagent has one job in a body: what it treats, its overdose line, and how fast it metabolises</comment>
 </data>
-<data name="Guide.Section.Chemistry.Glassware.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Glassware" xml:space="preserve">
   <value>Bechergläser, Flaschen, Pillen und Injektoren halten und tragen Reagenzien; eine Reaktion feuert nur in offenem Glas</value>
   <comment>beakers, bottles, pills and injectors hold and carry reagents; a reaction only fires in open glassware</comment>
 </data>
-<data name="Guide.Section.Chemistry.Machines.Text" xml:space="preserve">
+<data name="Guide.Section.Chemistry.Machines" xml:space="preserve">
   <value>Der Spender gießt Basenreagenzien ein, der Chemmaster teilt ein Becherglas in Pillen und Flaschen, und der Mörser zerlegt einen Gegenstand in seine Reagenzien</value>
   <comment>the dispenser pours base reagents, the chemmaster splits a beaker into pills and bottles, and the grinder breaks an item down into its reagents</comment>
 </data>
-<data name="Guide.Section.Medical.Conditions.Text" xml:space="preserve">
+<data name="Guide.Section.Medical.Conditions" xml:space="preserve">
   <value>jeder Zustand hier listet seine Anzeichen, seine Ursachen und was ihn behandelt auf</value>
   <comment>every condition here lists its signs, its causes, and what treats it</comment>
 </data>
-<data name="Guide.Section.Medical.Treatments.Text" xml:space="preserve">
+<data name="Guide.Section.Medical.Treatments" xml:space="preserve">
   <value>Kits, Schienen und Werkzeuge sind das, was einen Zustand behandelt; jede Zustandsseite listet auf, welche davon funktionieren</value>
   <comment>kits, splints and tools are what treat a condition; each condition page names which ones work</comment>
 </data>
-<data name="Guide.Section.Medical.Surgery.Text" xml:space="preserve">
+<data name="Guide.Section.Medical.Surgery" xml:space="preserve">
   <value>vier Slots per Zone: Haut, Blutgefässe, Knochen, Prothese. Der ausgewählte Slot, Patient, ausgerüstete Instrument und Priorität bestimmen was angeklickt werden kann. Der Patient muss liegen; ein Tisch ist schneller, der Boden langsamer</value>
   <comment>four slots per zone: skin, vessels, bone, prosthetic. an operation needs some set and refuses others; the slots, the patient and the tool in hand decide what you click, priority breaks ties. the patient lies down; a table is fastest, the ground slowest</comment>
 </data>
-<data name="Guide.Section.Construction.Recipes.Text" xml:space="preserve">
+<data name="Guide.Section.Construction.Recipes" xml:space="preserve">
   <value>einen Stapel halten und auf den Boden klicken; die Rezeptliste hier ist jeder Stapel, der etwas baut</value>
   <comment>hold a stack and click the ground; the recipe list here is every stack that builds something</comment>
 </data>
-<data name="Guide.Section.Construction.Structures.Text" xml:space="preserve">
+<data name="Guide.Section.Construction.Structures" xml:space="preserve">
   <value>Barrikaden, Träger und Tische sind das, was ein Rezept baut; jede Seite listet ihre Trefferpunkte und wie sie zerlegt werden</value>
   <comment>barricades, girders and tables are what a recipe builds; each page lists its hit points and how it comes apart</comment>
 </data>
-<data name="Guide.Section.Construction.Materials.Text" xml:space="preserve">
+<data name="Guide.Section.Construction.Materials" xml:space="preserve">
   <value>Platten und Bretter sind die Stapel, die ein Rezept verbraucht; eine Familie gruppiert jeden Stapel, der als dasselbe Material zählt</value>
   <comment>sheets and planks are the stacks a recipe spends; a family groups every stack that counts as the same material</comment>
 </data>
-<data name="Guide.Section.Items.Families.Text" xml:space="preserve">
+<data name="Guide.Section.Galley.Recipes" xml:space="preserve">
+  <value>Die Mikrowelle bereitet das erste Rezept in der Liste zu, auf das ihre Beladung genau passt. Deshalb steht das umfangreichere Rezept zuerst und hat Vorrang, wenn eine Beladung zu zweien passt. Eine Beladung, die zu keinem Rezept passt, verbrennt</value>
+  <comment>the microwave cooks the first recipe in this list that its load matches exactly, so a bigger recipe comes first and wins a load that fits two. a load that matches no recipe burns</comment>
+</data>
+<data name="Guide.Section.Galley.Kitchenware" xml:space="preserve">
+  <value>Die Werkzeuge, die beim Handwerk gebraucht werden, etwa Nudelholz und Messer, sowie die Behälter, in denen die Zutaten geliefert werden. Ein Messer oder eine andere Klinge schneidet Lebensmittel auf einem Tisch</value>
+  <comment>the tools a hand craft keeps, like the rolling pin and the knives, and the boxes the ingredients come in. a knife or any other blade slices food on a table</comment>
+</data>
+<data name="Guide.Section.Items.Families" xml:space="preserve">
   <value>wenn das Spiel eine Familie wie Brechstangen nennt, ist dies die genaue Liste der Items, die gemeint sind</value>
   <comment>when the game names a family like crowbars, this is the exact list of items it means</comment>
 </data>
-<data name="Guide.Section.Items.Tools.Text" xml:space="preserve">
+<data name="Guide.Section.Items.Tools" xml:space="preserve">
   <value>jedes Handwerkzeug, seine Eigenschaften und zu welcher Familie es gehört</value>
   <comment>every hand tool, its qualities, and what family it belongs to</comment>
 </data>
-<data name="Guide.Entity.Obj.Item.Tool.Crowbar.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Item.Tool.Crowbar" xml:space="preserve">
   <value>es unter eine Tür schieben, um sie offen zu halten</value>
   <comment>wedge it under a door to hold it open</comment>
 </data>
-<data name="Guide.Family.Obj.Item.Tool.Crowbar.Text" xml:space="preserve">
+<data name="Guide.Family.Obj.Item.Tool.Crowbar" xml:space="preserve">
   <value>eine Brechstange schwingt fünfmal härter als eine normale Brechstange und hebt genau dasselbe auf</value>
   <comment>a prybar swings five times harder than a plain crowbar and pries just the same</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Barricade.Metal.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Barricade.Metal" xml:space="preserve">
   <value>schrauben, dann Schraubenschlüssel, dann Hebel, um es abzunehmen. Ein Nagelgewehr heilt 10 Prozent pro Schuss. Es zerfällt in 2 Metallbleche</value>
   <comment>screw, then wrench, then pry to take it down. a nailgun mends 10 percent per shot. it breaks into 2 metal sheets</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Girder.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Girder" xml:space="preserve">
   <value>Ein Träger ist die Hälfte einer Wand; schweiße Metallbleche darauf, um sie fertigzustellen</value>
   <comment>a girder is half a wall; weld metal sheets onto it to finish</comment>
 </data>
-<data name="Guide.Entity.Obj.Item.Device.Defibrillator.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Item.Device.Defibrillator" xml:space="preserve">
   <value>nur ein wiederbelebbarer Körper nimmt einen Schock; der Scanner sagt, welcher</value>
   <comment>only a revivable body takes a shock; the scanner says which</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Machinery.ChemDispenser.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Machinery.ChemDispenser" xml:space="preserve">
   <value>gießt Basenreagenzien in ein sitzendes Becherglas; jedes Medikament beginnt hier</value>
   <comment>pours base reagents into a seated beaker; every medicine starts here</comment>
 </data>
-<data name="Guide.Entity.Obj.Structure.Machinery.ChemMaster.Text" xml:space="preserve">
+<data name="Guide.Entity.Obj.Structure.Machinery.ChemMaster" xml:space="preserve">
   <value>teilt ein Becherglas in Pillen und Flaschen und beschriftet sie</value>
   <comment>splits a beaker into pills and bottles, and labels them</comment>
 </data>
-<data name="Guide.Condition.Condition.Fracture.Text" xml:space="preserve">
+<data name="Guide.Condition.Condition.Fracture" xml:space="preserve">
   <value>Eine Fraktur schmerzt weiter und beeinträchtigt das Glied, bis es geschient ist; zuerst schienen, dann mit einer Operation oder Osteracil heilen</value>
   <comment>a fracture keeps hurting and dragging the limb until splinted; splint first, then mend it with surgery or osteracil</comment>
 </data>
-<data name="Guide.Condition.Condition.InternalBleeding.Text" xml:space="preserve">
+<data name="Guide.Condition.Condition.InternalBleeding" xml:space="preserve">
   <value>innere Blutung zeigt keine Wunde und keine Blutspur; nur ein Scan entdeckt sie, bevor jemand blass wird</value>
   <comment>internal bleeding shows no wound and no blood trail; only a scan catches it before someone goes pale</comment>
 </data>
-<data name="Guide.Condition.Condition.DeadRevivable.Text" xml:space="preserve">
+<data name="Guide.Condition.Condition.DeadRevivable" xml:space="preserve">
   <value>Wiederbelebung möglich bedeutet, dass der Körper noch nicht verloren ist; behandle den schlimmsten Schaden vor dem Schock, nicht danach</value>
   <comment>revival possible means the body is not gone yet; treat the worst damage before the shock, not after</comment>
 </data>

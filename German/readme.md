@@ -17,6 +17,7 @@ Some hover texts would render inside their own frame, but not fit in the window 
 "VEND" in vending machines does not have a direct equivalent. Two options would be BUY/KAUFEN or DISPENSE/AUSGEBEN. I went with the latter for now.
 `Guide.Section.Medical.Surgery.Text` changed the second half of translation because the line is 252 characters in English and may be confusing. The German text reads "The chosen slot, patient, equipped instrument and priority decide what can be clicked. The patient must lie down; a table is faster, the ground is slower".
 `space cash` for now translated as "Weltraumgeld"
+`Guide.Topic.Galley` slightly changed to fit the 256 character limit.
 
 ## Known missing translations
 
