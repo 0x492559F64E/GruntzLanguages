@@ -10127,6 +10127,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>AND {COUNT} OTHER BLADES</value>
   <comment>AND {COUNT} OTHER BLADES</comment>
 </data>
+<data name="CoveredHint.Covered" xml:space="preserve">
+  <value>you cannot use {TOOL} while {AREA} is covered by {CLOTHING}</value>
+  <comment>you cannot use {TOOL} while {AREA} is covered by {CLOTHING}</comment>
+</data>
 <data name="Def.Crate.DisplayName" xml:space="preserve">
   <value>crate</value>
   <comment>crate</comment>
@@ -10840,6 +10844,22 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>test fire armor helmet</comment>
 </data>
 <data name="Def.TestArmorFireHelmet.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.TestSurgeryBlockVest.DisplayName" xml:space="preserve">
+  <value>test surgery block vest</value>
+  <comment>test surgery block vest</comment>
+</data>
+<data name="Def.TestSurgeryBlockVest.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.TestSurgeryBlockHelmet.DisplayName" xml:space="preserve">
+  <value>test surgery block helmet</value>
+  <comment>test surgery block helmet</comment>
+</data>
+<data name="Def.TestSurgeryBlockHelmet.Verb.PickUp" xml:space="preserve">
   <value>pick up</value>
   <comment>pick up</comment>
 </data>
