@@ -907,14 +907,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>¡Atraviesas {TARGET} y el alambre te desgarra!</value>
   <comment>You push through the {TARGET} and the wire tears at you!</comment>
 </data>
-<data name="Chat.OpenChestJostle" xml:space="preserve">
-  <value>Something shifts inside your open chest!</value>
-  <comment>Something shifts inside your open chest!</comment>
-</data>
-<data name="Chat.OpenChestFall" xml:space="preserve">
-  <value>The landing crushes your exposed organs!</value>
-  <comment>The landing crushes your exposed organs!</comment>
-</data>
 <data name="Chat.StripTake" xml:space="preserve">
   <value>¡{ACTOR} empieza a quitarle {USED} a {TARGET}!</value>
   <comment>{ACTOR} starts pulling {USED} off the {TARGET}!</comment>
@@ -2359,10 +2351,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>CONEXIÓN FLOJA</value>
   <comment>POOR CONNECTION</comment>
 </data>
-<data name="Moodlet.Title.ChestOpen" xml:space="preserve">
-  <value>CHEST OPEN</value>
-  <comment>CHEST OPEN</comment>
-</data>
 <data name="Moodlet.Title.Fallback" xml:space="preserve">
   <value>~MOODLET</value>
   <comment>~MOODLET</comment>
@@ -2647,10 +2635,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Mantienes la orientación al oeste</value>
   <comment>Holding your facing to the west</comment>
 </data>
-<data name="Moodlet.Flavor.ChestOpen" xml:space="preserve">
-  <value>Your chest cavity is open</value>
-  <comment>Your chest cavity is open</comment>
-</data>
 <data name="Moodlet.Flavor.Fallback" xml:space="preserve">
   <value>~moodlet</value>
   <comment>~moodlet</comment>
@@ -2851,10 +2835,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ALT más la tecla de movimiento hacia la que miras suelta la orientación</value>
   <comment>ALT plus the movement key you face releases the hold</comment>
 </data>
-<data name="Moodlet.Hint.ChestOpen" xml:space="preserve">
-  <value>Stay down until you are closed up, or let someone drag you</value>
-  <comment>Stay down until you are closed up, or let someone drag you</comment>
-</data>
 <data name="Moodlet.Phrase.ZombiesCannotSeeYou" xml:space="preserve">
   <value>Los zombis no te ven</value>
   <comment>Zombies cannot see you</comment>
@@ -3035,10 +3015,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Puntería más estable</value>
   <comment>Steadier aim</comment>
 </data>
-<data name="Moodlet.Phrase.MovingReopensTheBleeding" xml:space="preserve">
-  <value>Moving reopens the bleeding</value>
-  <comment>Moving reopens the bleeding</comment>
-</data>
 <data name="Moodlet.WordToken.MovingOppositeFacing" xml:space="preserve">
   <value>Moverse en sentido contrario a la orientación: {WORD}</value>
   <comment>Moving opposite the facing {WORD}</comment>
@@ -3126,18 +3102,6 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Moodlet.Row.SightReachesMany" xml:space="preserve">
   <value>La vista alcanza {TILES} casillas por delante</value>
   <comment>Sight reaches {TILES} tiles ahead</comment>
-</data>
-<data name="Moodlet.Row.FallLevelsBreaksHeartOne" xml:space="preserve">
-  <value>A fall of one level breaks your heart</value>
-  <comment>A fall of one level breaks your heart</comment>
-</data>
-<data name="Moodlet.Row.FallLevelsBreaksHeartMany" xml:space="preserve">
-  <value>A fall of {LEVELS} levels breaks your heart</value>
-  <comment>A fall of {LEVELS} levels breaks your heart</comment>
-</data>
-<data name="Moodlet.Row.OrganHitPerStep" xml:space="preserve">
-  <value>{PERCENT}% per step: {MIN} to {MAX} organ damage</value>
-  <comment>{PERCENT}% per step: {MIN} to {MAX} organ damage</comment>
 </data>
 <data name="Moodlet.Unit.BloodPerSecond" xml:space="preserve">
   <value> sangre/s</value>
@@ -3274,10 +3238,6 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Moodlet.Unit.LimbSplinted" xml:space="preserve">
   <value> entablillado</value>
   <comment> splinted</comment>
-</data>
-<data name="Moodlet.Unit.PerStepInternalBleeding" xml:space="preserve">
-  <value> per step: internal bleeding</value>
-  <comment> per step: internal bleeding</comment>
 </data>
 <data name="StripUi.Adjacent" xml:space="preserve">
   <value>ADYACENTE</value>
@@ -8387,17 +8347,9 @@ The file is looked up beside this language file first, then under the game's Con
   <value>TRADUCIR</value>
   <comment>TRANSLATE</comment>
 </data>
-<data name="TranslatePopup.IdLabel" xml:space="preserve">
-  <value>ID</value>
-  <comment>ID</comment>
-</data>
 <data name="TranslatePopup.EnglishLabel" xml:space="preserve">
   <value>INGLÉS</value>
   <comment>ENGLISH</comment>
-</data>
-<data name="TranslatePopup.PlaceholdersLabel" xml:space="preserve">
-  <value>PLACEHOLDERS: {LIST}</value>
-  <comment>PLACEHOLDERS: {LIST}</comment>
 </data>
 <data name="TranslatePopup.ApplyLabel" xml:space="preserve">
   <value>APLICAR</value>
@@ -8498,18 +8450,6 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Any" xml:space="preserve">
   <value>CUALQUIER TIPO DE</value>
   <comment>ANY</comment>
-</data>
-<data name="Codex.Size.S" xml:space="preserve">
-  <value>S</value>
-  <comment>S</comment>
-</data>
-<data name="Codex.Size.M" xml:space="preserve">
-  <value>M</value>
-  <comment>M</comment>
-</data>
-<data name="Codex.Size.L" xml:space="preserve">
-  <value>L</value>
-  <comment>L</comment>
 </data>
 <data name="Codex.Kind.Item" xml:space="preserve">
   <value>OBJETO</value>
@@ -9042,10 +8982,6 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Slot.Back" xml:space="preserve">
   <value>ESPALDA</value>
   <comment>BACK</comment>
-</data>
-<data name="Codex.Slot.Id" xml:space="preserve">
-  <value>ID</value>
-  <comment>ID</comment>
 </data>
 <data name="Codex.Chip.Medicated" xml:space="preserve">
   <value>MEDICADO</value>
@@ -9963,10 +9899,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ESTE SE CONSERVA</value>
   <comment>THIS ONE IS KEPT</comment>
 </data>
-<data name="Codex.Galley.RollCount" xml:space="preserve">
-  <value>x1D4</value>
-  <comment>x1D4</comment>
-</data>
 <data name="Codex.Galley.WithAnySlicer" xml:space="preserve">
   <value>CON CUALQUIER UTENSILIO DE CORTE</value>
   <comment>WITH ANY SLICER</comment>
@@ -10110,10 +10042,6 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Galley.Units" xml:space="preserve">
   <value>{WHOLE},{FRAC} U</value>
   <comment>{WHOLE}.{FRAC} U</comment>
-</data>
-<data name="Codex.Galley.CountTimes" xml:space="preserve">
-  <value>x{COUNT}</value>
-  <comment>x{COUNT}</comment>
 </data>
 <data name="Codex.Galley.OtherBlades" xml:space="preserve">
   <value>Y {COUNT} HOJAS MÁS</value>
@@ -75174,14 +75102,6 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Item.Explosive.Grenade.Round40mm.Incendiary.Armed.Verb.PickUp" xml:space="preserve">
   <value>coger</value>
   <comment>pick up</comment>
-</data>
-<data name="StackFamily.TestPlank" xml:space="preserve">
-  <value>TestPlank</value>
-  <comment>TestPlank</comment>
-</data>
-<data name="StackFamily.TestWire" xml:space="preserve">
-  <value>TestWire</value>
-  <comment>TestWire</comment>
 </data>
 <data name="StackFamily.cuppa joes lidded cups" xml:space="preserve">
   <value>vasos de Cuppa Joe's con tapa</value>
