@@ -5948,8 +5948,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>BANK {COUNT} // IDLE</comment>
 </data>
 <data name="Microwave.UnitLine" xml:space="preserve">
-  <value>UNIDAD DE COCINA W-Y KITCHENTECH // BANCO DE RECETAS MU/TH/UR 6500</value>
-  <comment>W-Y KITCHENTECH COOKING UNIT // RECIPE BANK MU/TH/UR 6500</comment>
+  <value>W-Y KITCHENTECH // BANCO DE RECETAS MU/TH/UR 6500</value>
+  <comment>W-Y KITCHENTECH // RECIPE BANK MU/TH/UR 6500</comment>
 </data>
 <data name="Microwave.ContentsSection" xml:space="preserve">
   <value>CONTENIDO</value>
@@ -5967,17 +5967,13 @@ The file is looked up beside this language file first, then under the game's Con
   <value>{COUNT} / {MAX} OBJETOS</value>
   <comment>{COUNT} / {MAX} ITEMS</comment>
 </data>
-<data name="Microwave.StatusKey" xml:space="preserve">
-  <value>ESTADO</value>
-  <comment>STATUS</comment>
-</data>
-<data name="Microwave.IdleWord" xml:space="preserve">
-  <value>INACTIVO</value>
-  <comment>IDLE</comment>
-</data>
 <data name="Microwave.CookingWord" xml:space="preserve">
   <value>COCINANDO</value>
   <comment>COOKING</comment>
+</data>
+<data name="Microwave.CookingName" xml:space="preserve">
+  <value>COCINANDO: {NAME}</value>
+  <comment>COOKING {NAME}</comment>
 </data>
 <data name="Microwave.StandbyLabel" xml:space="preserve">
   <value>EN ESPERA</value>
@@ -5992,8 +5988,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>MICROWAVE</comment>
 </data>
 <data name="Microwave.FootRightLine" xml:space="preserve">
-  <value>CÁMARA {COUNT} OBJETOS // BÚFER {AMOUNT} U</value>
-  <comment>CHAMBER {COUNT} ITEMS // BUFFER {AMOUNT} U</comment>
+  <value>{COUNT} OBJETOS // {AMOUNT} U</value>
+  <comment>{COUNT} ITEMS // {AMOUNT} U</comment>
 </data>
 <data name="Microwave.EjectLabel" xml:space="preserve">
   <value>EXPULSAR</value>
@@ -6034,6 +6030,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Microwave.RecipesCount" xml:space="preserve">
   <value>{COUNT} RECETAS</value>
   <comment>{COUNT} RECIPES</comment>
+</data>
+<data name="Microwave.RecipesPossible" xml:space="preserve">
+  <value>{COUNT} POSIBLES</value>
+  <comment>{COUNT} POSSIBLE</comment>
 </data>
 <data name="Microwave.NoRecipeTakes" xml:space="preserve">
   <value>NINGUNA RECETA ADMITE ESTA CARGA: SACAR TODO</value>
@@ -9104,8 +9104,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>CONDITIONS</comment>
 </data>
 <data name="Codex.Section.Medical.Treatments" xml:space="preserve">
-  <value>TRATAMIENTOS</value>
-  <comment>TREATMENTS</comment>
+  <value>HERRAMIENTAS</value>
+  <comment>TOOLS</comment>
 </data>
 <data name="Codex.Section.Medical.Surgery" xml:space="preserve">
   <value>CIRUGÍA</value>
@@ -9162,6 +9162,62 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Section.Items.Tools" xml:space="preserve">
   <value>HERRAMIENTAS</value>
   <comment>TOOLS</comment>
+</data>
+<data name="Codex.Group.Medical.Treatments.SurgicalTools" xml:space="preserve">
+  <value>INSTRUMENTAL QUIRÚRGICO</value>
+  <comment>SURGICAL TOOLS</comment>
+</data>
+<data name="Codex.Group.Medical.Treatments.Treatments" xml:space="preserve">
+  <value>TRATAMIENTOS</value>
+  <comment>TREATMENTS</comment>
+</data>
+<data name="Codex.Group.Galley.Food.Craftable" xml:space="preserve">
+  <value>CON RECETA</value>
+  <comment>CRAFTABLE</comment>
+</data>
+<data name="Codex.Group.Galley.Food.Raw" xml:space="preserve">
+  <value>CRUDA</value>
+  <comment>RAW</comment>
+</data>
+<data name="Codex.Group.Galley.Food.Packaged" xml:space="preserve">
+  <value>ENVASADA</value>
+  <comment>PACKAGED</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Rifle" xml:space="preserve">
+  <value>RIFLES</value>
+  <comment>RIFLES</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Pistol" xml:space="preserve">
+  <value>PISTOLAS</value>
+  <comment>PISTOLS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Revolver" xml:space="preserve">
+  <value>REVÓLVERES</value>
+  <comment>REVOLVERS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Shotgun" xml:space="preserve">
+  <value>ESCOPETAS</value>
+  <comment>SHOTGUNS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Smg" xml:space="preserve">
+  <value>SUBFUSILES</value>
+  <comment>SUBMACHINE GUNS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Launcher" xml:space="preserve">
+  <value>LANZADORES</value>
+  <comment>LAUNCHERS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Flamer" xml:space="preserve">
+  <value>LANZALLAMAS</value>
+  <comment>FLAMERS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Energy" xml:space="preserve">
+  <value>ARMAS DE ENERGÍA</value>
+  <comment>ENERGY WEAPONS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Other" xml:space="preserve">
+  <value>OTRAS</value>
+  <comment>OTHER</comment>
 </data>
 <data name="Codex.Property.Neogenetic" xml:space="preserve">
   <value>CURA DAÑO FÍSICO EN TODAS LAS EXTREMIDADES</value>
