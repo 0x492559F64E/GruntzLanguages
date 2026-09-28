@@ -907,6 +907,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>¡Atraviesas {TARGET} y el alambre te desgarra!</value>
   <comment>You push through the {TARGET} and the wire tears at you!</comment>
 </data>
+<data name="Chat.OpenChestJostle" xml:space="preserve">
+  <value>¡Algo se mueve dentro de tu pecho abierto!</value>
+  <comment>Something shifts inside your open chest!</comment>
+</data>
+<data name="Chat.OpenChestFall" xml:space="preserve">
+  <value>¡La caída te aplasta los órganos al descubierto!</value>
+  <comment>The landing crushes your exposed organs!</comment>
+</data>
 <data name="Chat.StripTake" xml:space="preserve">
   <value>¡{ACTOR} empieza a quitarle {USED} a {TARGET}!</value>
   <comment>{ACTOR} starts pulling {USED} off the {TARGET}!</comment>
@@ -1667,6 +1675,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>enlazar portátil</value>
   <comment>link laptop</comment>
 </data>
+<data name="HoverVerbLabels.CrewSync" xml:space="preserve">
+  <value>sincronizar monitor</value>
+  <comment>sync monitor</comment>
+</data>
 <data name="HoverVerbLabels.PortGenFuelInsert" xml:space="preserve">
   <value>meter bidón de combustible</value>
   <comment>insert fuel can</comment>
@@ -1798,6 +1810,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="ActivateVerbLabels.Label" xml:space="preserve">
   <value>poner etiqueta</value>
   <comment>set label</comment>
+</data>
+<data name="ActivateVerbLabels.Monitor" xml:space="preserve">
+  <value>abrir monitor</value>
+  <comment>open monitor</comment>
 </data>
 <data name="ActivateVerbLabels.SwitchToInject" xml:space="preserve">
   <value>cambiar a inyectar</value>
@@ -2351,6 +2367,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>CONEXIÓN FLOJA</value>
   <comment>POOR CONNECTION</comment>
 </data>
+<data name="Moodlet.Title.ChestOpen" xml:space="preserve">
+  <value>PECHO ABIERTO</value>
+  <comment>CHEST OPEN</comment>
+</data>
 <data name="Moodlet.Title.Fallback" xml:space="preserve">
   <value>~MOODLET</value>
   <comment>~MOODLET</comment>
@@ -2635,6 +2655,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Mantienes la orientación al oeste</value>
   <comment>Holding your facing to the west</comment>
 </data>
+<data name="Moodlet.Flavor.ChestOpen" xml:space="preserve">
+  <value>Tienes la cavidad torácica abierta</value>
+  <comment>Your chest cavity is open</comment>
+</data>
 <data name="Moodlet.Flavor.Fallback" xml:space="preserve">
   <value>~moodlet</value>
   <comment>~moodlet</comment>
@@ -2835,6 +2859,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ALT más la tecla de movimiento hacia la que miras suelta la orientación</value>
   <comment>ALT plus the movement key you face releases the hold</comment>
 </data>
+<data name="Moodlet.Hint.ChestOpen" xml:space="preserve">
+  <value>Quédate tumbado hasta que te cierren, o deja que alguien te arrastre</value>
+  <comment>Stay down until you are closed up, or let someone drag you</comment>
+</data>
 <data name="Moodlet.Phrase.ZombiesCannotSeeYou" xml:space="preserve">
   <value>Los zombis no te ven</value>
   <comment>Zombies cannot see you</comment>
@@ -3015,6 +3043,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Puntería más estable</value>
   <comment>Steadier aim</comment>
 </data>
+<data name="Moodlet.Phrase.MovingReopensTheBleeding" xml:space="preserve">
+  <value>Moverte reabre la hemorragia</value>
+  <comment>Moving reopens the bleeding</comment>
+</data>
 <data name="Moodlet.WordToken.MovingOppositeFacing" xml:space="preserve">
   <value>Moverse en sentido contrario a la orientación: {WORD}</value>
   <comment>Moving opposite the facing {WORD}</comment>
@@ -3102,6 +3134,18 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Moodlet.Row.SightReachesMany" xml:space="preserve">
   <value>La vista alcanza {TILES} casillas por delante</value>
   <comment>Sight reaches {TILES} tiles ahead</comment>
+</data>
+<data name="Moodlet.Row.FallLevelsBreaksHeartOne" xml:space="preserve">
+  <value>Una caída de un nivel te revienta el corazón</value>
+  <comment>A fall of one level breaks your heart</comment>
+</data>
+<data name="Moodlet.Row.FallLevelsBreaksHeartMany" xml:space="preserve">
+  <value>Una caída de {LEVELS} niveles te revienta el corazón</value>
+  <comment>A fall of {LEVELS} levels breaks your heart</comment>
+</data>
+<data name="Moodlet.Row.OrganHitPerStep" xml:space="preserve">
+  <value>{PERCENT}% por paso: de {MIN} a {MAX} de daño en órganos</value>
+  <comment>{PERCENT}% per step: {MIN} to {MAX} organ damage</comment>
 </data>
 <data name="Moodlet.Unit.BloodPerSecond" xml:space="preserve">
   <value> sangre/s</value>
@@ -3238,6 +3282,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Moodlet.Unit.LimbSplinted" xml:space="preserve">
   <value> entablillado</value>
   <comment> splinted</comment>
+</data>
+<data name="Moodlet.Unit.PerStepInternalBleeding" xml:space="preserve">
+  <value> por paso: hemorragia interna</value>
+  <comment> per step: internal bleeding</comment>
 </data>
 <data name="StripUi.Adjacent" xml:space="preserve">
   <value>ADYACENTE</value>
@@ -4463,13 +4511,17 @@ The file is looked up beside this language file first, then under the game's Con
   <value>EMBRIÓN DE XENOMORFO, FASE {STAGE}</value>
   <comment>XENOMORPH EMBRYO, STAGE {STAGE}</comment>
 </data>
+<data name="HealthScan.TrackingImplantLine" xml:space="preserve">
+  <value>IMPLANTE DE RASTREO</value>
+  <comment>TRACKING IMPLANT</comment>
+</data>
 <data name="HealthScan.EmbeddedObjectsLine" xml:space="preserve">
   <value>OBJETOS CLAVADOS ({COUNT}) - EL PACIENTE NO DEBE MOVERSE</value>
   <comment>EMBEDDED OBJECTS ({COUNT}) - PATIENT SHOULD NOT MOVE</comment>
 </data>
 <data name="HealthScan.ChemicalContentsHeader" xml:space="preserve">
-  <value>CONTENIDO QUÍMICO - {WHOLE},{FRAC} U</value>
-  <comment>CHEMICAL CONTENTS - {WHOLE}.{FRAC} U</comment>
+  <value>CONTENIDO QUÍMICO - {WHOLE},{FRAC}U</value>
+  <comment>CHEMICAL CONTENTS - {WHOLE}.{FRAC}U</comment>
 </data>
 <data name="HealthScan.BloodReadoutLine" xml:space="preserve">
   <value>{PERCENT}% - {CL} CL</value>
@@ -4904,8 +4956,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>PILLS</comment>
 </data>
 <data name="ChemMaster.BottleKeyLine" xml:space="preserve">
-  <value>FRASCO ({AMOUNT} U)</value>
-  <comment>BOTTLE ({AMOUNT} U)</comment>
+  <value>FRASCO ({AMOUNT}U)</value>
+  <comment>BOTTLE ({AMOUNT}U)</comment>
 </data>
 <data name="ChemMaster.FridgeInRange" xml:space="preserve">
   <value>AL ALCANCE</value>
@@ -4988,8 +5040,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>PRESET NAME</comment>
 </data>
 <data name="ChemMaster.BufferFootLine" xml:space="preserve">
-  <value>BÚFER {TOTALWHOLE},{TOTALFRAC} / {CAPWHOLE},{CAPFRAC} U</value>
-  <comment>BUFFER {TOTALWHOLE}.{TOTALFRAC} / {CAPWHOLE}.{CAPFRAC} U</comment>
+  <value>BÚFER {TOTALWHOLE},{TOTALFRAC} / {CAPWHOLE},{CAPFRAC}U</value>
+  <comment>BUFFER {TOTALWHOLE}.{TOTALFRAC} / {CAPWHOLE}.{CAPFRAC}U</comment>
 </data>
 <data name="ChemMaster.BufferFootLabel" xml:space="preserve">
   <value>BÚFER</value>
@@ -6112,8 +6164,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>BEAKER IS EMPTY</comment>
 </data>
 <data name="ChemDispenser.SynthLine" xml:space="preserve">
-  <value>1 DE ENERGÍA = {AMOUNT} U</value>
-  <comment>1 ENERGY = {AMOUNT} U</comment>
+  <value>1 DE ENERGÍA = {AMOUNT}U</value>
+  <comment>1 ENERGY = {AMOUNT}U</comment>
 </data>
 <data name="ChemDispenser.ChargeFootLine" xml:space="preserve">
   <value>CARGA {PERCENT}%</value>
@@ -6650,6 +6702,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Atm.AddLabel" xml:space="preserve">
   <value>+ CARRITO</value>
   <comment>+ CART</comment>
+</data>
+<data name="Atm.DropAloneHint" xml:space="preserve">
+  <value>SE ENVÍA SOLO EN SU PROPIA CAJA</value>
+  <comment>SHIPS ALONE IN ITS OWN CRATE</comment>
 </data>
 <data name="Atm.DispatchLabel" xml:space="preserve">
   <value>ENVIAR LANZAMIENTO AÉREO</value>
@@ -9023,6 +9079,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>OBJETOS</value>
   <comment>ITEMS</comment>
 </data>
+<data name="Codex.Topic.Weapons" xml:space="preserve">
+  <value>ARMAS</value>
+  <comment>WEAPONS</comment>
+</data>
 <data name="Codex.Section.Chemistry.Reactions" xml:space="preserve">
   <value>REACCIONES</value>
   <comment>REACTIONS</comment>
@@ -9078,6 +9138,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Section.Galley.Kitchenware" xml:space="preserve">
   <value>UTENSILIOS DE COCINA</value>
   <comment>KITCHENWARE</comment>
+</data>
+<data name="Codex.Section.Weapons.Guns" xml:space="preserve">
+  <value>ARMAS DE FUEGO</value>
+  <comment>GUNS</comment>
+</data>
+<data name="Codex.Section.Weapons.Attachments" xml:space="preserve">
+  <value>ACCESORIOS</value>
+  <comment>ATTACHMENTS</comment>
+</data>
+<data name="Codex.Section.Weapons.Magazines" xml:space="preserve">
+  <value>CARGADORES</value>
+  <comment>MAGAZINES</comment>
+</data>
+<data name="Codex.Section.Weapons.Melee" xml:space="preserve">
+  <value>CUERPO A CUERPO</value>
+  <comment>MELEE</comment>
 </data>
 <data name="Codex.Section.Items.Families" xml:space="preserve">
   <value>FAMILIAS</value>
@@ -9495,6 +9571,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>UN PARÁSITO AQUÍ</value>
   <comment>A PARASITE HERE</comment>
 </data>
+<data name="Codex.Surgery.FactImplant" xml:space="preserve">
+  <value>UN IMPLANTE DE RASTREO AQUÍ</value>
+  <comment>A TRACKING IMPLANT HERE</comment>
+</data>
 <data name="Codex.Surgery.FactNamedOrgan" xml:space="preserve">
   <value>UN ÓRGANO DAÑADO</value>
   <comment>A DAMAGED ORGAN</comment>
@@ -9739,6 +9819,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>EXTRAE EL PARÁSITO</value>
   <comment>REMOVES THE PARASITE</comment>
 </data>
+<data name="Codex.Surgery.PlacesTheImplant" xml:space="preserve">
+  <value>COLOCA UN IMPLANTE DE RASTREO AQUÍ</value>
+  <comment>PLACES A TRACKING IMPLANT HERE</comment>
+</data>
+<data name="Codex.Surgery.RemovesTheImplant" xml:space="preserve">
+  <value>EXTRAE EL IMPLANTE DE RASTREO</value>
+  <comment>REMOVES THE TRACKING IMPLANT</comment>
+</data>
 <data name="Codex.Surgery.UsesOneOfTheToolsStack" xml:space="preserve">
   <value>GASTA UNA UNIDAD DE LA HERRAMIENTA SI ES UNA PILA</value>
   <comment>USES ONE OF THE TOOL'S STACK, IF IT IS A STACK</comment>
@@ -9847,6 +9935,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>CON</value>
   <comment>WITH</comment>
 </data>
+<data name="Codex.Galley.Using" xml:space="preserve">
+  <value>USANDO</value>
+  <comment>USING</comment>
+</data>
 <data name="Codex.Galley.KindMicrowave" xml:space="preserve">
   <value>MICROONDAS</value>
   <comment>MICROWAVE</comment>
@@ -9899,9 +9991,9 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ESTE SE CONSERVA</value>
   <comment>THIS ONE IS KEPT</comment>
 </data>
-<data name="Codex.Galley.WithAnySlicer" xml:space="preserve">
-  <value>CON CUALQUIER UTENSILIO DE CORTE</value>
-  <comment>WITH ANY SLICER</comment>
+<data name="Codex.Galley.AnySlicer" xml:space="preserve">
+  <value>CUALQUIER UTENSILIO DE CORTE</value>
+  <comment>ANY SLICER</comment>
 </data>
 <data name="Codex.Galley.OnASurface" xml:space="preserve">
   <value>COMIDA SOBRE UNA MESA O CUALQUIER SUPERFICIE</value>
@@ -10004,8 +10096,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>CLICK IT WITH A BEAKER TO SOCKET IT, CLICK IT WITH FOOD TO LOAD, CLICK IT EMPTY-HANDED TO OPEN ITS SCREEN, THEN GRIND OR JUICE</comment>
 </data>
 <data name="Codex.Galley.HoldsItemsAndUnits" xml:space="preserve">
-  <value>{COUNT} OBJETOS + {WHOLE},{FRAC} U</value>
-  <comment>{COUNT} ITEMS + {WHOLE}.{FRAC} U</comment>
+  <value>{COUNT} OBJETOS + {WHOLE},{FRAC}U</value>
+  <comment>{COUNT} ITEMS + {WHOLE}.{FRAC}U</comment>
 </data>
 <data name="Codex.Galley.HoldsItems" xml:space="preserve">
   <value>{COUNT} OBJETOS</value>
@@ -10016,12 +10108,12 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>{COUNT} ITEMS</comment>
 </data>
 <data name="Codex.Galley.PoursPerClick" xml:space="preserve">
-  <value>{WHOLE},{FRAC} U POR CLIC</value>
-  <comment>{WHOLE}.{FRAC} U PER CLICK</comment>
+  <value>{WHOLE},{FRAC}U POR CLIC</value>
+  <comment>{WHOLE}.{FRAC}U PER CLICK</comment>
 </data>
 <data name="Codex.Galley.PoursAfterOpening" xml:space="preserve">
-  <value>{WHOLE},{FRAC} U POR CLIC TRAS ABRIRLO</value>
-  <comment>{WHOLE}.{FRAC} U PER CLICK AFTER OPENING</comment>
+  <value>{WHOLE},{FRAC}U POR CLIC TRAS ABRIRLO</value>
+  <comment>{WHOLE}.{FRAC}U PER CLICK AFTER OPENING</comment>
 </data>
 <data name="Codex.Galley.FirePercent" xml:space="preserve">
   <value>{PERCENT} % DE FUEGO</value>
@@ -10032,20 +10124,248 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>{COUNT} MEAT ON THE FLOOR</comment>
 </data>
 <data name="Codex.Galley.JuiceOutput" xml:space="preserve">
-  <value>HASTA {WHOLE},{FRAC} U DE {REAGENT}</value>
-  <comment>UP TO {WHOLE}.{FRAC} U {REAGENT}</comment>
+  <value>HASTA {WHOLE},{FRAC}U DE {REAGENT}</value>
+  <comment>UP TO {WHOLE}.{FRAC}U {REAGENT}</comment>
 </data>
 <data name="Codex.Galley.NutrimentOutput" xml:space="preserve">
   <value>EL {PERCENT} % DE SU {FROM} COMO {REAGENT}</value>
   <comment>{PERCENT} PCT OF ITS {FROM} AS {REAGENT}</comment>
 </data>
 <data name="Codex.Galley.Units" xml:space="preserve">
-  <value>{WHOLE},{FRAC} U</value>
-  <comment>{WHOLE}.{FRAC} U</comment>
+  <value>{WHOLE},{FRAC}U</value>
+  <comment>{WHOLE}.{FRAC}U</comment>
 </data>
 <data name="Codex.Galley.OtherBlades" xml:space="preserve">
   <value>Y {COUNT} HOJAS MÁS</value>
   <comment>AND {COUNT} OTHER BLADES</comment>
+</data>
+<data name="CoveredHint.Covered" xml:space="preserve">
+  <value>no se puede usar con ropa en la zona: {AREA}</value>
+  <comment>cannot use while {AREA} is covered</comment>
+</data>
+<data name="CoveredHint.Remove" xml:space="preserve">
+  <value>quita {CLOTHING}</value>
+  <comment>remove the {CLOTHING}</comment>
+</data>
+<data name="CrewMonitor.Header" xml:space="preserve">
+  <value>MONITOR DE TRIPULACIÓN</value>
+  <comment>CREW MONITOR</comment>
+</data>
+<data name="CrewMonitor.SubLine" xml:space="preserve">
+  <value>RED DE RASTREO PDT/L // {TEAM}</value>
+  <comment>PDT/L TRACKING NET // {TEAM}</comment>
+</data>
+<data name="CrewMonitor.TabRoster" xml:space="preserve">
+  <value>LISTA</value>
+  <comment>ROSTER</comment>
+</data>
+<data name="CrewMonitor.TabTrack" xml:space="preserve">
+  <value>RASTREO</value>
+  <comment>TRACK</comment>
+</data>
+<data name="CrewMonitor.TabSetup" xml:space="preserve">
+  <value>CONFIGURACIÓN</value>
+  <comment>SETUP</comment>
+</data>
+<data name="CrewMonitor.EventDown" xml:space="preserve">
+  <value>{NAME} CAÍDO</value>
+  <comment>{NAME} DOWN</comment>
+</data>
+<data name="CrewMonitor.EventDead" xml:space="preserve">
+  <value>{NAME} MUERTO</value>
+  <comment>{NAME} DEAD</comment>
+</data>
+<data name="CrewMonitor.EventLost" xml:space="preserve">
+  <value>{NAME} SEÑAL PERDIDA</value>
+  <comment>{NAME} SIGNAL LOST</comment>
+</data>
+<data name="CrewMonitor.CarriersSection" xml:space="preserve">
+  <value>PORTADORES</value>
+  <comment>CARRIERS</comment>
+</data>
+<data name="CrewMonitor.DownCount" xml:space="preserve">
+  <value>{COUNT} CAÍDOS</value>
+  <comment>{COUNT} DOWN</comment>
+</data>
+<data name="CrewMonitor.DeadCount" xml:space="preserve">
+  <value>{COUNT} MUERTOS</value>
+  <comment>{COUNT} DEAD</comment>
+</data>
+<data name="CrewMonitor.StateAlive" xml:space="preserve">
+  <value>VIVO</value>
+  <comment>ALIVE</comment>
+</data>
+<data name="CrewMonitor.StateDown" xml:space="preserve">
+  <value>CAÍDO</value>
+  <comment>DOWN</comment>
+</data>
+<data name="CrewMonitor.StateDead" xml:space="preserve">
+  <value>MUERTO</value>
+  <comment>DEAD</comment>
+</data>
+<data name="CrewMonitor.NoCarriers" xml:space="preserve">
+  <value>SIN PORTADORES</value>
+  <comment>NO CARRIERS</comment>
+</data>
+<data name="CrewMonitor.SelectPrompt" xml:space="preserve">
+  <value>ELEGIR</value>
+  <comment>SELECT</comment>
+</data>
+<data name="CrewMonitor.PlaceholderName" xml:space="preserve">
+  <value>~JUGADOR {ID}</value>
+  <comment>~PLAYER {ID}</comment>
+</data>
+<data name="CrewMonitor.Deceased" xml:space="preserve">
+  <value>FALLECIDO</value>
+  <comment>DECEASED</comment>
+</data>
+<data name="CrewMonitor.SameDeck" xml:space="preserve">
+  <value>MISMA CUBIERTA</value>
+  <comment>SAME DECK</comment>
+</data>
+<data name="CrewMonitor.DeckAbove" xml:space="preserve">
+  <value>{COUNT} CUBIERTA ARRIBA</value>
+  <comment>{COUNT} DECK ABOVE</comment>
+</data>
+<data name="CrewMonitor.DecksAbove" xml:space="preserve">
+  <value>{COUNT} CUBIERTAS ARRIBA</value>
+  <comment>{COUNT} DECKS ABOVE</comment>
+</data>
+<data name="CrewMonitor.DeckBelow" xml:space="preserve">
+  <value>{COUNT} CUBIERTA ABAJO</value>
+  <comment>{COUNT} DECK BELOW</comment>
+</data>
+<data name="CrewMonitor.DecksBelow" xml:space="preserve">
+  <value>{COUNT} CUBIERTAS ABAJO</value>
+  <comment>{COUNT} DECKS BELOW</comment>
+</data>
+<data name="CrewMonitor.Tracking" xml:space="preserve">
+  <value>RASTREANDO</value>
+  <comment>TRACKING</comment>
+</data>
+<data name="CrewMonitor.NoSignal" xml:space="preserve">
+  <value>SIN SEÑAL</value>
+  <comment>NO SIGNAL</comment>
+</data>
+<data name="CrewMonitor.SignalLost" xml:space="preserve">
+  <value>SEÑAL PERDIDA</value>
+  <comment>SIGNAL LOST</comment>
+</data>
+<data name="CrewMonitor.DistanceLine" xml:space="preserve">
+  <value>{TILES} CASILLAS</value>
+  <comment>{TILES} TILES</comment>
+</data>
+<data name="CrewMonitor.KeyPower" xml:space="preserve">
+  <value>ENERGÍA</value>
+  <comment>POWER</comment>
+</data>
+<data name="CrewMonitor.KeyAlarm" xml:space="preserve">
+  <value>ALARMA</value>
+  <comment>ALARM</comment>
+</data>
+<data name="CrewMonitor.KeyAlarmOn" xml:space="preserve">
+  <value>ALARMA ACTIVA</value>
+  <comment>ALARM ON</comment>
+</data>
+<data name="CrewMonitor.KeySort" xml:space="preserve">
+  <value>ORDEN</value>
+  <comment>SORT</comment>
+</data>
+<data name="CrewMonitor.KeySide" xml:space="preserve">
+  <value>LADO</value>
+  <comment>SIDE</comment>
+</data>
+<data name="CrewMonitor.KeyCell" xml:space="preserve">
+  <value>CELDA</value>
+  <comment>CELL</comment>
+</data>
+<data name="CrewMonitor.KeyNet" xml:space="preserve">
+  <value>RED</value>
+  <comment>NET</comment>
+</data>
+<data name="CrewMonitor.AlarmDownDead" xml:space="preserve">
+  <value>CAÍDOS + MUERTOS</value>
+  <comment>DOWN + DEAD</comment>
+</data>
+<data name="CrewMonitor.AlarmAnyChange" xml:space="preserve">
+  <value>CUALQUIER CAMBIO</value>
+  <comment>ANY CHANGE</comment>
+</data>
+<data name="CrewMonitor.SortDownFirst" xml:space="preserve">
+  <value>CAÍDOS PRIMERO</value>
+  <comment>DOWN FIRST</comment>
+</data>
+<data name="CrewMonitor.SortSquad" xml:space="preserve">
+  <value>ESCUADRÓN</value>
+  <comment>SQUAD</comment>
+</data>
+<data name="CrewMonitor.NetValue" xml:space="preserve">
+  <value>PDT/L 1 HZ</value>
+  <comment>PDT/L 1 HZ</comment>
+</data>
+<data name="CrewMonitor.FootLeft" xml:space="preserve">
+  <value>RED PDT/L</value>
+  <comment>PDT/L NET</comment>
+</data>
+<data name="CrewMonitor.FootRight" xml:space="preserve">
+  <value>{TEAM} . 1 HZ</value>
+  <comment>{TEAM} . 1 HZ</comment>
+</data>
+<data name="Codex.Weapons.Base" xml:space="preserve">
+  <value>BASE</value>
+  <comment>BASE</comment>
+</data>
+<data name="Codex.Weapons.Reveal" xml:space="preserve">
+  <value>MOSTRAR</value>
+  <comment>REVEAL</comment>
+</data>
+<data name="Codex.Weapons.Mounts" xml:space="preserve">
+  <value>MONTURAS</value>
+  <comment>MOUNTS</comment>
+</data>
+<data name="Codex.Weapons.Magazines" xml:space="preserve">
+  <value>CARGADORES</value>
+  <comment>MAGAZINES</comment>
+</data>
+<data name="Codex.Weapons.Fits" xml:space="preserve">
+  <value>ENCAJA EN</value>
+  <comment>FITS</comment>
+</data>
+<data name="Codex.Weapons.HeldBy" xml:space="preserve">
+  <value>LO ADMITEN</value>
+  <comment>HELD BY</comment>
+</data>
+<data name="Codex.Weapons.Caliber" xml:space="preserve">
+  <value>CALIBRE</value>
+  <comment>CALIBER</comment>
+</data>
+<data name="Codex.Weapons.Rounds" xml:space="preserve">
+  <value>BALAS</value>
+  <comment>ROUNDS</comment>
+</data>
+<data name="Codex.Weapons.NoMounts" xml:space="preserve">
+  <value>SIN MONTURAS</value>
+  <comment>NO MOUNTS</comment>
+</data>
+<data name="Codex.Weapons.OneAttachmentPerMount" xml:space="preserve">
+  <value>UN ACCESORIO POR MONTURA, DE LOS ASIGNADOS A ESTA ARMA</value>
+  <comment>ONE ATTACHMENT PER MOUNT, ISSUED FOR THIS GUN</comment>
+</data>
+<data name="Codex.Weapons.NoGunIssued" xml:space="preserve">
+  <value>NINGUNA ARMA VIENE CON ESTE ACCESORIO</value>
+  <comment>NO GUN IS ISSUED WITH THIS ATTACHMENT</comment>
+</data>
+<data name="Codex.Weapons.NoGunLoads" xml:space="preserve">
+  <value>NINGUNA ARMA USA ESTE CARGADOR</value>
+  <comment>NO GUN LOADS THIS MAGAZINE</comment>
+</data>
+<data name="Codex.Weapons.NeedsLoadedRound" xml:space="preserve">
+  <value>EL DAÑO Y EL ALCANCE NECESITAN UNA BALA CARGADA: EXAMINA UN ARMA CARGADA</value>
+  <comment>DAMAGE AND RANGE NEED A LOADED ROUND: EXAMINE A LOADED GUN</comment>
+</data>
+<data name="Codex.Weapons.AtModeWielded" xml:space="preserve">
+  <value>EN {MODE}, EMPUÑADA: LA COLUMNA BASE DE LA VENTANA DE EXAMINAR</value>
+  <comment>AT {MODE}, WIELDED: THE EXAMINE WINDOW'S BASE COLUMN</comment>
 </data>
 <data name="Def.Crate.DisplayName" xml:space="preserve">
   <value>caja</value>
@@ -46248,7 +46568,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Implanter.DisplayName" xml:space="preserve">
-  <value>implantador</value>
+  <value>inyector de implantes</value>
   <comment>implanter</comment>
 </data>
 <data name="Def.Obj.Item.Implanter.Verb.PickUp" xml:space="preserve">
@@ -75103,6 +75423,138 @@ The file is looked up beside this language file first, then under the game's Con
   <value>coger</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Recharger.Descending.DisplayName" xml:space="preserve">
+  <value>caja de recargador</value>
+  <comment>recharger crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Recharger.DisplayName" xml:space="preserve">
+  <value>caja de recargador</value>
+  <comment>recharger crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Grinder.Descending.DisplayName" xml:space="preserve">
+  <value>caja de trituradora</value>
+  <comment>grinder crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Grinder.DisplayName" xml:space="preserve">
+  <value>caja de trituradora</value>
+  <comment>grinder crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Microwave.Descending.DisplayName" xml:space="preserve">
+  <value>caja de microondas</value>
+  <comment>microwave crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.Microwave.DisplayName" xml:space="preserve">
+  <value>caja de microondas</value>
+  <comment>microwave crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemMaster.Descending.DisplayName" xml:space="preserve">
+  <value>caja de ChemMaster</value>
+  <comment>ChemMaster crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemMaster.DisplayName" xml:space="preserve">
+  <value>caja de ChemMaster</value>
+  <comment>ChemMaster crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemDispenser.Descending.DisplayName" xml:space="preserve">
+  <value>caja de dispensador químico</value>
+  <comment>chemical dispenser crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemDispenser.DisplayName" xml:space="preserve">
+  <value>caja de dispensador químico</value>
+  <comment>chemical dispenser crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.PortGen.Descending.DisplayName" xml:space="preserve">
+  <value>caja de generador</value>
+  <comment>generator crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.PortGen.DisplayName" xml:space="preserve">
+  <value>caja de generador</value>
+  <comment>generator crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.IvDrip.Descending.DisplayName" xml:space="preserve">
+  <value>caja de gotero intravenoso</value>
+  <comment>IV drip crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.IvDrip.DisplayName" xml:space="preserve">
+  <value>caja de gotero intravenoso</value>
+  <comment>IV drip crate</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.DisplayName" xml:space="preserve">
+  <value>transmisor de rastreo</value>
+  <comment>tracking transmitter</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.Verb.Toggle" xml:space="preserve">
+  <value>encender</value>
+  <comment>switch on</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.On.DisplayName" xml:space="preserve">
+  <value>transmisor de rastreo</value>
+  <comment>tracking transmitter</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.On.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.TrackingTransmitter.On.Verb.Toggle" xml:space="preserve">
+  <value>apagar</value>
+  <comment>switch off</comment>
+</data>
+<data name="Def.Obj.Item.Implant.Tracking.DisplayName" xml:space="preserve">
+  <value>implante de rastreo</value>
+  <comment>tracking implant</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.DisplayName" xml:space="preserve">
+  <value>inyector de implantes de rastreo</value>
+  <comment>tracking implanter</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.Empty.DisplayName" xml:space="preserve">
+  <value>inyector de implantes vacío</value>
+  <comment>empty implanter</comment>
+</data>
+<data name="Def.Obj.Item.Implanter.Tracking.Empty.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.DisplayName" xml:space="preserve">
+  <value>monitor de tripulación</value>
+  <comment>crew monitor</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Verb.Toggle" xml:space="preserve">
+  <value>encender</value>
+  <comment>switch on</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.On.DisplayName" xml:space="preserve">
+  <value>monitor de tripulación</value>
+  <comment>crew monitor</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.On.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.On.Verb.Toggle" xml:space="preserve">
+  <value>apagar</value>
+  <comment>switch off</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Empty.DisplayName" xml:space="preserve">
+  <value>monitor de tripulación</value>
+  <comment>crew monitor</comment>
+</data>
+<data name="Def.Obj.Item.Device.CrewMonitor.Empty.Verb.PickUp" xml:space="preserve">
+  <value>coger</value>
+  <comment>pick up</comment>
+</data>
 <data name="StackFamily.cuppa joes lidded cups" xml:space="preserve">
   <value>vasos de Cuppa Joe's con tapa</value>
   <comment>cuppa joes lidded cups</comment>
@@ -76002,6 +76454,22 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="SurgeryOp.EmbryoRemoval.Display" xml:space="preserve">
   <value>Extracción de parásito xenomorfo</value>
   <comment>Xenomorph Parasite Removal</comment>
+</data>
+<data name="SurgeryOp.ImplantInsertLimb.Display" xml:space="preserve">
+  <value>Inserción de implante de rastreo</value>
+  <comment>Tracking Implant Insertion</comment>
+</data>
+<data name="SurgeryOp.ImplantInsertCavity.Display" xml:space="preserve">
+  <value>Inserción de implante de rastreo en cavidad</value>
+  <comment>Tracking Implant Cavity Insertion</comment>
+</data>
+<data name="SurgeryOp.ImplantRemovalLimb.Display" xml:space="preserve">
+  <value>Extracción de implante de rastreo</value>
+  <comment>Tracking Implant Removal</comment>
+</data>
+<data name="SurgeryOp.ImplantRemovalCavity.Display" xml:space="preserve">
+  <value>Extracción de implante de rastreo de cavidad</value>
+  <comment>Tracking Implant Cavity Removal</comment>
 </data>
 <data name="Construction.Test.Wire.DisplayName" xml:space="preserve">
   <value>~test wire</value>
@@ -78247,6 +78715,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>la comida se hace de cuatro formas: a mano, cortada sobre una mesa, en un electrodoméstico o por una reacción. cada página de comida dice qué la produce y en qué se usa. el microondas, el procesador y la trituradora de cadáveres también son estructuras</value>
   <comment>food is made four ways: by hand, sliced on a table, in an appliance, or by a reaction. every food page says what makes it and what it goes into. the microwave, the processor and the gibber are structures too</comment>
 </data>
+<data name="Guide.Topic.Weapons" xml:space="preserve">
+  <value>las monturas de un arma muestran los accesorios asignados a ella; un arma sin lista pone sin monturas, aunque admitiría cualquier accesorio. sus cargadores son los hechos para ella, y cada página de accesorio y cargador nombra las armas con las que va</value>
+  <comment>a gun's mounts list the attachments issued for it, its own list; a gun with no list reads no mounts, though it would take any attachment. its magazines are the ones made for it, and each attachment and magazine page names the guns it goes with</comment>
+</data>
 <data name="Guide.Topic.Items" xml:space="preserve">
   <value>las herramientas y las familias con las que el juego las nombra; una familia agrupa todos los objetos que hacen lo mismo</value>
   <comment>tools and the families the game names them by; a family groups every item that does the same job</comment>
@@ -78298,6 +78770,14 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Guide.Section.Galley.Kitchenware" xml:space="preserve">
   <value>los utensilios que una receta a mano conserva, como el rodillo y los cuchillos, y las cajas de las que salen los ingredientes. un cuchillo o cualquier otra hoja corta la comida sobre una mesa</value>
   <comment>the tools a hand craft keeps, like the rolling pin and the knives, and the boxes the ingredients come in. a knife or any other blade slices food on a table</comment>
+</data>
+<data name="Guide.Section.Weapons.Guns" xml:space="preserve">
+  <value>las cifras son la columna base de la ventana de examinar: el arma tal cual, en su modo de disparo inicial y empuñada. el daño y el alcance necesitan una bala cargada, así que examina un arma cargada para verlos</value>
+  <comment>the numbers are the examine window's base column: the gun as built, at its starting fire mode and wielded. damage and range need a loaded round, so examine a loaded gun for those</comment>
+</data>
+<data name="Guide.Section.Weapons.Melee" xml:space="preserve">
+  <value>las armas de mano de aquí son los objetos con fuerza cuerpo a cuerpo dentro del apartado de armas que no son un arma de fuego, un accesorio ni un cargador</value>
+  <comment>the hand weapons here are the items with a melee force under the weapon namespace that are not a gun, an attachment or a magazine</comment>
 </data>
 <data name="Guide.Section.Items.Families" xml:space="preserve">
   <value>cuando el juego nombra una familia como palancas, esta es la lista exacta de objetos a la que se refiere</value>
