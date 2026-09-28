@@ -9128,8 +9128,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>CONDITIONS</comment>
 </data>
 <data name="Codex.Section.Medical.Treatments" xml:space="preserve">
-  <value>TREATMENTS</value>
-  <comment>TREATMENTS</comment>
+  <value>TOOLS</value>
+  <comment>TOOLS</comment>
 </data>
 <data name="Codex.Section.Medical.Surgery" xml:space="preserve">
   <value>SURGERY</value>
@@ -9186,6 +9186,62 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Section.Items.Tools" xml:space="preserve">
   <value>TOOLS</value>
   <comment>TOOLS</comment>
+</data>
+<data name="Codex.Group.Medical.Treatments.SurgicalTools" xml:space="preserve">
+  <value>SURGICAL TOOLS</value>
+  <comment>SURGICAL TOOLS</comment>
+</data>
+<data name="Codex.Group.Medical.Treatments.Treatments" xml:space="preserve">
+  <value>TREATMENTS</value>
+  <comment>TREATMENTS</comment>
+</data>
+<data name="Codex.Group.Galley.Food.Craftable" xml:space="preserve">
+  <value>CRAFTABLE</value>
+  <comment>CRAFTABLE</comment>
+</data>
+<data name="Codex.Group.Galley.Food.Raw" xml:space="preserve">
+  <value>RAW</value>
+  <comment>RAW</comment>
+</data>
+<data name="Codex.Group.Galley.Food.Packaged" xml:space="preserve">
+  <value>PACKAGED</value>
+  <comment>PACKAGED</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Rifle" xml:space="preserve">
+  <value>RIFLES</value>
+  <comment>RIFLES</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Pistol" xml:space="preserve">
+  <value>PISTOLS</value>
+  <comment>PISTOLS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Revolver" xml:space="preserve">
+  <value>REVOLVERS</value>
+  <comment>REVOLVERS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Shotgun" xml:space="preserve">
+  <value>SHOTGUNS</value>
+  <comment>SHOTGUNS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Smg" xml:space="preserve">
+  <value>SUBMACHINE GUNS</value>
+  <comment>SUBMACHINE GUNS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Launcher" xml:space="preserve">
+  <value>LAUNCHERS</value>
+  <comment>LAUNCHERS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Flamer" xml:space="preserve">
+  <value>FLAMERS</value>
+  <comment>FLAMERS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Energy" xml:space="preserve">
+  <value>ENERGY WEAPONS</value>
+  <comment>ENERGY WEAPONS</comment>
+</data>
+<data name="Codex.Group.Weapons.Guns.Other" xml:space="preserve">
+  <value>OTHER</value>
+  <comment>OTHER</comment>
 </data>
 <data name="Codex.Property.Neogenetic" xml:space="preserve">
   <value>MENDS BRUTE ON EVERY LIMB</value>
