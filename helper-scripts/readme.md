@@ -8,7 +8,7 @@ When using LLM to translate, I recommend to only feed it the raw lines without t
 
 The extraction script `extract_resx_values.py` will put all values contents in a newline in one textfile. easy for an LLM to work with. It will create a second file for all name tags of the data node. By aligning both files the translated values can quickly and easily be reinserted when the work process requires that the strings are not in order or only a subset of the language file.
 
-Reinsert with the `restore_resx_values.py` script, which puts all values from the values file back into the xml in order of appearance. Or use the `restore_rex_values_byID.py` script which takes both aforementioned files to insert by matching its data name ID. Which means for that script the order doesn't matter - but note that ofc the the linenumber of the value/ID pair in the respective files need to match up. Which they will as long as you don't manually add/remove newlines.
+Reinsert with the `restore_resx_values.py` script, which puts all values from the values file back into the xml in order of appearance. Or use the `restore_rex_values_byID.py` script which takes both aforementioned files to insert by matching its data name ID. Which means for that script the order doesn't matter - but note that ofc the linenumber of the value/ID pair in the respective files need to match up. Which they will as long as you don't manually add/remove newlines.
 
 The scripts look for a file called `syncversion.txt` in the repository root. If they find one they will append that version string to the file name. I save the last game version that I worked on in this file.
 
