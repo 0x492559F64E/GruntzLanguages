@@ -5948,8 +5948,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>BANK {COUNT} // IDLE</comment>
 </data>
 <data name="Microwave.UnitLine" xml:space="preserve">
-  <value>W-Y KITCHENTECH COOKING UNIT // RECIPE BANK MU/TH/UR 6500</value>
-  <comment>W-Y KITCHENTECH COOKING UNIT // RECIPE BANK MU/TH/UR 6500</comment>
+  <value>W-Y KITCHENTECH // RECIPE BANK MU/TH/UR 6500</value>
+  <comment>W-Y KITCHENTECH // RECIPE BANK MU/TH/UR 6500</comment>
 </data>
 <data name="Microwave.ContentsSection" xml:space="preserve">
   <value>CONTENTS</value>
@@ -5967,17 +5967,13 @@ The file is looked up beside this language file first, then under the game's Con
   <value>{COUNT} / {MAX} ITEMS</value>
   <comment>{COUNT} / {MAX} ITEMS</comment>
 </data>
-<data name="Microwave.StatusKey" xml:space="preserve">
-  <value>STATUS</value>
-  <comment>STATUS</comment>
-</data>
-<data name="Microwave.IdleWord" xml:space="preserve">
-  <value>IDLE</value>
-  <comment>IDLE</comment>
-</data>
 <data name="Microwave.CookingWord" xml:space="preserve">
   <value>COOKING</value>
   <comment>COOKING</comment>
+</data>
+<data name="Microwave.CookingName" xml:space="preserve">
+  <value>COOKING {NAME}</value>
+  <comment>COOKING {NAME}</comment>
 </data>
 <data name="Microwave.StandbyLabel" xml:space="preserve">
   <value>STANDBY</value>
@@ -5992,8 +5988,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>MICROWAVE</comment>
 </data>
 <data name="Microwave.FootRightLine" xml:space="preserve">
-  <value>CHAMBER {COUNT} ITEMS // BUFFER {AMOUNT} U</value>
-  <comment>CHAMBER {COUNT} ITEMS // BUFFER {AMOUNT} U</comment>
+  <value>{COUNT} ITEMS // {AMOUNT} U</value>
+  <comment>{COUNT} ITEMS // {AMOUNT} U</comment>
 </data>
 <data name="Microwave.EjectLabel" xml:space="preserve">
   <value>EJECT</value>
@@ -6034,6 +6030,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Microwave.RecipesCount" xml:space="preserve">
   <value>{COUNT} RECIPES</value>
   <comment>{COUNT} RECIPES</comment>
+</data>
+<data name="Microwave.RecipesPossible" xml:space="preserve">
+  <value>{COUNT} POSSIBLE</value>
+  <comment>{COUNT} POSSIBLE</comment>
 </data>
 <data name="Microwave.NoRecipeTakes" xml:space="preserve">
   <value>NO RECIPE TAKES THIS LOAD: EJECT ALL</value>
@@ -10291,6 +10291,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>DEAD</value>
   <comment>DEAD</comment>
 </data>
+<data name="CrewMonitor.StateOffline" xml:space="preserve">
+  <value>OFFLINE</value>
+  <comment>OFFLINE</comment>
+</data>
 <data name="CrewMonitor.NoCarriers" xml:space="preserve">
   <value>NO CARRIERS</value>
   <comment>NO CARRIERS</comment>
@@ -13158,6 +13162,18 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Structure.Stair.Marker.DisplayName" xml:space="preserve">
   <value>stair join</value>
   <comment>stair join</comment>
+</data>
+<data name="Def.Structure.Elevator.Marker.DisplayName" xml:space="preserve">
+  <value>elevator</value>
+  <comment>elevator</comment>
+</data>
+<data name="Def.Structure.Elevator.Button.Level.DisplayName" xml:space="preserve">
+  <value>elevator button</value>
+  <comment>elevator button</comment>
+</data>
+<data name="Def.Structure.Elevator.Button.Carriage.DisplayName" xml:space="preserve">
+  <value>elevator button</value>
+  <comment>elevator button</comment>
 </data>
 <data name="Def.Structure.Ledge.Marker.DisplayName" xml:space="preserve">
   <value>ledge</value>
