@@ -1,16 +1,40 @@
 # Collection of scripts and tips
 
+Currently this guide assumes you know how to use VSCode to manage files and use git. Use the "chat" window on the right side to ask copilot for help with any of these features or tasks when stuck. To use the following prompts with high workloads, use the "Open in Agents (ctrl+shift+A)" window as it will provide you with more space and details on the running work processes.
+
 ## Scripts for language file handling
 
-when using LLM to translate, i recommend to only feed it the raw lines without the xml to avoid confusion.
+When using LLM to translate, I recommend to only feed it the raw lines without the xml to avoid confusion.
 
 The extraction script `extract_resx_values.py` will put all values contents in a newline in one textfile. easy for an LLM to work with. It will create a second file for all name tags of the data node. By aligning both files the translated values can quickly and easily be reinserted when the work process requires that the strings are not in order or only a subset of the language file.
 
 Reinsert with the `restore_resx_values.py` script, which puts all values from the values file back into the xml in order of appearance. Or use the `restore_rex_values_byID.py` script which takes both aforementioned files to insert by matching its data name ID. Which means for that script the order doesn't matter - but note that ofc the the linenumber of the value/ID pair in the respective files need to match up. Which they will as long as you don't manually add/remove newlines.
 
-## Information on how to use VSCode Copilot for translation work
+The scripts look for a file called `syncversion.txt` in the repository root. If they find one they will append that version string to the file name. I save the last game version that I worked on in this file.
 
-Currently this guide assumes you know how to use VSCode to manage files and use git. Use the "chat" window on the right side to ask copilot for help with any of these features or tasks when stuck. To use the following prompts with high workloads, use the "Open in Agents (ctrl+shift+A)" window as it will provide you with more space and details on the running work processes.
+## Work flow and dealing with untranslated entries
+
+### Identical value/comment pairs
+
+When you start initial translation work on the language file you will have a great deal of untranslated entries left over. Clearly all data nodes where the `value` and `comment` fields are identical are untranslated. But you will no doubt eventually decide to leave some entries untranslated on purpose. To avoid later problems you should start work on an empty translation file. Meaning: You generate your first language file with the `languages generate <lang>` command ingame, then create a new file with the header of that xml (everything up to the first data node), and then only copy those data nodes to this new file that you want to submit to translation. Assuming you work with individual strings. When using a half-automated approach as outlined below you will need to make sure to finish the entire file before trying to merge it with a new version.
+
+You can use the `find_ident_commentValue.py` script to get a list of all untranslated values without the surrounding xml. This can help you in finding strings that you wanted to translate but haven't yet for whatever reason. If you intent to leave them untranslated for now (like I currently do with `EmitterWindow.BriefBody`), delete the full data node from your language file before submitting it for a pull request. Doing this ensures that you can run `languages missing` to get a list of all untranslated strings that still need to be translated. When using this workflow, use the ingame command `languages merge <lang> <full path to missing file>` to merge your new translations into the game file. Use the following command to find all unique strings in the commentValue output file:
+
+```Powershell
+Get-Content .\<langFolder>\<lang>_ident_commentValue.txt | Select-Object -Unique
+```
+
+### Find an already translated value for which the original text has changed
+
+In order to find strings whose orginal text has changed in an update, use a diff-tool to find all values where the `comment` tag has changed. Meaning: You have your own language file in your working directory, generate a new language file for the current game version ingame with the console with `languages generate <lang>` again, then compare both files. In VSCode you right-click on one file first and pick "Select for Compare" then on the other file "Compare with Selected". The diff-window has a button where you can easily jump to each individual change and review them.
+
+### Notes
+
+ Don't forget to update your working directory file with translations that you made ingame when using the `languages edit on` feature. The diff-tool workflow helps in this task.
+
+ It can make sense to save a list of all strings that you didn't translate on purpose. In case of large changes or something in your work flow mixed up. To do this, once you have a file that contains only values you have translated, including intentionally untranslated values, use the `find_ident_commentValue.py` script on it and save the file with a descriptive title like "intentionally-untranslated".
+
+## Using automated translation tools
 
 ### Short guide to using VSCode+Codepilot for half-automated translation
 
@@ -32,7 +56,7 @@ When using a hyphen to connect words make sure it's the actual "-" and not a sim
 Explain to me any problems or conflicts with this prompt, or continue and show me an example of the first 50 lines. Ask me to finish the rest of file.
 ```
 
-### Special case: Translation of the entire language file for the first time
+#### Special case: Translation of the entire language file for the first time
 
 The first draft of the entire file is a problem because of its length and the default model it used on my machine was Luna, which is rather simplistic.
 

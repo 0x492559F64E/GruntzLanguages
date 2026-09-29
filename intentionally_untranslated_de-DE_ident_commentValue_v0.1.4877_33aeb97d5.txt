@@ -1,0 +1,490 @@
+DISCORD
+Uncharted
+Agx
+Aces Fitted
+Aces
+Filmic
+Rom Bin Da House
+Reinhard Simple
+Reinhard Luma
+Gran Turismo
+Linear
+Hable
+Linear Soft
+GLOBAL
+[G] {NAME}: {TEXT}
+]
+?
+~moodlet
+
+R
+L
+UNI
+ID
+?
+Uniform
+ID
+?
+
+
+AUTO
+-
+u
++5u
++10u
+Name
+BR
+BU
+PATIENT: {NAME}
+{BPM} BPM
+{PERCENT}% - {CL} CL
+IB
+Torso
+STATUS
+WY-CTN OS 2.3
+CHEMMASTER 3000
+STATUS
+SPRITE
+AUTO
+{COUNT} APC
+WY-GEN OS 1.2
+-- / --
+OFFLINE
+WY-DEF OS 4.1
+X
+UPLINK OK
+OFFLINE
+ONLINE
+OFFLINE
+...
+WY-DEF OS 4.1
+MIN
+-10 KW
++10 KW
+MAX
+AUTO
+STATUS
+W-Y KITCHENTECH OS 2.11
+STATUS
+W-Y BIOFAB OS 3.07
+STATUS
+W-Y KITCHENTECH OS 2.11
+INERT
+W-Y VENDTECH OS 4.03
+W-Y VENDTECH // {MAP}
+{COUNT} OPTION
+WY ORDNANCE DB 1.0
+ TK
+X
+OKAY
+{COUNT}X {NAME}
+X
+TONEMAPPER
+{WIDTH} x {HEIGHT}
+AUDIO
+GLOBAL
+EMOTE
+NAME
+#RRGGBB
+AHWOO
+{BRANCH} // {TOTAL}
+{WORD}, WIND {WIND} KM/H
+ROCKETWERKZ SYSTEMS
+SERVER
+ X 
+OOC
+Global
+L{NUMBER}
+CTR
+W-Y ATM
+ZOMBIE
+XENO
+LAVA
+JACKPOT
+STATUS
+MANIFEST
+{CAUSE} // {TIME}
+...
+ROCKETWERKZ SYSTEMS
+VRAM {USAGE} / {BUDGET} MB
+Atlas
+Audio
+ID
+S
+M
+L
+NAME
+CHIP
+W-Y ATM
+UNIFORM
+ID
+OPTIONAL
+PATIENT
+SUBOPTIMAL
+PCT
+GIBBER
+x1D4
+x{COUNT}
+ALARM
+PDT/L 1 HZ
+{TEAM} . 1 HZ
+zippo
+zippo
+Zombie
+Zombie
+facehugger
+facehugger
+facehugger
+embryo
+embryo
+embryo
+embryo
+embryo
+skitter
+skitter
+behemoth
+behemoth
+thrall
+venator
+venator
+archon
+archon
+Lasalle Bionational Corporation
+Seegson Corporation
+Seegson Corporation
+Seegson Corporation
+Sofa
+Couch
+Sofa
+Couch
+Couch
+Couch
+Couch
+Biogenerator
+Medibot
+Perma 1
+Perma 2
+ChemMaster 3000
+ChemMaster 3000
+ChemMaster 3000
+ChemMaster 3000
+ChemMaster 3000
+Booze-O-Mat
+Booze-O-Mat
+Wey-Med Plus
+Wey-Med Plus
+Wey-Chem Plus
+Wey-Chem Plus
+ColMarTech MarineMed
+Wey-Med Plus
+Wey-Med Plus
+NanoMed
+NanoMed
+NanoMed
+NanoMed
+cockpit
+cockpit
+cockpit
+cockpit
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Podlock
+Gibber
+Gibber
+Gibber
+Gibber
+SmartFridge
+MegaSeed Servitor
+Vendomat
+Vendomat
+NutriMax
+MegaSeed Servitor
+MegaSeed Servitor
+SEATech
+SecTech
+SecTech
+RiotTech
+BODA
+BODA
+Rec-Vend
+USS Almayer
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+Mono-Spectra
+UD-9M 'Dogbite'
+UD-9M 'Dogbite'
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+WY-LWI StarGlider SG-200
+UPP-DS-3 'Voron'
+UPP-DS-3 'Voron'
+UPP-DS-3 'Volk'
+L42A HEAP (10x24mm)
+L42A HEAP (10x24mm)
+ABR-40 
+APLU 
+inteliCard
+????
+lazertop
+Starship Troopers
+Mono Lager
+Blackout Stout
+Griffeater Gin
+Weyland-Yutani Sake
+Red Star Vodka
+Boda
+Boda
+Boda-Plyus
+Boda-Plyus
+Dr. Gibb
+Dr. Gibb
+Baguette
+Big Bite Burger
+Donk-pocket
+Enchiladas
+Muffin
+Omelette Du Fromage
+Spaghetti
+Popcorn
+Sandwich
+Margherita
+Spaghetti
+Spesslaw
+Tofu
+US MRE
+US MRE
+US MRE
+FixOVein
+Seegson MCT
+Seegson MCT
+Seegson MCT
+Seegson MCT
+Seegson MCT
+Seegson MCT
+Seegson MCT
+Seegson MCT
+Seegson MCT
+d6
+d20
+Cheesie honkers
+Chips
+Popcorn
+Desert Eagle
+Desert Eagle
+MK-45 'High-Power' Automagnum
+MK-45 'High-Power' Automagnum
+MK-45 'High-Power' Automagnum
+MK-45 'High-Power' Automagnum
+MK-44 SOCOM Automagnum
+MK-44 SOCOM Automagnum
+M2019 Blaster
+M2049 Blaster
+Webley SRV-80
+Webley SRV-80
+Festeba
+Railgun
+Railgun
+Railgun
+Railgun
+Model 1771 Cobra Max Tactical
+Model 1771 Cobra Max Tactical
+Spearhead Rival 78
+Spearhead Rival 78
+Spearhead Rival 78
+UZI
+UZI
+M2 Browning
+M2 Browning
+M2 Browning
+M2 Browning
+FIRST BLOOD
+Veteran
+Fit
+HOOO RAAAHH!
+Amputation
+Coagulex
+Osteracil
+Cryptobiolin
+Digoxin
+Dr. Gibb
+Nuka Cola
+Rewriter
+Space-Up
+Tonic Water
+Ethanol
+Ale
+Aloe
+Amasec
+B-52
+Black Russian
+Bloody Mary
+Brave Bull
+Cognac
+Cuba Libre
+Deadrum
+Gin
+Gin Fizz
+Goldschlager
+Grog
+Hooch
+Irish Coffee
+Kahlua
+Manhattan
+Margarita
+Mojito
+Moonshine
+Patron
+Sake
+Sbiten
+Singulo
+Tequila
+Tequila Sunrise
+White Russian
+Gold
+Hot Sauce
+Ketchup
+Lithium
+Citalopram
+Anti-Zed
+Dexalin
+Dexalin Plus
+Paracetamol
+Peridaxon
+Ryetalyn
+Thwei
+Dathwei
+Tramadol
+Napalm
+Napalm X
+Napalm EX
+Napalm B-Gel
+Napalm B
+Napalm E
+R189
+Neurotoxin
+Nitroglycerin
+Tofu
+Octogen
+Phenol
+Anti-Neurotoxin
+Psilocybin
+Psoralen
+Radium
+Serotrotium
+Sleen
+Thymol
+Amatoxin
+Carpotoxin
+Left-4-Zed
+Lexorin
+Phoron
+Urishiol
+Vegemite
+ib
+ORGAN
+Grenadier
+Pilot
+Grenadier
+HYBRISA PROSPERA
+LV-759
+SOROKYNE STRATA
+LV-976
+LV-376

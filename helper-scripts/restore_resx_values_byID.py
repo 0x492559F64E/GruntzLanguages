@@ -5,6 +5,19 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 
+SYNC_VERSION_PATH = Path(__file__).resolve().parent.parent / "syncversion.txt"
+
+
+def append_sync_version(path: Path) -> Path:
+    try:
+        version = "_".join(SYNC_VERSION_PATH.read_text(encoding="utf-8").split())
+    except FileNotFoundError:
+        return path
+    if not version:
+        return path
+    return path.with_name(f"{path.stem}_{version}{path.suffix}")
+
+
 VALUE_PATTERN = re.compile(
     r"<!--.*?-->|(<value\b[^>]*>)(.*?)(</value>)", re.DOTALL
 )
@@ -24,7 +37,7 @@ def main():
         "output",
         nargs="?",
         type=Path,
-        help="Output .resx file (defaults to <input>.filled.resx)",
+        help="Output .resx file (defaults to <input-stem>.filled.resx in the current directory)",
     )
     args = parser.parse_args()
 
@@ -94,8 +107,8 @@ def main():
         parser.error("Could not locate every named <data> element in the input XML.")
     ET.fromstring(updated_xml)
 
-    output_path = args.output or args.input.with_name(
-        f"{args.input.stem}.filled{args.input.suffix}"
+    output_path = append_sync_version(
+        args.output or Path(f"{args.input.stem}.filled{args.input.suffix}")
     )
     output_path.write_text(updated_xml, encoding="utf-8")
 

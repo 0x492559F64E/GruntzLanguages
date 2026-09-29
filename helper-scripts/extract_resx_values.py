@@ -3,6 +3,19 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
+SYNC_VERSION_PATH = Path(__file__).resolve().parent.parent / "syncversion.txt"
+
+
+def append_sync_version(path: Path) -> Path:
+    try:
+        version = "_".join(SYNC_VERSION_PATH.read_text(encoding="utf-8").split())
+    except FileNotFoundError:
+        return path
+    if not version:
+        return path
+    return path.with_name(f"{path.stem}_{version}{path.suffix}")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Extract .resx resource values and IDs into separate files."
@@ -12,14 +25,16 @@ def main():
         "output",
         nargs="?",
         type=Path,
-        help="Values output file (defaults to extracted_values.txt)",
+        help="Values output file (defaults to extracted_values.txt in the current directory)",
     )
     args = parser.parse_args()
 
-    output_path = args.output or Path("extracted_values.txt")
-    id_output_path = output_path.with_name(
-        f"{output_path.stem}_ID{output_path.suffix}"
+    values_output_path = args.output or Path("extracted_values.txt")
+    id_output_path = values_output_path.with_name(
+        f"{values_output_path.stem}_ID{values_output_path.suffix}"
     )
+    output_path = append_sync_version(values_output_path)
+    id_output_path = append_sync_version(id_output_path)
     root = ET.parse(args.input).getroot()
     values = []
     ids = []
