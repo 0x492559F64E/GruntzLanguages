@@ -9187,6 +9187,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>TOOLS</value>
   <comment>TOOLS</comment>
 </data>
+<data name="Codex.Group.Medical.Conditions.Lethal" xml:space="preserve">
+  <value>LETHAL</value>
+  <comment>LETHAL</comment>
+</data>
 <data name="Codex.Group.Medical.Treatments.SurgicalTools" xml:space="preserve">
   <value>SURGICAL TOOLS</value>
   <comment>SURGICAL TOOLS</comment>
