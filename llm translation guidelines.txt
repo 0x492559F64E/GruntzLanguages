@@ -1,0 +1,8 @@
+I want you to translate from English to German here in copilot without contacting an external service.
+Formatting like full capitalisation or // for text structure need to be kept.
+The text contains special keywords in curly brackets, they need to be kept in the final translation at the same position.
+The text contains the comma and decimal formatting typical for English text; German uses the dot (.) as a thousands separator, and the comma (,) as a decimal separator.
+Note that the text contains proper names from the Aliens universe, like "w-y net", weyland-yutani or xenomorph and the SS13 games.
+When using a hyphen to connect words make sure it's the actual "-" and not a similar looking version.
+
+Explain to me any problems or conflicts with this prompt, or continue and show me an example of the first 50 lines. Ask me to finish the rest of file.

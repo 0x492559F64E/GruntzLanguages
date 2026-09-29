@@ -36,7 +36,7 @@ Explain to me any problems or conflicts with this prompt, or continue and show m
 
 The first draft of the entire file is a problem because of its length and the default model it used on my machine was Luna, which is rather simplistic.
 
-So, either do it yourself or ask the model first to extract the <value> entries from the xml to a simple plaintext file. One line per entry.
+So, either do it yourself or ask the model first to extract the value entries from the xml to a simple plaintext file. One line per entry.
 There is the special case that the first two entries are empty. For a 1:1 replacement back into the xml they should be kept as empty newlines in the text file too.
 
 After that you can use a slightly modified version of above to start the process.
